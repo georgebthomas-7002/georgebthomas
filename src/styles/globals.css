@@ -1497,7 +1497,7 @@ a:hover {
    Y-SHAPE DIAGRAM (Expertise Page)
    =========================================== */
 .expertise-visual {
-  padding: var(--space-3xl) 0;
+  padding: var(--space-lg) 0 var(--space-3xl);
 }
 
 /* Expertise Wheel Diagram - 7 Items */
