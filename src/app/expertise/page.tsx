@@ -75,6 +75,59 @@ const deepExpertise = [
     ],
     description: 'One of the longest-tenured podcasters in the marketing technology space, George has built audiences, sparked conversations, and created community through audio for over a decade.',
   },
+  {
+    area: 'AI & Technology',
+    level: 'Expert',
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <rect x="4" y="4" width="16" height="16" rx="2" ry="2"/>
+        <rect x="9" y="9" width="6" height="6"/>
+        <line x1="9" y1="1" x2="9" y2="4"/>
+        <line x1="15" y1="1" x2="15" y2="4"/>
+        <line x1="9" y1="20" x2="9" y2="23"/>
+        <line x1="15" y1="20" x2="15" y2="23"/>
+        <line x1="20" y1="9" x2="23" y2="9"/>
+        <line x1="20" y1="14" x2="23" y2="14"/>
+        <line x1="1" y1="9" x2="4" y2="9"/>
+        <line x1="1" y1="14" x2="4" y2="14"/>
+      </svg>
+    ),
+    stats: [
+      { value: '16M+', label: 'Words Trained' },
+      { value: '35+', label: 'Hours Saved Monthly' },
+      { value: '24/7', label: 'AI Clone Active' },
+    ],
+    highlights: [
+      'Created AI clone on Delphi.ai trained on 16+ million words',
+      'Human-first philosophy: AI augments, never replaces',
+      'Writing "Cloning Human Expertise" book',
+      'Trains teams on ethical AI integration',
+      'Early adopter of HubSpot Breeze AI',
+    ],
+    description: 'George believes AI should amplify human connection, not replace it. His AI clone, trained on decades of content, extends his ability to help people 24/7 while maintaining his authentic voice and values.',
+  },
+  {
+    area: 'Personal Growth & Leadership',
+    level: 'Expert',
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+      </svg>
+    ),
+    stats: [
+      { value: '4', label: 'Core Cornerstones' },
+      { value: '10', label: 'H-Pillars' },
+      { value: '100s', label: 'Lives Transformed' },
+    ],
+    highlights: [
+      'Creator of the Superhuman Framework',
+      'Host of "Beyond Your Default" podcast',
+      'Four Cornerstones: Love, Purpose, Passion, Persistence',
+      'Specializes in limiting belief breakthrough',
+      'From high school dropout to industry thought leader',
+    ],
+    description: 'The Superhuman Framework combines four cornerstones and ten H-pillars to help individuals break through limiting beliefs and become the best version of themselves. George\'s own transformation story is proof the framework works.',
+  },
 ]
 
 const broadCompetencies = [
@@ -84,18 +137,13 @@ const broadCompetencies = [
     evidence: 'INBOUND speaker since 2015, Social Media Marketing World emcee, All American Speakers bureau',
   },
   {
-    area: 'AI & Technology',
-    level: 'Advanced',
-    evidence: 'Created AI clone on Delphi.ai, trains on AI integration, writing "Cloning Human Expertise" book',
-  },
-  {
     area: 'Inbound Marketing',
     level: 'Expert',
     evidence: '30+ years marketing experience, authored thought leadership for MarketingProfs',
   },
   {
     area: 'Sales Enablement',
-    level: 'Advanced',
+    level: 'Expert',
     evidence: 'Created Superhuman Marketing OS, trains on sales video, RevOps experience',
   },
   {
@@ -104,9 +152,14 @@ const broadCompetencies = [
     evidence: '16+ million words of content created across multiple platforms',
   },
   {
-    area: 'Business Coaching',
+    area: 'Community Building',
     level: 'Advanced',
-    evidence: 'Sidekick Strategies owner, Superhuman Framework creator, transition specialist',
+    evidence: 'Built engaged communities across podcasts, social media, and HubSpot ecosystem',
+  },
+  {
+    area: 'Team Development',
+    level: 'Advanced',
+    evidence: 'Trains and mentors marketing teams, develops internal talent at partner agencies',
   },
 ]
 
@@ -169,8 +222,8 @@ export default function ExpertisePage() {
               </h1>
               <p className="page-hero__description">
                 Most marketers develop expertise in one area while maintaining broad knowledge across the discipline.
-                George has done something rare: he&apos;s developed <strong>three stems of deep expertise</strong> while
-                maintaining exceptional breadth—creating a Y-shape that converges at one purpose:
+                George has done something rare: he&apos;s developed <strong>five stems of deep expertise</strong> while
+                maintaining exceptional breadth—creating a multi-dimensional framework that converges at one purpose:
                 <em> helping humans transform.</em>
               </p>
             </AnimatedSection>
@@ -178,24 +231,34 @@ export default function ExpertisePage() {
           <div className="page-hero__shape" aria-hidden="true"></div>
         </section>
 
-        {/* Y-Shape Visual */}
+        {/* Expertise Visual */}
         <section className="section expertise-visual">
           <div className="container">
-            <AnimatedSection className="y-shape-diagram" animation="scale">
-              <div className="y-shape-diagram__arms">
-                <div className="y-shape-diagram__arm y-shape-diagram__arm--left">
-                  <span className="y-shape-diagram__label">Technology</span>
-                  <span className="y-shape-diagram__sublabel">HubSpot Ecosystem</span>
+            <AnimatedSection className="expertise-pentagon" animation="scale">
+              <div className="expertise-pentagon__items">
+                <div className="expertise-pentagon__item">
+                  <span className="expertise-pentagon__label">HubSpot</span>
+                  <span className="expertise-pentagon__sublabel">Technology Mastery</span>
                 </div>
-                <div className="y-shape-diagram__arm y-shape-diagram__arm--right">
-                  <span className="y-shape-diagram__label">Content Creation</span>
-                  <span className="y-shape-diagram__sublabel">Video & Podcasting</span>
+                <div className="expertise-pentagon__item">
+                  <span className="expertise-pentagon__label">Video</span>
+                  <span className="expertise-pentagon__sublabel">Content Creation</span>
+                </div>
+                <div className="expertise-pentagon__item">
+                  <span className="expertise-pentagon__label">Podcasting</span>
+                  <span className="expertise-pentagon__sublabel">Audio Excellence</span>
+                </div>
+                <div className="expertise-pentagon__item">
+                  <span className="expertise-pentagon__label">AI</span>
+                  <span className="expertise-pentagon__sublabel">Human-First Tech</span>
+                </div>
+                <div className="expertise-pentagon__item">
+                  <span className="expertise-pentagon__label">Leadership</span>
+                  <span className="expertise-pentagon__sublabel">Personal Growth</span>
                 </div>
               </div>
-              <div className="y-shape-diagram__stem">
-                <div className="y-shape-diagram__convergence">
-                  <span className="y-shape-diagram__convergence-label">Human Transformation</span>
-                </div>
+              <div className="expertise-pentagon__center">
+                <span className="expertise-pentagon__center-label">Human Transformation</span>
               </div>
             </AnimatedSection>
           </div>
@@ -206,9 +269,9 @@ export default function ExpertisePage() {
           <div className="container">
             <AnimatedSection className="section-header" animation="fade-in">
               <span className="section-header__subtitle">Deep Expertise</span>
-              <h2 className="section-header__title">Three Stems of Mastery</h2>
+              <h2 className="section-header__title">Five Stems of Mastery</h2>
               <p className="section-header__description">
-                Each area represents over a decade of dedicated practice, continuous learning,
+                Each area represents years of dedicated practice, continuous learning,
                 and real-world application at the highest levels.
               </p>
             </AnimatedSection>
