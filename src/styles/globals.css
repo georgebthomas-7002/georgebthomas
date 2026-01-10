@@ -212,6 +212,594 @@ a:hover {
 }
 
 /* ===========================================
+   REUSABLE COMPONENT: PILL CLUSTER
+   Use for skill tags, expertise pills, topic labels
+   =========================================== */
+.pill-cluster {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-xl);
+}
+
+.pill-cluster__headline {
+  padding: var(--space-md) var(--space-3xl);
+  background: var(--gradient-accent);
+  border-radius: var(--radius-full);
+  box-shadow: var(--shadow-lg), var(--shadow-glow);
+}
+
+.pill-cluster__headline-text {
+  font-family: var(--font-family-heading);
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-white);
+  letter-spacing: var(--letter-spacing-tight);
+}
+
+.pill-cluster__items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-sm);
+}
+
+.pill-cluster__items--nowrap {
+  flex-wrap: nowrap;
+}
+
+.pill {
+  padding: var(--space-sm) var(--space-md);
+  background: var(--color-white);
+  border-radius: var(--radius-full);
+  box-shadow: var(--shadow-md);
+  white-space: nowrap;
+  border: 2px solid transparent;
+  transition: transform var(--duration-normal) var(--ease-spring),
+              box-shadow var(--duration-normal) var(--ease-out),
+              background var(--duration-normal) var(--ease-out);
+}
+
+.pill:hover {
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: var(--shadow-lg);
+  background: var(--gradient-accent);
+  border-color: var(--color-accent);
+}
+
+.pill__label {
+  font-family: var(--font-family-heading);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-primary-dark);
+  transition: color var(--duration-normal) var(--ease-out);
+}
+
+.pill:hover .pill__label {
+  color: var(--color-white);
+}
+
+@media (max-width: 900px) {
+  .pill-cluster__items--nowrap {
+    flex-wrap: wrap;
+  }
+
+  .pill-cluster__headline-text {
+    font-size: var(--font-size-xl);
+  }
+}
+
+/* ===========================================
+   REUSABLE COMPONENT: FEATURE CARD
+   Use for service offerings, expertise areas, product features
+   =========================================== */
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-2xl);
+}
+
+@media (max-width: 900px) {
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.feature-card {
+  background: var(--color-white);
+  border-radius: var(--radius-xl);
+  padding: var(--space-2xl);
+  box-shadow: var(--shadow-md);
+  transition: transform var(--duration-normal) var(--ease-spring),
+              box-shadow var(--duration-normal) var(--ease-out);
+}
+
+.feature-card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-xl);
+}
+
+.feature-card__header {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-lg);
+  margin-bottom: var(--space-lg);
+}
+
+.feature-card__icon {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(224, 122, 95, 0.1);
+  border-radius: var(--radius-lg);
+  color: var(--color-accent);
+  flex-shrink: 0;
+  transition: background var(--duration-normal) var(--ease-out),
+              transform var(--duration-normal) var(--ease-spring);
+}
+
+.feature-card:hover .feature-card__icon {
+  background: var(--gradient-accent);
+  color: var(--color-white);
+  transform: scale(1.1) rotate(5deg);
+}
+
+.feature-card__icon svg {
+  width: 28px;
+  height: 28px;
+}
+
+.feature-card__title {
+  font-size: var(--font-size-xl);
+  margin: 0 0 var(--space-xs);
+  transition: color var(--duration-fast) var(--ease-out);
+}
+
+.feature-card:hover .feature-card__title {
+  color: var(--color-accent);
+}
+
+.feature-card__badge {
+  display: inline-block;
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-accent);
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing-wide);
+}
+
+.feature-card__description {
+  font-size: var(--font-size-base);
+  color: var(--color-text-light);
+  line-height: var(--line-height-relaxed);
+  margin-bottom: var(--space-lg);
+}
+
+.feature-card__stats {
+  display: flex;
+  gap: var(--space-lg);
+  padding-top: var(--space-md);
+  border-top: 1px solid var(--color-warm-dark);
+  margin-bottom: var(--space-lg);
+}
+
+.feature-card__stat {
+  text-align: center;
+}
+
+.feature-card__stat-value {
+  display: block;
+  font-family: var(--font-family-heading);
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-primary-dark);
+  transition: color var(--duration-fast) var(--ease-out);
+}
+
+.feature-card:hover .feature-card__stat-value {
+  color: var(--color-accent);
+}
+
+.feature-card__stat-label {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing-wide);
+}
+
+.feature-card__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.feature-card__list li {
+  position: relative;
+  padding-left: var(--space-lg);
+  margin-bottom: var(--space-sm);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-light);
+}
+
+.feature-card__list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.6em;
+  width: 6px;
+  height: 6px;
+  background: var(--color-accent);
+  border-radius: 50%;
+  transition: transform var(--duration-fast) var(--ease-spring);
+}
+
+.feature-card:hover .feature-card__list li::before {
+  transform: scale(1.3);
+}
+
+.feature-card__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm) var(--space-lg);
+  margin-top: var(--space-md);
+  padding-top: var(--space-md);
+  border-top: 1px solid var(--color-warm-dark);
+}
+
+.feature-card__link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+  color: var(--color-accent);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  text-decoration: none;
+  transition: gap var(--duration-fast) var(--ease-out),
+              transform var(--duration-fast) var(--ease-out),
+              color var(--duration-fast) var(--ease-out);
+}
+
+.feature-card__link:hover {
+  gap: var(--space-sm);
+  transform: translateX(4px);
+  color: var(--color-primary);
+}
+
+/* ===========================================
+   REUSABLE COMPONENT: INFO CARD
+   Use for competencies, credentials, simple info blocks
+   =========================================== */
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-lg);
+}
+
+@media (max-width: 900px) {
+  .info-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.info-card {
+  background: var(--color-white);
+  border-radius: var(--radius-lg);
+  padding: var(--space-xl);
+  box-shadow: 0 4px 20px rgba(43, 45, 66, 0.18);
+  transition: transform var(--duration-normal) var(--ease-spring),
+              box-shadow var(--duration-normal) var(--ease-out),
+              border-color var(--duration-normal) var(--ease-out);
+  border: 2px solid transparent;
+  position: relative;
+  overflow: hidden;
+}
+
+.info-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--gradient-accent);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform var(--duration-normal) var(--ease-out);
+}
+
+.info-card:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 12px 35px rgba(43, 45, 66, 0.25);
+  border-color: var(--color-accent);
+  transition-delay: 0ms !important;
+}
+
+.info-card:hover::before {
+  transform: scaleX(1);
+  transition-delay: 0ms !important;
+}
+
+.info-card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: var(--space-md);
+}
+
+.info-card__title {
+  font-size: var(--font-size-lg);
+  margin: 0;
+  transition: color var(--duration-fast) var(--ease-out);
+}
+
+.info-card:hover .info-card__title {
+  color: var(--color-accent);
+  transition-delay: 0ms !important;
+}
+
+.info-card__badge {
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-semibold);
+  padding: var(--space-xs) var(--space-sm);
+  border-radius: var(--radius-full);
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing-wide);
+  transition: transform var(--duration-normal) var(--ease-spring);
+}
+
+.info-card:hover .info-card__badge {
+  transform: scale(1.05);
+  transition-delay: 0ms !important;
+}
+
+.info-card__badge--primary {
+  background: rgba(224, 122, 95, 0.15);
+  color: var(--color-accent-dark);
+}
+
+.info-card__badge--secondary {
+  background: rgba(45, 74, 111, 0.1);
+  color: var(--color-primary);
+}
+
+.info-card__description {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-light);
+  line-height: var(--line-height-relaxed);
+  margin: 0;
+  transition: color var(--duration-fast) var(--ease-out);
+}
+
+.info-card:hover .info-card__description {
+  color: var(--color-text-light);
+  transition-delay: 0ms !important;
+}
+
+/* ===========================================
+   REUSABLE COMPONENT: ICON CARD
+   Use for values, principles, simple feature highlights
+   =========================================== */
+.icon-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--space-xl);
+}
+
+.icon-card {
+  text-align: center;
+  padding: var(--space-xl);
+}
+
+.icon-card__icon {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto var(--space-lg);
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: var(--radius-full);
+  color: var(--color-accent);
+}
+
+.icon-card__icon svg {
+  width: 28px;
+  height: 28px;
+}
+
+.icon-card__title {
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  margin-bottom: var(--space-md);
+}
+
+.icon-card__description {
+  color: rgba(255, 255, 255, 0.8);
+  line-height: var(--line-height-relaxed);
+  margin: 0;
+}
+
+/* Light variant for non-dark sections */
+.icon-card--light .icon-card__icon {
+  background: rgba(224, 122, 95, 0.1);
+}
+
+.icon-card--light .icon-card__title {
+  color: var(--color-text);
+}
+
+.icon-card--light .icon-card__description {
+  color: var(--color-text-light);
+}
+
+/* ===========================================
+   REUSABLE COMPONENT: HIGHLIGHT CARD
+   Use for featured content, story blocks, testimonial highlights
+   =========================================== */
+.highlight-card {
+  position: relative;
+  background: var(--color-white);
+  border-radius: var(--radius-2xl);
+  padding: var(--space-3xl);
+  box-shadow: var(--shadow-lg);
+  text-align: center;
+  overflow: visible;
+}
+
+.highlight-card--with-image {
+  padding-top: calc(var(--space-3xl) + 90px);
+  margin-top: 90px;
+}
+
+.highlight-card__image-wrapper {
+  position: absolute;
+  top: -90px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+}
+
+.highlight-card__image {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 20%;
+  border: 5px solid var(--color-white);
+  box-shadow: 0 8px 30px rgba(43, 45, 66, 0.2),
+              0 0 0 3px var(--color-accent);
+  transition: transform var(--duration-normal) var(--ease-spring),
+              box-shadow var(--duration-normal) var(--ease-out);
+}
+
+.highlight-card__image:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 40px rgba(43, 45, 66, 0.25),
+              0 0 0 4px var(--color-accent);
+}
+
+.highlight-card__label {
+  display: inline-block;
+  padding: var(--space-xs) var(--space-lg);
+  background: rgba(224, 122, 95, 0.1);
+  border-radius: var(--radius-full);
+  color: var(--color-accent);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: var(--letter-spacing-wide);
+  text-transform: uppercase;
+  margin-bottom: var(--space-lg);
+}
+
+.highlight-card__title {
+  font-size: var(--font-size-2xl);
+  margin-bottom: var(--space-xl);
+}
+
+.highlight-card__content {
+  text-align: left;
+}
+
+.highlight-card__content p {
+  font-size: var(--font-size-lg);
+  color: var(--color-text-light);
+  line-height: var(--line-height-relaxed);
+}
+
+.highlight-card__quote {
+  font-family: var(--font-family-heading);
+  font-size: var(--font-size-xl);
+  font-style: italic;
+  color: var(--color-primary-dark);
+  border-left: 4px solid var(--color-accent);
+  padding-left: var(--space-xl);
+  margin: var(--space-xl) 0 0;
+}
+
+/* ===========================================
+   REUSABLE COMPONENT: CIRCULAR IMAGE
+   Use for profile photos, avatars, featured images
+   =========================================== */
+.circular-image {
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid var(--color-white);
+  box-shadow: var(--shadow-lg);
+}
+
+.circular-image--bordered {
+  box-shadow: 0 8px 30px rgba(43, 45, 66, 0.2),
+              0 0 0 3px var(--color-accent);
+}
+
+.circular-image--sm {
+  width: 80px;
+  height: 80px;
+}
+
+.circular-image--md {
+  width: 120px;
+  height: 120px;
+}
+
+.circular-image--lg {
+  width: 180px;
+  height: 180px;
+}
+
+/* ===========================================
+   REUSABLE COMPONENT: STATS INLINE
+   Use for key metrics, achievements
+   =========================================== */
+.stats-inline {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xl);
+  justify-content: center;
+}
+
+.stats-inline--left {
+  justify-content: flex-start;
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-item__value {
+  display: block;
+  font-family: var(--font-family-heading);
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-accent);
+  line-height: var(--line-height-tight);
+}
+
+.stat-item__label {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing-wide);
+}
+
+/* Dark variant */
+.section--dark .stat-item__value {
+  color: var(--color-accent-light);
+}
+
+.section--dark .stat-item__label {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* ===========================================
    BUTTONS
    =========================================== */
 .btn {
@@ -1409,8 +1997,36 @@ a:hover {
   font-size: clamp(2rem, 4vw + 1rem, 3.5rem);
 }
 
-/* Expertise Page Image Wrapper */
-.page-hero__image-wrapper--expertise {
+/* Expertise Page Specific - uses generic page-hero__image-wrapper */
+@media (max-width: 1024px) {
+  .page-hero__grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-2xl);
+  }
+
+  .page-hero--expertise .page-hero__content {
+    text-align: center;
+    max-width: 100%;
+    order: 1;
+  }
+
+  .page-hero--expertise .page-hero__image-wrapper {
+    order: 0;
+  }
+}
+
+.page-hero__description strong {
+  color: var(--color-primary-dark);
+}
+
+.page-hero__description em {
+  color: var(--color-accent);
+  font-style: normal;
+  font-weight: var(--font-weight-semibold);
+}
+
+/* Generic Page Hero Image Layout */
+.page-hero__image-wrapper {
   position: relative;
   display: flex;
   justify-content: center;
@@ -1441,11 +2057,11 @@ a:hover {
   filter: blur(30px);
 }
 
-.page-hero__image-wrapper--expertise:hover .page-hero__image-frame {
+.page-hero__image-wrapper:hover .page-hero__image-frame {
   transform: rotate(5deg) translate(15px, -15px);
 }
 
-.page-hero__image-wrapper--expertise .page-hero__image-container {
+.page-hero__image-container {
   position: relative;
   border-radius: var(--radius-2xl);
   overflow: hidden;
@@ -1454,49 +2070,27 @@ a:hover {
               box-shadow var(--duration-slow) var(--ease-out);
 }
 
-.page-hero__image-wrapper--expertise:hover .page-hero__image-container {
+.page-hero__image-wrapper:hover .page-hero__image-container {
   transform: translateY(-5px);
   box-shadow: 0 30px 60px -15px rgba(45, 74, 111, 0.3);
 }
 
-.page-hero__image-wrapper--expertise .page-hero__image {
+.page-hero__image {
   width: 100%;
   height: auto;
   display: block;
   transition: transform var(--duration-slow) var(--ease-out);
 }
 
-.page-hero__image-wrapper--expertise:hover .page-hero__image {
+.page-hero__image-wrapper:hover .page-hero__image {
   transform: scale(1.03);
 }
 
 @media (max-width: 1024px) {
-  .page-hero__grid {
-    grid-template-columns: 1fr;
-    gap: var(--space-2xl);
-  }
-
-  .page-hero--expertise .page-hero__content {
-    text-align: center;
-    max-width: 100%;
-    order: 1;
-  }
-
-  .page-hero__image-wrapper--expertise {
-    order: 0;
+  .page-hero__image-wrapper {
     max-width: 400px;
     margin: 0 auto;
   }
-}
-
-.page-hero__description strong {
-  color: var(--color-primary-dark);
-}
-
-.page-hero__description em {
-  color: var(--color-accent);
-  font-style: normal;
-  font-weight: var(--font-weight-semibold);
 }
 
 .page-hero__shape {
