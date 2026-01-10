@@ -356,7 +356,7 @@ export default function CoachingPage() {
           </div>
         </section>
 
-        {/* Process Section */}
+        {/* Process Section - Creative Timeline */}
         <section className="section coaching-process">
           <div className="container">
             <AnimatedSection className="section-header" animation="fade-in">
@@ -367,27 +367,57 @@ export default function CoachingPage() {
               </p>
             </AnimatedSection>
 
-            <div className="process-timeline">
-              {process.map((item, index) => (
-                <AnimatedSection
-                  key={item.step}
-                  className="process-timeline__item"
-                  animation="fade-in"
-                >
-                  <div className="process-timeline__icon">{item.icon}</div>
-                  <div className="process-timeline__content">
-                    <div className="process-timeline__header">
-                      <span className="process-timeline__number">Step {item.step}</span>
-                      <span className="process-timeline__subtitle">{item.subtitle}</span>
+            <div className="journey-timeline">
+              {/* Animated connecting path */}
+              <div className="journey-timeline__path" aria-hidden="true">
+                <div className="journey-timeline__path-line"></div>
+                <div className="journey-timeline__path-glow"></div>
+                <div className="journey-timeline__traveler"></div>
+              </div>
+
+              <div className="journey-timeline__steps">
+                {process.map((item, index) => (
+                  <AnimatedSection
+                    key={item.step}
+                    className="journey-step"
+                    animation="fade-in"
+                  >
+                    {/* Step indicator with pulse */}
+                    <div className="journey-step__indicator">
+                      <div className="journey-step__pulse" aria-hidden="true"></div>
+                      <div className="journey-step__number">{item.step}</div>
                     </div>
-                    <h3 className="process-timeline__title">{item.title}</h3>
-                    <p className="process-timeline__description">{item.description}</p>
-                  </div>
-                  {index < process.length - 1 && (
-                    <div className="process-timeline__connector" aria-hidden="true"></div>
-                  )}
-                </AnimatedSection>
-              ))}
+
+                    {/* Connector arrow (not on last item) */}
+                    {index < process.length - 1 && (
+                      <div className="journey-step__connector" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                          <path d="M5 12h14M12 5l7 7-7 7" />
+                        </svg>
+                      </div>
+                    )}
+
+                    {/* Card content */}
+                    <div className="journey-step__card">
+                      <div className="journey-step__icon">{item.icon}</div>
+                      <div className="journey-step__badge">{item.subtitle}</div>
+                      <h3 className="journey-step__title">{item.title}</h3>
+                      <p className="journey-step__description">{item.description}</p>
+
+                      {/* Micro action indicator */}
+                      <div className="journey-step__action">
+                        <span className="journey-step__action-dot"></span>
+                        <span className="journey-step__action-text">
+                          {index === 0 && 'Book your session'}
+                          {index === 1 && 'Receive your roadmap'}
+                          {index === 2 && 'Start transforming'}
+                          {index === 3 && 'Celebrate wins'}
+                        </span>
+                      </div>
+                    </div>
+                  </AnimatedSection>
+                ))}
+              </div>
             </div>
           </div>
         </section>
