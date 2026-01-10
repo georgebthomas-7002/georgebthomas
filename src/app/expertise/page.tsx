@@ -523,7 +523,7 @@ export default function ExpertisePage() {
             <AnimatedSection animation="fade-in">
               <div className="story-card">
                 <span className="story-card__label">The Transformation Story</span>
-                <h2 className="story-card__title">From High School Dropout to Industry Expert</h2>
+                <h2 className="story-card__title">From High School Dropout<br />to Industry Expert</h2>
                 <div className="story-card__content">
                   <p>
                     At 17, a teacher told George he&apos;d never amount to anything. That moment became
