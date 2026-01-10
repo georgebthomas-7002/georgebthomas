@@ -1168,6 +1168,8 @@ a:hover {
   padding: 0.625rem 1.25rem;
   position: relative;
   background: var(--color-white);
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(45, 74, 111, 0.12);
 }
 
 /* Animated border using conic gradient - creates traveling light effect */
@@ -1228,24 +1230,6 @@ a:hover {
   to {
     --border-angle: 360deg;
   }
-}
-
-/* Hover effect - intensify animation */
-.header__logo:hover .header__wordmark::before {
-  animation-duration: 2s;
-  background: conic-gradient(
-    from var(--border-angle, 0deg),
-    var(--color-primary-dark) 0%,
-    var(--color-accent) 25%,
-    var(--color-primary-dark) 50%,
-    var(--color-accent) 75%,
-    var(--color-primary-dark) 100%
-  );
-}
-
-.header__logo:hover .header__wordmark::after {
-  animation-duration: 2s;
-  opacity: 0.4;
 }
 
 .header__wordmark-name {
