@@ -489,8 +489,12 @@ export default function CoachingPage() {
                   <span className="activation-meeting__price">$99</span>
                   <span className="activation-meeting__label">45 minute session</span>
                 </div>
-                <Link href="/coaching/apply?type=activation" className="btn btn--accent btn--large">
+                <Link href="/coaching/apply?type=activation" className="btn btn--outline-light btn--large btn--arrow">
                   Book Activation Meeting
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12" />
+                    <polyline points="12 5 19 12 12 19" />
+                  </svg>
                 </Link>
               </div>
             </AnimatedSection>

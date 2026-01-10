@@ -847,6 +847,39 @@ a:hover {
   font-size: var(--font-size-lg);
 }
 
+/* Outline light variant - for dark backgrounds */
+.btn--outline-light {
+  background: transparent;
+  color: #fff;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  transition: all var(--duration-normal) var(--ease-out);
+}
+
+.btn--outline-light:hover {
+  background: #fff;
+  color: var(--color-primary-dark);
+  border-color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.3);
+}
+
+/* Arrow button variant */
+.btn--arrow {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.btn--arrow svg {
+  width: 20px;
+  height: 20px;
+  transition: transform var(--duration-normal) var(--ease-out);
+}
+
+.btn--arrow:hover svg {
+  transform: translateX(4px);
+}
+
 /* ===========================================
    SCROLL-DRIVEN ANIMATIONS
    =========================================== */
