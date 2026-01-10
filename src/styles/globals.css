@@ -1841,23 +1841,32 @@ a:hover {
   cursor: pointer;
 }
 
+.expertise-stem-card__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm) var(--space-lg);
+  margin-top: var(--space-md);
+  padding-top: var(--space-md);
+  border-top: 1px solid var(--color-warm-dark);
+}
+
 .expertise-stem-card__link {
   display: inline-flex;
   align-items: center;
   gap: var(--space-xs);
-  margin-top: var(--space-md);
-  padding-top: var(--space-md);
-  border-top: 1px solid var(--color-warm-dark);
   color: var(--color-accent);
   font-size: var(--font-size-sm);
   font-weight: var(--font-weight-semibold);
+  text-decoration: none;
   transition: gap var(--duration-fast) var(--ease-out),
-              transform var(--duration-fast) var(--ease-out);
+              transform var(--duration-fast) var(--ease-out),
+              color var(--duration-fast) var(--ease-out);
 }
 
-.expertise-stem-card--linked:hover .expertise-stem-card__link {
+.expertise-stem-card__link:hover {
   gap: var(--space-sm);
   transform: translateX(4px);
+  color: var(--color-primary);
 }
 
 /* ===========================================

@@ -10,6 +10,9 @@ const deepExpertise = [
   {
     area: 'AI & Technology',
     level: 'Expert',
+    links: [
+      { label: 'Get Coaching', url: '/coaching', external: false },
+    ],
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <rect x="4" y="4" width="16" height="16" rx="2" ry="2"/>
@@ -40,7 +43,10 @@ const deepExpertise = [
   {
     area: 'HubSpot Mastery',
     level: 'World-Class',
-    link: 'https://sidekickstrategies.com/',
+    links: [
+      { label: 'Learn More', url: 'https://sidekickstrategies.com/', external: true },
+      { label: 'Get Coaching', url: 'https://sidekickstrategies.com/services/hubspot-consulting', external: true },
+    ],
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
@@ -63,6 +69,9 @@ const deepExpertise = [
   {
     area: 'Marketing & Sales',
     level: 'Expert',
+    links: [
+      { label: 'Get Coaching', url: '/coaching', external: false },
+    ],
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <line x1="18" y1="20" x2="18" y2="10"/>
@@ -86,6 +95,9 @@ const deepExpertise = [
   {
     area: 'Video Marketing',
     level: 'World-Class',
+    links: [
+      { label: 'Get Coaching', url: '/coaching', external: false },
+    ],
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <polygon points="23 7 16 12 23 17 23 7"/>
@@ -108,6 +120,9 @@ const deepExpertise = [
   {
     area: 'Podcasting',
     level: 'World-Class',
+    links: [
+      { label: 'Get Coaching', url: '/coaching', external: false },
+    ],
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/>
@@ -132,6 +147,9 @@ const deepExpertise = [
   {
     area: 'Personal Growth',
     level: 'Expert',
+    links: [
+      { label: 'Get Coaching', url: '/coaching', external: false },
+    ],
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
@@ -153,6 +171,9 @@ const deepExpertise = [
   {
     area: 'Leadership',
     level: 'Expert',
+    links: [
+      { label: 'Get Coaching', url: '/coaching', external: false },
+    ],
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
@@ -177,7 +198,9 @@ const deepExpertise = [
   {
     area: 'Spiritual Leadership',
     level: 'Expert',
-    link: 'https://www.spiritualsideofleadership.com/',
+    links: [
+      { label: 'Learn More', url: 'https://www.spiritualsideofleadership.com/', external: true },
+    ],
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <circle cx="12" cy="12" r="10"/>
@@ -384,62 +407,64 @@ export default function ExpertisePage() {
             </AnimatedSection>
 
             <div className="expertise-stems">
-              {deepExpertise.map((expertise) => {
-                const cardContent = (
-                  <>
-                    <div className="expertise-stem-card__header">
-                      <div className="expertise-stem-card__icon">{expertise.icon}</div>
-                      <div>
-                        <h3 className="expertise-stem-card__title">{expertise.area}</h3>
-                        <span className="expertise-stem-card__level">{expertise.level}</span>
+              {deepExpertise.map((expertise) => (
+                <AnimatedSection
+                  key={expertise.area}
+                  className="expertise-stem-card"
+                  animation="fade-in"
+                >
+                  <div className="expertise-stem-card__header">
+                    <div className="expertise-stem-card__icon">{expertise.icon}</div>
+                    <div>
+                      <h3 className="expertise-stem-card__title">{expertise.area}</h3>
+                      <span className="expertise-stem-card__level">{expertise.level}</span>
+                    </div>
+                  </div>
+
+                  <div className="expertise-stem-card__stats">
+                    {expertise.stats.map((stat) => (
+                      <div key={stat.label} className="expertise-stem-card__stat">
+                        <span className="expertise-stem-card__stat-value">{stat.value}</span>
+                        <span className="expertise-stem-card__stat-label">{stat.label}</span>
                       </div>
-                    </div>
+                    ))}
+                  </div>
 
-                    <div className="expertise-stem-card__stats">
-                      {expertise.stats.map((stat) => (
-                        <div key={stat.label} className="expertise-stem-card__stat">
-                          <span className="expertise-stem-card__stat-value">{stat.value}</span>
-                          <span className="expertise-stem-card__stat-label">{stat.label}</span>
-                        </div>
+                  <p className="expertise-stem-card__description">{expertise.description}</p>
+
+                  <ul className="expertise-stem-card__highlights">
+                    {expertise.highlights.map((highlight) => (
+                      <li key={highlight}>{highlight}</li>
+                    ))}
+                  </ul>
+
+                  {expertise.links && expertise.links.length > 0 && (
+                    <div className="expertise-stem-card__links">
+                      {expertise.links.map((link) => (
+                        link.external ? (
+                          <a
+                            key={link.label}
+                            href={link.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="expertise-stem-card__link"
+                          >
+                            {link.label} →
+                          </a>
+                        ) : (
+                          <Link
+                            key={link.label}
+                            href={link.url}
+                            className="expertise-stem-card__link"
+                          >
+                            {link.label} →
+                          </Link>
+                        )
                       ))}
                     </div>
-
-                    <p className="expertise-stem-card__description">{expertise.description}</p>
-
-                    <ul className="expertise-stem-card__highlights">
-                      {expertise.highlights.map((highlight) => (
-                        <li key={highlight}>{highlight}</li>
-                      ))}
-                    </ul>
-
-                    {expertise.link && (
-                      <span className="expertise-stem-card__link">
-                        Learn more →
-                      </span>
-                    )}
-                  </>
-                )
-
-                return expertise.link ? (
-                  <a
-                    key={expertise.area}
-                    href={expertise.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="expertise-stem-card expertise-stem-card--linked"
-                  >
-                    {cardContent}
-                  </a>
-                ) : (
-                  <AnimatedSection
-                    key={expertise.area}
-                    className="expertise-stem-card"
-                    animation="fade-in"
-                  >
-                    {cardContent}
-                  </AnimatedSection>
-                )
-              })}
+                  )}
+                </AnimatedSection>
+              ))}
             </div>
           </div>
         </section>
