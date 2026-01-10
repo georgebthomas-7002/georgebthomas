@@ -1,5 +1,6 @@
 'use client'
 
+import { useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { Header } from '@/components/Header'
@@ -212,6 +213,52 @@ const faqs = [
     answer: 'If after our first session you feel this is not the right fit, I will refund your remaining unused hours, no questions asked. Your transformation matters most.',
   },
 ]
+
+// FAQ Accordion Component
+function FAQSection({ faqs }: { faqs: { question: string; answer: string }[] }) {
+  const [openIndex, setOpenIndex] = useState<number | null>(null)
+
+  const toggleFaq = (index: number) => {
+    setOpenIndex(openIndex === index ? null : index)
+  }
+
+  return (
+    <section className="section coaching-faq">
+      <div className="container container--narrow">
+        <AnimatedSection className="section-header" animation="fade-in">
+          <span className="section-header__subtitle">Questions</span>
+          <h2 className="section-header__title">Frequently Asked</h2>
+        </AnimatedSection>
+
+        <div className="faq-accordion">
+          {faqs.map((faq, index) => (
+            <div
+              key={faq.question}
+              className={`faq-accordion__item ${openIndex === index ? 'faq-accordion__item--open' : ''}`}
+            >
+              <button
+                className="faq-accordion__trigger"
+                onClick={() => toggleFaq(index)}
+                aria-expanded={openIndex === index}
+              >
+                <span className="faq-accordion__question">{faq.question}</span>
+                <span className="faq-accordion__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <line x1="12" y1="5" x2="12" y2="19" className="faq-accordion__icon-vertical" />
+                    <line x1="5" y1="12" x2="19" y2="12" />
+                  </svg>
+                </span>
+              </button>
+              <div className="faq-accordion__content">
+                <p className="faq-accordion__answer">{faq.answer}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  )
+}
 
 export default function CoachingPage() {
   return (
@@ -558,23 +605,7 @@ export default function CoachingPage() {
         </section>
 
         {/* FAQ Section */}
-        <section className="section coaching-faq">
-          <div className="container container--narrow">
-            <AnimatedSection className="section-header" animation="fade-in">
-              <span className="section-header__subtitle">Questions</span>
-              <h2 className="section-header__title">Frequently Asked</h2>
-            </AnimatedSection>
-
-            <div className="faq-list">
-              {faqs.map((faq) => (
-                <div key={faq.question} className="faq-item">
-                  <h3 className="faq-item__question">{faq.question}</h3>
-                  <p className="faq-item__answer">{faq.answer}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
+        <FAQSection faqs={faqs} />
 
         {/* Final CTA */}
         <section className="section section--warm coaching-final-cta">
