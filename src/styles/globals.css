@@ -4262,6 +4262,19 @@ a:hover {
   position: relative;
 }
 
+/* Crop coaching hero image to waist-up */
+.page-hero__image-wrapper--coaching .page-hero__image-container {
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.page-hero__image-wrapper--coaching .page-hero__image {
+  object-fit: cover;
+  object-position: top center;
+  height: 100%;
+  width: 100%;
+}
+
 /* Coaching Topics Visual Wheel */
 .coaching-topics-visual {
   padding: var(--space-3xl) 0;
