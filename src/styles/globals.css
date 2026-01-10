@@ -1914,22 +1914,27 @@ a:hover {
   transform: translateY(-6px) scale(1.02);
   box-shadow: 0 12px 35px rgba(43, 45, 66, 0.25);
   border-color: var(--color-accent);
+  transition-delay: 0ms !important;
 }
 
 .competency-card:hover::before {
   transform: scaleX(1);
+  transition-delay: 0ms !important;
 }
 
 .competency-card:hover .competency-card__title {
   color: var(--color-accent);
+  transition-delay: 0ms !important;
 }
 
 .competency-card:hover .competency-card__level {
   transform: scale(1.05);
+  transition-delay: 0ms !important;
 }
 
 .competency-card:hover .competency-card__evidence {
   color: var(--color-text-light);
+  transition-delay: 0ms !important;
 }
 
 .competency-card__header {
