@@ -5,163 +5,7 @@ import Image from 'next/image'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { AnimatedSection, StaggerContainer } from '@/components/AnimatedSection'
-
-const coachingTopics = [
-  {
-    id: 'hubspot',
-    area: 'HubSpot Strategy & Implementation',
-    level: 'World-Class',
-    icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
-        <polyline points="22 4 12 14.01 9 11.01"/>
-      </svg>
-    ),
-    description: 'Master the HubSpot ecosystem with personalized guidance from someone with 42+ certifications and 12+ years of hands-on experience.',
-    stats: [
-      { value: '42+', label: 'Certifications' },
-      { value: '12+', label: 'Years Experience' },
-      { value: '1000s', label: 'Clients Helped' },
-    ],
-    highlights: [
-      'Platform setup and optimization',
-      'Marketing automation workflows',
-      'Sales hub configuration',
-      'Reporting and analytics',
-      'Integration strategy',
-    ],
-  },
-  {
-    id: 'video',
-    area: 'Video Marketing Mastery',
-    level: 'World-Class',
-    icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-        <polygon points="23 7 16 12 23 17 23 7"/>
-        <rect x="1" y="5" width="15" height="14" rx="2" ry="2"/>
-      </svg>
-    ),
-    description: 'Learn the "Video Jedi" approach to creating authentic, effective video content that connects with your audience.',
-    stats: [
-      { value: '1000s', label: 'Videos Created' },
-      { value: '3x', label: 'Vidyard Keynotes' },
-      { value: '400+', label: 'Tutorials' },
-    ],
-    highlights: [
-      'Video strategy development',
-      'Content creation frameworks',
-      'Camera confidence coaching',
-      'YouTube optimization',
-      'Sales video techniques',
-    ],
-  },
-  {
-    id: 'podcasting',
-    area: 'Podcasting Excellence',
-    level: 'World-Class',
-    icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/>
-        <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
-        <line x1="12" y1="19" x2="12" y2="23"/>
-        <line x1="8" y1="23" x2="16" y2="23"/>
-      </svg>
-    ),
-    description: 'Launch, grow, or optimize your podcast with guidance from someone with 400+ episodes across multiple successful shows.',
-    stats: [
-      { value: '400+', label: 'Episodes Hosted' },
-      { value: '13+', label: 'Years Podcasting' },
-      { value: '50+', label: 'Guest Appearances' },
-    ],
-    highlights: [
-      'Podcast launch strategy',
-      'Audience growth tactics',
-      'Interview techniques',
-      'Monetization models',
-      'Production workflows',
-    ],
-  },
-  {
-    id: 'ai',
-    area: 'AI Integration & Strategy',
-    level: 'Expert',
-    icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-        <rect x="4" y="4" width="16" height="16" rx="2" ry="2"/>
-        <rect x="9" y="9" width="6" height="6"/>
-        <line x1="9" y1="1" x2="9" y2="4"/>
-        <line x1="15" y1="1" x2="15" y2="4"/>
-        <line x1="9" y1="20" x2="9" y2="23"/>
-        <line x1="15" y1="20" x2="15" y2="23"/>
-        <line x1="20" y1="9" x2="23" y2="9"/>
-        <line x1="20" y1="14" x2="23" y2="14"/>
-        <line x1="1" y1="9" x2="4" y2="9"/>
-        <line x1="1" y1="14" x2="4" y2="14"/>
-      </svg>
-    ),
-    description: 'Navigate the AI landscape with a human-first approach that amplifies your team without losing authentic connection.',
-    stats: [
-      { value: '16M+', label: 'Words Trained' },
-      { value: '35+', label: 'Hours Saved/Mo' },
-      { value: '24/7', label: 'AI Clone Active' },
-    ],
-    highlights: [
-      'AI tool selection',
-      'Implementation strategy',
-      'Team training programs',
-      'Ethical AI practices',
-      'Automation optimization',
-    ],
-  },
-  {
-    id: 'personal',
-    area: 'Personal Transformation',
-    level: 'Expert',
-    icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
-      </svg>
-    ),
-    description: 'The Superhuman Framework applied to your personal and professional growth. Become the best version of yourself.',
-    stats: [
-      { value: '4', label: 'Cornerstones' },
-      { value: '10', label: 'H-Pillars' },
-      { value: '100s', label: 'Lives Changed' },
-    ],
-    highlights: [
-      'Purpose and vision clarity',
-      'Limiting belief breakthrough',
-      'High-performance habits',
-      'Career transitions',
-      'Leadership development',
-    ],
-  },
-  {
-    id: 'marketing',
-    area: 'Marketing & Content Strategy',
-    level: 'Expert',
-    icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-        <line x1="18" y1="20" x2="18" y2="10"/>
-        <line x1="12" y1="20" x2="12" y2="4"/>
-        <line x1="6" y1="20" x2="6" y2="14"/>
-      </svg>
-    ),
-    description: 'Build a content engine that drives sustainable growth with 30+ years of marketing experience guiding your strategy.',
-    stats: [
-      { value: '30+', label: 'Years Experience' },
-      { value: '16M+', label: 'Words Created' },
-      { value: '1000s', label: 'Campaigns' },
-    ],
-    highlights: [
-      'Content strategy development',
-      'Inbound marketing planning',
-      'Brand positioning',
-      'Marketing team optimization',
-      'ROI measurement',
-    ],
-  },
-]
+import { deepExpertise } from '@/data/expertise'
 
 const pricingPlans = [
   {
@@ -430,22 +274,22 @@ export default function CoachingPage() {
             </AnimatedSection>
 
             <div className="expertise-stems">
-              {coachingTopics.map((topic) => (
+              {deepExpertise.map((expertise) => (
                 <AnimatedSection
-                  key={topic.id}
+                  key={expertise.area}
                   className="expertise-stem-card"
                   animation="fade-in"
                 >
                   <div className="expertise-stem-card__header">
-                    <div className="expertise-stem-card__icon">{topic.icon}</div>
+                    <div className="expertise-stem-card__icon">{expertise.icon}</div>
                     <div>
-                      <h3 className="expertise-stem-card__title">{topic.area}</h3>
-                      <span className="expertise-stem-card__level">{topic.level}</span>
+                      <h3 className="expertise-stem-card__title">{expertise.area}</h3>
+                      <span className="expertise-stem-card__level">{expertise.level}</span>
                     </div>
                   </div>
 
                   <div className="expertise-stem-card__stats">
-                    {topic.stats.map((stat) => (
+                    {expertise.stats.map((stat) => (
                       <div key={stat.label} className="expertise-stem-card__stat">
                         <span className="expertise-stem-card__stat-value">{stat.value}</span>
                         <span className="expertise-stem-card__stat-label">{stat.label}</span>
@@ -453,22 +297,39 @@ export default function CoachingPage() {
                     ))}
                   </div>
 
-                  <p className="expertise-stem-card__description">{topic.description}</p>
+                  <p className="expertise-stem-card__description">{expertise.description}</p>
 
                   <ul className="expertise-stem-card__highlights">
-                    {topic.highlights.map((highlight) => (
+                    {expertise.highlights.map((highlight) => (
                       <li key={highlight}>{highlight}</li>
                     ))}
                   </ul>
 
-                  <div className="expertise-stem-card__links">
-                    <Link
-                      href={`/coaching/apply?topic=${topic.id}`}
-                      className="expertise-stem-card__link"
-                    >
-                      Get Coaching →
-                    </Link>
-                  </div>
+                  {expertise.links && expertise.links.length > 0 && (
+                    <div className="expertise-stem-card__links">
+                      {expertise.links.map((link) => (
+                        link.external ? (
+                          <a
+                            key={link.label}
+                            href={link.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="expertise-stem-card__link"
+                          >
+                            {link.label} →
+                          </a>
+                        ) : (
+                          <Link
+                            key={link.label}
+                            href={link.url}
+                            className="expertise-stem-card__link"
+                          >
+                            {link.label} →
+                          </Link>
+                        )
+                      ))}
+                    </div>
+                  )}
                 </AnimatedSection>
               ))}
             </div>
