@@ -1585,7 +1585,7 @@ a:hover {
    Y-SHAPE DIAGRAM (Expertise Page)
    =========================================== */
 .expertise-visual {
-  padding: var(--space-lg) 0 var(--space-3xl);
+  padding: 0 0 var(--space-4xl);
 }
 
 .expertise-visual .container {
