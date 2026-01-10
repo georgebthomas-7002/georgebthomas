@@ -590,11 +590,18 @@ export default function CoachingPage() {
         </section>
 
         {/* Testimonial Slider Section */}
-        <section className="section section--dark coaching-testimonial">
+        <section className="section section--dark testimonial-section-animated">
+          {/* Animated background elements */}
+          <div className="testimonial-section-animated__bg" aria-hidden="true">
+            <div className="testimonial-section-animated__orb testimonial-section-animated__orb--1"></div>
+            <div className="testimonial-section-animated__orb testimonial-section-animated__orb--2"></div>
+            <div className="testimonial-section-animated__orb testimonial-section-animated__orb--3"></div>
+            <div className="testimonial-section-animated__glow"></div>
+          </div>
           <div className="container">
             <AnimatedSection className="section-header" animation="fade-in">
-              <span className="section-header__subtitle">Client Success</span>
-              <h2 className="section-header__title">What Clients Say</h2>
+              <span className="section-header__subtitle">Growth & Success</span>
+              <h2 className="section-header__title">What Humans Say</h2>
             </AnimatedSection>
             <AnimatedSection animation="fade-in">
               <TestimonialSlider autoPlay={true} autoPlayInterval={8000} />
