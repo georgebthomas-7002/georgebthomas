@@ -52,8 +52,8 @@ export const realTestimonials: Testimonial[] = [
     quote: "George's passion for helping others shines through in all his work. Whether he's on stage at Social Media World in front of thousands or on a HubSpot onboarding call with one person, his energy, care and desire to teach shine through. Whether you're hiring George to speak, consult or teach, you'll get a human who comes through with everything you're asking for and more.",
     name: "Dan Moyle",
     title: "Video Marketing Expert",
-    company: "",
-    image: "/images/testimonials/dan-moyle.jpg"
+    company: "Digital Reach Online Solutions",
+    image: ""
   },
   {
     quote: "I've experienced several HubSpot onboarding programs in the past, but George B. Thomas is by far the best HubSpot onboarding specialist I've had the pleasure of working with. Not only does he thoroughly train you on the HubSpot platform, but he also provides invaluable HubSpot hacks that are tailored to your business needs.",
