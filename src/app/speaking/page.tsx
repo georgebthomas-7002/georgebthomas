@@ -6,6 +6,7 @@ import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { AnimatedSection, StaggerContainer } from '@/components/AnimatedSection'
 import { VideoSlider, VideoItem } from '@/components/VideoSlider'
+import { VideoShowcase } from '@/components/VideoShowcase'
 
 // Speaking example videos - add more YouTube IDs here
 const speakingVideos: VideoItem[] = [
@@ -592,40 +593,11 @@ export default function SpeakingPage() {
               </AnimatedSection>
 
               <AnimatedSection className="speaking-hero-video" animation="slide-right">
-                {/* Creative video frame */}
-                <div className="video-showcase">
-                  {/* Decorative frame elements */}
-                  <div className="video-showcase__frame" aria-hidden="true">
-                    <span className="video-showcase__corner video-showcase__corner--tl"></span>
-                    <span className="video-showcase__corner video-showcase__corner--tr"></span>
-                    <span className="video-showcase__corner video-showcase__corner--bl"></span>
-                    <span className="video-showcase__corner video-showcase__corner--br"></span>
-                  </div>
-
-                  {/* Accent glow behind video */}
-                  <div className="video-showcase__glow" aria-hidden="true"></div>
-
-                  {/* Video container */}
-                  <div className="video-showcase__container">
-                    <iframe
-                      src="https://www.youtube.com/embed/jIMAkDBsI8c"
-                      title="George B. Thomas Speaker Reel"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowFullScreen
-                    />
-                  </div>
-
-                  {/* Floating accent elements */}
-                  <div className="video-showcase__accent video-showcase__accent--1" aria-hidden="true">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                      <polygon points="5 3 19 12 5 21 5 3"/>
-                    </svg>
-                  </div>
-                  <div className="video-showcase__accent video-showcase__accent--2" aria-hidden="true"></div>
-                  <div className="video-showcase__accent video-showcase__accent--3" aria-hidden="true"></div>
-                </div>
-
-                <p className="speaking-hero-video__caption">Watch the Speaker Reel</p>
+                <VideoShowcase
+                  youtubeId="jIMAkDBsI8c"
+                  title="George B. Thomas Speaker Reel"
+                  caption="Watch the Speaker Reel"
+                />
               </AnimatedSection>
             </div>
           </div>

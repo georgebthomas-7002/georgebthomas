@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useCallback } from 'react'
+import { VideoShowcase } from './VideoShowcase'
 
 export interface VideoItem {
   id: string
@@ -13,12 +14,15 @@ interface VideoSliderProps {
   videos: VideoItem[]
   title?: string
   subtitle?: string
+  /** Use the creative VideoShowcase styling for the main video */
+  useShowcaseStyle?: boolean
 }
 
 export function VideoSlider({
   videos,
   title = "See More Speaking Highlights",
-  subtitle = "More Examples"
+  subtitle = "More Examples",
+  useShowcaseStyle = true
 }: VideoSliderProps) {
   const [currentIndex, setCurrentIndex] = useState(0)
   const [isAnimating, setIsAnimating] = useState(false)
@@ -54,14 +58,23 @@ export function VideoSlider({
           <div className="video-slider__container">
             {/* Main Video */}
             <div className={`video-slider__main ${isAnimating ? 'video-slider__main--animating' : ''}`}>
-              <div className="video-slider__embed">
-                <iframe
-                  src={`https://www.youtube.com/embed/${currentVideo.youtubeId}`}
+              {useShowcaseStyle ? (
+                <VideoShowcase
+                  youtubeId={currentVideo.youtubeId}
                   title={currentVideo.title}
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
+                  size="compact"
+                  showAccents={false}
                 />
-              </div>
+              ) : (
+                <div className="video-slider__embed">
+                  <iframe
+                    src={`https://www.youtube.com/embed/${currentVideo.youtubeId}`}
+                    title={currentVideo.title}
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  />
+                </div>
+              )}
               <div className="video-slider__info">
                 <h3 className="video-slider__title">{currentVideo.title}</h3>
                 {currentVideo.description && (

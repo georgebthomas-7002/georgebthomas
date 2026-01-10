@@ -3207,7 +3207,21 @@ a:hover {
   position: relative;
 }
 
-.speaking-hero-video__caption {
+/* ===========================================
+   VIDEO SHOWCASE - Creative Frame Design
+   Global reusable component for styled video embeds
+   =========================================== */
+.video-showcase-wrapper {
+  position: relative;
+}
+
+.video-showcase {
+  position: relative;
+  padding: 20px;
+}
+
+/* Caption styling */
+.video-showcase__caption {
   text-align: center;
   margin-top: var(--space-lg);
   font-size: var(--font-size-sm);
@@ -3215,12 +3229,63 @@ a:hover {
   font-style: italic;
 }
 
-/* ===========================================
-   VIDEO SHOWCASE - Creative Frame Design
-   =========================================== */
-.video-showcase {
-  position: relative;
-  padding: 20px;
+/* Size variants */
+.video-showcase--large {
+  padding: 30px;
+}
+
+.video-showcase--large .video-showcase__corner {
+  width: 80px;
+  height: 80px;
+}
+
+.video-showcase--large:hover .video-showcase__corner {
+  width: 100px;
+  height: 100px;
+}
+
+.video-showcase--large .video-showcase__accent--1 {
+  width: 60px;
+  height: 60px;
+  top: -15px;
+  right: -15px;
+}
+
+.video-showcase--large .video-showcase__accent--1 svg {
+  width: 24px;
+  height: 24px;
+}
+
+.video-showcase--compact {
+  padding: 12px;
+}
+
+.video-showcase--compact .video-showcase__corner {
+  width: 40px;
+  height: 40px;
+  border-width: 2px;
+}
+
+.video-showcase--compact:hover .video-showcase__corner {
+  width: 50px;
+  height: 50px;
+}
+
+.video-showcase--compact .video-showcase__accent--1 {
+  width: 36px;
+  height: 36px;
+  top: -8px;
+  right: -8px;
+}
+
+.video-showcase--compact .video-showcase__accent--1 svg {
+  width: 14px;
+  height: 14px;
+}
+
+.video-showcase--compact .video-showcase__accent--2,
+.video-showcase--compact .video-showcase__accent--3 {
+  display: none;
 }
 
 /* Accent glow behind video */
