@@ -1884,6 +1884,21 @@ a:hover {
               border-color var(--duration-normal) var(--ease-out);
   border: 2px solid transparent;
   cursor: default;
+  position: relative;
+  overflow: hidden;
+}
+
+.competency-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--gradient-accent);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform var(--duration-normal) var(--ease-out);
 }
 
 .competency-card:hover {
@@ -1892,9 +1907,20 @@ a:hover {
   border-color: var(--color-accent);
 }
 
+.competency-card:hover::before {
+  transform: scaleX(1);
+}
+
 .competency-card:hover .competency-card__title {
   color: var(--color-accent);
-  transition: color var(--duration-fast) var(--ease-out);
+}
+
+.competency-card:hover .competency-card__level {
+  transform: scale(1.05);
+}
+
+.competency-card:hover .competency-card__evidence {
+  color: var(--color-text-light);
 }
 
 .competency-card__header {
@@ -1907,6 +1933,7 @@ a:hover {
 .competency-card__title {
   font-size: var(--font-size-lg);
   margin: 0;
+  transition: color var(--duration-fast) var(--ease-out);
 }
 
 .competency-card__level {
@@ -1916,6 +1943,7 @@ a:hover {
   border-radius: var(--radius-full);
   text-transform: uppercase;
   letter-spacing: var(--letter-spacing-wide);
+  transition: transform var(--duration-normal) var(--ease-spring);
 }
 
 .competency-card__level--expert {
@@ -1933,6 +1961,7 @@ a:hover {
   color: var(--color-text-muted);
   line-height: var(--line-height-relaxed);
   margin: 0;
+  transition: color var(--duration-fast) var(--ease-out);
 }
 
 /* ===========================================
