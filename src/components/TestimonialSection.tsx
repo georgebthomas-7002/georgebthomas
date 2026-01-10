@@ -1,5 +1,6 @@
 'use client'
 
+import Link from 'next/link'
 import { TestimonialSlider, Testimonial, realTestimonials } from './TestimonialSlider'
 import { AnimatedSection } from './AnimatedSection'
 
@@ -10,6 +11,9 @@ interface TestimonialSectionProps {
   autoPlay?: boolean
   autoPlayInterval?: number
   showHeader?: boolean
+  showCta?: boolean
+  ctaText?: string
+  ctaLink?: string
   className?: string
 }
 
@@ -20,6 +24,9 @@ export function TestimonialSection({
   autoPlay = true,
   autoPlayInterval = 8000,
   showHeader = true,
+  showCta = true,
+  ctaText = "Read All Testimonials",
+  ctaLink = "/testimonials",
   className = "",
 }: TestimonialSectionProps) {
   return (
@@ -45,6 +52,13 @@ export function TestimonialSection({
             autoPlayInterval={autoPlayInterval}
           />
         </AnimatedSection>
+        {showCta && (
+          <AnimatedSection className="testimonial-section__cta" animation="fade-in">
+            <Link href={ctaLink} className="btn btn--accent">
+              {ctaText}
+            </Link>
+          </AnimatedSection>
+        )}
       </div>
     </section>
   )

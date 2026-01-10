@@ -4069,6 +4069,12 @@ a:hover {
   animation: glow-pulse 8s ease-in-out infinite;
 }
 
+/* Testimonial Section CTA */
+.testimonial-section__cta {
+  text-align: center;
+  margin-top: var(--space-xl);
+}
+
 @keyframes orb-float-1 {
   0%, 100% {
     transform: translate(0, 0) scale(1);

@@ -5,7 +5,7 @@ import Image from 'next/image'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { AnimatedSection, StaggerContainer } from '@/components/AnimatedSection'
-import { TestimonialSlider } from '@/components/TestimonialSlider'
+import { TestimonialSection } from '@/components/TestimonialSection'
 import { deepExpertise } from '@/data/expertise'
 
 // Core services with links
@@ -273,24 +273,10 @@ export default function Home() {
         </section>
 
         {/* Testimonials Section */}
-        <section className="section section--warm home-testimonials">
-          <div className="container">
-            <AnimatedSection className="section-header" animation="fade-in">
-              <span className="section-header__subtitle">Client Success</span>
-              <h2 className="section-header__title">What People Say</h2>
-            </AnimatedSection>
-
-            <AnimatedSection animation="fade-in">
-              <TestimonialSlider />
-            </AnimatedSection>
-
-            <AnimatedSection className="home-testimonials__cta" animation="fade-in">
-              <Link href="/testimonials" className="btn btn--secondary">
-                Read All Testimonials
-              </Link>
-            </AnimatedSection>
-          </div>
-        </section>
+        <TestimonialSection
+          title="What People Say"
+          subtitle="Client Success"
+        />
 
         {/* CTA Section */}
         <section className="section section--dark home-cta">
