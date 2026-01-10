@@ -6,10 +6,11 @@ import { usePathname } from 'next/navigation'
 import { useHeaderScroll } from '@/lib/useScrollAnimation'
 
 const navLinks = [
+  { href: '/about', label: 'About' },
   { href: '/expertise', label: 'Expertise' },
   { href: '/speaking', label: 'Speaking' },
   { href: '/coaching', label: 'Coaching' },
-  { href: '/#testimonials', label: 'Testimonials' },
+  { href: '/testimonials', label: 'Testimonials' },
   { href: '/#contact', label: 'Contact' },
 ]
 
