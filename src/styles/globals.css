@@ -3254,10 +3254,12 @@ a:hover {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: var(--space-xl);
-  align-items: start;
+  align-items: stretch;
 }
 
 .pricing-card {
+  display: flex;
+  flex-direction: column;
   background: var(--color-white);
   border-radius: var(--radius-xl);
   padding: var(--space-2xl);
@@ -3344,6 +3346,7 @@ a:hover {
   margin: 0 0 var(--space-xl);
   padding: 0;
   text-align: left;
+  flex-grow: 1;
 }
 
 .pricing-card__features li {
