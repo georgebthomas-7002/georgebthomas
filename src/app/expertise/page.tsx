@@ -535,6 +535,15 @@ export default function ExpertisePage() {
           <div className="container container--narrow">
             <AnimatedSection animation="fade-in">
               <div className="story-card">
+                <div className="story-card__image-wrapper">
+                  <Image
+                    src="/images/george-highschool.webp"
+                    alt="George B. Thomas in High School"
+                    width={180}
+                    height={180}
+                    className="story-card__image"
+                  />
+                </div>
                 <span className="story-card__label">The Transformation Story</span>
                 <h2 className="story-card__title">From High School Dropout<br />to Industry Expert</h2>
                 <div className="story-card__content">
