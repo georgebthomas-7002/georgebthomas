@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { AnimatedSection, StaggerContainer } from '@/components/AnimatedSection'
@@ -300,7 +301,7 @@ export default function ExpertisePage() {
       <main>
         {/* Hero Section */}
         <section className="page-hero page-hero--expertise">
-          <div className="container">
+          <div className="container page-hero__grid">
             <AnimatedSection className="page-hero__content" animation="fade-in">
               <span className="page-hero__tagline">T-Shaped Business Owner</span>
               <h1 className="page-hero__title">
@@ -314,6 +315,21 @@ export default function ExpertisePage() {
                 <em> helping humans transform.</em>
               </p>
             </AnimatedSection>
+
+            <AnimatedSection className="page-hero__image-wrapper page-hero__image-wrapper--expertise" animation="slide-right">
+              <div className="page-hero__image-frame" aria-hidden="true"></div>
+              <div className="page-hero__image-accent" aria-hidden="true"></div>
+              <div className="page-hero__image-container">
+                <Image
+                  src="/images/george-expertise.jpg"
+                  alt="George B. Thomas Speaking"
+                  width={500}
+                  height={600}
+                  priority
+                  className="page-hero__image"
+                />
+              </div>
+            </AnimatedSection>
           </div>
           <div className="page-hero__shape" aria-hidden="true"></div>
         </section>
@@ -322,7 +338,10 @@ export default function ExpertisePage() {
         <section className="section expertise-visual">
           <div className="container">
             <AnimatedSection className="expertise-wheel" animation="scale">
-              <div className="expertise-wheel__items">
+              <div className="expertise-wheel__center">
+                <span className="expertise-wheel__center-label">Human Transformation</span>
+              </div>
+              <div className="expertise-wheel__items expertise-wheel__items--single-row">
                 <div className="expertise-wheel__item">
                   <span className="expertise-wheel__label">AI</span>
                 </div>
@@ -338,10 +357,8 @@ export default function ExpertisePage() {
                 <div className="expertise-wheel__item">
                   <span className="expertise-wheel__label">Podcasting</span>
                 </div>
-              </div>
-              <div className="expertise-wheel__items">
                 <div className="expertise-wheel__item">
-                  <span className="expertise-wheel__label">Personal Growth</span>
+                  <span className="expertise-wheel__label">Growth</span>
                 </div>
                 <div className="expertise-wheel__item">
                   <span className="expertise-wheel__label">Leadership</span>
@@ -349,9 +366,6 @@ export default function ExpertisePage() {
                 <div className="expertise-wheel__item">
                   <span className="expertise-wheel__label">Spiritual</span>
                 </div>
-              </div>
-              <div className="expertise-wheel__center">
-                <span className="expertise-wheel__center-label">Human Transformation</span>
               </div>
             </AnimatedSection>
           </div>
