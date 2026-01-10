@@ -3177,16 +3177,116 @@ a:hover {
   position: relative;
 }
 
-.speaking-hero-video__wrapper {
+.speaking-hero-video__caption {
+  text-align: center;
+  margin-top: var(--space-lg);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+  font-style: italic;
+}
+
+/* ===========================================
+   VIDEO SHOWCASE - Creative Frame Design
+   =========================================== */
+.video-showcase {
+  position: relative;
+  padding: 20px;
+}
+
+/* Accent glow behind video */
+.video-showcase__glow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  height: 90%;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(224, 122, 95, 0.3) 0%,
+    rgba(224, 122, 95, 0.1) 40%,
+    transparent 70%
+  );
+  filter: blur(40px);
+  z-index: 0;
+  animation: pulse-glow 4s ease-in-out infinite;
+}
+
+@keyframes pulse-glow {
+  0%, 100% { opacity: 0.6; transform: translate(-50%, -50%) scale(1); }
+  50% { opacity: 1; transform: translate(-50%, -50%) scale(1.05); }
+}
+
+/* Decorative corner frame */
+.video-showcase__frame {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.video-showcase__corner {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-color: var(--color-accent);
+  border-style: solid;
+  border-width: 0;
+  transition: all var(--duration-normal) var(--ease-out);
+}
+
+.video-showcase__corner--tl {
+  top: 0;
+  left: 0;
+  border-top-width: 3px;
+  border-left-width: 3px;
+  border-top-left-radius: var(--radius-lg);
+}
+
+.video-showcase__corner--tr {
+  top: 0;
+  right: 0;
+  border-top-width: 3px;
+  border-right-width: 3px;
+  border-top-right-radius: var(--radius-lg);
+}
+
+.video-showcase__corner--bl {
+  bottom: 0;
+  left: 0;
+  border-bottom-width: 3px;
+  border-left-width: 3px;
+  border-bottom-left-radius: var(--radius-lg);
+}
+
+.video-showcase__corner--br {
+  bottom: 0;
+  right: 0;
+  border-bottom-width: 3px;
+  border-right-width: 3px;
+  border-bottom-right-radius: var(--radius-lg);
+}
+
+.video-showcase:hover .video-showcase__corner {
+  width: 80px;
+  height: 80px;
+}
+
+/* Video container */
+.video-showcase__container {
   position: relative;
   width: 100%;
   padding-bottom: 56.25%;
-  border-radius: var(--radius-xl);
+  border-radius: var(--radius-lg);
   overflow: hidden;
-  box-shadow: var(--shadow-2xl);
+  box-shadow:
+    0 25px 50px -12px rgba(0, 0, 0, 0.25),
+    0 0 0 1px rgba(255, 255, 255, 0.1);
+  z-index: 2;
+  background: var(--color-primary-dark);
 }
 
-.speaking-hero-video__wrapper iframe {
+.video-showcase__container iframe {
   position: absolute;
   top: 0;
   left: 0;
@@ -3195,12 +3295,62 @@ a:hover {
   border: none;
 }
 
-.speaking-hero-video__caption {
-  text-align: center;
-  margin-top: var(--space-md);
-  font-size: var(--font-size-sm);
-  color: var(--color-text-muted);
-  font-style: italic;
+/* Floating accent elements */
+.video-showcase__accent {
+  position: absolute;
+  z-index: 3;
+  pointer-events: none;
+}
+
+/* Play icon accent - top right */
+.video-showcase__accent--1 {
+  top: -10px;
+  right: -10px;
+  width: 50px;
+  height: 50px;
+  background: var(--color-accent);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 24px rgba(224, 122, 95, 0.4);
+  animation: float 3s ease-in-out infinite;
+}
+
+.video-showcase__accent--1 svg {
+  width: 20px;
+  height: 20px;
+  color: white;
+  margin-left: 3px;
+}
+
+/* Dot accent - bottom left */
+.video-showcase__accent--2 {
+  bottom: 30px;
+  left: -15px;
+  width: 30px;
+  height: 30px;
+  background: var(--color-primary);
+  border-radius: 50%;
+  opacity: 0.8;
+  animation: float 4s ease-in-out infinite 0.5s;
+}
+
+/* Small dot - top left area */
+.video-showcase__accent--3 {
+  top: 40px;
+  left: -5px;
+  width: 12px;
+  height: 12px;
+  background: var(--color-accent);
+  border-radius: 50%;
+  opacity: 0.6;
+  animation: float 3.5s ease-in-out infinite 1s;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
 }
 
 @media (max-width: 968px) {
@@ -3212,6 +3362,43 @@ a:hover {
   .speaking-hero-video {
     max-width: 600px;
     margin: 0 auto;
+  }
+
+  .video-showcase {
+    padding: 15px;
+  }
+
+  .video-showcase__corner {
+    width: 40px;
+    height: 40px;
+  }
+
+  .video-showcase:hover .video-showcase__corner {
+    width: 50px;
+    height: 50px;
+  }
+
+  .video-showcase__accent--1 {
+    width: 40px;
+    height: 40px;
+    top: -5px;
+    right: -5px;
+  }
+
+  .video-showcase__accent--1 svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  .video-showcase__accent--2 {
+    width: 20px;
+    height: 20px;
+    left: -10px;
+  }
+
+  .video-showcase__accent--3 {
+    width: 8px;
+    height: 8px;
   }
 }
 

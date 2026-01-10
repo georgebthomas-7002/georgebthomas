@@ -35,11 +35,11 @@ const speakingVideos: VideoItem[] = [
   },
 ]
 
-type Topic = 'all' | 'hubspot' | 'video' | 'podcasting' | 'ai' | 'transformation' | 'marketing'
+type Topic = 'hubspot' | 'video' | 'podcasting' | 'ai' | 'transformation' | 'marketing'
 
 interface Keynote {
   id: string
-  topic: Exclude<Topic, 'all'>
+  topic: Topic
   title: string
   description: string
   whatYouLearn: string[]
@@ -49,7 +49,6 @@ interface Keynote {
 }
 
 const topics: { id: Topic; label: string; color: string }[] = [
-  { id: 'all', label: 'All Topics', color: 'var(--color-accent)' },
   { id: 'hubspot', label: 'HubSpot', color: '#ff7a59' },
   { id: 'video', label: 'Video Marketing', color: '#00bda5' },
   { id: 'podcasting', label: 'Podcasting', color: '#6a4c93' },
@@ -543,19 +542,18 @@ const keynotes: Keynote[] = [
 ]
 
 export default function SpeakingPage() {
-  const [activeFilter, setActiveFilter] = useState<Topic>('all')
   const [expandedCard, setExpandedCard] = useState<string | null>(null)
-
-  const filteredKeynotes = activeFilter === 'all'
-    ? keynotes
-    : keynotes.filter((k) => k.topic === activeFilter)
 
   const getTopicColor = (topic: Topic) => {
     return topics.find((t) => t.id === topic)?.color || 'var(--color-accent)'
   }
 
-  const getTopicLabel = (topic: Exclude<Topic, 'all'>) => {
+  const getTopicLabel = (topic: Topic) => {
     return topics.find((t) => t.id === topic)?.label || topic
+  }
+
+  const getKeynotesByTopic = (topic: Topic) => {
+    return keynotes.filter((k) => k.topic === topic)
   }
 
   return (
@@ -594,14 +592,39 @@ export default function SpeakingPage() {
               </AnimatedSection>
 
               <AnimatedSection className="speaking-hero-video" animation="slide-right">
-                <div className="speaking-hero-video__wrapper">
-                  <iframe
-                    src="https://www.youtube.com/embed/LyLWZ4sF8uc"
-                    title="George B. Thomas Speaker Reel"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  />
+                {/* Creative video frame */}
+                <div className="video-showcase">
+                  {/* Decorative frame elements */}
+                  <div className="video-showcase__frame" aria-hidden="true">
+                    <span className="video-showcase__corner video-showcase__corner--tl"></span>
+                    <span className="video-showcase__corner video-showcase__corner--tr"></span>
+                    <span className="video-showcase__corner video-showcase__corner--bl"></span>
+                    <span className="video-showcase__corner video-showcase__corner--br"></span>
+                  </div>
+
+                  {/* Accent glow behind video */}
+                  <div className="video-showcase__glow" aria-hidden="true"></div>
+
+                  {/* Video container */}
+                  <div className="video-showcase__container">
+                    <iframe
+                      src="https://www.youtube.com/embed/jIMAkDBsI8c"
+                      title="George B. Thomas Speaker Reel"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                    />
+                  </div>
+
+                  {/* Floating accent elements */}
+                  <div className="video-showcase__accent video-showcase__accent--1" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                      <polygon points="5 3 19 12 5 21 5 3"/>
+                    </svg>
+                  </div>
+                  <div className="video-showcase__accent video-showcase__accent--2" aria-hidden="true"></div>
+                  <div className="video-showcase__accent video-showcase__accent--3" aria-hidden="true"></div>
                 </div>
+
                 <p className="speaking-hero-video__caption">Watch the Speaker Reel</p>
               </AnimatedSection>
             </div>
@@ -740,7 +763,7 @@ export default function SpeakingPage() {
           subtitle="More Examples"
         />
 
-        {/* Filter Section */}
+        {/* Topic Navigation Section */}
         <section className="section speaking-filter">
           <div className="container">
             <AnimatedSection className="filter-section" animation="fade-in">
@@ -750,108 +773,124 @@ export default function SpeakingPage() {
               </p>
               <div className="topic-filters">
                 {topics.map((topic) => (
-                  <button
+                  <a
                     key={topic.id}
-                    className={`topic-filter ${activeFilter === topic.id ? 'is-active' : ''}`}
-                    onClick={() => setActiveFilter(topic.id)}
+                    href={`#${topic.id}`}
+                    className="topic-filter"
                     style={{
                       '--topic-color': topic.color,
                     } as React.CSSProperties}
                   >
                     {topic.label}
-                    {topic.id !== 'all' && (
-                      <span className="topic-filter__count">
-                        {keynotes.filter((k) => k.topic === topic.id).length}
-                      </span>
-                    )}
-                  </button>
+                    <span className="topic-filter__count">
+                      {keynotes.filter((k) => k.topic === topic.id).length}
+                    </span>
+                  </a>
                 ))}
               </div>
             </AnimatedSection>
           </div>
         </section>
 
-        {/* Keynotes Grid */}
-        <section className="section section--warm speaking-grid">
-          <div className="container container--wide">
-            <div className="keynotes-grid">
-              {filteredKeynotes.map((keynote) => (
-                <article
-                  key={keynote.id}
-                  className={`keynote-card ${expandedCard === keynote.id ? 'is-expanded' : ''}`}
-                  style={{
-                    '--keynote-color': getTopicColor(keynote.topic),
-                  } as React.CSSProperties}
+        {/* Keynote Topic Sections */}
+        {topics.map((topic, topicIndex) => (
+          <section
+            key={topic.id}
+            id={topic.id}
+            className={`section keynote-topic-section ${topicIndex % 2 === 0 ? 'section--warm' : ''}`}
+            style={{
+              '--topic-color': topic.color,
+            } as React.CSSProperties}
+          >
+            <div className="container container--wide">
+              <AnimatedSection className="keynote-topic-header" animation="fade-in">
+                <span
+                  className="keynote-topic-header__badge"
+                  style={{ background: topic.color }}
                 >
-                  <div className="keynote-card__header">
-                    <span className="keynote-card__topic">{getTopicLabel(keynote.topic)}</span>
-                    <h3 className="keynote-card__title">
-                      {keynote.url ? (
-                        <a
-                          href={keynote.url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="text-link"
-                        >
-                          {keynote.title}
-                        </a>
-                      ) : (
-                        keynote.title
-                      )}
-                    </h3>
-                  </div>
+                  {getKeynotesByTopic(topic.id).length} Keynotes
+                </span>
+                <h2 className="keynote-topic-header__title">{topic.label}</h2>
+              </AnimatedSection>
 
-                  <p className="keynote-card__description">{keynote.description}</p>
-
-                  <button
-                    className="keynote-card__expand"
-                    onClick={() => setExpandedCard(expandedCard === keynote.id ? null : keynote.id)}
-                    aria-expanded={expandedCard === keynote.id}
+              <div className="keynotes-grid">
+                {getKeynotesByTopic(topic.id).map((keynote) => (
+                  <article
+                    key={keynote.id}
+                    className={`keynote-card ${expandedCard === keynote.id ? 'is-expanded' : ''}`}
+                    style={{
+                      '--keynote-color': topic.color,
+                    } as React.CSSProperties}
                   >
-                    {expandedCard === keynote.id ? 'Show Less' : 'Learn More'}
-                    <svg
-                      width="16"
-                      height="16"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="keynote-card__expand-icon"
+                    <div className="keynote-card__header">
+                      <h3 className="keynote-card__title">
+                        {keynote.url ? (
+                          <a
+                            href={keynote.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-link"
+                          >
+                            {keynote.title}
+                          </a>
+                        ) : (
+                          keynote.title
+                        )}
+                      </h3>
+                    </div>
+
+                    <p className="keynote-card__description">{keynote.description}</p>
+
+                    <button
+                      className="keynote-card__expand"
+                      onClick={() => setExpandedCard(expandedCard === keynote.id ? null : keynote.id)}
+                      aria-expanded={expandedCard === keynote.id}
                     >
-                      <polyline points="6 9 12 15 18 9" />
-                    </svg>
-                  </button>
+                      {expandedCard === keynote.id ? 'Show Less' : 'Learn More'}
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className="keynote-card__expand-icon"
+                      >
+                        <polyline points="6 9 12 15 18 9" />
+                      </svg>
+                    </button>
 
-                  <div className="keynote-card__details">
-                    <div className="keynote-card__section">
-                      <h4>What You&apos;ll Learn</h4>
-                      <ul>
-                        {keynote.whatYouLearn.map((item, i) => (
-                          <li key={i}>{item}</li>
-                        ))}
-                      </ul>
+                    <div className="keynote-card__details">
+                      <div className="keynote-card__section">
+                        <h4>What You&apos;ll Learn</h4>
+                        <ul>
+                          {keynote.whatYouLearn.map((item, i) => (
+                            <li key={i}>{item}</li>
+                          ))}
+                        </ul>
+                      </div>
+
+                      <div className="keynote-card__section">
+                        <h4>Who It&apos;s For</h4>
+                        <ul>
+                          {keynote.whoItsFor.map((item, i) => (
+                            <li key={i}>{item}</li>
+                          ))}
+                        </ul>
+                      </div>
+
+                      <Link href="/coaching" className="btn btn--primary keynote-card__cta">
+                        Book This Keynote
+                      </Link>
                     </div>
-
-                    <div className="keynote-card__section">
-                      <h4>Who It&apos;s For</h4>
-                      <ul>
-                        {keynote.whoItsFor.map((item, i) => (
-                          <li key={i}>{item}</li>
-                        ))}
-                      </ul>
-                    </div>
-
-                    <Link href="/coaching" className="btn btn--primary keynote-card__cta">
-                      Book This Keynote
-                    </Link>
-                  </div>
-                </article>
-              ))}
+                  </article>
+                ))}
+              </div>
             </div>
-          </div>
-        </section>
+          </section>
+        ))}
 
         {/* Speaking Experience Section */}
         <section className="section speaking-experience">
