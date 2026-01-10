@@ -93,7 +93,7 @@ export default function TestimonialsPage() {
               {realTestimonials.map((testimonial, index) => (
                 <AnimatedSection
                   key={testimonial.name}
-                  className={`testimonial-card ${index < 2 ? 'testimonial-card--featured' : ''}`}
+                  className="testimonial-card"
                   animation="fade-in"
                 >
                   <div className="testimonial-card__quote-icon" aria-hidden="true">
@@ -152,7 +152,7 @@ export default function TestimonialsPage() {
                     <polyline points="22 4 12 14.01 9 11.01"/>
                   </svg>
                 </div>
-                <h3 className="theme-card__title">Gets Things Done</h3>
+                <h3 className="theme-card__title">Gets It<br />Done</h3>
                 <p className="theme-card__description">
                   Clients consistently mention that George delivers on promises and makes
                   more progress in weeks than others do in months.
@@ -165,7 +165,7 @@ export default function TestimonialsPage() {
                     <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
                   </svg>
                 </div>
-                <h3 className="theme-card__title">Genuine Care</h3>
+                <h3 className="theme-card__title">Genuine Care<br />and Love</h3>
                 <p className="theme-card__description">
                   A passion for helping others shines through in every interaction, whether
                   on stage or in a one-on-one coaching call.
@@ -180,7 +180,7 @@ export default function TestimonialsPage() {
                     <line x1="12" y1="8" x2="12.01" y2="8"/>
                   </svg>
                 </div>
-                <h3 className="theme-card__title">Technical Expertise</h3>
+                <h3 className="theme-card__title">Technical<br />Expertise</h3>
                 <p className="theme-card__description">
                   Deep HubSpot knowledge combined with practical marketing insights
                   that translate into real business results.
@@ -193,7 +193,7 @@ export default function TestimonialsPage() {
                     <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
                   </svg>
                 </div>
-                <h3 className="theme-card__title">Energy & Enthusiasm</h3>
+                <h3 className="theme-card__title">Energy &<br />Enthusiasm</h3>
                 <p className="theme-card__description">
                   Described as &quot;FIRE&quot; and a &quot;force of positive energy,&quot;
                   George brings contagious enthusiasm to every engagement.
