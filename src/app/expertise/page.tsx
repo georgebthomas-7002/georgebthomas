@@ -39,6 +39,7 @@ const deepExpertise = [
   {
     area: 'HubSpot Mastery',
     level: 'World-Class',
+    link: 'https://sidekickstrategies.com/',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
@@ -52,11 +53,11 @@ const deepExpertise = [
     ],
     highlights: [
       'HubSpot Certified Trainer',
-      'Created first HubSpot-specific podcast (The Hubcast)',
+      'Created first HubSpot specific podcast (The Hubcast)',
       'INBOUND speaker every year since 2015',
       'Likely the most certified individual globally',
     ],
-    description: 'George isn\'t just certified—he\'s been shaping the HubSpot conversation for over a decade. His deep understanding of the platform spans marketing, sales, service, and operations hubs.',
+    description: 'George isn\'t just certified, he\'s been shaping the HubSpot conversation for over a decade. His deep understanding of the platform spans marketing, sales, service, and operations hubs.',
   },
   {
     area: 'Marketing & Sales',
@@ -99,7 +100,7 @@ const deepExpertise = [
       'Known as the "Video Jedi"',
       'Vidyard Fast Forward keynote speaker 3 years running',
       'Pioneered personalized sales video approach',
-      'Philosophy: "Embrace the messy"—authenticity wins',
+      'Philosophy: "Embrace the messy" because authenticity wins',
     ],
     description: 'George bridges video production craft with marketing strategy at the enterprise level. His "Video Jedi" approach emphasizes authentic connection over polished perfection.',
   },
@@ -144,7 +145,7 @@ const deepExpertise = [
       'Creator of the Superhuman Framework',
       'Host of "Beyond Your Default" podcast',
       'Specializes in limiting belief breakthrough',
-      'From dropout to thought leader—proof it works',
+      'From dropout to thought leader, proof it works',
     ],
     description: 'The Superhuman Framework combines four cornerstones (Love, Purpose, Passion, Persistence) and ten H-pillars to help individuals break through limiting beliefs and transform.',
   },
@@ -171,6 +172,30 @@ const deepExpertise = [
       'Develops future marketing leaders',
     ],
     description: 'George leads by serving others. His sidekick mentality means empowering team members to become heroes in their own stories while building organizations that put humans first.',
+  },
+  {
+    area: 'Spiritual Leadership',
+    level: 'Expert',
+    link: 'https://www.spiritualsideofleadership.com/',
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <circle cx="12" cy="12" r="10"/>
+        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+        <path d="M2 12h20"/>
+      </svg>
+    ),
+    stats: [
+      { value: '100+', label: 'Episodes' },
+      { value: '1000s', label: 'Lives Touched' },
+      { value: 'Weekly', label: 'New Content' },
+    ],
+    highlights: [
+      'Host of The Spiritual Side of Leadership podcast',
+      'Faith integrated with business leadership',
+      'Helping leaders find deeper purpose',
+      'Building values driven organizations',
+    ],
+    description: 'George explores the intersection of faith and leadership, helping business leaders integrate their spiritual values with their professional lives to lead with purpose and authenticity.',
   },
 ]
 
@@ -240,6 +265,24 @@ const principles = [
     ),
   },
   {
+    title: 'AI-Assisted, Human-Powered',
+    description: 'Leveraging cutting edge AI tools while keeping humans at the center of every decision and interaction.',
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <rect x="4" y="4" width="16" height="16" rx="2" ry="2"/>
+        <rect x="9" y="9" width="6" height="6"/>
+        <line x1="9" y1="1" x2="9" y2="4"/>
+        <line x1="15" y1="1" x2="15" y2="4"/>
+        <line x1="9" y1="20" x2="9" y2="23"/>
+        <line x1="15" y1="20" x2="15" y2="23"/>
+        <line x1="20" y1="9" x2="23" y2="9"/>
+        <line x1="20" y1="14" x2="23" y2="14"/>
+        <line x1="1" y1="9" x2="4" y2="9"/>
+        <line x1="1" y1="14" x2="4" y2="14"/>
+      </svg>
+    ),
+  },
+  {
     title: 'Expert in Helping Humans',
     description: 'Superhuman Framework, coaching, and transformation focus in all content.',
     icon: (
@@ -259,15 +302,15 @@ export default function ExpertisePage() {
         <section className="page-hero page-hero--expertise">
           <div className="container">
             <AnimatedSection className="page-hero__content" animation="fade-in">
-              <span className="page-hero__tagline">Y-Shaped Business Owner</span>
+              <span className="page-hero__tagline">T-Shaped Business Owner</span>
               <h1 className="page-hero__title">
-                Where Deep Expertise
-                <span className="page-hero__title-accent"> Meets Broad Vision</span>
+                Where Deep Expertise Meets
+                <span className="page-hero__title-accent">Broad Vision</span>
               </h1>
               <p className="page-hero__description">
                 Most marketers develop expertise in one area while maintaining broad knowledge across the discipline.
-                George has done something rare: he&apos;s developed <strong>seven pillars of deep expertise</strong> while
-                maintaining exceptional breadth—all converging at one purpose:
+                George has done something rare: he&apos;s developed <strong>eight pillars of deep expertise</strong> while
+                maintaining exceptional breadth, all converging at one purpose:
                 <em> helping humans transform.</em>
               </p>
             </AnimatedSection>
@@ -301,6 +344,9 @@ export default function ExpertisePage() {
                 <div className="expertise-wheel__item">
                   <span className="expertise-wheel__label">Leadership</span>
                 </div>
+                <div className="expertise-wheel__item">
+                  <span className="expertise-wheel__label">Spiritual</span>
+                </div>
               </div>
               <div className="expertise-wheel__center">
                 <span className="expertise-wheel__center-label">Human Transformation</span>
@@ -314,46 +360,70 @@ export default function ExpertisePage() {
           <div className="container">
             <AnimatedSection className="section-header" animation="fade-in">
               <span className="section-header__subtitle">Deep Expertise</span>
-              <h2 className="section-header__title">Seven Pillars of Mastery</h2>
+              <h2 className="section-header__title">Eight Pillars of Mastery</h2>
               <p className="section-header__description">
                 Each pillar represents years of dedicated practice, continuous learning,
-                and real-world application at the highest levels.
+                and real world application at the highest levels.
               </p>
             </AnimatedSection>
 
             <div className="expertise-stems">
-              {deepExpertise.map((expertise, index) => (
-                <AnimatedSection
-                  key={expertise.area}
-                  className="expertise-stem-card"
-                  animation="fade-in"
-                >
-                  <div className="expertise-stem-card__header">
-                    <div className="expertise-stem-card__icon">{expertise.icon}</div>
-                    <div>
-                      <h3 className="expertise-stem-card__title">{expertise.area}</h3>
-                      <span className="expertise-stem-card__level">{expertise.level}</span>
-                    </div>
-                  </div>
-
-                  <div className="expertise-stem-card__stats">
-                    {expertise.stats.map((stat) => (
-                      <div key={stat.label} className="expertise-stem-card__stat">
-                        <span className="expertise-stem-card__stat-value">{stat.value}</span>
-                        <span className="expertise-stem-card__stat-label">{stat.label}</span>
+              {deepExpertise.map((expertise) => {
+                const cardContent = (
+                  <>
+                    <div className="expertise-stem-card__header">
+                      <div className="expertise-stem-card__icon">{expertise.icon}</div>
+                      <div>
+                        <h3 className="expertise-stem-card__title">{expertise.area}</h3>
+                        <span className="expertise-stem-card__level">{expertise.level}</span>
                       </div>
-                    ))}
-                  </div>
+                    </div>
 
-                  <p className="expertise-stem-card__description">{expertise.description}</p>
+                    <div className="expertise-stem-card__stats">
+                      {expertise.stats.map((stat) => (
+                        <div key={stat.label} className="expertise-stem-card__stat">
+                          <span className="expertise-stem-card__stat-value">{stat.value}</span>
+                          <span className="expertise-stem-card__stat-label">{stat.label}</span>
+                        </div>
+                      ))}
+                    </div>
 
-                  <ul className="expertise-stem-card__highlights">
-                    {expertise.highlights.map((highlight) => (
-                      <li key={highlight}>{highlight}</li>
-                    ))}
-                  </ul>
-                </AnimatedSection>
-              ))}
+                    <p className="expertise-stem-card__description">{expertise.description}</p>
+
+                    <ul className="expertise-stem-card__highlights">
+                      {expertise.highlights.map((highlight) => (
+                        <li key={highlight}>{highlight}</li>
+                      ))}
+                    </ul>
+
+                    {expertise.link && (
+                      <span className="expertise-stem-card__link">
+                        Learn more →
+                      </span>
+                    )}
+                  </>
+                )
+
+                return expertise.link ? (
+                  <a
+                    key={expertise.area}
+                    href={expertise.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="expertise-stem-card expertise-stem-card--linked"
+                  >
+                    {cardContent}
+                  </a>
+                ) : (
+                  <AnimatedSection
+                    key={expertise.area}
+                    className="expertise-stem-card"
+                    animation="fade-in"
+                  >
+                    {cardContent}
+                  </AnimatedSection>
+                )
+              })}
             </div>
           </div>
         </section>
@@ -415,20 +485,20 @@ export default function ExpertisePage() {
                 <h2 className="story-card__title">From High School Dropout to Industry Expert</h2>
                 <div className="story-card__content">
                   <p>
-                    George&apos;s journey isn&apos;t typical. At 17, he dropped out of high school after a
-                    teacher told him he&apos;d &quot;never amount to anything.&quot; That moment could have defined
-                    his limits—instead, it became the catalyst for transformation.
+                    At 17, a teacher told George he&apos;d never amount to anything. That moment became
+                    the catalyst for an extraordinary transformation.
                   </p>
                   <p>
-                    Today, with 30+ years of marketing experience, 400+ podcast episodes, thousands of
-                    videos, and 16+ million words of content, George exemplifies the very transformation
-                    he helps others achieve. His story isn&apos;t just inspiring—it&apos;s proof that anyone
-                    can become the best version of themselves.
+                    Today, with 30+ years of experience, 400+ podcast episodes, and 16+ million words
+                    of content, George exemplifies the transformation he helps others achieve.
                   </p>
                   <blockquote className="story-card__quote">
                     &quot;I&apos;m not here to be the hero of your story. I&apos;m here to be the sidekick
                     that helps you become the superhuman you were meant to be.&quot;
                   </blockquote>
+                  <Link href="/about" className="btn btn--secondary story-card__cta">
+                    Read the Full Story
+                  </Link>
                 </div>
               </div>
             </AnimatedSection>
@@ -442,13 +512,13 @@ export default function ExpertisePage() {
               <h2 className="cta-block__title">Ready to Transform?</h2>
               <p className="cta-block__description">
                 Whether you need a keynote that inspires, coaching that transforms, or
-                expertise that accelerates—let&apos;s start a conversation.
+                expertise that accelerates, let&apos;s start a conversation.
               </p>
               <div className="cta-block__buttons">
                 <Link href="/speaking" className="btn btn--primary btn--large">
                   Explore Speaking Topics
                 </Link>
-                <Link href="/coaching" className="btn btn--secondary btn--large">
+                <Link href="/contact" className="btn btn--secondary btn--large">
                   Work With George
                 </Link>
               </div>
