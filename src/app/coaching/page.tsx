@@ -390,10 +390,10 @@ export default function CoachingPage() {
                 unlock your next level together.
               </p>
               <div className="page-hero__cta-group">
-                <Link href="/coaching/apply?type=activation" className="btn btn--primary btn--large">
+                <Link href="/coaching/apply?type=activation" className="btn btn--primary">
                   Book Activation Meeting
                 </Link>
-                <a href="#packages" className="btn btn--secondary btn--large">
+                <a href="#packages" className="btn btn--secondary">
                   View Packages
                 </a>
               </div>
