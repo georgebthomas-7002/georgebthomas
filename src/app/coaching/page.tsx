@@ -152,7 +152,7 @@ const process = [
     step: 2,
     title: 'Custom Plan',
     subtitle: 'Tailored to You',
-    description: 'Based on our discovery, I create a coaching plan focused on your specific objectives and timeline.',
+    description: 'Based on our discovery session, I design a coaching plan focused on your specific objectives, timeline, and growth areas.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
@@ -181,7 +181,7 @@ const process = [
     step: 4,
     title: 'Measure & Iterate',
     subtitle: 'Track Progress',
-    description: 'We track progress, celebrate wins, and adjust our approach to ensure maximum value.',
+    description: 'We track your progress, celebrate every win along the way, and continuously refine our approach for maximum impact.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>

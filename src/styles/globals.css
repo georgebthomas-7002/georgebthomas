@@ -5014,9 +5014,10 @@ a:hover {
   color: var(--color-text-light);
   line-height: 1.6;
   margin: 0 0 var(--space-md);
+  flex-grow: 1;
 }
 
-/* Micro action indicator */
+/* Micro action indicator - pushed to bottom */
 .journey-step__action {
   display: flex;
   align-items: center;
@@ -5024,6 +5025,7 @@ a:hover {
   gap: var(--space-xs);
   padding-top: var(--space-sm);
   border-top: 1px dashed var(--color-border);
+  margin-top: auto;
 }
 
 @media (max-width: 1023px) {
