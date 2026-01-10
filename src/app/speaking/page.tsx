@@ -562,6 +562,188 @@ export default function SpeakingPage() {
           <div className="page-hero__shape" aria-hidden="true"></div>
         </section>
 
+        {/* Who I Serve Section */}
+        <section className="section section--warm who-i-serve">
+          <div className="container">
+            <AnimatedSection className="section-header" animation="fade-in">
+              <span className="section-header__subtitle">Who I Serve</span>
+              <h2 className="section-header__title">Inspiration Meets Action.<br />Insights Meet Impact.</h2>
+              <p className="section-header__description">
+                Every audience is unique, but one thing is constant: when I step onto your stage,
+                into your workshop, or behind your podcast mic, my goal is the same—to empower
+                Humans with real-world insights and actionable strategies they can use to flourish
+                personally and professionally.
+              </p>
+            </AnimatedSection>
+
+            <StaggerContainer className="serve-grid">
+              {/* Corporate Leaders */}
+              <div className="serve-card">
+                <div className="serve-card__icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                    <circle cx="9" cy="7" r="4"/>
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                  </svg>
+                </div>
+                <span className="serve-card__eyebrow">Align Your Teams. Ignite Your Growth.</span>
+                <h3 className="serve-card__title">For Corporate Leaders & Organizations</h3>
+                <p className="serve-card__description">
+                  Today&apos;s leaders face challenges that demand clarity, innovation, and resilience.
+                  Whether you&apos;re managing a growing team, navigating a shift in strategy, or tackling
+                  burnout, I&apos;m here to help your organization flourish.
+                </p>
+                <div className="serve-card__benefits">
+                  <h4>What&apos;s in it for you?</h4>
+                  <ul>
+                    <li><strong>Keynotes that captivate:</strong> Energize your leadership team with insights on HubSpot mastery, modern marketing, and AI-powered strategies that align with Human connection.</li>
+                    <li><strong>Workshops that transform:</strong> Get hands-on training designed to strengthen communication, trust, and team alignment.</li>
+                    <li><strong>Strategies for success:</strong> Walk away with actionable frameworks to inspire growth and boost team performance.</li>
+                  </ul>
+                </div>
+                <Link href="/coaching" className="btn btn--primary">
+                  Book George Today
+                </Link>
+              </div>
+
+              {/* Event Planners */}
+              <div className="serve-card">
+                <div className="serve-card__icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                    <line x1="16" y1="2" x2="16" y2="6"/>
+                    <line x1="8" y1="2" x2="8" y2="6"/>
+                    <line x1="3" y1="10" x2="21" y2="10"/>
+                    <path d="M8 14h.01"/>
+                    <path d="M12 14h.01"/>
+                    <path d="M16 14h.01"/>
+                    <path d="M8 18h.01"/>
+                    <path d="M12 18h.01"/>
+                    <path d="M16 18h.01"/>
+                  </svg>
+                </div>
+                <span className="serve-card__eyebrow">Unforgettable Keynotes. Transformative Experiences.</span>
+                <h3 className="serve-card__title">For Event Planners & Conferences</h3>
+                <p className="serve-card__description">
+                  You&apos;re not just filling an agenda slot—you&apos;re creating a moment that your
+                  audience will carry long after the event ends. I deliver keynotes that inspire,
+                  workshops that engage, and content that resonates deeply with professionals across industries.
+                </p>
+                <div className="serve-card__benefits">
+                  <h4>What&apos;s in it for your audience?</h4>
+                  <ul>
+                    <li><strong>Deep expertise, delivered simply:</strong> My sessions on marketing, sales, video strategies, and the Superhuman Framework are packed with practical insights your audience can apply immediately.</li>
+                    <li><strong>Energy that engages:</strong> I bring a dynamic, relatable presence that keeps audiences engaged from the first word to the last.</li>
+                    <li><strong>Transformation that lasts:</strong> From personal growth to professional strategies, my content challenges, empowers, and equips attendees to take meaningful action.</li>
+                  </ul>
+                </div>
+                <Link href="/coaching" className="btn btn--primary">
+                  Get George On Your Stage
+                </Link>
+              </div>
+
+              {/* Podcast Hosts */}
+              <div className="serve-card">
+                <div className="serve-card__icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/>
+                    <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+                    <line x1="12" y1="19" x2="12" y2="23"/>
+                    <line x1="8" y1="23" x2="16" y2="23"/>
+                  </svg>
+                </div>
+                <span className="serve-card__eyebrow">Conversations That Connect. Stories That Inspire.</span>
+                <h3 className="serve-card__title">For Podcast Hosts & Listeners</h3>
+                <p className="serve-card__description">
+                  Podcasts are where big ideas come to life and meaningful conversations spark real
+                  change. As the creator and host of the HubHeroes Podcast, I understand what it
+                  takes to keep listeners coming back for more.
+                </p>
+                <div className="serve-card__benefits">
+                  <h4>What&apos;s in it for your listeners?</h4>
+                  <ul>
+                    <li><strong>Expertise that educates:</strong> I&apos;m ready to dive into topics like AI in marketing, building trust through video, or aligning life and work with purpose.</li>
+                    <li><strong>Stories that connect:</strong> With over a decade of experience, I share real-world examples that resonate with professionals and entrepreneurs alike.</li>
+                    <li><strong>Insights that stick:</strong> Your audience will walk away with practical strategies and inspiration they can use immediately.</li>
+                  </ul>
+                </div>
+                <Link href="/coaching" className="btn btn--primary">
+                  Get George On Your Show
+                </Link>
+              </div>
+            </StaggerContainer>
+          </div>
+        </section>
+
+        {/* Speaking Videos Section */}
+        <section className="section speaking-videos">
+          <div className="container">
+            <AnimatedSection className="section-header" animation="fade-in">
+              <span className="section-header__subtitle">See George In Action</span>
+              <h2 className="section-header__title">Speaking Highlights</h2>
+              <p className="section-header__description">
+                Watch clips from keynotes, workshops, and appearances to see the energy
+                and expertise George brings to every stage.
+              </p>
+            </AnimatedSection>
+
+            <StaggerContainer className="video-grid">
+              <div className="video-card">
+                <div className="video-card__embed">
+                  <iframe
+                    src="https://www.youtube.com/embed/LyLWZ4sF8uc"
+                    title="George B. Thomas Speaker Reel"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  />
+                </div>
+                <h3 className="video-card__title">Speaker Reel</h3>
+                <p className="video-card__description">A quick look at George&apos;s speaking style and energy</p>
+              </div>
+
+              <div className="video-card">
+                <div className="video-card__embed">
+                  <iframe
+                    src="https://www.youtube.com/embed/E9EO_5jYk-M"
+                    title="The World Has Changed - George B. Thomas"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  />
+                </div>
+                <h3 className="video-card__title">The World Has Changed</h3>
+                <p className="video-card__description">Navigating transformation in modern business</p>
+              </div>
+
+              <div className="video-card">
+                <div className="video-card__embed">
+                  <iframe
+                    src="https://www.youtube.com/embed/7rlGBDLHjQ4"
+                    title="How to be WORLD CLASS at HubSpot - INBOUND"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  />
+                </div>
+                <h3 className="video-card__title">INBOUND: World Class HubSpot</h3>
+                <p className="video-card__description">How to master HubSpot in 60 days</p>
+              </div>
+
+              <div className="video-card">
+                <div className="video-card__embed">
+                  <iframe
+                    src="https://www.youtube.com/embed/aFWRGqXwxDU"
+                    title="Social Media Breakfast - Madison"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  />
+                </div>
+                <h3 className="video-card__title">Social Media Breakfast</h3>
+                <p className="video-card__description">Full keynote from Madison event</p>
+              </div>
+            </StaggerContainer>
+          </div>
+        </section>
+
         {/* Filter Section */}
         <section className="section speaking-filter">
           <div className="container">

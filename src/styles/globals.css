@@ -3135,6 +3135,206 @@ a:hover {
 }
 
 /* ===========================================
+   SPEAKING PAGE - WHO I SERVE SECTION
+   =========================================== */
+.who-i-serve .section-header__title {
+  line-height: 1.2;
+}
+
+.serve-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: var(--space-xl);
+  margin-top: var(--space-3xl);
+}
+
+.serve-card {
+  background: var(--color-white);
+  border-radius: var(--radius-xl);
+  padding: var(--space-2xl);
+  box-shadow: var(--shadow-md);
+  display: flex;
+  flex-direction: column;
+  transition: transform var(--duration-normal) var(--ease-spring),
+              box-shadow var(--duration-normal) var(--ease-out);
+}
+
+.serve-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-xl);
+}
+
+.serve-card__icon {
+  width: 56px;
+  height: 56px;
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+  border-radius: var(--radius-lg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: var(--space-lg);
+}
+
+.serve-card__icon svg {
+  width: 28px;
+  height: 28px;
+  color: var(--color-white);
+}
+
+.serve-card__eyebrow {
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  color: var(--color-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: var(--space-xs);
+}
+
+.serve-card__title {
+  font-size: var(--font-size-xl);
+  margin-bottom: var(--space-md);
+  color: var(--color-text-primary);
+}
+
+.serve-card__description {
+  color: var(--color-text-secondary);
+  line-height: 1.7;
+  margin-bottom: var(--space-lg);
+}
+
+.serve-card__benefits {
+  background: var(--color-warm);
+  border-radius: var(--radius-lg);
+  padding: var(--space-lg);
+  margin-bottom: var(--space-xl);
+  flex-grow: 1;
+}
+
+.serve-card__benefits h4 {
+  font-size: var(--font-size-md);
+  margin-bottom: var(--space-md);
+  color: var(--color-primary);
+}
+
+.serve-card__benefits ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.serve-card__benefits li {
+  position: relative;
+  padding-left: var(--space-lg);
+  margin-bottom: var(--space-md);
+  font-size: var(--font-size-sm);
+  line-height: 1.6;
+  color: var(--color-text-secondary);
+}
+
+.serve-card__benefits li:last-child {
+  margin-bottom: 0;
+}
+
+.serve-card__benefits li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 8px;
+  height: 8px;
+  background: var(--color-accent);
+  border-radius: 50%;
+}
+
+.serve-card__benefits li strong {
+  color: var(--color-text-primary);
+}
+
+.serve-card .btn {
+  align-self: flex-start;
+  margin-top: auto;
+}
+
+/* ===========================================
+   SPEAKING PAGE - VIDEO GRID SECTION
+   =========================================== */
+.speaking-videos {
+  background: var(--color-primary-dark);
+  color: var(--color-white);
+}
+
+.speaking-videos .section-header__subtitle {
+  color: var(--color-accent);
+}
+
+.speaking-videos .section-header__title {
+  color: var(--color-white);
+}
+
+.speaking-videos .section-header__description {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--space-xl);
+  margin-top: var(--space-3xl);
+}
+
+.video-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  transition: transform var(--duration-normal) var(--ease-spring),
+              box-shadow var(--duration-normal) var(--ease-out);
+}
+
+.video-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.video-card__embed {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.video-card__embed iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-card__title {
+  font-size: var(--font-size-lg);
+  margin: var(--space-lg) var(--space-lg) var(--space-xs);
+  color: var(--color-white);
+}
+
+.video-card__description {
+  font-size: var(--font-size-sm);
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0 var(--space-lg) var(--space-lg);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .serve-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .video-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ===========================================
    COACHING PAGE - TOPIC CARDS
    =========================================== */
 .topics-grid {
