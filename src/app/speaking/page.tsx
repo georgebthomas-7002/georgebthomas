@@ -529,168 +529,39 @@ export default function SpeakingPage() {
     <>
       <Header />
       <main>
-        {/* Hero Section */}
-        <section className="page-hero page-hero--speaking">
+        {/* Hero Section with Speaker Reel */}
+        <section className="page-hero page-hero--speaking-video">
           <div className="container">
-            <AnimatedSection className="page-hero__content" animation="fade-in">
-              <span className="page-hero__tagline">Keynote Speaker</span>
-              <h1 className="page-hero__title">
-                Talks That
-                <span className="page-hero__title-accent"> Transform Audiences</span>
-              </h1>
-              <p className="page-hero__description">
-                From INBOUND to Social Media Marketing World, George has delivered hundreds of
-                talks that inspire action, challenge perspectives, and create lasting change.
-                Each keynote blends deep expertise with genuine human connection.
-              </p>
-              <div className="page-hero__stats">
-                <div className="page-hero__stat">
-                  <span className="page-hero__stat-value">25+</span>
-                  <span className="page-hero__stat-label">Years Speaking</span>
-                </div>
-                <div className="page-hero__stat">
-                  <span className="page-hero__stat-value">100+</span>
-                  <span className="page-hero__stat-label">Keynotes Delivered</span>
-                </div>
-                <div className="page-hero__stat">
-                  <span className="page-hero__stat-value">6</span>
-                  <span className="page-hero__stat-label">Expertise Topics</span>
-                </div>
-              </div>
-            </AnimatedSection>
-          </div>
-          <div className="page-hero__shape" aria-hidden="true"></div>
-        </section>
-
-        {/* Who I Serve Section */}
-        <section className="section section--warm who-i-serve">
-          <div className="container">
-            <AnimatedSection className="section-header" animation="fade-in">
-              <span className="section-header__subtitle">Who I Serve</span>
-              <h2 className="section-header__title">Inspiration Meets Action.<br />Insights Meet Impact.</h2>
-              <p className="section-header__description">
-                Every audience is unique, but one thing is constant: when I step onto your stage,
-                into your workshop, or behind your podcast mic, my goal is the same—to empower
-                Humans with real-world insights and actionable strategies they can use to flourish
-                personally and professionally.
-              </p>
-            </AnimatedSection>
-
-            <StaggerContainer className="serve-grid">
-              {/* Corporate Leaders */}
-              <div className="serve-card">
-                <div className="serve-card__icon">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
-                    <circle cx="9" cy="7" r="4"/>
-                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
-                    <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
-                  </svg>
-                </div>
-                <span className="serve-card__eyebrow">Align Your Teams. Ignite Your Growth.</span>
-                <h3 className="serve-card__title">For Corporate Leaders & Organizations</h3>
-                <p className="serve-card__description">
-                  Today&apos;s leaders face challenges that demand clarity, innovation, and resilience.
-                  Whether you&apos;re managing a growing team, navigating a shift in strategy, or tackling
-                  burnout, I&apos;m here to help your organization flourish.
+            <div className="speaking-hero-grid">
+              <AnimatedSection className="page-hero__content" animation="fade-in">
+                <span className="page-hero__tagline">Keynote Speaker</span>
+                <h1 className="page-hero__title">
+                  Talks That
+                  <span className="page-hero__title-accent"> Transform Audiences</span>
+                </h1>
+                <p className="page-hero__description">
+                  From INBOUND to Social Media Marketing World, George has delivered hundreds of
+                  talks that inspire action, challenge perspectives, and create lasting change.
+                  Each keynote blends deep expertise with genuine human connection.
                 </p>
-                <div className="serve-card__benefits">
-                  <h4>What&apos;s in it for you?</h4>
-                  <ul>
-                    <li><strong>Keynotes that captivate:</strong> Energize your leadership team with insights on HubSpot mastery, modern marketing, and AI-powered strategies that align with Human connection.</li>
-                    <li><strong>Workshops that transform:</strong> Get hands-on training designed to strengthen communication, trust, and team alignment.</li>
-                    <li><strong>Strategies for success:</strong> Walk away with actionable frameworks to inspire growth and boost team performance.</li>
-                  </ul>
+                <div className="page-hero__stats">
+                  <div className="page-hero__stat">
+                    <span className="page-hero__stat-value">25+</span>
+                    <span className="page-hero__stat-label">Years Speaking</span>
+                  </div>
+                  <div className="page-hero__stat">
+                    <span className="page-hero__stat-value">100+</span>
+                    <span className="page-hero__stat-label">Keynotes Delivered</span>
+                  </div>
+                  <div className="page-hero__stat">
+                    <span className="page-hero__stat-value">6</span>
+                    <span className="page-hero__stat-label">Expertise Topics</span>
+                  </div>
                 </div>
-                <Link href="/coaching" className="btn btn--primary">
-                  Book George Today
-                </Link>
-              </div>
+              </AnimatedSection>
 
-              {/* Event Planners */}
-              <div className="serve-card">
-                <div className="serve-card__icon">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
-                    <line x1="16" y1="2" x2="16" y2="6"/>
-                    <line x1="8" y1="2" x2="8" y2="6"/>
-                    <line x1="3" y1="10" x2="21" y2="10"/>
-                    <path d="M8 14h.01"/>
-                    <path d="M12 14h.01"/>
-                    <path d="M16 14h.01"/>
-                    <path d="M8 18h.01"/>
-                    <path d="M12 18h.01"/>
-                    <path d="M16 18h.01"/>
-                  </svg>
-                </div>
-                <span className="serve-card__eyebrow">Unforgettable Keynotes. Transformative Experiences.</span>
-                <h3 className="serve-card__title">For Event Planners & Conferences</h3>
-                <p className="serve-card__description">
-                  You&apos;re not just filling an agenda slot—you&apos;re creating a moment that your
-                  audience will carry long after the event ends. I deliver keynotes that inspire,
-                  workshops that engage, and content that resonates deeply with professionals across industries.
-                </p>
-                <div className="serve-card__benefits">
-                  <h4>What&apos;s in it for your audience?</h4>
-                  <ul>
-                    <li><strong>Deep expertise, delivered simply:</strong> My sessions on marketing, sales, video strategies, and the Superhuman Framework are packed with practical insights your audience can apply immediately.</li>
-                    <li><strong>Energy that engages:</strong> I bring a dynamic, relatable presence that keeps audiences engaged from the first word to the last.</li>
-                    <li><strong>Transformation that lasts:</strong> From personal growth to professional strategies, my content challenges, empowers, and equips attendees to take meaningful action.</li>
-                  </ul>
-                </div>
-                <Link href="/coaching" className="btn btn--primary">
-                  Get George On Your Stage
-                </Link>
-              </div>
-
-              {/* Podcast Hosts */}
-              <div className="serve-card">
-                <div className="serve-card__icon">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/>
-                    <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
-                    <line x1="12" y1="19" x2="12" y2="23"/>
-                    <line x1="8" y1="23" x2="16" y2="23"/>
-                  </svg>
-                </div>
-                <span className="serve-card__eyebrow">Conversations That Connect. Stories That Inspire.</span>
-                <h3 className="serve-card__title">For Podcast Hosts & Listeners</h3>
-                <p className="serve-card__description">
-                  Podcasts are where big ideas come to life and meaningful conversations spark real
-                  change. As the creator and host of the HubHeroes Podcast, I understand what it
-                  takes to keep listeners coming back for more.
-                </p>
-                <div className="serve-card__benefits">
-                  <h4>What&apos;s in it for your listeners?</h4>
-                  <ul>
-                    <li><strong>Expertise that educates:</strong> I&apos;m ready to dive into topics like AI in marketing, building trust through video, or aligning life and work with purpose.</li>
-                    <li><strong>Stories that connect:</strong> With over a decade of experience, I share real-world examples that resonate with professionals and entrepreneurs alike.</li>
-                    <li><strong>Insights that stick:</strong> Your audience will walk away with practical strategies and inspiration they can use immediately.</li>
-                  </ul>
-                </div>
-                <Link href="/coaching" className="btn btn--primary">
-                  Get George On Your Show
-                </Link>
-              </div>
-            </StaggerContainer>
-          </div>
-        </section>
-
-        {/* Speaking Videos Section */}
-        <section className="section speaking-videos">
-          <div className="container">
-            <AnimatedSection className="section-header" animation="fade-in">
-              <span className="section-header__subtitle">See George In Action</span>
-              <h2 className="section-header__title">Speaking Highlights</h2>
-              <p className="section-header__description">
-                Watch clips from keynotes, workshops, and appearances to see the energy
-                and expertise George brings to every stage.
-              </p>
-            </AnimatedSection>
-
-            <StaggerContainer className="video-grid">
-              <div className="video-card">
-                <div className="video-card__embed">
+              <AnimatedSection className="speaking-hero-video" animation="slide-right">
+                <div className="speaking-hero-video__wrapper">
                   <iframe
                     src="https://www.youtube.com/embed/LyLWZ4sF8uc"
                     title="George B. Thomas Speaker Reel"
@@ -698,49 +569,180 @@ export default function SpeakingPage() {
                     allowFullScreen
                   />
                 </div>
-                <h3 className="video-card__title">Speaker Reel</h3>
-                <p className="video-card__description">A quick look at George&apos;s speaking style and energy</p>
-              </div>
+                <p className="speaking-hero-video__caption">Watch the Speaker Reel</p>
+              </AnimatedSection>
+            </div>
+          </div>
+          <div className="page-hero__shape" aria-hidden="true"></div>
+        </section>
 
-              <div className="video-card">
-                <div className="video-card__embed">
+        {/* Who I Serve - Flowing Editorial Section */}
+        <section className="section who-i-serve-flow">
+          <div className="container container--narrow">
+            <AnimatedSection className="serve-intro" animation="fade-in">
+              <span className="serve-intro__eyebrow">Who I Serve</span>
+              <h2 className="serve-intro__title">
+                Inspiration Meets Action.<br />
+                Insights Meet Impact.
+              </h2>
+              <p className="serve-intro__text">
+                Every audience is unique, but one thing is constant: when I step onto your stage,
+                into your workshop, or behind your podcast mic, my goal is the same—to empower
+                Humans with real-world insights and actionable strategies they can use to flourish
+                personally and professionally.
+              </p>
+            </AnimatedSection>
+          </div>
+
+          {/* Corporate Leaders */}
+          <div className="serve-block">
+            <div className="container">
+              <div className="serve-block__grid">
+                <AnimatedSection className="serve-block__content" animation="fade-in">
+                  <span className="serve-block__label">For Corporate Leaders & Organizations</span>
+                  <h3 className="serve-block__title">Align Your Teams. Ignite Your Growth.</h3>
+                  <p className="serve-block__text">
+                    Today&apos;s leaders face challenges that demand clarity, innovation, and resilience.
+                    Whether you&apos;re managing a growing team, navigating a shift in strategy, or tackling
+                    burnout, I&apos;m here to help your organization flourish.
+                  </p>
+                  <ul className="serve-block__list">
+                    <li><strong>Keynotes that captivate</strong> — Energize your leadership team with insights on HubSpot mastery, modern marketing, and AI-powered strategies.</li>
+                    <li><strong>Workshops that transform</strong> — Hands-on training designed to strengthen communication, trust, and team alignment.</li>
+                    <li><strong>Strategies for success</strong> — Walk away with actionable frameworks to inspire growth and boost performance.</li>
+                  </ul>
+                  <Link href="/coaching" className="btn btn--primary">
+                    Book George Today
+                  </Link>
+                </AnimatedSection>
+                <AnimatedSection className="serve-block__video" animation="slide-right">
+                  <div className="serve-block__video-wrapper">
+                    <iframe
+                      src="https://www.youtube.com/embed/7rlGBDLHjQ4"
+                      title="How to be WORLD CLASS at HubSpot - INBOUND"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                    />
+                  </div>
+                </AnimatedSection>
+              </div>
+            </div>
+          </div>
+
+          {/* Event Planners */}
+          <div className="serve-block serve-block--reverse serve-block--warm">
+            <div className="container">
+              <div className="serve-block__grid">
+                <AnimatedSection className="serve-block__content" animation="fade-in">
+                  <span className="serve-block__label">For Event Planners & Conferences</span>
+                  <h3 className="serve-block__title">Unforgettable Keynotes. Transformative Experiences.</h3>
+                  <p className="serve-block__text">
+                    You&apos;re not just filling an agenda slot—you&apos;re creating a moment that your
+                    audience will carry long after the event ends. I deliver keynotes that inspire,
+                    workshops that engage, and content that resonates deeply.
+                  </p>
+                  <ul className="serve-block__list">
+                    <li><strong>Deep expertise, delivered simply</strong> — Sessions on marketing, sales, video strategies, and the Superhuman Framework packed with practical insights.</li>
+                    <li><strong>Energy that engages</strong> — A dynamic, relatable presence that keeps audiences engaged from the first word to the last.</li>
+                    <li><strong>Transformation that lasts</strong> — Content that challenges, empowers, and equips attendees to take meaningful action.</li>
+                  </ul>
+                  <Link href="/coaching" className="btn btn--primary">
+                    Get George On Your Stage
+                  </Link>
+                </AnimatedSection>
+                <AnimatedSection className="serve-block__video" animation="slide-left">
+                  <div className="serve-block__video-wrapper">
+                    <iframe
+                      src="https://www.youtube.com/embed/E9EO_5jYk-M"
+                      title="The World Has Changed - George B. Thomas"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                    />
+                  </div>
+                </AnimatedSection>
+              </div>
+            </div>
+          </div>
+
+          {/* Podcast Hosts */}
+          <div className="serve-block">
+            <div className="container">
+              <div className="serve-block__grid">
+                <AnimatedSection className="serve-block__content" animation="fade-in">
+                  <span className="serve-block__label">For Podcast Hosts & Listeners</span>
+                  <h3 className="serve-block__title">Conversations That Connect. Stories That Inspire.</h3>
+                  <p className="serve-block__text">
+                    Podcasts are where big ideas come to life and meaningful conversations spark real
+                    change. As the creator and host of the HubHeroes Podcast, I understand what it
+                    takes to keep listeners coming back for more.
+                  </p>
+                  <ul className="serve-block__list">
+                    <li><strong>Expertise that educates</strong> — Ready to dive into AI in marketing, building trust through video, or aligning life and work with purpose.</li>
+                    <li><strong>Stories that connect</strong> — Real-world examples that resonate with professionals and entrepreneurs alike.</li>
+                    <li><strong>Insights that stick</strong> — Practical strategies and inspiration your audience can use immediately.</li>
+                  </ul>
+                  <Link href="/coaching" className="btn btn--primary">
+                    Get George On Your Show
+                  </Link>
+                </AnimatedSection>
+                <AnimatedSection className="serve-block__video" animation="slide-right">
+                  <div className="serve-block__video-wrapper">
+                    <iframe
+                      src="https://www.youtube.com/embed/aFWRGqXwxDU"
+                      title="Social Media Breakfast - Madison"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                    />
+                  </div>
+                </AnimatedSection>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* More Speaking Examples */}
+        <section className="section section--dark speaking-examples">
+          <div className="container">
+            <AnimatedSection className="section-header" animation="fade-in">
+              <span className="section-header__subtitle">More Examples</span>
+              <h2 className="section-header__title">See More Speaking Highlights</h2>
+            </AnimatedSection>
+
+            <div className="examples-grid">
+              <div className="example-card">
+                <div className="example-card__embed">
                   <iframe
-                    src="https://www.youtube.com/embed/E9EO_5jYk-M"
-                    title="The World Has Changed - George B. Thomas"
+                    src="https://www.youtube.com/embed/VIDEO_ID_1"
+                    title="Speaking Example 1"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
                   />
                 </div>
-                <h3 className="video-card__title">The World Has Changed</h3>
-                <p className="video-card__description">Navigating transformation in modern business</p>
+                <span className="example-card__title">Coming Soon</span>
               </div>
-
-              <div className="video-card">
-                <div className="video-card__embed">
+              <div className="example-card">
+                <div className="example-card__embed">
                   <iframe
-                    src="https://www.youtube.com/embed/7rlGBDLHjQ4"
-                    title="How to be WORLD CLASS at HubSpot - INBOUND"
+                    src="https://www.youtube.com/embed/VIDEO_ID_2"
+                    title="Speaking Example 2"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
                   />
                 </div>
-                <h3 className="video-card__title">INBOUND: World Class HubSpot</h3>
-                <p className="video-card__description">How to master HubSpot in 60 days</p>
+                <span className="example-card__title">Coming Soon</span>
               </div>
-
-              <div className="video-card">
-                <div className="video-card__embed">
+              <div className="example-card">
+                <div className="example-card__embed">
                   <iframe
-                    src="https://www.youtube.com/embed/aFWRGqXwxDU"
-                    title="Social Media Breakfast - Madison"
+                    src="https://www.youtube.com/embed/VIDEO_ID_3"
+                    title="Speaking Example 3"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
                   />
                 </div>
-                <h3 className="video-card__title">Social Media Breakfast</h3>
-                <p className="video-card__description">Full keynote from Madison event</p>
+                <span className="example-card__title">Coming Soon</span>
               </div>
-            </StaggerContainer>
+            </div>
           </div>
         </section>
 

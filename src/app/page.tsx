@@ -240,7 +240,7 @@ export default function Home() {
         </section>
 
         {/* Expertise Preview */}
-        <section className="section section--dark home-expertise">
+        <section className="section home-expertise">
           <div className="container">
             <AnimatedSection className="section-header" animation="fade-in">
               <span className="section-header__subtitle">T-Shaped Expertise</span>
@@ -279,7 +279,7 @@ export default function Home() {
         />
 
         {/* CTA Section */}
-        <section className="section section--dark home-cta">
+        <section className="section section--warm home-cta">
           <div className="container">
             <AnimatedSection className="cta-block" animation="fade-in">
               <h2 className="cta-block__title">Ready to Transform?</h2>
