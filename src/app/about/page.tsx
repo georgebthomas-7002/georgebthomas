@@ -5,65 +5,92 @@ import Image from 'next/image'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { AnimatedSection, StaggerContainer } from '@/components/AnimatedSection'
-import { TestimonialSection } from '@/components/TestimonialSection'
 
-// Timeline chapters for the story
+// Timeline chapters for the story - compact, wider layout
 const storyChapters = [
   {
     year: '1989',
     title: 'The Words That Changed Everything',
-    content: `At 17, sitting in a high school classroom, a math teacher looked me in the eye and said, "You will never amount to anything." Six months later, I dropped out and joined the United States Navy. For years, those words haunted me. Today, I'm grateful for them. They lit a fire that has never gone out and set me on a path to become the educator and encourager I wish I'd had.`,
+    content: `At 17, a math teacher looked me in the eye and said, "You will never amount to anything." Six months later, I dropped out and joined the United States Navy. Those words haunted me for years. Today, I'm grateful for them—they lit a fire that has never gone out.`,
     image: '/images/george-football.jpg',
     imageAlt: 'George B. Thomas in high school',
+    hasImage: true,
   },
   {
     year: '2007',
     title: 'When Are You Gonna Realize?',
-    content: `Working as a youth pastor while studying at Pizza Hut, I found myself questioning everything. During a mission trip to Montana, a woman named Prophetess Juanita pulled me aside and asked, "When are you gonna realize you're the blessing?" That question shifted my entire perspective. I stopped seeking blessings and started becoming one.`,
+    content: `During a mission trip to Montana, Prophetess Juanita pulled me aside and asked, "When are you gonna realize you're the blessing?" That question shifted everything. I stopped seeking blessings and started becoming one.`,
     image: '/images/george-early-career.jpg',
     imageAlt: 'George B. Thomas early career',
+    hasImage: true,
   },
   {
     year: '2010',
     title: 'The Blue Windbreaker Interview',
-    content: `I showed up to an Akron agency interview wearing a blue windbreaker with no portfolio. When asked if I knew InDesign, I replied, "No. But I can learn it." I spent the weekend completing four Lynda.com certifications. Monday morning, my supervisor Eric Jacobs smiled and said, "See? I told you." That moment taught me that willingness to learn beats existing knowledge every time.`,
+    content: `I showed up to an agency interview wearing a blue windbreaker with no portfolio. Asked if I knew InDesign, I replied, "No. But I can learn it." That weekend: four Lynda.com certifications. Monday, my supervisor smiled: "See? I told you."`,
     image: null,
     imageAlt: '',
+    hasImage: false,
+    imagePlaceholder: 'Interview Photo Coming Soon',
   },
   {
     year: '2012',
     title: 'The HubSpot Awakening',
-    content: `My agency team won free INBOUND tickets by tweeting about HubSpot's "world's largest webinar." Walking into that Boston convention center changed my trajectory forever. I watched Gary Vee perform, absorbed the human-centric marketing philosophy, and had a realization that still guides me: "I want to be a marketer when I grow up." I dove into HubSpot Academy and never looked back.`,
+    content: `Walking into INBOUND Boston changed my trajectory forever. I watched Gary Vee perform, absorbed the human-centric marketing philosophy, and realized: "I want to be a marketer when I grow up." I dove into HubSpot Academy and never looked back.`,
     image: '/images/george-inbound-2012.jpg',
     imageAlt: 'George at INBOUND 2012',
+    hasImage: true,
+  },
+  {
+    year: '2013',
+    title: 'Joining The Sales Lion',
+    content: `Marcus Sheridan invited me to join The Sales Lion. I told my wife, "I honestly feel like I just won the marketing lottery." This was the beginning of a transformative journey that would shape everything about who I am as a marketer, speaker, and human.`,
+    image: '/images/the-sales-lion.webp',
+    imageAlt: 'The Sales Lion logo',
+    hasImage: true,
   },
   {
     year: '2017',
-    title: 'The Sales Lion & Finding My Voice',
-    content: `Marcus Sheridan invited me to join The Sales Lion. I told my wife, "I honestly feel like I just won the marketing lottery." When Marcus asked me to start a podcast, I said, "There is absolutely no way I'm going to do that." 271 episodes of The Hubcast later, I found my voice. Marcus taught me something crucial: "Until you embrace being vulnerable, you're gonna miss out on the magic." My first keynote about being a high school dropout proved him right.`,
+    title: 'Finding My Voice',
+    content: `When Marcus asked me to start a podcast, I said, "There is absolutely no way I'm going to do that." 271 episodes of The Hubcast later, I found my voice. My first keynote about being a high school dropout taught me the magic of vulnerability.`,
     image: '/images/george-wild-inbound.webp',
     imageAlt: 'George speaking at INBOUND',
+    hasImage: true,
   },
   {
     year: '2022',
     title: 'Sidekick Strategies is Born',
-    content: `When I launched George B. Thomas, LLC, I swore to myself the last thing I would ever create was an agency. "It was just me, helping a few businesses make sense of HubSpot." But the HubSpot community had other plans. Business owners, marketers, and agency leaders kept finding me. I looked around one day and realized I had three contractors working with me weekly. I said to myself, "We're literally running an agency and not calling it one." Sidekick Strategies was born—built on a radical idea: family comes first.`,
+    content: `I swore I'd never create an agency. But the HubSpot community had other plans. One day I realized I had three contractors working with me weekly. Sidekick Strategies was born—built on a radical idea: family comes first.`,
     image: null,
     imageAlt: '',
+    hasImage: false,
+    imagePlaceholder: 'Sidekick Team Photo Coming Soon',
   },
   {
     year: '2023',
+    title: 'The Superhuman Framework',
+    content: `Through years of learning, failing, and growing, I developed a framework for living and leading with purpose. Four cornerstones—Love, Purpose, Passion, and Persistence—and ten pillars that help humans flourish without sacrificing their soul.`,
+    image: '/images/george-expertise.jpg',
+    imageAlt: 'George B. Thomas speaking',
+    hasImage: true,
+    cornerstones: ['Love', 'Purpose', 'Passion', 'Persistence'],
+  },
+  {
+    year: '2025',
     title: 'The Spiritual Side of Leadership',
-    content: `Despite outward success, I hit a wall. 40+ HubSpot certifications, speaking at INBOUND every year since 2015, a thriving agency—but something was missing. What began as my own daily wisdom practice evolved into Spiritual Side of Leadership, a platform helping leaders integrate faith with their work. I created the Superhuman Framework: four cornerstones (Love, Purpose, Passion, Persistence) and ten pillars that help leaders flourish without sacrificing their soul.`,
+    content: `Despite outward success—40+ certifications, speaking at INBOUND annually since 2015, a thriving agency—something was calling. What began as a personal wisdom practice evolved into a platform helping leaders integrate faith with work.`,
     image: null,
     imageAlt: '',
+    hasImage: false,
+    imagePlaceholder: 'SSOL Launch Photo Coming Soon',
   },
   {
     year: 'Today',
     title: 'The FEAM & Beyond',
-    content: `Today, Sidekick Strategies is powered by what we call "the FEAM"—a blend of "family" and "team" where family always comes first. My wife and children contribute their talents alongside our partners. We've amassed 124+ HubSpot certifications, created 2000+ educational videos and podcast episodes, and serve client-friends who feel like family. As my wife jokes, "You don't have clients, you have friends." Through it all, I've learned that the teacher was wrong. I did amount to something: a husband, father, believer, and sidekick helping others become the superhumans they were always meant to be.`,
+    content: `Sidekick Strategies is powered by "the FEAM"—a blend of family and team where family always comes first. 124+ certifications, 2000+ educational videos. As my wife jokes, "You don't have clients, you have friends."`,
     image: '/images/george-family.jpg',
     imageAlt: 'The Thomas Family',
+    hasImage: true,
   },
 ]
 
@@ -77,7 +104,7 @@ const credentials = [
 const values = [
   {
     title: 'Humans First',
-    description: 'Technology and AI should amplify human connection, never replace it. Every decision starts with people.',
+    description: 'Technology should amplify human connection, never replace it.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
@@ -86,7 +113,7 @@ const values = [
   },
   {
     title: 'Sidekick Mentality',
-    description: 'I am not here to be the hero. I am here to help you become one. Your success is my success.',
+    description: 'I am not the hero. I help you become one.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
@@ -98,7 +125,7 @@ const values = [
   },
   {
     title: 'Faith-Driven',
-    description: 'Success without soul is empty. I believe in leading with purpose, flourishing with faith.',
+    description: 'Success without soul is empty. Lead with purpose.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
@@ -107,7 +134,7 @@ const values = [
   },
   {
     title: 'Lifelong Learner',
-    description: 'From that weekend with Lynda.com to today, I believe willingness to learn beats existing knowledge every time.',
+    description: 'Willingness to learn beats existing knowledge.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
@@ -122,8 +149,8 @@ export default function AboutPage() {
     <>
       <Header />
       <main>
-        {/* Hero Section */}
-        <section className="page-hero page-hero--about">
+        {/* Hero Section - Tighter */}
+        <section className="page-hero page-hero--about page-hero--compact">
           <div className="container page-hero__grid">
             <AnimatedSection className="page-hero__content" animation="fade-in">
               <span className="page-hero__tagline">Father. Husband. Marketer. Believer.</span>
@@ -132,9 +159,8 @@ export default function AboutPage() {
                 <span className="page-hero__title-accent"> George B. Thomas</span>
               </h1>
               <p className="page-hero__description">
-                I believe journeys matter. I am committed to sharing my story so that together,
-                through mutual understanding and connection, we can unlock your potential and
-                empower you to become the superhuman you were always meant to be.
+                I believe journeys matter. Through mutual understanding and connection,
+                we can unlock your potential and empower you to become the superhuman you were meant to be.
               </p>
               <div className="page-hero__cta-group">
                 <Link href="/coaching" className="btn btn--primary">
@@ -164,8 +190,8 @@ export default function AboutPage() {
           <div className="page-hero__shape" aria-hidden="true"></div>
         </section>
 
-        {/* Stats Section */}
-        <section className="section section--compact about-stats">
+        {/* Stats Section - Tighter */}
+        <section className="section section--tight about-stats">
           <div className="container">
             <StaggerContainer className="stats-row">
               {credentials.map((stat) => (
@@ -178,62 +204,76 @@ export default function AboutPage() {
           </div>
         </section>
 
-        {/* Story Timeline Section */}
-        <section id="story" className="section about-story">
-          <div className="container">
-            <AnimatedSection className="section-header" animation="fade-in">
+        {/* Story Timeline Section - Wide Layout */}
+        <section id="story" className="section section--tight about-story">
+          <div className="container container--wide">
+            <AnimatedSection className="section-header section-header--tight" animation="fade-in">
               <span className="section-header__subtitle">The Journey</span>
               <h2 className="section-header__title">From Dropout to Difference-Maker</h2>
-              <p className="section-header__description">
-                Every chapter taught me something. Every setback became setup for something greater.
-              </p>
             </AnimatedSection>
 
-            <div className="story-timeline">
+            <div className="story-timeline story-timeline--wide">
               {storyChapters.map((chapter, index) => (
                 <AnimatedSection
                   key={chapter.year}
-                  className={`story-chapter ${index % 2 === 1 ? 'story-chapter--reverse' : ''}`}
+                  className="story-chapter-wide"
                   animation="fade-in"
                 >
-                  <div className="story-chapter__marker">
-                    <span className="story-chapter__year">{chapter.year}</span>
-                    <div className="story-chapter__dot"></div>
+                  <div className="story-chapter-wide__year-badge">
+                    <span>{chapter.year}</span>
                   </div>
 
-                  <div className="story-chapter__content">
-                    <h3 className="story-chapter__title">{chapter.title}</h3>
-                    <p className="story-chapter__text">{chapter.content}</p>
-                  </div>
-
-                  {chapter.image && (
-                    <div className="story-chapter__image-wrapper">
-                      <Image
-                        src={chapter.image}
-                        alt={chapter.imageAlt}
-                        width={300}
-                        height={200}
-                        className="story-chapter__image"
-                      />
+                  <div className="story-chapter-wide__card">
+                    <div className="story-chapter-wide__content">
+                      <h3 className="story-chapter-wide__title">{chapter.title}</h3>
+                      <p className="story-chapter-wide__text">{chapter.content}</p>
+                      {chapter.cornerstones && (
+                        <div className="story-chapter-wide__cornerstones">
+                          {chapter.cornerstones.map((c) => (
+                            <span key={c} className="cornerstone cornerstone--sm">{c}</span>
+                          ))}
+                        </div>
+                      )}
                     </div>
-                  )}
+
+                    <div className="story-chapter-wide__media">
+                      {chapter.hasImage && chapter.image ? (
+                        <Image
+                          src={chapter.image}
+                          alt={chapter.imageAlt}
+                          width={200}
+                          height={150}
+                          className="story-chapter-wide__image"
+                        />
+                      ) : (
+                        <div className="story-chapter-wide__placeholder">
+                          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                            <circle cx="8.5" cy="8.5" r="1.5"/>
+                            <polyline points="21 15 16 10 5 21"/>
+                          </svg>
+                          <span>{chapter.imagePlaceholder || 'Photo Coming Soon'}</span>
+                        </div>
+                      )}
+                    </div>
+                  </div>
                 </AnimatedSection>
               ))}
             </div>
           </div>
         </section>
 
-        {/* Values Section */}
-        <section className="section section--warm about-values">
+        {/* Values Section - Compact */}
+        <section className="section section--tight section--warm about-values">
           <div className="container">
-            <AnimatedSection className="section-header" animation="fade-in">
+            <AnimatedSection className="section-header section-header--tight" animation="fade-in">
               <span className="section-header__subtitle">What I Believe</span>
               <h2 className="section-header__title">Core Values</h2>
             </AnimatedSection>
 
-            <StaggerContainer className="values-grid">
+            <StaggerContainer className="values-grid values-grid--compact">
               {values.map((value) => (
-                <div key={value.title} className="value-card">
+                <div key={value.title} className="value-card value-card--compact">
                   <div className="value-card__icon">{value.icon}</div>
                   <h3 className="value-card__title">{value.title}</h3>
                   <p className="value-card__description">{value.description}</p>
@@ -243,67 +283,10 @@ export default function AboutPage() {
           </div>
         </section>
 
-        {/* Quote Section */}
-        <section className="section section--dark about-quote">
-          <div className="container container--narrow">
-            <AnimatedSection className="featured-quote" animation="fade-in">
-              <div className="featured-quote__mark">&quot;</div>
-              <blockquote className="featured-quote__text">
-                Until you embrace being vulnerable, you&apos;re gonna miss out on the magic.
-              </blockquote>
-              <cite className="featured-quote__attribution">
-                — Marcus Sheridan, mentor and friend
-              </cite>
-            </AnimatedSection>
-          </div>
-        </section>
-
-        {/* Superhuman Framework Preview */}
-        <section className="section about-framework">
-          <div className="container">
-            <div className="framework-preview">
-              <AnimatedSection className="framework-preview__content" animation="fade-in">
-                <span className="section-header__subtitle">The Philosophy</span>
-                <h2 className="section-header__title">The Superhuman Framework</h2>
-                <p className="framework-preview__description">
-                  Through years of learning, failing, and growing, I developed a framework for
-                  living and leading with purpose. It&apos;s built on four cornerstones—Love, Purpose,
-                  Passion, and Persistence—and ten pillars that help humans flourish without
-                  sacrificing their soul.
-                </p>
-                <div className="framework-preview__cornerstones">
-                  <span className="cornerstone">Love</span>
-                  <span className="cornerstone">Purpose</span>
-                  <span className="cornerstone">Passion</span>
-                  <span className="cornerstone">Persistence</span>
-                </div>
-                <Link href="/coaching" className="btn btn--primary">
-                  Learn How I Can Help You
-                </Link>
-              </AnimatedSection>
-              <AnimatedSection className="framework-preview__visual" animation="slide-right">
-                <Image
-                  src="/images/george-expertise.jpg"
-                  alt="George B. Thomas speaking"
-                  width={500}
-                  height={400}
-                  className="framework-preview__image"
-                />
-              </AnimatedSection>
-            </div>
-          </div>
-        </section>
-
-        {/* Testimonials */}
-        <TestimonialSection
-          title="What Humans Say"
-          subtitle="In Their Words"
-        />
-
         {/* CTA Section */}
-        <section className="section section--warm about-cta">
+        <section className="section section--tight about-cta">
           <div className="container">
-            <AnimatedSection className="cta-block" animation="fade-in">
+            <AnimatedSection className="cta-block cta-block--compact" animation="fade-in">
               <h2 className="cta-block__title">Ready to Start Your Journey?</h2>
               <p className="cta-block__description">
                 Whether you need help with HubSpot, want coaching to reach your next level,

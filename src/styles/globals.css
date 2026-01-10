@@ -5790,10 +5790,203 @@ a:hover {
 }
 
 /* ===========================================
-   ABOUT PAGE STYLES
+   ABOUT PAGE STYLES - REDESIGNED
    =========================================== */
 
-/* Story Timeline */
+/* Tight section variants */
+.section--tight {
+  padding: var(--space-xl) 0;
+}
+
+.section-header--tight {
+  margin-bottom: var(--space-lg);
+}
+
+.section-header--tight .section-header__description {
+  display: none;
+}
+
+/* Wide container for timeline */
+.container--wide {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 var(--space-lg);
+}
+
+/* Compact hero */
+.page-hero--compact {
+  padding-top: calc(var(--header-height) + var(--space-xl));
+  padding-bottom: var(--space-xl);
+}
+
+/* Wide Timeline Layout - Horizontal Cards */
+.story-timeline--wide {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  max-width: 100%;
+  padding: 0;
+}
+
+.story-chapter-wide {
+  display: flex;
+  align-items: stretch;
+  gap: var(--space-md);
+}
+
+.story-chapter-wide__year-badge {
+  flex-shrink: 0;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.story-chapter-wide__year-badge span {
+  font-family: var(--font-family-heading);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-white);
+  background: var(--gradient-accent);
+  padding: var(--space-xs) var(--space-sm);
+  border-radius: var(--radius-sm);
+  white-space: nowrap;
+}
+
+.story-chapter-wide__card {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 200px;
+  gap: var(--space-lg);
+  background: var(--color-white);
+  border-radius: var(--radius-lg);
+  padding: var(--space-lg);
+  box-shadow: var(--shadow-sm);
+  border-left: 3px solid var(--color-accent);
+  transition: all 0.3s var(--ease-out);
+}
+
+.story-chapter-wide__card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateX(4px);
+}
+
+.story-chapter-wide__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.story-chapter-wide__title {
+  font-family: var(--font-family-heading);
+  font-size: var(--font-size-lg);
+  color: var(--color-text);
+  margin-bottom: var(--space-xs);
+}
+
+.story-chapter-wide__text {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-light);
+  line-height: var(--line-height-relaxed);
+  margin: 0;
+}
+
+.story-chapter-wide__cornerstones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+  margin-top: var(--space-sm);
+}
+
+.cornerstone--sm {
+  font-size: 0.7rem;
+  padding: 4px 10px;
+}
+
+.story-chapter-wide__media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 120px;
+}
+
+.story-chapter-wide__image {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: var(--radius-md);
+}
+
+/* Image Placeholder */
+.story-chapter-wide__placeholder {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-xs);
+  background: linear-gradient(135deg, var(--color-warm) 0%, #f0e6dc 100%);
+  border-radius: var(--radius-md);
+  border: 2px dashed var(--color-primary-light);
+}
+
+.story-chapter-wide__placeholder svg {
+  width: 32px;
+  height: 32px;
+  color: var(--color-primary-light);
+  opacity: 0.6;
+}
+
+.story-chapter-wide__placeholder span {
+  font-size: 0.65rem;
+  color: var(--color-primary-light);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-align: center;
+  padding: 0 var(--space-xs);
+}
+
+/* Compact Values Grid */
+.values-grid--compact {
+  gap: var(--space-md);
+}
+
+.value-card--compact {
+  padding: var(--space-md);
+}
+
+.value-card--compact .value-card__icon {
+  width: 36px;
+  height: 36px;
+  margin-bottom: var(--space-sm);
+}
+
+.value-card--compact .value-card__title {
+  font-size: var(--font-size-base);
+  margin-bottom: var(--space-xs);
+}
+
+.value-card--compact .value-card__description {
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+/* Compact CTA */
+.cta-block--compact {
+  padding: var(--space-xl);
+}
+
+.cta-block--compact .cta-block__title {
+  font-size: var(--font-size-2xl);
+  margin-bottom: var(--space-sm);
+}
+
+.cta-block--compact .cta-block__description {
+  margin-bottom: var(--space-lg);
+}
+
+/* Legacy Timeline Styles (keeping for mobile fallback) */
 .story-timeline {
   position: relative;
   max-width: 900px;
@@ -6015,8 +6208,45 @@ a:hover {
   object-fit: cover;
 }
 
-/* About Page Responsive */
+/* About Page Responsive - Wide Timeline */
 @media (max-width: 900px) {
+  .container--wide {
+    padding: 0 var(--space-md);
+  }
+
+  .story-chapter-wide__card {
+    grid-template-columns: 1fr 150px;
+    padding: var(--space-md);
+    gap: var(--space-md);
+  }
+
+  .story-chapter-wide__year-badge {
+    width: 60px;
+  }
+
+  .story-chapter-wide__year-badge span {
+    font-size: 0.75rem;
+    padding: 4px 8px;
+  }
+
+  .story-chapter-wide__title {
+    font-size: var(--font-size-base);
+  }
+
+  .story-chapter-wide__text {
+    font-size: 0.85rem;
+  }
+
+  .story-chapter-wide__media {
+    min-height: 100px;
+  }
+
+  .story-chapter-wide__image,
+  .story-chapter-wide__placeholder {
+    height: 100px;
+  }
+
+  /* Legacy Timeline */
   .story-timeline::before {
     left: 20px;
   }
@@ -6067,6 +6297,32 @@ a:hover {
 }
 
 @media (max-width: 600px) {
+  .story-chapter-wide {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .story-chapter-wide__year-badge {
+    width: 100%;
+    justify-content: flex-start;
+    padding-bottom: var(--space-xs);
+  }
+
+  .story-chapter-wide__card {
+    grid-template-columns: 1fr;
+    gap: var(--space-sm);
+  }
+
+  .story-chapter-wide__media {
+    order: -1;
+    min-height: 80px;
+  }
+
+  .story-chapter-wide__image,
+  .story-chapter-wide__placeholder {
+    height: 80px;
+  }
+
   .values-grid {
     grid-template-columns: 1fr;
   }
@@ -6124,7 +6380,7 @@ a:hover {
 .testimonials-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: var(--space-2xl);
+  gap: 2.5rem; /* ~40px - tighter gutter for wider cards */
   margin-top: var(--space-3xl);
 }
 
