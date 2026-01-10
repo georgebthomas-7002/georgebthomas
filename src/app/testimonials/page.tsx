@@ -13,7 +13,7 @@ export default function TestimonialsPage() {
     <>
       <Header />
       <main>
-        {/* Hero Section */}
+        {/* Hero Section - Warm Background */}
         <section className="page-hero page-hero--testimonials">
           <div className="container page-hero__grid">
             <AnimatedSection className="page-hero__content" animation="fade-in">
@@ -47,14 +47,14 @@ export default function TestimonialsPage() {
           <div className="page-hero__shape" aria-hidden="true"></div>
         </section>
 
-        {/* Testimonial Slider with Animated Background */}
+        {/* Testimonial Slider - Dark Blue with Animated Background */}
         <TestimonialSection
           title="Hear It From Them"
           subtitle="Featured Voices"
         />
 
-        {/* Stats Section */}
-        <section className="section section--compact testimonials-stats">
+        {/* Stats Section - Warm Background (contrast with dark above) */}
+        <section className="section section--warm testimonials-stats">
           <div className="container">
             <StaggerContainer className="stats-row">
               <div className="stat-item">
@@ -77,11 +77,11 @@ export default function TestimonialsPage() {
           </div>
         </section>
 
-        {/* Featured Testimonials */}
-        <section className="section section--warm testimonials-featured">
+        {/* Featured Testimonials Grid - White Background */}
+        <section className="section testimonials-featured">
           <div className="container">
             <AnimatedSection className="section-header" animation="fade-in">
-              <span className="section-header__subtitle">Featured Stories</span>
+              <span className="section-header__subtitle">All Stories</span>
               <h2 className="section-header__title">Transformations That Speak Volumes</h2>
               <p className="section-header__description">
                 These are just a few of the many success stories from people who have
@@ -136,8 +136,8 @@ export default function TestimonialsPage() {
           </div>
         </section>
 
-        {/* What Clients Say Section */}
-        <section className="section testimonials-themes">
+        {/* What Clients Say Section - Warm Background */}
+        <section className="section section--warm testimonials-themes">
           <div className="container">
             <AnimatedSection className="section-header" animation="fade-in">
               <span className="section-header__subtitle">Common Themes</span>
@@ -203,7 +203,7 @@ export default function TestimonialsPage() {
           </div>
         </section>
 
-        {/* CTA Section */}
+        {/* CTA Section - Dark Background */}
         <section className="section section--dark testimonials-cta">
           <div className="container">
             <AnimatedSection className="cta-block" animation="fade-in">
