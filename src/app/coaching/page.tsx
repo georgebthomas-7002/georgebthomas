@@ -404,10 +404,10 @@ export default function CoachingPage() {
               <div className="page-hero__image-accent" aria-hidden="true"></div>
               <div className="page-hero__image-container">
                 <Image
-                  src="/images/george-expertise.jpg"
+                  src="/images/george-coaching.jpg"
                   alt="George B. Thomas Coaching"
-                  width={500}
-                  height={600}
+                  width={683}
+                  height={911}
                   priority
                   className="page-hero__image"
                 />
