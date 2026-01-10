@@ -3464,14 +3464,14 @@ a:hover {
 .faq-accordion__content {
   display: grid;
   grid-template-rows: 0fr;
-  transition: grid-template-rows var(--duration-normal) var(--ease-out);
+  transition: grid-template-rows 0.3s ease-out;
 }
 
 .faq-accordion__item--open .faq-accordion__content {
   grid-template-rows: 1fr;
 }
 
-.faq-accordion__content > p {
+.faq-accordion__content-inner {
   overflow: hidden;
 }
 
@@ -3481,22 +3481,14 @@ a:hover {
   color: var(--color-text-light);
   line-height: var(--line-height-relaxed);
   font-size: var(--font-size-base);
+  opacity: 0;
+  transform: translateY(-8px);
+  transition: opacity 0.3s ease-out, transform 0.3s ease-out;
 }
 
-/* Smooth content reveal animation */
 .faq-accordion__item--open .faq-accordion__answer {
-  animation: faq-fade-in var(--duration-normal) var(--ease-out);
-}
-
-@keyframes faq-fade-in {
-  from {
-    opacity: 0;
-    transform: translateY(-8px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  opacity: 1;
+  transform: translateY(0);
 }
 
 /* ===========================================

@@ -250,7 +250,9 @@ function FAQSection({ faqs }: { faqs: { question: string; answer: string }[] }) 
                 </span>
               </button>
               <div className="faq-accordion__content">
-                <p className="faq-accordion__answer">{faq.answer}</p>
+                <div className="faq-accordion__content-inner">
+                  <p className="faq-accordion__answer">{faq.answer}</p>
+                </div>
               </div>
             </div>
           ))}
