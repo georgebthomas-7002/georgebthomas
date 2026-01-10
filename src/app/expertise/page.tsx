@@ -320,7 +320,7 @@ const principles = [
     ),
   },
   {
-    title: 'Expert in Helping Humans',
+    title: 'Expert in Helping',
     description: 'Superhuman Framework, coaching, and transformation focus in all content.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
