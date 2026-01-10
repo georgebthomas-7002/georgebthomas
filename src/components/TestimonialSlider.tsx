@@ -53,7 +53,7 @@ export const realTestimonials: Testimonial[] = [
     name: "Dan Moyle",
     title: "Video Marketing Expert",
     company: "Digital Reach Online Solutions",
-    image: ""
+    image: "/images/testimonials/dan-moyle.jpg"
   },
   {
     quote: "I've experienced several HubSpot onboarding programs in the past, but George B. Thomas is by far the best HubSpot onboarding specialist I've had the pleasure of working with. Not only does he thoroughly train you on the HubSpot platform, but he also provides invaluable HubSpot hacks that are tailored to your business needs.",
