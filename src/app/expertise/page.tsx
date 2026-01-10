@@ -7,75 +7,6 @@ import { AnimatedSection, StaggerContainer } from '@/components/AnimatedSection'
 
 const deepExpertise = [
   {
-    area: 'HubSpot Mastery',
-    level: 'World-Class',
-    icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
-        <polyline points="22 4 12 14.01 9 11.01"/>
-      </svg>
-    ),
-    stats: [
-      { value: '42+', label: 'Certifications' },
-      { value: '12+', label: 'Years Experience' },
-      { value: '2015', label: 'INBOUND Speaker Since' },
-    ],
-    highlights: [
-      'HubSpot Certified Trainer',
-      'Created first HubSpot-specific podcast (The Hubcast)',
-      'INBOUND speaker every year since 2015',
-      'Worked at 3 major HubSpot partner agencies',
-      'Likely the most certified individual globally',
-    ],
-    description: 'George isn\'t just certified—he\'s been shaping the HubSpot conversation for over a decade. His deep understanding of the platform spans marketing, sales, service, and operations hubs.',
-  },
-  {
-    area: 'Video Marketing',
-    level: 'World-Class',
-    icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-        <polygon points="23 7 16 12 23 17 23 7"/>
-        <rect x="1" y="5" width="15" height="14" rx="2" ry="2"/>
-      </svg>
-    ),
-    stats: [
-      { value: '1000s', label: 'Videos Created' },
-      { value: '400+', label: 'HubSpot Tutorials' },
-      { value: '3x', label: 'Vidyard Keynotes' },
-    ],
-    highlights: [
-      'Known as the "Video Jedi"',
-      'Keynote speaker at Vidyard Fast Forward 3 consecutive years',
-      'Pioneered personalized sales video approach',
-      'Philosophy: "Embrace the messy"—authenticity over perfection',
-    ],
-    description: 'George bridges video production craft with marketing strategy at the enterprise level. His "Video Jedi" approach emphasizes authentic connection over polished perfection.',
-  },
-  {
-    area: 'Podcasting',
-    level: 'World-Class',
-    icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/>
-        <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
-        <line x1="12" y1="19" x2="12" y2="23"/>
-        <line x1="8" y1="23" x2="16" y2="23"/>
-      </svg>
-    ),
-    stats: [
-      { value: '400+', label: 'Episodes Hosted' },
-      { value: '13+', label: 'Years Podcasting' },
-      { value: '50+', label: 'Guest Appearances' },
-    ],
-    highlights: [
-      'Host of Hub Heroes & Beyond Your Default',
-      'Co-host of Marketing Smarts (MarketingProfs)',
-      'Created The Hubcast (271 episodes, first HubSpot podcast)',
-      'Guest on 50+ industry podcasts',
-    ],
-    description: 'One of the longest-tenured podcasters in the marketing technology space, George has built audiences, sparked conversations, and created community through audio for over a decade.',
-  },
-  {
     area: 'AI & Technology',
     level: 'Expert',
     icon: (
@@ -102,12 +33,102 @@ const deepExpertise = [
       'Human-first philosophy: AI augments, never replaces',
       'Writing "Cloning Human Expertise" book',
       'Trains teams on ethical AI integration',
-      'Early adopter of HubSpot Breeze AI',
     ],
     description: 'George believes AI should amplify human connection, not replace it. His AI clone, trained on decades of content, extends his ability to help people 24/7 while maintaining his authentic voice and values.',
   },
   {
-    area: 'Personal Growth & Leadership',
+    area: 'HubSpot Mastery',
+    level: 'World-Class',
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+        <polyline points="22 4 12 14.01 9 11.01"/>
+      </svg>
+    ),
+    stats: [
+      { value: '42+', label: 'Certifications' },
+      { value: '12+', label: 'Years Experience' },
+      { value: '2015', label: 'INBOUND Speaker Since' },
+    ],
+    highlights: [
+      'HubSpot Certified Trainer',
+      'Created first HubSpot-specific podcast (The Hubcast)',
+      'INBOUND speaker every year since 2015',
+      'Likely the most certified individual globally',
+    ],
+    description: 'George isn\'t just certified—he\'s been shaping the HubSpot conversation for over a decade. His deep understanding of the platform spans marketing, sales, service, and operations hubs.',
+  },
+  {
+    area: 'Marketing & Sales',
+    level: 'Expert',
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <line x1="18" y1="20" x2="18" y2="10"/>
+        <line x1="12" y1="20" x2="12" y2="4"/>
+        <line x1="6" y1="20" x2="6" y2="14"/>
+      </svg>
+    ),
+    stats: [
+      { value: '30+', label: 'Years Experience' },
+      { value: '16M+', label: 'Words Created' },
+      { value: '1000s', label: 'Campaigns Launched' },
+    ],
+    highlights: [
+      'Inbound marketing pioneer since the early days',
+      'Created Superhuman Marketing OS framework',
+      'MarketingProfs thought leader and contributor',
+      'Sales enablement through video and content',
+    ],
+    description: 'With over three decades in marketing and sales, George brings battle-tested strategies that blend inbound methodology with authentic human connection to drive sustainable growth.',
+  },
+  {
+    area: 'Video Marketing',
+    level: 'World-Class',
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <polygon points="23 7 16 12 23 17 23 7"/>
+        <rect x="1" y="5" width="15" height="14" rx="2" ry="2"/>
+      </svg>
+    ),
+    stats: [
+      { value: '1000s', label: 'Videos Created' },
+      { value: '400+', label: 'HubSpot Tutorials' },
+      { value: '3x', label: 'Vidyard Keynotes' },
+    ],
+    highlights: [
+      'Known as the "Video Jedi"',
+      'Vidyard Fast Forward keynote speaker 3 years running',
+      'Pioneered personalized sales video approach',
+      'Philosophy: "Embrace the messy"—authenticity wins',
+    ],
+    description: 'George bridges video production craft with marketing strategy at the enterprise level. His "Video Jedi" approach emphasizes authentic connection over polished perfection.',
+  },
+  {
+    area: 'Podcasting',
+    level: 'World-Class',
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/>
+        <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+        <line x1="12" y1="19" x2="12" y2="23"/>
+        <line x1="8" y1="23" x2="16" y2="23"/>
+      </svg>
+    ),
+    stats: [
+      { value: '400+', label: 'Episodes Hosted' },
+      { value: '13+', label: 'Years Podcasting' },
+      { value: '50+', label: 'Guest Appearances' },
+    ],
+    highlights: [
+      'Host of Hub Heroes & Beyond Your Default',
+      'Co-host of Marketing Smarts (MarketingProfs)',
+      'Created The Hubcast (271 episodes)',
+      'Guest on 50+ industry podcasts',
+    ],
+    description: 'One of the longest-tenured podcasters in the marketing technology space, George has built audiences, sparked conversations, and created community through audio for over a decade.',
+  },
+  {
+    area: 'Personal Growth',
     level: 'Expert',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -115,18 +136,41 @@ const deepExpertise = [
       </svg>
     ),
     stats: [
-      { value: '4', label: 'Core Cornerstones' },
+      { value: '4', label: 'Cornerstones' },
       { value: '10', label: 'H-Pillars' },
-      { value: '100s', label: 'Lives Transformed' },
+      { value: '100s', label: 'Lives Changed' },
     ],
     highlights: [
       'Creator of the Superhuman Framework',
       'Host of "Beyond Your Default" podcast',
-      'Four Cornerstones: Love, Purpose, Passion, Persistence',
       'Specializes in limiting belief breakthrough',
-      'From high school dropout to industry thought leader',
+      'From dropout to thought leader—proof it works',
     ],
-    description: 'The Superhuman Framework combines four cornerstones and ten H-pillars to help individuals break through limiting beliefs and become the best version of themselves. George\'s own transformation story is proof the framework works.',
+    description: 'The Superhuman Framework combines four cornerstones (Love, Purpose, Passion, Persistence) and ten H-pillars to help individuals break through limiting beliefs and transform.',
+  },
+  {
+    area: 'Leadership',
+    level: 'Expert',
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+        <circle cx="9" cy="7" r="4"/>
+        <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+        <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+      </svg>
+    ),
+    stats: [
+      { value: '20+', label: 'Years Leading Teams' },
+      { value: '3', label: 'Agency Leadership Roles' },
+      { value: '100s', label: 'People Mentored' },
+    ],
+    highlights: [
+      'Led teams at multiple HubSpot partner agencies',
+      'Sidekick Strategies founder and owner',
+      'Servant leadership philosophy',
+      'Develops future marketing leaders',
+    ],
+    description: 'George leads by serving others. His sidekick mentality means empowering team members to become heroes in their own stories while building organizations that put humans first.',
   },
 ]
 
@@ -222,8 +266,8 @@ export default function ExpertisePage() {
               </h1>
               <p className="page-hero__description">
                 Most marketers develop expertise in one area while maintaining broad knowledge across the discipline.
-                George has done something rare: he&apos;s developed <strong>five stems of deep expertise</strong> while
-                maintaining exceptional breadth—creating a multi-dimensional framework that converges at one purpose:
+                George has done something rare: he&apos;s developed <strong>seven pillars of deep expertise</strong> while
+                maintaining exceptional breadth—all converging at one purpose:
                 <em> helping humans transform.</em>
               </p>
             </AnimatedSection>
@@ -234,31 +278,32 @@ export default function ExpertisePage() {
         {/* Expertise Visual */}
         <section className="section expertise-visual">
           <div className="container">
-            <AnimatedSection className="expertise-pentagon" animation="scale">
-              <div className="expertise-pentagon__items">
-                <div className="expertise-pentagon__item">
-                  <span className="expertise-pentagon__label">HubSpot</span>
-                  <span className="expertise-pentagon__sublabel">Technology Mastery</span>
+            <AnimatedSection className="expertise-wheel" animation="scale">
+              <div className="expertise-wheel__items">
+                <div className="expertise-wheel__item">
+                  <span className="expertise-wheel__label">AI</span>
                 </div>
-                <div className="expertise-pentagon__item">
-                  <span className="expertise-pentagon__label">Video</span>
-                  <span className="expertise-pentagon__sublabel">Content Creation</span>
+                <div className="expertise-wheel__item">
+                  <span className="expertise-wheel__label">HubSpot</span>
                 </div>
-                <div className="expertise-pentagon__item">
-                  <span className="expertise-pentagon__label">Podcasting</span>
-                  <span className="expertise-pentagon__sublabel">Audio Excellence</span>
+                <div className="expertise-wheel__item">
+                  <span className="expertise-wheel__label">Marketing</span>
                 </div>
-                <div className="expertise-pentagon__item">
-                  <span className="expertise-pentagon__label">AI</span>
-                  <span className="expertise-pentagon__sublabel">Human-First Tech</span>
+                <div className="expertise-wheel__item">
+                  <span className="expertise-wheel__label">Video</span>
                 </div>
-                <div className="expertise-pentagon__item">
-                  <span className="expertise-pentagon__label">Leadership</span>
-                  <span className="expertise-pentagon__sublabel">Personal Growth</span>
+                <div className="expertise-wheel__item">
+                  <span className="expertise-wheel__label">Podcasting</span>
+                </div>
+                <div className="expertise-wheel__item">
+                  <span className="expertise-wheel__label">Growth</span>
+                </div>
+                <div className="expertise-wheel__item">
+                  <span className="expertise-wheel__label">Leadership</span>
                 </div>
               </div>
-              <div className="expertise-pentagon__center">
-                <span className="expertise-pentagon__center-label">Human Transformation</span>
+              <div className="expertise-wheel__center">
+                <span className="expertise-wheel__center-label">Human Transformation</span>
               </div>
             </AnimatedSection>
           </div>
@@ -269,9 +314,9 @@ export default function ExpertisePage() {
           <div className="container">
             <AnimatedSection className="section-header" animation="fade-in">
               <span className="section-header__subtitle">Deep Expertise</span>
-              <h2 className="section-header__title">Five Stems of Mastery</h2>
+              <h2 className="section-header__title">Seven Pillars of Mastery</h2>
               <p className="section-header__description">
-                Each area represents years of dedicated practice, continuous learning,
+                Each pillar represents years of dedicated practice, continuous learning,
                 and real-world application at the highest levels.
               </p>
             </AnimatedSection>

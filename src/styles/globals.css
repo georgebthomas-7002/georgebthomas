@@ -856,6 +856,10 @@ a:hover {
   .hero__frame--middle {
     display: none;
   }
+
+  .competencies-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* ===========================================
@@ -1372,6 +1376,8 @@ a:hover {
 
 .page-hero__title {
   margin-bottom: var(--space-xl);
+  font-size: clamp(2.5rem, 5vw + 1rem, 4.5rem);
+  line-height: 1.1;
 }
 
 .page-hero__title-accent {
@@ -1384,6 +1390,15 @@ a:hover {
   color: var(--color-text-light);
   line-height: var(--line-height-relaxed);
   margin-bottom: var(--space-2xl);
+}
+
+/* Expertise Page Specific Styles */
+.page-hero--expertise .page-hero__content {
+  max-width: 850px;
+}
+
+.page-hero--expertise .page-hero__title {
+  font-size: clamp(2.5rem, 6vw + 1rem, 5rem);
 }
 
 .page-hero__description strong {
@@ -1485,123 +1500,112 @@ a:hover {
   padding: var(--space-3xl) 0;
 }
 
-/* Expertise Pentagon Diagram */
-.expertise-pentagon {
+/* Expertise Wheel Diagram - 7 Items */
+.expertise-wheel {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 700px;
+  max-width: 900px;
   margin: 0 auto;
   position: relative;
 }
 
-.expertise-pentagon__items {
+.expertise-wheel__items {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: var(--space-lg);
+  gap: var(--space-md);
   width: 100%;
-  margin-bottom: var(--space-2xl);
+  margin-bottom: var(--space-xl);
 }
 
-.expertise-pentagon__item {
+.expertise-wheel__item {
   text-align: center;
-  padding: var(--space-lg) var(--space-xl);
+  padding: var(--space-md) var(--space-lg);
   background: var(--color-white);
-  border-radius: var(--radius-xl);
+  border-radius: var(--radius-full);
   box-shadow: var(--shadow-md);
   position: relative;
-  min-width: 120px;
-  transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+  min-width: 100px;
+  transition: transform var(--transition-normal), box-shadow var(--transition-normal), background var(--transition-normal);
+  border: 2px solid transparent;
 }
 
-.expertise-pentagon__item:hover {
-  transform: translateY(-4px);
+.expertise-wheel__item:hover {
+  transform: translateY(-4px) scale(1.05);
   box-shadow: var(--shadow-lg);
-}
-
-.expertise-pentagon__item::after {
-  content: '';
-  position: absolute;
-  bottom: -20px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 3px;
-  height: 20px;
   background: var(--gradient-accent);
-  border-radius: var(--radius-full);
-  opacity: 0.6;
+  border-color: var(--color-accent);
 }
 
-.expertise-pentagon__label {
+.expertise-wheel__item:hover .expertise-wheel__label {
+  color: var(--color-white);
+}
+
+.expertise-wheel__label {
   display: block;
   font-family: var(--font-family-heading);
-  font-size: var(--font-size-lg);
+  font-size: var(--font-size-base);
   font-weight: var(--font-weight-bold);
   color: var(--color-primary-dark);
+  transition: color var(--transition-normal);
 }
 
-.expertise-pentagon__sublabel {
-  display: block;
-  font-size: var(--font-size-sm);
-  color: var(--color-text-muted);
-  margin-top: var(--space-xs);
-}
-
-.expertise-pentagon__center {
-  padding: var(--space-xl) var(--space-2xl);
-  background: var(--gradient-accent);
-  border-radius: var(--radius-xl);
-  box-shadow: var(--shadow-lg), var(--shadow-glow);
-  margin-top: var(--space-lg);
-  position: relative;
-}
-
-.expertise-pentagon__center::before {
-  content: '';
-  position: absolute;
-  top: -30px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 4px;
-  height: 30px;
+.expertise-wheel__center {
+  padding: var(--space-lg) var(--space-2xl);
   background: var(--gradient-accent);
   border-radius: var(--radius-full);
+  box-shadow: var(--shadow-lg), var(--shadow-glow);
+  margin-top: var(--space-md);
 }
 
-.expertise-pentagon__center-label {
+.expertise-wheel__center-label {
   font-family: var(--font-family-heading);
-  font-size: var(--font-size-xl);
+  font-size: var(--font-size-lg);
   font-weight: var(--font-weight-bold);
   color: var(--color-white);
 }
 
 /* ===========================================
-   EXPERTISE STEM CARDS
+   EXPERTISE STEM CARDS - 2-Column Grid
    =========================================== */
+.expertise-deep {
+  padding: var(--space-4xl) 0;
+}
+
+.expertise-deep .container {
+  max-width: 1100px;
+}
+
 .expertise-stems {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-2xl);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-xl);
 }
 
 .expertise-stem-card {
   background: var(--color-white);
   border-radius: var(--radius-xl);
-  padding: var(--space-2xl);
+  padding: var(--space-xl);
   box-shadow: var(--shadow-md);
+  transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+}
+
+.expertise-stem-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
 }
 
 .expertise-stem-card__header {
   display: flex;
   align-items: center;
-  gap: var(--space-lg);
-  margin-bottom: var(--space-xl);
+  gap: var(--space-md);
+  margin-bottom: var(--space-lg);
 }
 
 .expertise-stem-card__icon {
-  width: 60px;
-  height: 60px;
+  width: 48px;
+  height: 48px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1612,17 +1616,17 @@ a:hover {
 }
 
 .expertise-stem-card__icon svg {
-  width: 28px;
-  height: 28px;
+  width: 24px;
+  height: 24px;
 }
 
 .expertise-stem-card__title {
-  font-size: var(--font-size-2xl);
-  margin-bottom: var(--space-xs);
+  font-size: var(--font-size-xl);
+  margin-bottom: 2px;
 }
 
 .expertise-stem-card__level {
-  font-size: var(--font-size-sm);
+  font-size: var(--font-size-xs);
   color: var(--color-accent);
   font-weight: var(--font-weight-semibold);
   text-transform: uppercase;
@@ -1631,9 +1635,9 @@ a:hover {
 
 .expertise-stem-card__stats {
   display: flex;
-  gap: var(--space-xl);
-  margin-bottom: var(--space-xl);
-  padding: var(--space-lg);
+  gap: var(--space-md);
+  margin-bottom: var(--space-lg);
+  padding: var(--space-md);
   background: var(--color-warm-light);
   border-radius: var(--radius-lg);
 }
@@ -1646,7 +1650,7 @@ a:hover {
 .expertise-stem-card__stat-value {
   display: block;
   font-family: var(--font-family-heading);
-  font-size: var(--font-size-2xl);
+  font-size: var(--font-size-lg);
   font-weight: var(--font-weight-bold);
   color: var(--color-accent);
   line-height: 1;
@@ -1654,38 +1658,40 @@ a:hover {
 
 .expertise-stem-card__stat-label {
   display: block;
-  font-size: var(--font-size-xs);
+  font-size: 10px;
   color: var(--color-text-muted);
   margin-top: var(--space-xs);
 }
 
 .expertise-stem-card__description {
-  font-size: var(--font-size-lg);
+  font-size: var(--font-size-base);
   color: var(--color-text-light);
   line-height: var(--line-height-relaxed);
-  margin-bottom: var(--space-lg);
+  margin-bottom: var(--space-md);
 }
 
 .expertise-stem-card__highlights {
   list-style: none;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: var(--space-sm);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
 }
 
 .expertise-stem-card__highlights li {
   position: relative;
-  padding-left: var(--space-xl);
+  padding-left: var(--space-lg);
   color: var(--color-text);
+  font-size: var(--font-size-sm);
+  line-height: 1.5;
 }
 
 .expertise-stem-card__highlights li::before {
   content: '';
   position: absolute;
   left: 0;
-  top: 8px;
-  width: 8px;
-  height: 8px;
+  top: 7px;
+  width: 6px;
+  height: 6px;
   background: var(--color-accent);
   border-radius: var(--radius-full);
 }
@@ -1693,10 +1699,15 @@ a:hover {
 /* ===========================================
    COMPETENCY CARDS
    =========================================== */
+.expertise-broad .container,
+.expertise-principles .container {
+  max-width: 1100px;
+}
+
 .competencies-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: var(--space-xl);
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-lg);
 }
 
 .competency-card {
@@ -2447,26 +2458,34 @@ a:hover {
     padding: calc(var(--space-4xl) + 60px) 0 var(--space-3xl);
   }
 
-  .expertise-pentagon__items {
-    gap: var(--space-md);
+  .expertise-wheel__items {
+    gap: var(--space-sm);
   }
 
-  .expertise-pentagon__item {
-    padding: var(--space-md) var(--space-lg);
-    min-width: 100px;
+  .expertise-wheel__item {
+    padding: var(--space-sm) var(--space-md);
+    min-width: 80px;
   }
 
-  .expertise-pentagon__item::after {
-    height: 15px;
+  .expertise-wheel__label {
+    font-size: var(--font-size-sm);
   }
 
-  .expertise-pentagon__center {
-    margin-top: var(--space-md);
+  .expertise-stems {
+    grid-template-columns: 1fr;
+  }
+
+  .expertise-deep .container {
+    max-width: 100%;
   }
 
   .expertise-stem-card__stats {
-    flex-direction: column;
-    gap: var(--space-md);
+    flex-direction: row;
+    gap: var(--space-sm);
+  }
+
+  .competencies-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .keynotes-grid {
