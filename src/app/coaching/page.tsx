@@ -251,7 +251,7 @@ export default function CoachingPage() {
                   src="/images/george-coaching.jpg"
                   alt="George B. Thomas Coaching"
                   width={683}
-                  height={911}
+                  height={483}
                   priority
                   className="page-hero__image"
                 />
