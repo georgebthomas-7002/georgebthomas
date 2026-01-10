@@ -9,7 +9,8 @@ import { AnimatedSection, StaggerContainer } from '@/components/AnimatedSection'
 const coachingTopics = [
   {
     id: 'hubspot',
-    title: 'HubSpot Strategy & Implementation',
+    area: 'HubSpot Strategy & Implementation',
+    level: 'World-Class',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
@@ -32,7 +33,8 @@ const coachingTopics = [
   },
   {
     id: 'video',
-    title: 'Video Marketing Mastery',
+    area: 'Video Marketing Mastery',
+    level: 'World-Class',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <polygon points="23 7 16 12 23 17 23 7"/>
@@ -55,7 +57,8 @@ const coachingTopics = [
   },
   {
     id: 'podcasting',
-    title: 'Podcasting Excellence',
+    area: 'Podcasting Excellence',
+    level: 'World-Class',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/>
@@ -80,7 +83,8 @@ const coachingTopics = [
   },
   {
     id: 'ai',
-    title: 'AI Integration & Strategy',
+    area: 'AI Integration & Strategy',
+    level: 'Expert',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <rect x="4" y="4" width="16" height="16" rx="2" ry="2"/>
@@ -111,13 +115,14 @@ const coachingTopics = [
   },
   {
     id: 'personal',
-    title: 'Personal Transformation',
+    area: 'Personal Transformation',
+    level: 'Expert',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
       </svg>
     ),
-    description: 'The Superhuman Framework applied to your personal and professional growth—become the best version of yourself.',
+    description: 'The Superhuman Framework applied to your personal and professional growth. Become the best version of yourself.',
     stats: [
       { value: '4', label: 'Cornerstones' },
       { value: '10', label: 'H-Pillars' },
@@ -133,7 +138,8 @@ const coachingTopics = [
   },
   {
     id: 'marketing',
-    title: 'Marketing & Content Strategy',
+    area: 'Marketing & Content Strategy',
+    level: 'Expert',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <line x1="18" y1="20" x2="18" y2="10"/>
@@ -141,7 +147,7 @@ const coachingTopics = [
         <line x1="6" y1="20" x2="6" y2="14"/>
       </svg>
     ),
-    description: 'Build a content engine that drives sustainable growth—with 30+ years of marketing experience guiding your strategy.',
+    description: 'Build a content engine that drives sustainable growth with 30+ years of marketing experience guiding your strategy.',
     stats: [
       { value: '30+', label: 'Years Experience' },
       { value: '16M+', label: 'Words Created' },
@@ -197,7 +203,7 @@ const pricingPlans = [
     price: 6000,
     pricePerHour: 200,
     slug: 'transformation',
-    description: 'For deep, sustained transformation and mastery-level development.',
+    description: 'For deep, sustained transformation and mastery level development.',
     features: [
       '30 hours of 1:1 coaching',
       'VIP scheduling access',
@@ -214,7 +220,7 @@ const pricingPlans = [
 const coachingApproach = [
   {
     title: 'Sidekick Mentality',
-    description: 'I\'m not here to be the hero—I\'m here to help you become one. Your success is my success.',
+    description: 'I am not here to be the hero. I am here to help you become one. Your success is my success.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
@@ -225,8 +231,8 @@ const coachingApproach = [
     ),
   },
   {
-    title: 'Real-World Focus',
-    description: 'No fluff or theory for theory\'s sake. Everything we do applies directly to your goals.',
+    title: 'Real World Focus',
+    description: 'No fluff or theory for the sake of theory. Everything we do applies directly to your goals.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <circle cx="12" cy="12" r="10"/>
@@ -244,7 +250,7 @@ const coachingApproach = [
     ),
   },
   {
-    title: 'Human-First Tech',
+    title: 'Human First Tech',
     description: 'Technology and AI should amplify human connection, never replace it.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -286,7 +292,7 @@ const process = [
   {
     step: 1,
     title: 'Activation Meeting',
-    subtitle: '$99 • 45 minutes',
+    subtitle: '$99 for 45 minutes',
     description: 'We start with a focused session to understand your goals, challenges, and create your transformation roadmap.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -347,7 +353,7 @@ const faqs = [
   },
   {
     question: 'How quickly can I use my coaching hours?',
-    answer: 'Coaching hours are valid for 12 months from purchase. Most clients complete their hours within 3-6 months, but we\'ll work at a pace that suits your schedule.',
+    answer: 'Coaching hours are valid for 12 months from purchase. Most clients complete their hours within 3 to 6 months, but we will work at a pace that suits your schedule.',
   },
   {
     question: 'Can I mix topics within my coaching package?',
@@ -358,8 +364,8 @@ const faqs = [
     answer: 'Yes! For team coaching, workshops, or training programs, please reach out directly to discuss custom solutions for your organization.',
   },
   {
-    question: 'What\'s the refund policy?',
-    answer: 'If after our first session you feel this isn\'t the right fit, I\'ll refund your remaining unused hours—no questions asked. Your transformation matters most.',
+    question: 'What is the refund policy?',
+    answer: 'If after our first session you feel this is not the right fit, I will refund your remaining unused hours, no questions asked. Your transformation matters most.',
   },
 ]
 
@@ -378,9 +384,9 @@ export default function CoachingPage() {
                 <span className="page-hero__title-accent"> Real Results</span>
               </h1>
               <p className="page-hero__description">
-                I&apos;m not here to be the hero of your story—I&apos;m here to be the sidekick
+                I am not here to be the hero of your story. I am here to be the sidekick
                 that helps you become the superhuman you were meant to be. With over 30 years
-                of experience and a genuine passion for helping humans grow, let&apos;s
+                of experience and a genuine passion for helping humans grow, let us
                 unlock your next level together.
               </p>
               <div className="page-hero__cta-group">
@@ -398,7 +404,7 @@ export default function CoachingPage() {
               <div className="page-hero__image-accent" aria-hidden="true"></div>
               <div className="page-hero__image-container">
                 <Image
-                  src="/images/george-coaching.jpg"
+                  src="/images/george-expertise.jpg"
                   alt="George B. Thomas Coaching"
                   width={500}
                   height={600}
@@ -411,72 +417,58 @@ export default function CoachingPage() {
           <div className="page-hero__shape" aria-hidden="true"></div>
         </section>
 
-        {/* Coaching Topics Visual */}
-        <section className="section coaching-topics-visual">
-          <div className="container">
-            <AnimatedSection className="coaching-wheel" animation="scale">
-              <div className="coaching-wheel__center">
-                <span className="coaching-wheel__center-label">Your Transformation</span>
-              </div>
-              <div className="coaching-wheel__items">
-                {coachingTopics.map((topic) => (
-                  <div key={topic.id} className="coaching-wheel__item">
-                    <span className="coaching-wheel__icon">{topic.icon}</span>
-                    <span className="coaching-wheel__label">{topic.title.split(' ')[0]}</span>
-                  </div>
-                ))}
-              </div>
-            </AnimatedSection>
-          </div>
-        </section>
-
-        {/* Topics Section */}
+        {/* Topics Section - Using expertise-stem-card style */}
         <section id="topics" className="section section--warm coaching-topics">
           <div className="container">
             <AnimatedSection className="section-header" animation="fade-in">
               <span className="section-header__subtitle">Coaching Topics</span>
               <h2 className="section-header__title">Areas of Deep Expertise</h2>
               <p className="section-header__description">
-                Choose your focus area—or combine multiple topics for a comprehensive
+                Choose your focus area or combine multiple topics for a comprehensive
                 coaching experience tailored to your unique needs.
               </p>
             </AnimatedSection>
 
-            <div className="coaching-topics-grid">
+            <div className="expertise-stems">
               {coachingTopics.map((topic) => (
                 <AnimatedSection
                   key={topic.id}
-                  className="coaching-topic-card"
+                  className="expertise-stem-card"
                   animation="fade-in"
                 >
-                  <div className="coaching-topic-card__header">
-                    <div className="coaching-topic-card__icon">{topic.icon}</div>
-                    <h3 className="coaching-topic-card__title">{topic.title}</h3>
+                  <div className="expertise-stem-card__header">
+                    <div className="expertise-stem-card__icon">{topic.icon}</div>
+                    <div>
+                      <h3 className="expertise-stem-card__title">{topic.area}</h3>
+                      <span className="expertise-stem-card__level">{topic.level}</span>
+                    </div>
                   </div>
 
-                  <div className="coaching-topic-card__stats">
+                  <div className="expertise-stem-card__stats">
                     {topic.stats.map((stat) => (
-                      <div key={stat.label} className="coaching-topic-card__stat">
-                        <span className="coaching-topic-card__stat-value">{stat.value}</span>
-                        <span className="coaching-topic-card__stat-label">{stat.label}</span>
+                      <div key={stat.label} className="expertise-stem-card__stat">
+                        <span className="expertise-stem-card__stat-value">{stat.value}</span>
+                        <span className="expertise-stem-card__stat-label">{stat.label}</span>
                       </div>
                     ))}
                   </div>
 
-                  <p className="coaching-topic-card__description">{topic.description}</p>
+                  <p className="expertise-stem-card__description">{topic.description}</p>
 
-                  <ul className="coaching-topic-card__highlights">
+                  <ul className="expertise-stem-card__highlights">
                     {topic.highlights.map((highlight) => (
                       <li key={highlight}>{highlight}</li>
                     ))}
                   </ul>
 
-                  <Link
-                    href={`/coaching/apply?topic=${topic.id}`}
-                    className="coaching-topic-card__link"
-                  >
-                    Get Coaching →
-                  </Link>
+                  <div className="expertise-stem-card__links">
+                    <Link
+                      href={`/coaching/apply?topic=${topic.id}`}
+                      className="expertise-stem-card__link"
+                    >
+                      Get Coaching →
+                    </Link>
+                  </div>
                 </AnimatedSection>
               ))}
             </div>
@@ -546,7 +538,7 @@ export default function CoachingPage() {
               <span className="section-header__subtitle">Investment</span>
               <h2 className="section-header__title">Coaching Packages</h2>
               <p className="section-header__description">
-                All packages are billed at <strong>$200 per hour</strong>—transparent pricing
+                All packages are billed at <strong>$200 per hour</strong>. Transparent pricing
                 with no hidden fees. Choose the package that fits your transformation goals.
               </p>
             </AnimatedSection>
@@ -598,13 +590,13 @@ export default function CoachingPage() {
                 <div className="activation-meeting__content">
                   <h3 className="activation-meeting__title">Not sure where to start?</h3>
                   <p className="activation-meeting__description">
-                    Book an <strong>Activation Meeting</strong>—a focused 45-minute session where we&apos;ll
+                    Book an <strong>Activation Meeting</strong>. A focused 45 minute session where we will
                     map out your goals, identify your biggest opportunities, and create a clear path forward.
                   </p>
                 </div>
                 <div className="activation-meeting__pricing">
                   <span className="activation-meeting__price">$99</span>
-                  <span className="activation-meeting__label">45-minute session</span>
+                  <span className="activation-meeting__label">45 minute session</span>
                 </div>
                 <Link href="/coaching/apply?type=activation" className="btn btn--accent btn--large">
                   Book Activation Meeting
@@ -629,18 +621,18 @@ export default function CoachingPage() {
                   />
                 </div>
                 <span className="story-card__label">Why I Coach</span>
-                <h2 className="story-card__title">From Told &quot;You&apos;ll Never Amount to Anything&quot;<br />to Helping Others Transform</h2>
+                <h2 className="story-card__title">From &quot;You Will Never Amount to Anything&quot;<br />to Helping Others Transform</h2>
                 <div className="story-card__content">
                   <p>
-                    At 17, a teacher told me I&apos;d never amount to anything. That moment became
-                    the catalyst for my own transformation—and now my life&apos;s mission.
+                    At 17, a teacher told me I would never amount to anything. That moment became
+                    the catalyst for my own transformation and now my life&apos;s mission.
                   </p>
                   <p>
-                    I&apos;ve been where you might be: uncertain, stuck, or just knowing there&apos;s
-                    more inside you waiting to come out. That&apos;s exactly why I coach.
+                    I have been where you might be: uncertain, stuck, or just knowing there is
+                    more inside you waiting to come out. That is exactly why I coach.
                   </p>
                   <blockquote className="story-card__quote">
-                    &quot;I&apos;m not here to be the hero of your story. I&apos;m here to be the sidekick
+                    &quot;I am not here to be the hero of your story. I am here to be the sidekick
                     that helps you become the superhuman you were meant to be.&quot;
                   </blockquote>
                   <Link href="/about" className="btn btn--secondary story-card__cta">
@@ -660,7 +652,7 @@ export default function CoachingPage() {
               <blockquote className="testimonial-featured__quote">
                 George has an incredible ability to take complex concepts and make them
                 accessible. His coaching helped me not just understand what to do, but
-                why it matters—and that&apos;s transformed how I approach everything.
+                why it matters and that has transformed how I approach everything.
               </blockquote>
               <div className="testimonial-featured__attribution">
                 <span className="testimonial-featured__name">Client Success Story</span>

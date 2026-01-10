@@ -2226,10 +2226,14 @@ a:hover {
 }
 
 .expertise-wheel__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-xs);
   text-align: center;
-  padding: var(--space-sm) var(--space-md);
+  padding: var(--space-md);
   background: var(--color-white);
-  border-radius: var(--radius-full);
+  border-radius: var(--radius-lg);
   box-shadow: var(--shadow-md);
   position: relative;
   white-space: nowrap;
@@ -2237,6 +2241,7 @@ a:hover {
               box-shadow var(--duration-normal) var(--ease-out),
               background var(--duration-normal) var(--ease-out);
   border: 2px solid transparent;
+  min-width: 100px;
 }
 
 .expertise-wheel__item:hover {
@@ -2248,6 +2253,25 @@ a:hover {
 
 .expertise-wheel__item:hover .expertise-wheel__label {
   color: var(--color-white);
+}
+
+.expertise-wheel__item:hover .expertise-wheel__icon {
+  color: var(--color-white);
+}
+
+.expertise-wheel__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  color: var(--color-accent);
+  transition: color var(--duration-normal) var(--ease-out);
+}
+
+.expertise-wheel__icon svg {
+  width: 28px;
+  height: 28px;
 }
 
 .expertise-wheel__label {

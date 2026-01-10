@@ -379,27 +379,78 @@ export default function ExpertisePage() {
               </div>
               <div className="expertise-wheel__items expertise-wheel__items--single-row">
                 <div className="expertise-wheel__item">
+                  <span className="expertise-wheel__icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <rect x="4" y="4" width="16" height="16" rx="2" ry="2"/>
+                      <rect x="9" y="9" width="6" height="6"/>
+                      <line x1="9" y1="1" x2="9" y2="4"/>
+                      <line x1="15" y1="1" x2="15" y2="4"/>
+                    </svg>
+                  </span>
                   <span className="expertise-wheel__label">AI</span>
                 </div>
                 <div className="expertise-wheel__item">
+                  <span className="expertise-wheel__icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                      <polyline points="22 4 12 14.01 9 11.01"/>
+                    </svg>
+                  </span>
                   <span className="expertise-wheel__label">HubSpot</span>
                 </div>
                 <div className="expertise-wheel__item">
+                  <span className="expertise-wheel__icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <line x1="18" y1="20" x2="18" y2="10"/>
+                      <line x1="12" y1="20" x2="12" y2="4"/>
+                      <line x1="6" y1="20" x2="6" y2="14"/>
+                    </svg>
+                  </span>
                   <span className="expertise-wheel__label">Marketing</span>
                 </div>
                 <div className="expertise-wheel__item">
+                  <span className="expertise-wheel__icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <polygon points="23 7 16 12 23 17 23 7"/>
+                      <rect x="1" y="5" width="15" height="14" rx="2" ry="2"/>
+                    </svg>
+                  </span>
                   <span className="expertise-wheel__label">Video</span>
                 </div>
                 <div className="expertise-wheel__item">
+                  <span className="expertise-wheel__icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/>
+                      <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+                    </svg>
+                  </span>
                   <span className="expertise-wheel__label">Podcasting</span>
                 </div>
                 <div className="expertise-wheel__item">
+                  <span className="expertise-wheel__icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                    </svg>
+                  </span>
                   <span className="expertise-wheel__label">Growth</span>
                 </div>
                 <div className="expertise-wheel__item">
+                  <span className="expertise-wheel__icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                      <circle cx="9" cy="7" r="4"/>
+                      <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                    </svg>
+                  </span>
                   <span className="expertise-wheel__label">Leadership</span>
                 </div>
                 <div className="expertise-wheel__item">
+                  <span className="expertise-wheel__icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <circle cx="12" cy="12" r="10"/>
+                      <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                    </svg>
+                  </span>
                   <span className="expertise-wheel__label">Spiritual</span>
                 </div>
               </div>
