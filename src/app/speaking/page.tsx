@@ -5,6 +5,35 @@ import Link from 'next/link'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { AnimatedSection, StaggerContainer } from '@/components/AnimatedSection'
+import { VideoSlider, VideoItem } from '@/components/VideoSlider'
+
+// Speaking example videos - add more YouTube IDs here
+const speakingVideos: VideoItem[] = [
+  {
+    id: 'vid-1',
+    youtubeId: 'LyLWZ4sF8uc',
+    title: 'Speaker Reel Highlights',
+    description: 'A compilation of keynote moments and audience engagement.'
+  },
+  {
+    id: 'vid-2',
+    youtubeId: '7rlGBDLHjQ4',
+    title: 'How to be WORLD CLASS at HubSpot',
+    description: 'INBOUND presentation on mastering the HubSpot platform.'
+  },
+  {
+    id: 'vid-3',
+    youtubeId: 'E9EO_5jYk-M',
+    title: 'The World Has Changed',
+    description: 'Insights on adapting to the evolving digital landscape.'
+  },
+  {
+    id: 'vid-4',
+    youtubeId: 'aFWRGqXwxDU',
+    title: 'Social Media Breakfast - Madison',
+    description: 'Live presentation on social media strategy and engagement.'
+  },
+]
 
 type Topic = 'all' | 'hubspot' | 'video' | 'podcasting' | 'ai' | 'transformation' | 'marketing'
 
@@ -15,6 +44,8 @@ interface Keynote {
   description: string
   whatYouLearn: string[]
   whoItsFor: string[]
+  url?: string
+  external?: boolean
 }
 
 const topics: { id: Topic; label: string; color: string }[] = [
@@ -361,6 +392,8 @@ const keynotes: Keynote[] = [
       'Creating your personal transformation roadmap',
     ],
     whoItsFor: ['Anyone seeking personal growth', 'Leaders developing their potential', 'Teams needing inspiration', 'Individuals facing major transitions'],
+    url: 'https://superhumanframework.com/',
+    external: true,
   },
   {
     id: 'trans-2',
@@ -700,51 +733,12 @@ export default function SpeakingPage() {
           </div>
         </section>
 
-        {/* More Speaking Examples */}
-        <section className="section section--dark speaking-examples">
-          <div className="container">
-            <AnimatedSection className="section-header" animation="fade-in">
-              <span className="section-header__subtitle">More Examples</span>
-              <h2 className="section-header__title">See More Speaking Highlights</h2>
-            </AnimatedSection>
-
-            <div className="examples-grid">
-              <div className="example-card">
-                <div className="example-card__embed">
-                  <iframe
-                    src="https://www.youtube.com/embed/VIDEO_ID_1"
-                    title="Speaking Example 1"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  />
-                </div>
-                <span className="example-card__title">Coming Soon</span>
-              </div>
-              <div className="example-card">
-                <div className="example-card__embed">
-                  <iframe
-                    src="https://www.youtube.com/embed/VIDEO_ID_2"
-                    title="Speaking Example 2"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  />
-                </div>
-                <span className="example-card__title">Coming Soon</span>
-              </div>
-              <div className="example-card">
-                <div className="example-card__embed">
-                  <iframe
-                    src="https://www.youtube.com/embed/VIDEO_ID_3"
-                    title="Speaking Example 3"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  />
-                </div>
-                <span className="example-card__title">Coming Soon</span>
-              </div>
-            </div>
-          </div>
-        </section>
+        {/* More Speaking Examples - Video Slider */}
+        <VideoSlider
+          videos={speakingVideos}
+          title="See More Speaking Highlights"
+          subtitle="More Examples"
+        />
 
         {/* Filter Section */}
         <section className="section speaking-filter">
@@ -791,7 +785,20 @@ export default function SpeakingPage() {
                 >
                   <div className="keynote-card__header">
                     <span className="keynote-card__topic">{getTopicLabel(keynote.topic)}</span>
-                    <h3 className="keynote-card__title">{keynote.title}</h3>
+                    <h3 className="keynote-card__title">
+                      {keynote.url ? (
+                        <a
+                          href={keynote.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-link"
+                        >
+                          {keynote.title}
+                        </a>
+                      ) : (
+                        keynote.title
+                      )}
+                    </h3>
                   </div>
 
                   <p className="keynote-card__description">{keynote.description}</p>

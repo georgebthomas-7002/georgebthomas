@@ -218,7 +218,7 @@ export default function Home() {
                 <p className="home-story__text">
                   Today, with 30+ years of experience, 400+ podcast episodes, 16+ million words
                   of content, and countless lives impacted, I exemplify the transformation I help
-                  others achieve through the <strong>Superhuman Framework</strong>.
+                  others achieve through the <a href="https://superhumanframework.com/" target="_blank" rel="noopener noreferrer" className="text-link"><strong>Superhuman Framework</strong></a>.
                 </p>
 
                 <blockquote className="home-story__quote">

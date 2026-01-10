@@ -65,6 +65,8 @@ const storyChapters = [
     imageAlt: '',
     hasImage: false,
     imagePlaceholder: 'Sidekick Team Photo Coming Soon',
+    url: 'https://sidekickstrategies.com/',
+    external: true,
   },
   {
     year: '2023',
@@ -74,6 +76,8 @@ const storyChapters = [
     imageAlt: 'George B. Thomas speaking',
     hasImage: true,
     cornerstones: ['Love', 'Purpose', 'Passion', 'Persistence'],
+    url: 'https://superhumanframework.com/',
+    external: true,
   },
   {
     year: '2025',
@@ -83,6 +87,8 @@ const storyChapters = [
     imageAlt: '',
     hasImage: false,
     imagePlaceholder: 'SSOL Launch Photo Coming Soon',
+    url: 'https://www.spiritualsideofleadership.com/',
+    external: true,
   },
   {
     year: 'Today',
@@ -225,7 +231,20 @@ export default function AboutPage() {
 
                   <div className="story-chapter-wide__card">
                     <div className="story-chapter-wide__content">
-                      <h3 className="story-chapter-wide__title">{chapter.title}</h3>
+                      <h3 className="story-chapter-wide__title">
+                        {chapter.url ? (
+                          <a
+                            href={chapter.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-link"
+                          >
+                            {chapter.title}
+                          </a>
+                        ) : (
+                          chapter.title
+                        )}
+                      </h3>
                       <p className="story-chapter-wide__text">{chapter.content}</p>
                       {chapter.cornerstones && (
                         <div className="story-chapter-wide__cornerstones">
