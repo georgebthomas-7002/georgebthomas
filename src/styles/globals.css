@@ -2988,6 +2988,36 @@ a:hover {
 }
 
 /* ===========================================
+   SPEAKING PAGE - KEYNOTE TOPIC SECTIONS
+   =========================================== */
+.keynote-topic-section {
+  scroll-margin-top: 100px;
+}
+
+.keynote-topic-header {
+  text-align: center;
+  margin-bottom: var(--space-2xl);
+}
+
+.keynote-topic-header__badge {
+  display: inline-block;
+  padding: var(--space-xs) var(--space-md);
+  border-radius: var(--radius-full);
+  color: var(--color-white);
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: var(--space-sm);
+}
+
+.keynote-topic-header__title {
+  font-size: var(--font-size-3xl);
+  color: var(--color-text);
+  margin: 0;
+}
+
+/* ===========================================
    SPEAKING PAGE - KEYNOTE CARDS
    =========================================== */
 .keynotes-grid {
