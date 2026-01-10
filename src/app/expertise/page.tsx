@@ -338,8 +338,10 @@ export default function ExpertisePage() {
                 <div className="expertise-wheel__item">
                   <span className="expertise-wheel__label">Podcasting</span>
                 </div>
+              </div>
+              <div className="expertise-wheel__items">
                 <div className="expertise-wheel__item">
-                  <span className="expertise-wheel__label">Growth</span>
+                  <span className="expertise-wheel__label">Personal Growth</span>
                 </div>
                 <div className="expertise-wheel__item">
                   <span className="expertise-wheel__label">Leadership</span>
