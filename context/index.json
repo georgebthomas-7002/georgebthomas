@@ -1,0 +1,153 @@
+{
+  "name": "George B. Thomas Context Engine",
+  "version": "1.0.0",
+  "created": "2025-01-09",
+  "lastUpdated": "2025-01-09",
+  "statistics": {
+    "totalSources": 179,
+    "totalQuotes": 25,
+    "topicsCovered": 10,
+    "summariesCreated": 10
+  },
+  "topics": [
+    {
+      "id": "podcasting",
+      "name": "Podcasting",
+      "structuredFile": "structured/podcasting.json",
+      "summaryFile": "summaries/podcasting.md",
+      "sourceCount": 25,
+      "tags": ["podcast", "audio", "hubheroes", "hubcast", "beyond-your-default", "marketing-smarts"],
+      "pageReady": true
+    },
+    {
+      "id": "video",
+      "name": "Video & YouTube",
+      "structuredFile": "structured/video.json",
+      "summaryFile": "summaries/video.md",
+      "sourceCount": 25,
+      "tags": ["video", "youtube", "video-marketing", "tutorials", "webinars", "video-jedi"],
+      "pageReady": true
+    },
+    {
+      "id": "hubspot",
+      "name": "HubSpot Expertise",
+      "structuredFile": "structured/hubspot.json",
+      "summaryFile": "summaries/hubspot.md",
+      "sourceCount": 32,
+      "tags": ["hubspot", "inbound", "crm", "marketing-automation", "certifications", "partner"],
+      "pageReady": true
+    },
+    {
+      "id": "speaking",
+      "name": "Speaking Engagements",
+      "structuredFile": "structured/speaking.json",
+      "summaryFile": "summaries/speaking.md",
+      "sourceCount": 25,
+      "tags": ["speaking", "keynote", "conference", "training", "workshop", "emcee"],
+      "pageReady": true
+    },
+    {
+      "id": "testimonials",
+      "name": "Testimonials & Social Proof",
+      "structuredFile": "structured/testimonials.json",
+      "summaryFile": "summaries/testimonials.md",
+      "sourceCount": 25,
+      "quotesCount": 25,
+      "tags": ["testimonials", "reviews", "recommendations", "social-proof"],
+      "pageReady": true
+    },
+    {
+      "id": "ai-technology",
+      "name": "AI & Technology",
+      "structuredFile": "structured/ai-technology.json",
+      "summaryFile": "summaries/ai-technology.md",
+      "sourceCount": 15,
+      "tags": ["ai", "artificial-intelligence", "technology", "digital-transformation", "ai-clone"],
+      "pageReady": true
+    },
+    {
+      "id": "business-coaching",
+      "name": "Business & Coaching",
+      "structuredFile": "structured/business-coaching.json",
+      "summaryFile": "summaries/business-coaching.md",
+      "sourceCount": 18,
+      "tags": ["business", "coaching", "sidekick-strategies", "superhuman-framework", "transition-specialist"],
+      "pageReady": true
+    },
+    {
+      "id": "marketing-sales",
+      "name": "Marketing & Sales",
+      "structuredFile": "structured/marketing-sales.json",
+      "summaryFile": "summaries/marketing-sales.md",
+      "sourceCount": 24,
+      "tags": ["marketing", "sales", "inbound", "content-marketing", "strategy"],
+      "pageReady": true
+    },
+    {
+      "id": "biography",
+      "name": "Biography & Personal Brand",
+      "structuredFile": "structured/biography.json",
+      "summaryFile": "summaries/biography.md",
+      "sourceCount": 15,
+      "tags": ["biography", "about", "personal-brand", "origin-story", "career"],
+      "pageReady": true
+    },
+    {
+      "id": "t-shaped-narrative",
+      "name": "T-Shaped Marketer Narrative",
+      "structuredFile": "structured/t-shaped-narrative.json",
+      "summaryFile": "summaries/t-shaped-narrative.md",
+      "sourceCount": 0,
+      "tags": ["t-shaped", "y-shaped", "expertise", "positioning", "narrative"],
+      "pageReady": true,
+      "notes": "Synthesized from all other topics"
+    }
+  ],
+  "positioning": {
+    "title": "Y-Shaped Business Owner",
+    "subtitle": "Transition Specialist",
+    "tagline": "Happy, Helpful, Humble HubSpot Helper",
+    "principles": [
+      "Value-First",
+      "Human-First",
+      "Content-Driven",
+      "Expert in Helping Humans"
+    ]
+  },
+  "quotes": {
+    "directory": "quotes/",
+    "count": 25,
+    "categories": {
+      "hubspot": 10,
+      "speaking": 6,
+      "coaching": 5,
+      "general": 4
+    }
+  },
+  "files": {
+    "structured": [
+      "structured/podcasting.json",
+      "structured/video.json",
+      "structured/hubspot.json",
+      "structured/speaking.json",
+      "structured/testimonials.json",
+      "structured/ai-technology.json",
+      "structured/business-coaching.json",
+      "structured/marketing-sales.json",
+      "structured/biography.json",
+      "structured/t-shaped-narrative.json"
+    ],
+    "summaries": [
+      "summaries/podcasting.md",
+      "summaries/video.md",
+      "summaries/hubspot.md",
+      "summaries/speaking.md",
+      "summaries/testimonials.md",
+      "summaries/ai-technology.md",
+      "summaries/business-coaching.md",
+      "summaries/marketing-sales.md",
+      "summaries/biography.md",
+      "summaries/t-shaped-narrative.md"
+    ]
+  }
+}

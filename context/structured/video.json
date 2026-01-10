@@ -1,0 +1,558 @@
+{
+  "topic": "video",
+  "lastUpdated": "2025-01-09",
+  "sourceCount": 25,
+  "sources": [
+    {
+      "title": "George B. Thomas Video Gallery",
+      "url": "https://www.georgebthomas.com/videos",
+      "type": "channel",
+      "date": null,
+      "retrievedAt": "2025-01-09",
+      "summary": "George B. Thomas's official video gallery featuring content where visitors can see him in action or learn what he's thinking about HubSpot, AI, or other tech topics.",
+      "keyPoints": [
+        "Central hub for George's video content",
+        "Covers HubSpot tutorials and insights",
+        "Features AI and technology discussions",
+        "Demonstrates his video marketing expertise in action"
+      ],
+      "quotes": [],
+      "tags": ["video gallery", "HubSpot", "AI", "personal brand"]
+    },
+    {
+      "title": "HubSpot Sprocket Talk YouTube Channel",
+      "url": "https://www.sprockettalk.com/hub",
+      "type": "channel",
+      "date": null,
+      "retrievedAt": "2025-01-09",
+      "summary": "YouTube channel dedicated to HubSpot tutorials, updates, and interviews. George B. Thomas built this community and created countless educational videos covering HubSpot Marketing, Sales, and Services Hub tools.",
+      "keyPoints": [
+        "Dedicated to HubSpot tutorials, updates, and interviews",
+        "Deep dives into HubSpot Marketing, Sales, and Services Hub tools",
+        "Helps users achieve more ROI with their HubSpot account",
+        "George created this community from the ground up",
+        "Approaching 500,000 views and 10,000 subscribers milestone"
+      ],
+      "quotes": [
+        "Been such an amazing adventure on YouTube creating HubSpot tutorials"
+      ],
+      "tags": ["YouTube", "HubSpot", "tutorials", "community", "Sprocket Talk"]
+    },
+    {
+      "title": "Sidekick Strategies Videos",
+      "url": "https://sidekickstrategies.com/videos/author/george-b-thomas",
+      "type": "channel",
+      "date": null,
+      "retrievedAt": "2025-01-09",
+      "summary": "Video content hub on Sidekick Strategies featuring George B. Thomas's tutorials and educational content about HubSpot and marketing strategies.",
+      "keyPoints": [
+        "HubSpot traffic analytics tutorials",
+        "Marketing strategy videos",
+        "Part of George's business Sidekick Strategies"
+      ],
+      "quotes": [],
+      "tags": ["Sidekick Strategies", "HubSpot", "tutorials"]
+    },
+    {
+      "title": "The HubHeroes Podcast",
+      "url": "https://sidekickstrategies.com/hubheroes-podcast",
+      "type": "video/podcast",
+      "date": "2022-present",
+      "retrievedAt": "2025-01-09",
+      "summary": "Podcast hosted by George B. Thomas featuring Liz, Max, Devyn, and George exploring the universe of inbound and HubSpot. Available on Apple Podcasts and other platforms.",
+      "keyPoints": [
+        "Mission to empower marketing, sales, and business leaders",
+        "Explores inbound and HubSpot strategies",
+        "Features veteran HubSpot pros with high-level insights",
+        "Makes complex concepts simple enough for beginners",
+        "Backstage pass to strategies that drive results"
+      ],
+      "quotes": [
+        "The HubHeroes Podcast's mission is to empower marketing, sales, and business leaders to explore the universe of inbound and HubSpot in a way that's never been done before"
+      ],
+      "tags": ["podcast", "HubSpot", "inbound marketing", "HubHeroes"]
+    },
+    {
+      "title": "Beyond Your Default Podcast",
+      "url": "https://www.beyondyourdefault.com/",
+      "type": "video/podcast",
+      "date": "2023-present",
+      "retrievedAt": "2025-01-09",
+      "summary": "George B. Thomas's personal development podcast co-hosted with Liz Moorehead, exploring self-belief, transformation, and living beyond default norms.",
+      "keyPoints": [
+        "Addresses questions like feeling stuck or unfulfilled",
+        "Explores the Superhuman Framework cornerstones: Love, Purpose, Passion, and Persistence",
+        "Challenges listeners to live beyond their default",
+        "Available on Spotify, Apple Podcasts, and iHeart Radio"
+      ],
+      "quotes": [
+        "Everyone keeps telling me I should be happy, but I'm not",
+        "I feel stuck",
+        "I have a calling, but where do I start?"
+      ],
+      "tags": ["podcast", "personal development", "Superhuman Framework", "transformation"]
+    },
+    {
+      "title": "The Hubcast Podcast (271 Episodes)",
+      "url": "https://www.impactplus.com/blog/author/george-b-thomas",
+      "type": "video/podcast",
+      "date": "2014-2019",
+      "retrievedAt": "2025-01-09",
+      "summary": "George B. Thomas recorded 271 episodes of the Hubcast, an inbound marketing podcast focused on HubSpot. Marcus Sheridan encouraged George to start this podcast.",
+      "keyPoints": [
+        "271 total episodes recorded",
+        "Focused on HubSpot updates, tutorials, and inbound marketing",
+        "Co-hosted with Carina Duffy",
+        "Video component available on YouTube",
+        "Episodes ended with 'go out into the world and do some HAPPY HUBSPOTTING!'"
+      ],
+      "quotes": [
+        "Go out into the world and do some HAPPY HUBSPOTTING!"
+      ],
+      "tags": ["podcast", "Hubcast", "HubSpot", "inbound marketing", "IMPACT"]
+    },
+    {
+      "title": "How To Use Video Everywhere Online - Agents of Change Podcast",
+      "url": "https://www.theagentsofchange.com/george-b-thomas",
+      "type": "video/podcast",
+      "date": null,
+      "retrievedAt": "2025-01-09",
+      "summary": "George B. Thomas discusses video as the easiest way to communicate on a human level in a digital world, covering 80% videos, email signature videos, and multi-channel distribution strategies.",
+      "keyPoints": [
+        "Video is the easiest way to communicate on a human level digitally",
+        "80% Videos: Address most frequent sales questions in 2-minute videos",
+        "Email signature videos for sales representatives",
+        "Product/service pages should have dedicated video content",
+        "Multi-channel distribution: YouTube, Facebook, Instagram, Twitter, LinkedIn",
+        "Recommended tools: Wistia, Vidyard, Ecamm Live, TubeBuddy",
+        "Advocates insourcing video creation over outsourcing"
+      ],
+      "quotes": [
+        "Video is the easiest way to communicate on a human level in a digital world",
+        "Video is the ultimate bridge between sales and marketing teams"
+      ],
+      "tags": ["podcast", "video marketing", "80% videos", "multi-channel", "Rich Brooks"]
+    },
+    {
+      "title": "How To Get Started With Personalised Video For Business",
+      "url": "https://engagevideomarketing.com/how-to-get-started-with-personalised-video-for-business-feat-george-b-thomas/",
+      "type": "video/podcast",
+      "date": null,
+      "retrievedAt": "2025-01-09",
+      "summary": "George B. Thomas discusses the role of personalized videos in business sales, covering tools, getting started with introduction and onboarding videos, and overcoming camera fear.",
+      "keyPoints": [
+        "Tools: Go Video, Wistia Soapbox, Loom, BombBomb make personalized video accessible",
+        "Consumers want to see micro-expressions to assess authenticity",
+        "Start with introduction videos for new sign-ups",
+        "Send personalized onboarding content thanking individuals by name",
+        "Appearing 'unscalable' is actually a competitive advantage",
+        "Business is fundamentally P2P (person-to-person), not B2B or B2C"
+      ],
+      "quotes": [
+        "Where you find the magic moments where you actually make the most revenue is when you focus on the things that feel that are unscalable",
+        "Business is fundamentally P2P (person-to-person), not B2B or B2C, when executed authentically"
+      ],
+      "tags": ["personalized video", "video marketing", "BombBomb", "Loom", "authenticity"]
+    },
+    {
+      "title": "Go Video or Go Home - Agency Management Institute Podcast",
+      "url": "https://agencymanagementinstitute.com/podcasts/george-thomas/",
+      "type": "video/podcast",
+      "date": null,
+      "retrievedAt": "2025-01-09",
+      "summary": "George B. Thomas shares comprehensive video marketing strategies including the '80% Videos' concept, bulk video creation 'rockfests', equipment recommendations, and workshop revenue models for agencies.",
+      "keyPoints": [
+        "Created over 400 HubSpot video tutorials independently",
+        "80% of content consumed by prospects will be video-based",
+        "80% Videos: Quick revenue-driven videos answering frequent sales questions",
+        "Bulk creating in quarterly 'rockfests': 30-35 videos in a day and a half",
+        "Three Core Principles: Human, Happy, Helpful",
+        "Equipment ranges from $1,500 prosumer cameras to smartphones with BeastGrip",
+        "Recommended editing: DaVinci Resolve (free), Camtasia, Adobe Premiere",
+        "Workshop revenue model: $3,500-$7,500 communication training",
+        "70% of buyer's journey completes before direct contact"
+      ],
+      "quotes": [
+        "Video is the ultimate bridge between sales and marketing, and creating content",
+        "When you go to relationship, you go to trust. When you go to trust, you go to reciprocity. And when you go to reciprocity, that equals revenue",
+        "I'm not paralyzed by perfection because I'm focused on publication",
+        "Embrace the messy"
+      ],
+      "tags": ["agency", "video marketing", "80% videos", "equipment", "workshops", "revenue"]
+    },
+    {
+      "title": "Webinar Example: Blending Webcam, Screenshare and More - Vidyard",
+      "url": "https://www.vidyard.com/the-visual-sale/webinar-example-george-b-thomas-seamlessly-blends-webcam-screenshare-and-more/",
+      "type": "webinar",
+      "date": null,
+      "retrievedAt": "2025-01-09",
+      "summary": "George B. Thomas demonstrates how to create more engaging live webinars through thoughtful blending of webcam views, screen shares, and other production elements.",
+      "keyPoints": [
+        "Demystifies the video creation process",
+        "Shows how to blend screenshares with webcam views",
+        "Makes webinars more engaging through production variety",
+        "Part of Vidyard's Visual Sale resources"
+      ],
+      "quotes": [
+        "Webinars become way more engaging when you're thoughtful about your approach to blending screenshares, webcam views, and more"
+      ],
+      "tags": ["webinar", "Vidyard", "production", "screenshare", "webcam"]
+    },
+    {
+      "title": "Vidyard Fast Forward 2020 - Video Tips for Virtual Selling",
+      "url": "https://fast-forward-2020.heysummit.com/speakers/george-b-thomas/",
+      "type": "webinar",
+      "date": "2020",
+      "retrievedAt": "2025-01-09",
+      "summary": "George B. Thomas speaks at Vidyard's Fast Forward virtual event, sharing tips on growing video confidence, choosing compelling topics, and improving production quality.",
+      "keyPoints": [
+        "Grow confidence in videos you're making",
+        "Pin down video topics that capture viewers' attention",
+        "Use the right tools to up production quality",
+        "Keynoted Vidyard's virtual event three years in a row"
+      ],
+      "quotes": [],
+      "tags": ["Vidyard", "Fast Forward", "virtual selling", "video confidence"]
+    },
+    {
+      "title": "Creating More Effective Videos - Impulse Creative Webinar",
+      "url": "https://impulsecreative.com/creating-more-effective-videos",
+      "type": "webinar",
+      "date": null,
+      "retrievedAt": "2025-01-09",
+      "summary": "30-minute on-demand webinar by Impulse Creative featuring George B. Thomas on how to create more effective marketing and sales videos.",
+      "keyPoints": [
+        "30-minute on-demand format",
+        "Focuses on marketing and sales video creation",
+        "Practical tips for effective video content"
+      ],
+      "quotes": [],
+      "tags": ["webinar", "Impulse Creative", "video production", "marketing videos"]
+    },
+    {
+      "title": "TwentyThree Marketing Expert Series - Video Marketing for Brands",
+      "url": "https://video.twentythree.com/mes-george-b-thomas-impulse-creative-1",
+      "type": "webinar",
+      "date": "2018-11-13",
+      "retrievedAt": "2025-01-09",
+      "summary": "George B. Thomas appears as Marketing Evangelist at Impulse Creative in the TwentyThree Marketing Expert Series, breaking down all-things video marketing for brands.",
+      "keyPoints": [
+        "Part of TwentyThree Marketing Expert Series",
+        "Comprehensive video marketing guidance for brands",
+        "Presented as Marketing Evangelist at Impulse Creative"
+      ],
+      "quotes": [],
+      "tags": ["TwentyThree", "video marketing", "brands", "Impulse Creative"]
+    },
+    {
+      "title": "INBOUND 2025 - The Secret to SuperHuman-Centric Marketing That Converts",
+      "url": "https://www.inbound.com/sessions/rec0hNHOE0Gon1cKT",
+      "type": "conference",
+      "date": "2025-09-03",
+      "retrievedAt": "2025-01-09",
+      "summary": "George B. Thomas unveils the SuperHuman Marketing Framework at INBOUND 2025, presenting a blueprint for marketing that builds trust and converts through human-centric approaches.",
+      "keyPoints": [
+        "Unveiling the SuperHuman Marketing Framework",
+        "Most marketing today is robotic, disconnected, forgettable",
+        "Humans don't buy from brands - they buy from other Humans",
+        "Blueprint for marketing that feels good, builds trust, and converts"
+      ],
+      "quotes": [
+        "Humans don't buy from brands. They buy from other Humans",
+        "Most marketing today is robotic, disconnected, forgettable"
+      ],
+      "tags": ["INBOUND", "HubSpot", "SuperHuman Framework", "conference", "2025"]
+    },
+    {
+      "title": "INBOUND 2021 Speaker - Pillar Page and Content Cluster Strategy",
+      "url": "https://content.inbound.com/2021/speakers/george-b.-thomas",
+      "type": "conference",
+      "date": "2021",
+      "retrievedAt": "2025-01-09",
+      "summary": "George B. Thomas speaks at INBOUND 2021 on pillar page and content cluster strategy, teaching attendees how to create the right content around topics their business wants to be known for.",
+      "keyPoints": [
+        "Pillar page and content cluster strategy session",
+        "Helps businesses create content around key topics",
+        "Part of ongoing INBOUND speaking since 2015"
+      ],
+      "quotes": [],
+      "tags": ["INBOUND", "content strategy", "pillar pages", "SEO"]
+    },
+    {
+      "title": "Social Media Marketing World - Emcee and Speaker",
+      "url": "https://events.bizzabo.com/SMMW17/page/1286767/speakers",
+      "type": "conference",
+      "date": "2017-2020",
+      "retrievedAt": "2025-01-09",
+      "summary": "George B. Thomas served as Emcee at Social Media Marketing World, introducing speakers for their presentations in front of thousands of attendees. He introduced speakers like Marcus Sheridan and Anne Handley.",
+      "keyPoints": [
+        "Served as Emcee two years in a row",
+        "Introduced speakers including Marcus Sheridan and Anne Handley",
+        "Performed in front of thousands of attendees",
+        "Had a room of 700 people laughing, engaged, and energized"
+      ],
+      "quotes": [
+        "George is one of those rare individuals that connect with people at an amazingly intimate level",
+        "He gives the audience 100% of himself, whether it's an audience of 50 or 5,000"
+      ],
+      "tags": ["Social Media Marketing World", "emcee", "speaker", "Michael Stelzner"]
+    },
+    {
+      "title": "Ecamm Live at Social Media Marketing World 2020",
+      "url": "https://www.ecamm.com/mac/ecammlive/smmw20.html",
+      "type": "conference",
+      "date": "2020-03-01",
+      "retrievedAt": "2025-01-09",
+      "summary": "George B. Thomas was among special guests joining Ecamm at their Live Streaming Lounge booth at Social Media Marketing World 2020, alongside livestreaming experts like Luria Petrucci, Justin Brown, Brian Fanzo, and Stephanie Liu.",
+      "keyPoints": [
+        "Featured guest at Ecamm Live Streaming Lounge",
+        "Participated in live video AMAs",
+        "Joined other livestreaming experts at the event",
+        "Demonstrated Ecamm Live capabilities"
+      ],
+      "quotes": [],
+      "tags": ["Ecamm Live", "livestreaming", "Social Media Marketing World", "San Diego"]
+    },
+    {
+      "title": "Ask the Experts with George B. Thomas - Ecamm",
+      "url": "https://flow.ecamm.com/videos/ask-the-experts-with-george-b-thomas/",
+      "type": "video/interview",
+      "date": null,
+      "retrievedAt": "2025-01-09",
+      "summary": "Stephanie Liu interviews George B. Thomas about video marketing, live video, and Ecamm Live in this Ask the Experts video session.",
+      "keyPoints": [
+        "Interview format with Stephanie Liu as host",
+        "Covers video marketing strategies",
+        "Discusses live video techniques",
+        "Ecamm Live platform demonstration"
+      ],
+      "quotes": [
+        "If you're not using video to grow your brand, you're already falling behind"
+      ],
+      "tags": ["Ecamm Live", "interview", "live video", "Stephanie Liu"]
+    },
+    {
+      "title": "Marketing Smarts Live Show - World-Class Case Studies; Building Trust on the Internet",
+      "url": "https://www.marketingprofs.com/video/2023/50040/world-class-case-studies-building-trust-on-the-internet-marketing-smarts-live-show",
+      "type": "video/show",
+      "date": "2023",
+      "retrievedAt": "2025-01-09",
+      "summary": "George B. Thomas discusses building trust on the internet through world-class case studies on the Marketing Smarts Live Show by MarketingProfs.",
+      "keyPoints": [
+        "Building trust through online content",
+        "Case study analysis and best practices",
+        "Part of MarketingProfs video content"
+      ],
+      "quotes": [],
+      "tags": ["MarketingProfs", "case studies", "trust building", "live show"]
+    },
+    {
+      "title": "Marketing Smarts Live Show - Three Pillars of Winning Communication",
+      "url": "https://www.marketingprofs.com/video/2023/49853/the-three-pillars-of-winning-communicationvalue-passion-and-connection-marketing-smarts-live-show",
+      "type": "video/show",
+      "date": "2023",
+      "retrievedAt": "2025-01-09",
+      "summary": "George B. Thomas shares the three pillars of winning communication - Value, Passion, and Connection - on the Marketing Smarts Live Show.",
+      "keyPoints": [
+        "Three pillars: Value, Passion, and Connection",
+        "Framework for effective communication",
+        "Applicable to video and all marketing content"
+      ],
+      "quotes": [],
+      "tags": ["MarketingProfs", "communication", "value", "passion", "connection"]
+    },
+    {
+      "title": "HubnSpoke Podcast - Episode 50 with HubCast Star George B Thomas",
+      "url": "https://podcasts.apple.com/us/podcast/episode-50-special-guest-hubcast-star-george-b-thomas/id1149721098?i=1000410252073",
+      "type": "video/podcast",
+      "date": "2018-04",
+      "retrievedAt": "2025-01-09",
+      "summary": "George B. Thomas appears as a special guest on the HubnSpoke podcast discussing his move from Impact to Impulse, highlights of four years doing the HubCast, and how 19+ HubSpot certifications impacted his career.",
+      "keyPoints": [
+        "Veteran of 172+ HubCast podcast episodes at time of interview",
+        "Discussed transition from Impact to Impulse Creative",
+        "A HubSpot expert that bleeds orange",
+        "Accredited HubSpot trainer consulting globally"
+      ],
+      "quotes": [],
+      "tags": ["HubnSpoke", "podcast", "HubCast", "career", "HubSpot certifications"]
+    },
+    {
+      "title": "It Just Takes One Play - Podcast Episode 167",
+      "url": "https://podcasts.apple.com/us/podcast/167-it-just-takes-one-play-with-george-b-thomas/id843566797?i=1000439075237",
+      "type": "video/podcast",
+      "date": null,
+      "retrievedAt": "2025-01-09",
+      "summary": "George B. Thomas discusses his journey and philosophy around taking action and making plays that change your trajectory in business and life.",
+      "keyPoints": [
+        "Philosophy on taking decisive action",
+        "Personal journey and transformation",
+        "Mindset for business and personal growth"
+      ],
+      "quotes": [],
+      "tags": ["podcast", "mindset", "transformation", "action"]
+    },
+    {
+      "title": "AI Digital Clone: How to Augment Your Team's Expertise",
+      "url": "https://theaihat.com/ai-digital-clone-how-to-augment-your-teams-expertise-with-george-b-thomas/",
+      "type": "video/podcast",
+      "date": null,
+      "retrievedAt": "2025-01-09",
+      "summary": "George B. Thomas discusses building an AI Digital Clone of himself, trained on over 16 million words of his unique content, insights, core values and beliefs.",
+      "keyPoints": [
+        "Built an AI Digital Clone trained on 16+ million words",
+        "Clone includes his content, insights, and core values",
+        "Demonstrates innovative use of AI in personal branding",
+        "Shows how to augment team expertise with AI"
+      ],
+      "quotes": [],
+      "tags": ["AI", "digital clone", "innovation", "personal branding"]
+    },
+    {
+      "title": "Mick Unplugged - Digital Marketing Mastery and Life Lessons",
+      "url": "https://mickunplugged.com/podcast/bonus-episode-5-george-b.-thomas-digital-marketing-mastery-and-life-lessons-mick-unplugged",
+      "type": "video/podcast",
+      "date": null,
+      "retrievedAt": "2025-01-09",
+      "summary": "George B. Thomas shares insights on digital marketing mastery and life lessons on the Mick Unplugged podcast.",
+      "keyPoints": [
+        "Digital marketing expertise",
+        "Life lessons and personal philosophy",
+        "Career journey and insights"
+      ],
+      "quotes": [],
+      "tags": ["podcast", "digital marketing", "life lessons", "Mick Unplugged"]
+    },
+    {
+      "title": "The ChatGPT Experiment - Cloning Yourself with ChatGPT",
+      "url": "https://chatgptexperiment.com/episode-68-cloning-yourself-with-chatgpt-george-b-thomas-and-the-superhuman-framework/",
+      "type": "video/podcast",
+      "date": null,
+      "retrievedAt": "2025-01-09",
+      "summary": "George B. Thomas discusses the Superhuman Framework and how to clone yourself using ChatGPT, exploring AI applications for personal and professional development.",
+      "keyPoints": [
+        "Superhuman Framework exploration",
+        "Using ChatGPT for self-cloning",
+        "AI applications in personal branding",
+        "Framework integration with technology"
+      ],
+      "quotes": [],
+      "tags": ["ChatGPT", "AI", "Superhuman Framework", "personal branding"]
+    }
+  ],
+  "expertise": {
+    "videoPhilosophy": [
+      "Video is the easiest way to communicate on a human level in a digital world",
+      "Video is the ultimate bridge between sales and marketing teams",
+      "If you're not using video to grow your brand, you're already falling behind",
+      "70% of the buyer's journey is done before they ever pick up the phone",
+      "Video is the ultimate trust builder",
+      "Vulnerability and empathy are two leading components of video marketing"
+    ],
+    "coreVideoFrameworks": [
+      {
+        "name": "80% Videos",
+        "description": "Quick, revenue-driven videos answering the questions sales teams receive most frequently. 2-minute videos that provide efficient education instead of lengthy emails."
+      },
+      {
+        "name": "Three Core Principles",
+        "description": "Every video should be Human (authentic), Happy (start with a smile), and Helpful (educate rather than sell)"
+      },
+      {
+        "name": "Rockfest Method",
+        "description": "Bulk creating videos in quarterly sessions, producing 30-35 finished videos in a day and a half"
+      },
+      {
+        "name": "Trust-Revenue Connection",
+        "description": "Relationship leads to trust, trust leads to reciprocity, reciprocity equals revenue"
+      }
+    ],
+    "recommendedTools": [
+      "Wistia - Analytics and form integration",
+      "Vidyard - Detailed analytics and branded player customization",
+      "Ecamm Live - Embedding pre-produced videos in Facebook Live",
+      "TubeBuddy - YouTube analytics visualization",
+      "DaVinci Resolve - Free video editing",
+      "Camtasia - Simple editing by TechSmith",
+      "Adobe Premiere and After Effects - Professional workflow",
+      "BeastGrip - Smartphone add-on lenses",
+      "Loom - Personalized video",
+      "BombBomb - Personalized video for sales",
+      "Go Video - Personalized video",
+      "Wistia Soapbox - Quick video creation"
+    ],
+    "videoTypes": [
+      "Email signature videos (30 seconds to 1.5 minutes)",
+      "Culture/mission/vision videos",
+      "Employee introductions",
+      "Customer testimonials/case studies",
+      "Educational content answering common questions",
+      "Live video (Facebook Live, etc.)",
+      "Product/service page videos",
+      "Personalized onboarding videos",
+      "HubSpot tutorial videos"
+    ]
+  },
+  "credentials": {
+    "title": "Video Jedi",
+    "videosCreated": "Thousands of marketing & sales videos",
+    "hubspotTutorials": "400+ HubSpot video tutorials",
+    "hubcastEpisodes": 271,
+    "certifications": "38+ HubSpot certifications",
+    "experience": "25+ years of sales and marketing experience",
+    "companies": ["Sidekick Strategies (Owner)", "Impulse Creative (Former)", "The Sales Lion (Former)", "IMPACT (Former)"],
+    "speakingCredentials": [
+      "INBOUND speaker every year since 2015",
+      "Social Media Marketing World Emcee (2 years)",
+      "Vidyard Fast Forward keynote (3 years)",
+      "Spoken at events with thousands of attendees"
+    ]
+  },
+  "keyQuotes": [
+    {
+      "quote": "Video is the easiest way to communicate on a human level in a digital world",
+      "context": "Core philosophy on video marketing",
+      "source": "Agents of Change Podcast"
+    },
+    {
+      "quote": "When you go to relationship, you go to trust. When you go to trust, you go to reciprocity. And when you go to reciprocity, that equals revenue",
+      "context": "On the business value of video",
+      "source": "Agency Management Institute Podcast"
+    },
+    {
+      "quote": "I'm not paralyzed by perfection because I'm focused on publication",
+      "context": "On overcoming perfectionism in video creation",
+      "source": "Agency Management Institute Podcast"
+    },
+    {
+      "quote": "If you're not using video to grow your brand, you're already falling behind",
+      "context": "Urgency of video adoption",
+      "source": "georgebthomas.com"
+    },
+    {
+      "quote": "Humans don't buy from brands. They buy from other Humans",
+      "context": "SuperHuman Marketing Framework",
+      "source": "INBOUND 2025"
+    },
+    {
+      "quote": "Video is the ultimate bridge between sales and marketing teams",
+      "context": "On alignment between departments",
+      "source": "Agency Management Institute Podcast"
+    },
+    {
+      "quote": "Where you find the magic moments where you actually make the most revenue is when you focus on the things that feel that are unscalable",
+      "context": "On personalized video",
+      "source": "Engage Video Marketing"
+    },
+    {
+      "quote": "Embrace the messy",
+      "context": "On getting started with video",
+      "source": "Agency Management Institute Podcast"
+    },
+    {
+      "quote": "70% of the buyer's journey is done, before they ever pick up the phone, before they ever fill out a form, before you even know they exist",
+      "context": "On why video matters",
+      "source": "Agency Management Institute Podcast"
+    }
+  ]
+}

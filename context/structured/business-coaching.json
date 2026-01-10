@@ -1,0 +1,568 @@
+{
+  "topic": "business-coaching",
+  "lastUpdated": "2026-01-09",
+  "sourceCount": 18,
+  "positioning": {
+    "yShapedOwner": {
+      "description": "Deep expertise in multiple verticals - HubSpot technology, business strategy, personal development coaching, and content creation",
+      "verticals": [
+        {
+          "name": "HubSpot Technology Expert",
+          "evidence": "42+ HubSpot certifications, HubSpot Certified Trainer, record-breaking certification holder"
+        },
+        {
+          "name": "Business Growth Strategist",
+          "evidence": "Founder/CEO of Sidekick Strategies, HubSpot Partner Agency, helping businesses streamline and grow"
+        },
+        {
+          "name": "Personal Development Coach",
+          "evidence": "Creator of Superhuman Framework, Beyond Your Default podcast, coaching leaders and solopreneurs"
+        },
+        {
+          "name": "Content Creator & Speaker",
+          "evidence": "HubHeroes Podcast host, INBOUND speaker every year since 2015, keynote speaker"
+        }
+      ]
+    },
+    "transitionSpecialist": {
+      "description": "Helping businesses and individuals navigate change and transformation",
+      "evidence": [
+        "Helped businesses break through barriers and achieve transformations",
+        "Transformed from solopreneur to agency owner (Sidekick Strategies)",
+        "Guides teams through HubSpot implementations and process changes",
+        "Personal story of transformation: high school dropout to industry expert",
+        "Career transitions through Wild Boy, The Sales Lion, IMPACT, Impulse Creative, to founding Sidekick Strategies"
+      ]
+    },
+    "principles": [
+      {
+        "name": "Human-First",
+        "description": "The human side of business comes first - designing systems around how people actually work",
+        "quotes": [
+          "At Sidekick Strategies, they believe the human side of business comes first",
+          "Humans don't buy from brands. They buy from other Humans",
+          "Without authenticity, empathy, and purpose, you're leaving relationships and revenue on the table"
+        ]
+      },
+      {
+        "name": "Value-First",
+        "description": "Leading with genuine helpfulness and service before asking for anything in return",
+        "quotes": [
+          "Leading with a servant's heart",
+          "Content that is built with a laser focus on being genuinely helpful, genuinely of service",
+          "Marketing shouldn't feel like a guessing game"
+        ]
+      },
+      {
+        "name": "Content-Driven",
+        "description": "Using educational content as the primary vehicle for building trust and relationships",
+        "evidence": [
+          "HubHeroes Podcast - weekly HubSpot and marketing insights",
+          "Beyond Your Default Podcast - personal development",
+          "Sprocket Talk community",
+          "271+ episodes of Hubcast",
+          "Hundreds of educational videos"
+        ]
+      },
+      {
+        "name": "Expert in Helping Humans",
+        "description": "Core identity built around being genuinely helpful to people",
+        "taglines": [
+          "Happy, helpful, humble human",
+          "HubSpot Helper",
+          "Chief HubSpot Helper",
+          "Born to help people"
+        ]
+      }
+    ]
+  },
+  "superhumanFramework": {
+    "description": "A personal and professional development framework designed to help people break free from default living and step into purpose-driven growth",
+    "fourCornerstones": [
+      {
+        "name": "Love",
+        "description": "Deep connection with yourself, others, and your work - the energy that fuels relationships"
+      },
+      {
+        "name": "Purpose",
+        "description": "Not just about what you do, but why you do it - the driving force behind meaningful action"
+      },
+      {
+        "name": "Passion",
+        "description": "Your emotional engine that makes the grind worth it - when passionate, discipline becomes effortless"
+      },
+      {
+        "name": "Persistence",
+        "description": "Sustained effort paired with health - 'healthy hustle' that avoids burnout"
+      }
+    ],
+    "tenHPillars": "Ten additional pillars that support the framework (details to be documented)",
+    "purpose": "A dashboard for life - tools to check in on 10 areas regularly to identify where you're thriving and where extra focus is needed"
+  },
+  "businessEntities": {
+    "sidekickStrategies": {
+      "name": "Sidekick Strategies",
+      "type": "HubSpot Partner Agency",
+      "founded": "2022",
+      "role": "CEO & Founder",
+      "services": [
+        "HubSpot Implementation",
+        "HubSpot Training",
+        "Marketing Strategy",
+        "CRM Optimization",
+        "Workflow Automation",
+        "Problem Solving"
+      ],
+      "culture": {
+        "feam": "The FEAM - a blended term uniting 'family' and 'team' into one",
+        "familyFirst": "Family comes before team - business built around George's family talents"
+      },
+      "philosophy": "Cut the clutter, simplify the systems, and design HubSpot around the way teams actually work",
+      "urls": {
+        "website": "https://sidekickstrategies.com",
+        "story": "https://sidekickstrategies.com/about/story",
+        "testimonials": "https://sidekickstrategies.com/about/testimonials-and-reviews"
+      }
+    },
+    "georgeBThomasLLC": {
+      "name": "George B. Thomas, LLC",
+      "type": "Personal Brand & Consulting",
+      "role": "Owner / Chief HubSpot Helper",
+      "services": [
+        "Professional Speaking",
+        "Keynote Presentations",
+        "HubSpot Consulting",
+        "Growth Coaching",
+        "Training Workshops"
+      ],
+      "urls": {
+        "website": "https://www.georgebthomas.com",
+        "consulting": "https://www.georgebthomas.com/services/hubspot-consulting",
+        "speaking": "https://www.georgebthomas.com/about"
+      }
+    }
+  },
+  "coachingPrograms": {
+    "aiGrowthCoach": {
+      "name": "George B. Thomas Growth Coach AI Clone",
+      "description": "AI digital clone trained on 16+ million words of George's content, values, and beliefs",
+      "platform": "Delphi.ai",
+      "features": [
+        "24/7 availability",
+        "Voice conversations via 1-877 number",
+        "Text-based Q&A at helper.georgebthomas.com",
+        "HubSpot expertise",
+        "Growth coaching guidance"
+      ],
+      "pricing": "$25/month for unlimited access",
+      "timeSaved": "35+ hours monthly",
+      "certifications": "42+ HubSpot certifications backing the knowledge base",
+      "url": "https://www.georgebthomas.com/growth"
+    },
+    "hubspotTraining": {
+      "name": "HubSpot Certified Trainer Services",
+      "description": "Official HubSpot Academy Certified Trainer offering personalized training",
+      "offerings": [
+        "HubSpot Intensive Training sessions",
+        "Onboarding programs",
+        "Discovery sessions",
+        "Email and chat support",
+        "Project dashboard access"
+      ],
+      "url": "https://academy.hubspot.com/hubspot-certified-trainer/find-a-trainer/georgeb-thomas"
+    }
+  },
+  "contentPlatforms": {
+    "podcasts": [
+      {
+        "name": "HubHeroes Podcast",
+        "description": "Weekly podcast covering HubSpot and inbound marketing strategies",
+        "coHosts": ["Max Cohen (HubSpot)", "Devyn Bellamy (HubSpot)"],
+        "episodes": "108+",
+        "focus": "Empowering marketing, sales, and business leaders with HubSpot strategies",
+        "url": "https://sidekickstrategies.com/hubheroes-podcast"
+      },
+      {
+        "name": "Beyond Your Default",
+        "description": "Personal development podcast about living beyond default settings",
+        "coHost": "Liz Moorehead",
+        "launched": "July 17, 2023",
+        "focus": "Conversations about living beyond what we're told to accept, reaching for something bigger",
+        "url": "https://www.beyondyourdefault.com"
+      },
+      {
+        "name": "Hubcast",
+        "description": "Original HubSpot-focused podcast (concluded)",
+        "episodes": "271",
+        "status": "Concluded"
+      }
+    ],
+    "communities": [
+      {
+        "name": "Sprocket Talk",
+        "description": "Educational community for HubSpot users",
+        "status": "Built during Impulse Creative tenure"
+      }
+    ]
+  },
+  "speakingCareer": {
+    "conferences": [
+      {
+        "name": "INBOUND (HubSpot's Annual Conference)",
+        "frequency": "Every year since 2015",
+        "role": "Speaker/Presenter"
+      },
+      {
+        "name": "Social Media World",
+        "role": "Speaker (presented to thousands)"
+      }
+    ],
+    "upcomingSessions": {
+      "inbound2025": {
+        "date": "September 3-5, 2025",
+        "sessionTitle": "SuperHuman Marketing Framework",
+        "description": "Unveiling the SuperHuman Marketing Framework - a blueprint for marketing that feels good, builds trust, and converts"
+      }
+    },
+    "speakingStyle": "High-energy, authentic, story-driven presentations",
+    "topics": [
+      "HubSpot Strategy & Implementation",
+      "Inbound Marketing",
+      "The Superhuman Framework",
+      "Personal Transformation",
+      "Human-First Marketing"
+    ]
+  },
+  "careerJourney": {
+    "timeline": [
+      {
+        "period": "Early Career",
+        "role": "Youth Pastor",
+        "location": "Ohio",
+        "notes": "While working at Pizza Hut and studying to become ordained"
+      },
+      {
+        "period": "~2013",
+        "company": "Wild Boy",
+        "role": "Agency Team Member",
+        "achievement": "HubSpot Rookie Partner of the Year 2013",
+        "notes": "Started with evening development and design work, then moved to full-time"
+      },
+      {
+        "period": "Post-Wild Boy",
+        "company": "The Sales Lion",
+        "role": "Employee to Part Owner (4 years)",
+        "notes": "Worked with Marcus Sheridan, started the Hubcast podcast"
+      },
+      {
+        "period": "2017",
+        "company": "IMPACT",
+        "role": "Team Member",
+        "notes": "When The Sales Lion merged with IMPACT"
+      },
+      {
+        "period": "~2017-2022",
+        "company": "Impulse Creative",
+        "role": "Inbound Evangelist",
+        "duration": "5 years",
+        "achievements": [
+          "Built Sprocket Talk community",
+          "Created hundreds of educational videos",
+          "Worked with Remington and Rachel Begg"
+        ]
+      },
+      {
+        "period": "2022-Present",
+        "company": "Sidekick Strategies",
+        "role": "CEO & Founder",
+        "notes": "Family-driven agency built around George's family"
+      }
+    ],
+    "originStory": {
+      "challenge": "At 17, a math teacher told him 'You'll never amount to anything'",
+      "response": "Dropped out of school six weeks later and joined the Navy",
+      "transformation": "From high school dropout to industry expert with 42+ certifications",
+      "lesson": "Born to help people - learned this through triumphs, failures, and divine intervention"
+    }
+  },
+  "credentials": {
+    "hubspotCertifications": "42+ (record-breaking)",
+    "certificationAreas": [
+      "Marketing",
+      "Sales",
+      "Service",
+      "CRM",
+      "CMS",
+      "Operations"
+    ],
+    "experience": "25+ years in sales and marketing",
+    "title": "HubSpot Certified Trainer"
+  },
+  "sources": [
+    {
+      "title": "George B. Thomas - Sidekick Strategies | LinkedIn",
+      "url": "https://www.linkedin.com/in/georgebthomas/",
+      "type": "profile",
+      "retrievedAt": "2026-01-09",
+      "summary": "Professional LinkedIn profile showing role as CEO of Sidekick Strategies and HubSpot expertise",
+      "keyPoints": ["Chief HubSpot Helper", "Owner at George B. Thomas, LLC", "Sidekick Strategies", "Located in Indian Trail"],
+      "tags": ["linkedin", "profile", "professional"]
+    },
+    {
+      "title": "Our Story | Sidekick Strategies",
+      "url": "https://sidekickstrategies.com/about/story",
+      "type": "company",
+      "retrievedAt": "2026-01-09",
+      "summary": "Company origin story explaining how Sidekick Strategies evolved from George B. Thomas, LLC in 2022",
+      "keyPoints": [
+        "Initially swore never to create an agency",
+        "Family-driven business called 'the FEAM'",
+        "Human side of business comes first",
+        "Design HubSpot around how teams actually work"
+      ],
+      "quotes": [
+        "We don't just hand you a tool and disappear - we partner so HubSpot becomes a steady sidekick"
+      ],
+      "tags": ["company", "origin-story", "culture", "philosophy"]
+    },
+    {
+      "title": "Professional Speaker | George B. Thomas",
+      "url": "https://www.georgebthomas.com/",
+      "type": "website",
+      "retrievedAt": "2026-01-09",
+      "summary": "Personal website showcasing speaking services, coaching, and the Superhuman Framework",
+      "keyPoints": [
+        "12+ years at forefront of HubSpot expertise",
+        "Creator of HubHeroes Podcast",
+        "Owner of Sidekick Strategies",
+        "Visionary behind Superhuman Framework"
+      ],
+      "tags": ["personal-brand", "speaking", "consulting"]
+    },
+    {
+      "title": "The Superhuman Framework for Individual + Organizational Success",
+      "url": "https://sidekickstrategies.com/blog/what-is-superhuman-framework-george-b-thomas",
+      "type": "article",
+      "retrievedAt": "2026-01-09",
+      "summary": "Explanation of the Superhuman Framework - a system for aligning purpose, passion, persistence, and love",
+      "keyPoints": [
+        "Four Cornerstones: Love, Purpose, Passion, Persistence",
+        "Ten H-pillars supporting the framework",
+        "Dashboard for checking in on life areas",
+        "Blueprint for living beyond default"
+      ],
+      "quotes": [
+        "Break free from the default and step into a life of purpose, passion, and unstoppable momentum"
+      ],
+      "tags": ["superhuman-framework", "coaching", "methodology", "personal-development"]
+    },
+    {
+      "title": "4 Cornerstones of the Superhuman Framework by George B. Thomas | Beyond Your Default",
+      "url": "https://www.iheart.com/podcast/269-beyond-your-default-119113867/episode/4-cornerstones-of-the-superhuman-framework-222541387/",
+      "type": "podcast",
+      "retrievedAt": "2026-01-09",
+      "summary": "Podcast episode explaining the four cornerstones in detail",
+      "keyPoints": [
+        "Love as energy that fuels relationships",
+        "Purpose as why you do what you do",
+        "Passion as emotional engine",
+        "Persistence paired with health for 'healthy hustle'"
+      ],
+      "tags": ["podcast", "superhuman-framework", "cornerstones"]
+    },
+    {
+      "title": "George B. Thomas | INBOUND 2025",
+      "url": "https://www.inbound.com/speakers/recdsy4xofth6Sdor",
+      "type": "conference",
+      "date": "September 3-5, 2025",
+      "retrievedAt": "2026-01-09",
+      "summary": "Speaker profile for INBOUND 2025 conference",
+      "keyPoints": [
+        "Speaking at INBOUND every year since 2015",
+        "Session on SuperHuman Marketing Framework",
+        "Focus on authenticity, empathy, and purpose in marketing"
+      ],
+      "quotes": [
+        "Humans don't buy from brands. They buy from other Humans."
+      ],
+      "tags": ["speaking", "inbound", "conference", "hubspot"]
+    },
+    {
+      "title": "George B. Thomas: An Inbound Journey from Wild Boy, The Sales Lion, Impact & Now What",
+      "url": "https://impulsecreative.com/blog/george-b.-thomas-an-inbound-journey-from-wild-boy-the-sales-lion-impact-now-what",
+      "type": "article",
+      "retrievedAt": "2026-01-09",
+      "summary": "Comprehensive career journey through multiple agencies",
+      "keyPoints": [
+        "Started at Wild Boy (HubSpot Rookie Partner of Year 2013)",
+        "Moved to The Sales Lion with Marcus Sheridan",
+        "Brief time at IMPACT after merger",
+        "5 years at Impulse Creative as Inbound Evangelist",
+        "Founded Sidekick Strategies in 2022"
+      ],
+      "quotes": [
+        "Through it all, he learned one important thing: he was born to help people."
+      ],
+      "tags": ["career", "journey", "history", "agencies"]
+    },
+    {
+      "title": "Client Testimonials + Reviews | Sidekick Strategies",
+      "url": "https://sidekickstrategies.com/about/testimonials-and-reviews",
+      "type": "testimonials",
+      "retrievedAt": "2026-01-09",
+      "summary": "Collection of client testimonials about George's HubSpot expertise and coaching",
+      "keyPoints": [
+        "Praised for HubSpot mastery combined with thoughtful insight",
+        "Best HubSpot onboarding specialist testimonials",
+        "Training that adapts to specific business needs",
+        "Accessible and patient coaching style"
+      ],
+      "quotes": [
+        "I don't know where we'd be without him. His mastery of HubSpot, combined with his thoughtful insight and marketing best practices, makes him a true powerhouse!",
+        "He's accessible and you'll appreciate his quick response! I leave every encounter with George feeling more confident in my own skills"
+      ],
+      "tags": ["testimonials", "reviews", "client-success"]
+    },
+    {
+      "title": "AI Digital Clone: How to Augment Your Team's Expertise with George B. Thomas",
+      "url": "https://theaihat.com/ai-digital-clone-how-to-augment-your-teams-expertise-with-george-b-thomas/",
+      "type": "article",
+      "retrievedAt": "2026-01-09",
+      "summary": "How George built an AI clone trained on his expertise and values",
+      "keyPoints": [
+        "Trained on 16+ million words of content",
+        "Available at helper.georgebthomas.com",
+        "Voice conversations via 1-877 number",
+        "Reclaims 35+ hours monthly",
+        "Uses Delphi.ai platform"
+      ],
+      "tags": ["ai", "clone", "innovation", "scaling"]
+    },
+    {
+      "title": "George B. Thomas | Growth Coach - AI Clone",
+      "url": "https://www.georgebthomas.com/growth",
+      "type": "program",
+      "retrievedAt": "2026-01-09",
+      "summary": "AI-powered growth coaching program",
+      "keyPoints": [
+        "Purpose-driven and people-first coaching approach",
+        "Combines coaching wisdom with real-world business strategy",
+        "Human-first growth guidance",
+        "Coached thousands to flourish in life and business"
+      ],
+      "tags": ["coaching", "ai", "growth", "program"]
+    },
+    {
+      "title": "HubSpot Consulting with George B. Thomas",
+      "url": "https://www.georgebthomas.com/services/hubspot-consulting",
+      "type": "service",
+      "retrievedAt": "2026-01-09",
+      "summary": "HubSpot consulting services offered",
+      "keyPoints": [
+        "10+ years living and breathing HubSpot",
+        "Discovery sessions",
+        "Recorded sessions",
+        "Email and chat support",
+        "Project dashboard"
+      ],
+      "tags": ["consulting", "hubspot", "services"]
+    },
+    {
+      "title": "George B. Thomas, HubSpot Certified Trainer",
+      "url": "https://academy.hubspot.com/hubspot-certified-trainer/find-a-trainer/georgeb-thomas",
+      "type": "certification",
+      "retrievedAt": "2026-01-09",
+      "summary": "Official HubSpot Academy Certified Trainer profile",
+      "keyPoints": [
+        "Official HubSpot Certified Trainer",
+        "25+ years sales and marketing experience",
+        "42+ HubSpot certifications"
+      ],
+      "tags": ["certification", "hubspot", "training"]
+    },
+    {
+      "title": "HubHeroes Podcast | Sidekick Strategies",
+      "url": "https://sidekickstrategies.com/hubheroes-podcast",
+      "type": "podcast",
+      "retrievedAt": "2026-01-09",
+      "summary": "Weekly HubSpot and inbound marketing podcast",
+      "keyPoints": [
+        "108+ episodes",
+        "Co-hosted with Max Cohen and Devyn Bellamy from HubSpot",
+        "Backstage pass to strategies that drive results"
+      ],
+      "quotes": [
+        "Inbound is a state of mind that can be applied to pretty much anything"
+      ],
+      "tags": ["podcast", "hubspot", "inbound", "marketing"]
+    },
+    {
+      "title": "Beyond Your Default Podcast",
+      "url": "https://www.beyondyourdefault.com/",
+      "type": "podcast",
+      "date": "Launched July 17, 2023",
+      "retrievedAt": "2026-01-09",
+      "summary": "Personal development podcast about living beyond default",
+      "keyPoints": [
+        "Co-hosted with Liz Moorehead",
+        "For those who want to show up as a 'whole-ass human'",
+        "Conversations about living beyond what we're told to accept"
+      ],
+      "tags": ["podcast", "personal-development", "growth"]
+    },
+    {
+      "title": "Client Story: How George B. Thomas and Sidekick Strategies Nailed Their ClickUp Setup",
+      "url": "https://www.zenpilot.com/blog/george-b-thomas-sidekick-strategies-agency-clickup-consulting-client-story",
+      "type": "case-study",
+      "retrievedAt": "2026-01-09",
+      "summary": "How George transformed from solopreneur to agency owner with ZenPilot's help",
+      "keyPoints": [
+        "Transformed from solopreneur to agency owner",
+        "Implemented ClickUp for project management",
+        "Built streamlined operations"
+      ],
+      "tags": ["case-study", "operations", "agency-growth"]
+    },
+    {
+      "title": "Carving Your Own Path with George B. Thomas | Dial It In Podcast",
+      "url": "https://dialitinpodcast.com/dial-it-in-podcast-episodes/carving-your-own-path-with-george-b.-thomas",
+      "type": "interview",
+      "retrievedAt": "2026-01-09",
+      "summary": "Podcast interview about George's entrepreneurial journey",
+      "keyPoints": [
+        "Discussion of career path and transitions",
+        "Entrepreneurship insights",
+        "Personal development journey"
+      ],
+      "tags": ["interview", "podcast", "entrepreneurship"]
+    },
+    {
+      "title": "George B. Thomas : MarketingProfs Author",
+      "url": "https://www.marketingprofs.com/authors/4505/george-b-thomas",
+      "type": "profile",
+      "retrievedAt": "2026-01-09",
+      "summary": "Author profile on MarketingProfs",
+      "keyPoints": [
+        "Contributor to marketing publications",
+        "Industry thought leader"
+      ],
+      "tags": ["author", "marketing", "thought-leadership"]
+    },
+    {
+      "title": "About George B. Thomas | Father, Husband, Speaker, Trainer, Catalyst",
+      "url": "https://www.georgebthomas.com/about/about",
+      "type": "bio",
+      "retrievedAt": "2026-01-09",
+      "summary": "Personal biography and mission statement",
+      "keyPoints": [
+        "Life purpose: to be a catalyst for others to be their best",
+        "Roles: Father, Husband, Speaker, Trainer",
+        "High school dropout to industry expert transformation"
+      ],
+      "quotes": [
+        "His life's purpose is to be a catalyst for others to be their best"
+      ],
+      "tags": ["bio", "personal", "mission"]
+    }
+  ]
+}

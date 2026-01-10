@@ -1,0 +1,478 @@
+{
+  "metadata": {
+    "subject": "George B. Thomas",
+    "description": "Comprehensive collection of testimonials, reviews, recommendations, and social proof",
+    "retrievedAt": "2026-01-09",
+    "totalQuotes": 25,
+    "categories": {
+      "hubspot": 10,
+      "speaking": 6,
+      "coaching": 5,
+      "general": 4
+    }
+  },
+  "testimonials": [
+    {
+      "id": "quote-001",
+      "quote": "George's passion for helping others shines through in all his work. Whether he's on stage at Social Media World in front of thousands or on a HubSpot onboarding call with one person, his energy, care and desire to teach shine through. Whether you're hiring George to speak, consult or teach, you'll get a human who comes through with everything you're asking for and more. I definitely recommend George as a top notch marketer, video creator, HubSpot expert and all around good person to know.",
+      "attribution": {
+        "name": "Dan Moyle",
+        "role": "Marketing Professional",
+        "company": "",
+        "date": ""
+      },
+      "source": {
+        "url": "https://www.linkedin.com/in/georgebthomas/",
+        "type": "LinkedIn Recommendation",
+        "retrievedAt": "2026-01-09"
+      },
+      "category": "general",
+      "tags": ["speaking", "hubspot", "training", "video", "marketing"]
+    },
+    {
+      "id": "quote-002",
+      "quote": "As an accomplished and in-demand Speaker himself, I was not surprised that George could entertain and fire up the crowd so well in one of the largest rooms at San Diego Convention Centre. He exuded great stage presence, and he lifted the energy of the room with skill and humor! If you get the chance to work with George as a Keynote Speaker or Emcee, grab it with both hands!",
+      "attribution": {
+        "name": "Donna Moritz",
+        "role": "Visual Content Strategist",
+        "company": "Socially Sorted",
+        "date": ""
+      },
+      "source": {
+        "url": "https://www.linkedin.com/in/georgebthomas/",
+        "type": "LinkedIn Recommendation",
+        "retrievedAt": "2026-01-09"
+      },
+      "category": "speaking",
+      "tags": ["emcee", "keynote", "stage presence", "social media marketing world"]
+    },
+    {
+      "id": "quote-003",
+      "quote": "I saw George B Thomas deliver his first talk at Inbound in 2016, and boy did he deliver. I'm certain that the personal story and background he shared that day taught many others like me to keep striving to be as human and as helpful as possible. His delivery and energy are contagious.",
+      "attribution": {
+        "name": "",
+        "role": "",
+        "company": "",
+        "date": "2016"
+      },
+      "source": {
+        "url": "https://www.linkedin.com/in/georgebthomas/",
+        "type": "LinkedIn Recommendation",
+        "retrievedAt": "2026-01-09"
+      },
+      "category": "speaking",
+      "tags": ["INBOUND", "keynote", "storytelling", "human", "helpful"]
+    },
+    {
+      "id": "quote-004",
+      "quote": "What I love about George and his team is that they actually take the time to listen to where I'm trying to go, and comes back with solutions to make my vision happen. The insights that George has into Marketing, Workflows, CRM, and Problem Solving are second to none. George has my HubSpot working as true REVENUE source for my business, and I haven't been happier!!",
+      "attribution": {
+        "name": "Mick Hunt",
+        "role": "CEO",
+        "company": "Mick Unplugged",
+        "date": ""
+      },
+      "source": {
+        "url": "https://sidekickstrategies.com/about/testimonials-and-reviews",
+        "type": "Client Testimonial",
+        "retrievedAt": "2026-01-09"
+      },
+      "category": "hubspot",
+      "tags": ["HubSpot", "CRM", "marketing", "workflows", "revenue"]
+    },
+    {
+      "id": "quote-005",
+      "quote": "I love working with Sidekick Strategies. I have known George for many years, and have worked with him across multiple companies. When I ask for something, he finds a way to make it happen and is great at offering helpful alternatives that can be implemented quicker. His focus on HELPING is unmatched.",
+      "attribution": {
+        "name": "Chris Handy",
+        "role": "Product Marketing Leader",
+        "company": "",
+        "date": ""
+      },
+      "source": {
+        "url": "https://sidekickstrategies.com/about/testimonials-and-reviews",
+        "type": "Client Testimonial",
+        "retrievedAt": "2026-01-09"
+      },
+      "category": "hubspot",
+      "tags": ["Sidekick Strategies", "helping", "implementation"]
+    },
+    {
+      "id": "quote-006",
+      "quote": "I have known and worked with George since 2014 - at two agencies before he went out on his own...I challenge you to find a better person.",
+      "attribution": {
+        "name": "Rob Misheloff",
+        "role": "Owner",
+        "company": "Smarter Finance USA",
+        "date": ""
+      },
+      "source": {
+        "url": "https://sidekickstrategies.com/about/testimonials-and-reviews",
+        "type": "Client Testimonial",
+        "retrievedAt": "2026-01-09"
+      },
+      "category": "general",
+      "tags": ["character", "long-term relationship"]
+    },
+    {
+      "id": "quote-007",
+      "quote": "I don't want you to hire George because I want all of his time. George is a rare combination of HubSpot Guru and Master Marketer.",
+      "attribution": {
+        "name": "Joe Rando",
+        "role": "Owner",
+        "company": "LifeStarr",
+        "date": ""
+      },
+      "source": {
+        "url": "https://sidekickstrategies.com/about/testimonials-and-reviews",
+        "type": "Client Testimonial",
+        "retrievedAt": "2026-01-09"
+      },
+      "category": "hubspot",
+      "tags": ["HubSpot", "marketing", "expertise"]
+    },
+    {
+      "id": "quote-008",
+      "quote": "We partnered with George B. Thomas to conduct our onboarding of HubSpot. Since onboarding, we've seen a steady increase in web traffic, conversions on our landing pages, and a more unified approach to our marketing inbound/outbound efforts.",
+      "attribution": {
+        "name": "Gina Price",
+        "role": "Senior Director of Growth Marketing",
+        "company": "",
+        "date": ""
+      },
+      "source": {
+        "url": "https://sidekickstrategies.com/about/testimonials-and-reviews",
+        "type": "Client Testimonial",
+        "retrievedAt": "2026-01-09"
+      },
+      "category": "hubspot",
+      "tags": ["HubSpot", "onboarding", "results", "conversions", "traffic"]
+    },
+    {
+      "id": "quote-009",
+      "quote": "I can't overstate the value George has added to my business. Of course, he's technically skilled, but it's his gift of being able to truly understand the business and provide insightful marketing advice that amazes me. He grows revenue.",
+      "attribution": {
+        "name": "Mark Newton",
+        "role": "Certified Structured Settlement Consultant",
+        "company": "",
+        "date": ""
+      },
+      "source": {
+        "url": "https://sidekickstrategies.com/about/testimonials-and-reviews",
+        "type": "Client Testimonial",
+        "retrievedAt": "2026-01-09"
+      },
+      "category": "coaching",
+      "tags": ["business value", "revenue", "marketing advice"]
+    },
+    {
+      "id": "quote-010",
+      "quote": "I've been working with George B. Thomas for over four years at this point, and I don't know where we'd be without him. His mastery of HubSpot, combined with his thoughtful insight and marketing best practices, makes him a true powerhouse!",
+      "attribution": {
+        "name": "Victoria Van Horsen",
+        "role": "Innovative Problem-Solver",
+        "company": "",
+        "date": ""
+      },
+      "source": {
+        "url": "https://sidekickstrategies.com/about/testimonials-and-reviews",
+        "type": "Client Testimonial",
+        "retrievedAt": "2026-01-09"
+      },
+      "category": "hubspot",
+      "tags": ["HubSpot", "long-term", "marketing"]
+    },
+    {
+      "id": "quote-011",
+      "quote": "I've experienced several HubSpot onboarding programs in the past, but George B. Thomas is by far the best HubSpot onboarding specialist I've had the pleasure of working with.",
+      "attribution": {
+        "name": "Courtney Stephens",
+        "role": "Marketing Consultant",
+        "company": "",
+        "date": ""
+      },
+      "source": {
+        "url": "https://sidekickstrategies.com/about/testimonials-and-reviews",
+        "type": "Client Testimonial",
+        "retrievedAt": "2026-01-09"
+      },
+      "category": "hubspot",
+      "tags": ["HubSpot", "onboarding", "best"]
+    },
+    {
+      "id": "quote-012",
+      "quote": "I'm beyond grateful to have met George. Not only does he have amazing technical knowledge in HubSpot, he also has such great people and marketing skills.",
+      "attribution": {
+        "name": "Heather Palermo",
+        "role": "Marketer",
+        "company": "Kiazen CPAs",
+        "date": ""
+      },
+      "source": {
+        "url": "https://sidekickstrategies.com/about/testimonials-and-reviews",
+        "type": "Client Testimonial",
+        "retrievedAt": "2026-01-09"
+      },
+      "category": "hubspot",
+      "tags": ["HubSpot", "technical", "people skills"]
+    },
+    {
+      "id": "quote-013",
+      "quote": "George is one of those rare human beings who knows how to communicate the value of complicated marketing strategies in a clear, concise, and compelling way. And he does it with an infectious smile and more energy than a Red Bull athlete.",
+      "attribution": {
+        "name": "Franco Valentino",
+        "role": "CEO and Founder",
+        "company": "Narrative SEO",
+        "date": ""
+      },
+      "source": {
+        "url": "https://sidekickstrategies.com/about/testimonials-and-reviews",
+        "type": "Client Testimonial",
+        "retrievedAt": "2026-01-09"
+      },
+      "category": "coaching",
+      "tags": ["communication", "marketing", "energy"]
+    },
+    {
+      "id": "quote-014",
+      "quote": "To put it bluntly, George is a HubSpot genius. In fact, we trust him so much we worked with him to develop our website – along with several of our clients' sites.",
+      "attribution": {
+        "name": "Chris Tschantz",
+        "role": "President & CCO",
+        "company": "Test Pilot Creative",
+        "date": ""
+      },
+      "source": {
+        "url": "https://sidekickstrategies.com/about/testimonials-and-reviews",
+        "type": "Client Testimonial",
+        "retrievedAt": "2026-01-09"
+      },
+      "category": "hubspot",
+      "tags": ["HubSpot", "genius", "trust", "website"]
+    },
+    {
+      "id": "quote-015",
+      "quote": "George works fast and efficiently. He was willing to hop back in for small change requests. I couldn't be happier with George's service!",
+      "attribution": {
+        "name": "Alex Hernandez",
+        "role": "Owner",
+        "company": "Bay Cities Construction",
+        "date": ""
+      },
+      "source": {
+        "url": "https://sidekickstrategies.com/about/testimonials-and-reviews",
+        "type": "Client Testimonial",
+        "retrievedAt": "2026-01-09"
+      },
+      "category": "hubspot",
+      "tags": ["efficiency", "service", "responsiveness"]
+    },
+    {
+      "id": "quote-016",
+      "quote": "Training can often mean a ho-hum session where the participants try to stay awake while the trainer trudges through the material. That's not the case if you're working with George. I promised my coworkers that he would deliver training as they'd never experienced before, and he over-delivered! He adapted the two-day course to our specific needs and made it relevant to everyone in the room, including those who hadn't worked with HubSpot before. George is a force of positive energy who makes learning entertaining. If you are considering a HubSpot Intensive Training session with George Thomas, book it! You will not regret your investment.",
+      "attribution": {
+        "name": "Frances K. Bowman",
+        "role": "Digital Marketer, Education Advocate",
+        "company": "",
+        "date": ""
+      },
+      "source": {
+        "url": "https://sidekickstrategies.com/about/testimonials-and-reviews",
+        "type": "Client Testimonial",
+        "retrievedAt": "2026-01-09"
+      },
+      "category": "coaching",
+      "tags": ["training", "HubSpot", "energy", "education", "customized"]
+    },
+    {
+      "id": "quote-017",
+      "quote": "Working with George and his team at Sidekick Strategies has been amazing! He and his team are the first time in almost fifteen years that I've worked with a marketing professional and team where I actually feel like what we said we were going to do is getting done! They bring an energy and personality that is fun and easy to connect with. And they gently yet firmly guide my ideas to show me how to amplify the efforts and make it better. World class client service is found from these amazing human beings and I'm grateful to have them on my team!",
+      "attribution": {
+        "name": "",
+        "role": "",
+        "company": "",
+        "date": ""
+      },
+      "source": {
+        "url": "https://sidekickstrategies.com/about/testimonials-and-reviews",
+        "type": "Client Testimonial",
+        "retrievedAt": "2026-01-09"
+      },
+      "category": "coaching",
+      "tags": ["Sidekick Strategies", "client service", "marketing", "team"]
+    },
+    {
+      "id": "quote-018",
+      "quote": "No matter what I throw at him or the crazy ideas I have, he's always able to distill it down to an actionable plan that results in great success. I highly recommend George, he's a priceless asset to our team!",
+      "attribution": {
+        "name": "",
+        "role": "",
+        "company": "",
+        "date": ""
+      },
+      "source": {
+        "url": "https://sidekickstrategies.com/about/testimonials-and-reviews",
+        "type": "Client Testimonial",
+        "retrievedAt": "2026-01-09"
+      },
+      "category": "coaching",
+      "tags": ["strategy", "actionable", "success"]
+    },
+    {
+      "id": "quote-019",
+      "quote": "George is an incredible wealth of knowledge on all things content and inbound marketing. He cuts through the noise and teaches practical, actionable, and effective tips and strategies.",
+      "attribution": {
+        "name": "",
+        "role": "",
+        "company": "",
+        "date": ""
+      },
+      "source": {
+        "url": "https://www.inbound.com/speakers/george-b-thomas",
+        "type": "Speaker Profile",
+        "retrievedAt": "2026-01-09"
+      },
+      "category": "speaking",
+      "tags": ["content", "inbound marketing", "practical", "actionable"]
+    },
+    {
+      "id": "quote-020",
+      "quote": "@GeorgeBThomas is the real deal and one of the most genuine people I know. He's also a walking knowledge base of everything inbound and HubSpot.",
+      "attribution": {
+        "name": "",
+        "role": "",
+        "company": "",
+        "date": ""
+      },
+      "source": {
+        "url": "https://www.georgebthomas.com/services/hubspot-training",
+        "type": "Social Media Endorsement",
+        "retrievedAt": "2026-01-09"
+      },
+      "category": "general",
+      "tags": ["genuine", "authentic", "HubSpot", "inbound"]
+    },
+    {
+      "id": "quote-021",
+      "quote": "One of the reasons I do the intros the way I did and do for every podcast that I do is because of you. Watching you intro Marcus Sheridan and Anne Handley just blew my mind... The way you captured the room and built up and hyped up that guest and passed so much energy to them. Dude, that was amazing.",
+      "attribution": {
+        "name": "Mike Allton",
+        "role": "Podcast Host",
+        "company": "",
+        "date": ""
+      },
+      "source": {
+        "url": "https://theaihat.com/ai-digital-clone-how-to-augment-your-teams-expertise-with-george-b-thomas/",
+        "type": "Podcast Interview",
+        "retrievedAt": "2026-01-09"
+      },
+      "category": "speaking",
+      "tags": ["emcee", "introductions", "energy", "inspiration"]
+    },
+    {
+      "id": "quote-022",
+      "quote": "I have had George speak at several events we hosted and he knocked it out of the park.",
+      "attribution": {
+        "name": "",
+        "role": "",
+        "company": "",
+        "date": ""
+      },
+      "source": {
+        "url": "https://impulsecreative.com/blog/george-b.-thomas-an-inbound-journey-from-wild-boy-the-sales-lion-impact-now-what",
+        "type": "Event Testimonial",
+        "retrievedAt": "2026-01-09"
+      },
+      "category": "speaking",
+      "tags": ["events", "speaking", "success"]
+    },
+    {
+      "id": "quote-023",
+      "quote": "George B. Thomas is a super-dynamic, super-inspirational speaker and a powerhouse of knowledge!",
+      "attribution": {
+        "name": "",
+        "role": "",
+        "company": "",
+        "date": ""
+      },
+      "source": {
+        "url": "https://impulsecreative.com/blog/george-b.-thomas-an-inbound-journey-from-wild-boy-the-sales-lion-impact-now-what",
+        "type": "Speaker Review",
+        "retrievedAt": "2026-01-09"
+      },
+      "category": "speaking",
+      "tags": ["dynamic", "inspirational", "knowledge"]
+    },
+    {
+      "id": "quote-024",
+      "quote": "if you want to work with a marketer that is so good people message him from the hospital, George is your man.",
+      "attribution": {
+        "name": "",
+        "role": "",
+        "company": "",
+        "date": ""
+      },
+      "source": {
+        "url": "https://sidekickstrategies.com/about/testimonials-and-reviews",
+        "type": "Client Testimonial",
+        "retrievedAt": "2026-01-09"
+      },
+      "category": "general",
+      "tags": ["dedication", "trust", "marketing"]
+    },
+    {
+      "id": "quote-025",
+      "quote": "The hosts have a way of talking about high level concepts and making them simple enough for beginners to understand. This podcast is perfect not only for marketers, but for business owners that might be just getting started with HubSpot.",
+      "attribution": {
+        "name": "",
+        "role": "Apple Podcasts Reviewer",
+        "company": "",
+        "date": ""
+      },
+      "source": {
+        "url": "https://podcasts.apple.com/us/podcast/the-hubheroes-podcast/id1631593901",
+        "type": "Podcast Review",
+        "retrievedAt": "2026-01-09"
+      },
+      "category": "hubspot",
+      "tags": ["HubHeroes", "podcast", "accessible", "beginners"]
+    }
+  ],
+  "sources": [
+    {
+      "name": "LinkedIn Profile",
+      "url": "https://www.linkedin.com/in/georgebthomas/",
+      "type": "professional_network"
+    },
+    {
+      "name": "Sidekick Strategies Testimonials",
+      "url": "https://sidekickstrategies.com/about/testimonials-and-reviews",
+      "type": "company_website"
+    },
+    {
+      "name": "George B. Thomas Official Website",
+      "url": "https://www.georgebthomas.com/",
+      "type": "personal_website"
+    },
+    {
+      "name": "INBOUND Speaker Profile",
+      "url": "https://www.inbound.com/speakers/george-b-thomas",
+      "type": "event_profile"
+    },
+    {
+      "name": "HubHeroes Podcast (Apple Podcasts)",
+      "url": "https://podcasts.apple.com/us/podcast/the-hubheroes-podcast/id1631593901",
+      "type": "podcast"
+    },
+    {
+      "name": "Impulse Creative Blog",
+      "url": "https://impulsecreative.com/blog/george-b.-thomas-an-inbound-journey-from-wild-boy-the-sales-lion-impact-now-what",
+      "type": "blog"
+    },
+    {
+      "name": "MarketingProfs Author Profile",
+      "url": "https://www.marketingprofs.com/authors/4505/george-b-thomas",
+      "type": "industry_publication"
+    }
+  ]
+}

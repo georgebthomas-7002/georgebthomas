@@ -1,0 +1,650 @@
+{
+  "topic": "hubspot",
+  "lastUpdated": "2026-01-09",
+  "sourceCount": 32,
+  "expertiseAreas": [
+    "HubSpot CRM Implementation",
+    "HubSpot Certified Training",
+    "Inbound Marketing Strategy",
+    "HubSpot Sales Hub",
+    "HubSpot Marketing Hub",
+    "HubSpot Service Hub",
+    "HubSpot CMS Hub",
+    "HubSpot Operations Hub",
+    "Video Marketing with HubSpot",
+    "HubSpot Automation & Workflows",
+    "HubSpot AI Agents",
+    "Data Hygiene & CRM Optimization"
+  ],
+  "certifications": {
+    "count": "42+",
+    "description": "Record-breaking number of HubSpot Academy certifications",
+    "areas": [
+      "Inbound Marketing",
+      "Inbound Sales",
+      "Contextual Marketing",
+      "CMS Implementation",
+      "Email Marketing",
+      "Content Marketing",
+      "HubSpot CRM",
+      "HubSpot Service Hub",
+      "HubSpot Operations Hub"
+    ]
+  },
+  "hubspotTimeline": {
+    "2012": "First attended INBOUND conference after winning tickets through World's Largest Webinar tweet contest",
+    "2012-present": "Using HubSpot continuously since 2012",
+    "2015-present": "Speaking at INBOUND conference every year since 2015",
+    "2018": "Joined IMPACT when The Sales Lion merged with IMPACT",
+    "2022": "Launched George B. Thomas, LLC (precursor to Sidekick Strategies)",
+    "2022-present": "Created and hosts HubHeroes Podcast",
+    "2025": "Speaking at INBOUND 2025 about SuperHuman Marketing Framework"
+  },
+  "sources": [
+    {
+      "title": "George B. Thomas - HubSpot Certified Trainer Directory",
+      "url": "https://academy.hubspot.com/hubspot-certified-trainer/find-a-trainer/georgeb-thomas",
+      "type": "academy",
+      "date": null,
+      "retrievedAt": "2026-01-09",
+      "summary": "Official HubSpot Academy listing for George B. Thomas as a Certified Trainer. Lists him as 'Chief HubSpot Helper' at George B. Thomas, LLC with 35+ certifications.",
+      "keyPoints": [
+        "Official HubSpot Certified Trainer status",
+        "35+ HubSpot Academy certifications",
+        "30+ years sales and marketing experience",
+        "Certifications span marketing, sales, CMS, CRM, and service"
+      ],
+      "quotes": [
+        "George B. Thomas is the 'Chief HubSpot Helper' and owner at George B. Thomas, LLC",
+        "Record-breaking thirty-five plus HubSpot Academy certifications"
+      ],
+      "tags": ["certified-trainer", "hubspot-academy", "official"]
+    },
+    {
+      "title": "Humans of HubSpot: George B. Thomas",
+      "url": "https://community.hubspot.com/t5/Humans-of-HubSpot/Humans-of-HubSpot-George-B-Thomas/m-p/439473",
+      "type": "community",
+      "date": null,
+      "retrievedAt": "2026-01-09",
+      "summary": "Featured profile in HubSpot Community's 'Humans of HubSpot' series highlighting George's journey from winning INBOUND tickets in 2012 to becoming a HubSpot expert.",
+      "keyPoints": [
+        "Won tickets to first INBOUND through tweet contest in 2012",
+        "Career path through The Sales Lion, IMPACT, Impulse Creative",
+        "Community recognition as @GeorgeBThomas",
+        "Founded own company serving HubSpot users"
+      ],
+      "quotes": [
+        "The moment he landed in Boston and entered his first HubSpot INBOUND event, something fundamentally changed in his brain",
+        "The humanity-focused message of HubSpot spoke to his soul and purpose"
+      ],
+      "tags": ["community", "featured-profile", "humans-of-hubspot"]
+    },
+    {
+      "title": "HubSpot Community Profile - GeorgeBThomas",
+      "url": "https://community.hubspot.com/t5/user/viewprofilepage/user-id/54059",
+      "type": "community",
+      "date": null,
+      "retrievedAt": "2026-01-09",
+      "summary": "George's official HubSpot Community profile page where he engages with the community.",
+      "keyPoints": [
+        "Active community member",
+        "Helps answer HubSpot questions",
+        "Contributes to community discussions"
+      ],
+      "quotes": [],
+      "tags": ["community", "profile"]
+    },
+    {
+      "title": "George B. Thomas - INBOUND 2025 Speaker",
+      "url": "https://www.inbound.com/speakers/recdsy4xofth6Sdor",
+      "type": "conference",
+      "date": "2025-09-03",
+      "retrievedAt": "2026-01-09",
+      "summary": "Official INBOUND 2025 speaker page for George B. Thomas presenting the SuperHuman Marketing Framework.",
+      "keyPoints": [
+        "Speaking at INBOUND 2025 (September 3-5, 2025)",
+        "Presenting SuperHuman Marketing Framework",
+        "Listed as 'Owner and HubSpot Helper at Sidekick Strategies'",
+        "40+ HubSpot certifications"
+      ],
+      "quotes": [
+        "Unveiling the SuperHuman Marketing Framework—a blueprint for marketing that feels good, builds trust, and converts"
+      ],
+      "tags": ["inbound", "conference", "speaker", "2025"]
+    },
+    {
+      "title": "George B. Thomas - INBOUND 2021 Speaker",
+      "url": "https://content.inbound.com/2021/speakers/george-b.-thomas",
+      "type": "conference",
+      "date": "2021",
+      "retrievedAt": "2026-01-09",
+      "summary": "Archive of George's INBOUND 2021 speaker listing.",
+      "keyPoints": [
+        "INBOUND 2021 speaker",
+        "Continuous INBOUND presenter since 2015"
+      ],
+      "quotes": [
+        "George B. Thomas reminded attendees that sales content DIRECTLY impacts revenue"
+      ],
+      "tags": ["inbound", "conference", "speaker", "2021"]
+    },
+    {
+      "title": "The Secret to SuperHuman-Centric Marketing That Converts",
+      "url": "https://www.inbound.com/sessions/rec0hNHOE0Gon1cKT",
+      "type": "conference",
+      "date": "2025-09-03",
+      "retrievedAt": "2026-01-09",
+      "summary": "George's INBOUND 2025 session details about SuperHuman Marketing Framework.",
+      "keyPoints": [
+        "Session focuses on human-centric marketing",
+        "Blueprint for marketing that builds trust",
+        "Emphasis on authenticity and purpose"
+      ],
+      "quotes": [
+        "A blueprint for marketing that feels good, builds trust, and converts like crazy"
+      ],
+      "tags": ["inbound", "session", "superhuman-framework"]
+    },
+    {
+      "title": "INBOUND 2024 Late Show with George B. Thomas (Day One)",
+      "url": "https://sidekickstrategies.com/blog/inbound24-inbound-late-show-night-one",
+      "type": "blog",
+      "date": "2024",
+      "retrievedAt": "2026-01-09",
+      "summary": "Recap of George's INBOUND Late Show at INBOUND 2024 featuring industry guests.",
+      "keyPoints": [
+        "Hosted INBOUND Late Show at INBOUND 2024",
+        "Featured guests like Kyle Jepson, Max Cohen, Justin Givens",
+        "Breaking down conference highlights"
+      ],
+      "quotes": [],
+      "tags": ["inbound", "2024", "late-show", "hosting"]
+    },
+    {
+      "title": "HubSpot Solutions Marketplace - George B. Thomas",
+      "url": "https://ecosystem.hubspot.com/marketplace/solutions/george-b-thomas",
+      "type": "marketplace",
+      "date": null,
+      "retrievedAt": "2026-01-09",
+      "summary": "George B. Thomas's listing on the official HubSpot Solutions Marketplace as a solutions provider.",
+      "keyPoints": [
+        "Official HubSpot Solutions Provider",
+        "Listed in HubSpot Ecosystem Marketplace",
+        "Offers training and consulting services"
+      ],
+      "quotes": [],
+      "tags": ["marketplace", "solutions-provider", "official"]
+    },
+    {
+      "title": "Sidekick Strategies - Our Story",
+      "url": "https://sidekickstrategies.com/about/story",
+      "type": "agency",
+      "date": null,
+      "retrievedAt": "2026-01-09",
+      "summary": "The founding story of Sidekick Strategies, George's HubSpot partner agency.",
+      "keyPoints": [
+        "Founded George B. Thomas, LLC in 2022",
+        "Evolved into Sidekick Strategies",
+        "Family-driven business ('the FEAM')",
+        "Team has almost 100 HubSpot certifications combined"
+      ],
+      "quotes": [
+        "In 2022, it wasn't supposed to be an agency—it was just George helping a few businesses make sense of HubSpot",
+        "They don't just hand clients a tool and disappear—they partner with them so HubSpot becomes a steady sidekick"
+      ],
+      "tags": ["agency", "sidekick-strategies", "founding-story"]
+    },
+    {
+      "title": "HubSpot Training - Sidekick Strategies",
+      "url": "https://sidekickstrategies.com/services/hubspot-training",
+      "type": "training",
+      "date": null,
+      "retrievedAt": "2026-01-09",
+      "summary": "Sidekick Strategies' HubSpot training services overview.",
+      "keyPoints": [
+        "Training retainer packages available",
+        "Virtual workshops (4-hour blocks)",
+        "Pre-workshop discovery included",
+        "90-day access to George B. Thomas HubSpot Helper Clone"
+      ],
+      "quotes": [
+        "Each training option is guaranteed to be a transformative experience built around unique goals"
+      ],
+      "tags": ["training", "services", "workshops"]
+    },
+    {
+      "title": "HubSpot Training & Workshops with George B. Thomas",
+      "url": "https://www.georgebthomas.com/services/hubspot-training",
+      "type": "training",
+      "date": null,
+      "retrievedAt": "2026-01-09",
+      "summary": "George's personal website training services page.",
+      "keyPoints": [
+        "42+ HubSpot certifications",
+        "Training for businesses, agencies, and teams",
+        "Weekly training meetings option",
+        "Email and chat support included"
+      ],
+      "quotes": [
+        "With his HubSpot training retainer, he meets with teams to help uncover the best tools, practices, and strategies for business success"
+      ],
+      "tags": ["training", "services", "workshops"]
+    },
+    {
+      "title": "HubSpot Help with George B. Thomas",
+      "url": "https://www.georgebthomas.com/offers/help",
+      "type": "training",
+      "date": null,
+      "retrievedAt": "2026-01-09",
+      "summary": "George's HubSpot help services and offerings.",
+      "keyPoints": [
+        "HubSpot Academy Certified Trainer",
+        "One-on-one help available",
+        "Training corporations that earn millions"
+      ],
+      "quotes": [],
+      "tags": ["help", "services", "training"]
+    },
+    {
+      "title": "The HubHeroes Podcast",
+      "url": "https://sidekickstrategies.com/hubheroes-podcast",
+      "type": "podcast",
+      "date": "2022-07-11",
+      "retrievedAt": "2026-01-09",
+      "summary": "Official page for The HubHeroes Podcast created and hosted by George B. Thomas.",
+      "keyPoints": [
+        "108+ episodes",
+        "Weekly updates",
+        "Covers HubSpot and Inbound topics",
+        "Hosts: George, Liz, Max, Devyn"
+      ],
+      "quotes": [
+        "Unleash your inbound superpowers with Liz, Max, Devyn, and George while exploring HubSpot"
+      ],
+      "tags": ["podcast", "hubheroes", "content"]
+    },
+    {
+      "title": "The HubHeroes Podcast - Apple Podcasts",
+      "url": "https://podcasts.apple.com/us/podcast/the-hubheroes-podcast/id1631593901",
+      "type": "podcast",
+      "date": "2022-07-11",
+      "retrievedAt": "2026-01-09",
+      "summary": "Apple Podcasts listing for The HubHeroes Podcast.",
+      "keyPoints": [
+        "Available on major podcast platforms",
+        "Marketing category podcast",
+        "Regular weekly episodes"
+      ],
+      "quotes": [],
+      "tags": ["podcast", "hubheroes", "apple-podcasts"]
+    },
+    {
+      "title": "Why HubSpot? Why inbound? (HubHeroes Podcast, Ep. 1)",
+      "url": "https://www.georgebthomas.com/podcast/starting-with-why-turning-humans-into-heroes",
+      "type": "podcast",
+      "date": "2022-07-11",
+      "retrievedAt": "2026-01-09",
+      "summary": "First episode of HubHeroes Podcast exploring the why behind HubSpot and inbound.",
+      "keyPoints": [
+        "Inaugural episode published July 11, 2022",
+        "Focus on empowering marketing, sales, and business leaders",
+        "Explores HubSpot universe in unique way"
+      ],
+      "quotes": [],
+      "tags": ["podcast", "hubheroes", "episode-1"]
+    },
+    {
+      "title": "HubSpot INBOUND 2022 Prep and Memory Lane",
+      "url": "https://www.georgebthomas.com/podcast/hubspot-inbound-2022-conference-tips-speakers-secrets",
+      "type": "podcast",
+      "date": "2022",
+      "retrievedAt": "2026-01-09",
+      "summary": "Podcast episode about preparing for INBOUND 2022 with tips and memories.",
+      "keyPoints": [
+        "Tips for attending INBOUND",
+        "Speaker insights and secrets",
+        "Conference preparation guidance"
+      ],
+      "quotes": [],
+      "tags": ["podcast", "inbound", "conference-tips"]
+    },
+    {
+      "title": "George B. Thomas Blog - IMPACT",
+      "url": "https://www.impactplus.com/blog/author/george-b-thomas",
+      "type": "blog",
+      "date": null,
+      "retrievedAt": "2026-01-09",
+      "summary": "George's author page on IMPACT blog from his time working there.",
+      "keyPoints": [
+        "Contributed to IMPACT blog",
+        "Inbound strategy and design content",
+        "HubSpot intensive training coverage"
+      ],
+      "quotes": [
+        "Daily contributions included inbound strategy and design, HubSpot intensive training, speaking at conferences, content marketing, and social media marketing"
+      ],
+      "tags": ["blog", "impact", "content"]
+    },
+    {
+      "title": "George B. Thomas Blog - Impulse Creative",
+      "url": "https://impulsecreative.com/blog/author/george-b-thomas",
+      "type": "blog",
+      "date": null,
+      "retrievedAt": "2026-01-09",
+      "summary": "George's author page on Impulse Creative blog from his time as Inbound Evangelist.",
+      "keyPoints": [
+        "Worked as Inbound Evangelist in LearningOps division",
+        "Created HubSpot tutorials on YouTube",
+        "30+ certifications at the time"
+      ],
+      "quotes": [
+        "Creating HubSpot tutorials at Impulse Creative on YouTube was an amazing adventure"
+      ],
+      "tags": ["blog", "impulse-creative", "content"]
+    },
+    {
+      "title": "An Inbound Journey from Wild Boy to The Sales Lion, Impact & Beyond",
+      "url": "https://impulsecreative.com/blog/george-b.-thomas-an-inbound-journey-from-wild-boy-the-sales-lion-impact-now-what",
+      "type": "blog",
+      "date": null,
+      "retrievedAt": "2026-01-09",
+      "summary": "Detailed career journey article covering George's path through major HubSpot agencies.",
+      "keyPoints": [
+        "Received job offer from Marcus Sheridan (The Sales Lion)",
+        "Transitioned to IMPACT when companies merged",
+        "Moved to Impulse Creative",
+        "Founded own company in 2022"
+      ],
+      "quotes": [
+        "He will always be eternally grateful for how Marcus challenged him",
+        "He treasures all of the incredible friendships, relationships, and experiences that came out of his time working at The Sales Lion, IMPACT, and Impulse Creative"
+      ],
+      "tags": ["career-journey", "blog", "the-sales-lion", "impact"]
+    },
+    {
+      "title": "The Sales Lion To Merge with IMPACT",
+      "url": "https://www.impactplus.com/blog/the-sales-lion-to-merge-with-impact",
+      "type": "blog",
+      "date": "2018-02",
+      "retrievedAt": "2026-01-09",
+      "summary": "Announcement of The Sales Lion merger with IMPACT, including George B. Thomas joining the team.",
+      "keyPoints": [
+        "Merger occurred February 2018",
+        "George joined IMPACT from The Sales Lion",
+        "Formed new educational department",
+        "Team included George B. Thomas, Zach Basner, Kevin Phillips"
+      ],
+      "quotes": [
+        "The Sales Lion (TSL) team, including George B. Thomas, joined IMPACT and formed a new educational department offering workshops and trainings"
+      ],
+      "tags": ["merger", "impact", "the-sales-lion", "career"]
+    },
+    {
+      "title": "The Hubcast Podcast Archive",
+      "url": "https://www.impactplus.com/blog/hubcast-1-pilot-episode",
+      "type": "podcast",
+      "date": null,
+      "retrievedAt": "2026-01-09",
+      "summary": "Archive of The Hubcast podcast that George co-hosted with Marcus Sheridan.",
+      "keyPoints": [
+        "George recorded 271 episodes of Hubcast",
+        "Co-hosted with Marcus Sheridan",
+        "Weekly podcast about HubSpot news, tips, and tricks",
+        "Included video tutorials by George"
+      ],
+      "quotes": [
+        "When Marcus suggested starting a podcast, George initially replied 'You must be out of your mind. I hate my voice. Absolutely not.'",
+        "George went on to record 271 episodes"
+      ],
+      "tags": ["podcast", "hubcast", "marcus-sheridan"]
+    },
+    {
+      "title": "Episode 50 - Special Guest HubCast Star George B Thomas",
+      "url": "https://podcasts.apple.com/us/podcast/episode-50-special-guest-hubcast-star-george-b-thomas/id1149721098?i=1000410252073",
+      "type": "podcast",
+      "date": null,
+      "retrievedAt": "2026-01-09",
+      "summary": "Guest appearance on HubnSpoke podcast discussing four years of The Hubcast.",
+      "keyPoints": [
+        "Discussed highlights of Hubcast journey",
+        "Described as 'HubSpot expert that bleeds orange'",
+        "Shared experiences from HubSpot community"
+      ],
+      "quotes": [
+        "A HubSpot expert that bleeds orange"
+      ],
+      "tags": ["podcast", "guest-appearance", "hubcast"]
+    },
+    {
+      "title": "George B. Thomas - MarketingProfs Author",
+      "url": "https://www.marketingprofs.com/authors/4505/george-b-thomas",
+      "type": "blog",
+      "date": null,
+      "retrievedAt": "2026-01-09",
+      "summary": "George's author profile on MarketingProfs where he contributes content.",
+      "keyPoints": [
+        "Published author on MarketingProfs",
+        "Covers video testimonials and B2B growth",
+        "Marketing strategy content"
+      ],
+      "quotes": [
+        "Video testimonials are the secret sauce to B2B growth!"
+      ],
+      "tags": ["blog", "marketingprofs", "author"]
+    },
+    {
+      "title": "The Superhuman Framework for Individual + Organizational Success",
+      "url": "https://sidekickstrategies.com/blog/what-is-superhuman-framework-george-b-thomas",
+      "type": "blog",
+      "date": null,
+      "retrievedAt": "2026-01-09",
+      "summary": "Detailed explanation of George's Superhuman Framework methodology.",
+      "keyPoints": [
+        "Dashboard for your life concept",
+        "10 areas for regular check-ins",
+        "Built around purpose, passion, persistence, and love",
+        "Ten 'H-pillars' for growth"
+      ],
+      "quotes": [
+        "The Superhuman Framework is designed to be a dashboard for your life"
+      ],
+      "tags": ["superhuman-framework", "methodology", "personal-growth"]
+    },
+    {
+      "title": "HubSpot's Loop Marketing Meets the Superhuman Marketing OS",
+      "url": "https://sidekickstrategies.com/blog/hubspots-loop-marketing-meets-the-superhuman-marketing-os",
+      "type": "blog",
+      "date": null,
+      "retrievedAt": "2026-01-09",
+      "summary": "Article explaining how Superhuman Framework complements HubSpot's Loop Marketing.",
+      "keyPoints": [
+        "Loop Marketing provides the engine",
+        "Superhuman Framework provides the compass",
+        "Focus on humanity, integrity, and growth",
+        "Complements HubSpot methodology"
+      ],
+      "quotes": [
+        "Loop Marketing and the Superhuman Framework aren't competing playbooks—they're complementary",
+        "The Superhuman Marketing OS isn't about hacks or shortcuts. It's about building marketing on a foundation of humanity, integrity, and growth"
+      ],
+      "tags": ["superhuman-framework", "loop-marketing", "hubspot-strategy"]
+    },
+    {
+      "title": "George B. Thomas Clone - HubSpot Helper AI",
+      "url": "https://www.georgebthomas.com/helper",
+      "type": "tool",
+      "date": null,
+      "retrievedAt": "2026-01-09",
+      "summary": "AI-powered clone of George B. Thomas trained on 16 million words of his content.",
+      "keyPoints": [
+        "Trained on 16 million words of George's content",
+        "Provides 24/7 HubSpot guidance",
+        "Helps with CRM setup, data hygiene, automation workflows",
+        "Used internally via Slack and externally for support"
+      ],
+      "quotes": [
+        "Literally 24/7 access to the brain of me as a human",
+        "A direct extension of decades of HubSpot expertise, packed into an AI"
+      ],
+      "tags": ["ai-clone", "tool", "innovation"]
+    },
+    {
+      "title": "AI Digital Clone: How to Augment Your Team's Expertise with George B. Thomas",
+      "url": "https://theaihat.com/ai-digital-clone-how-to-augment-your-teams-expertise-with-george-b-thomas/",
+      "type": "podcast",
+      "date": null,
+      "retrievedAt": "2026-01-09",
+      "summary": "Interview discussing George's AI clone project and team augmentation.",
+      "keyPoints": [
+        "Demonstrates AI as powerful collaborator",
+        "Generates content aligned with his voice",
+        "Provides internal and external support"
+      ],
+      "quotes": [
+        "George's AI clone assists his team internally via Slack, helps generate content aligned with his voice, and provides 24/7 external support"
+      ],
+      "tags": ["ai-clone", "podcast", "interview"]
+    },
+    {
+      "title": "George Thomas from The Sales Lion on Living the Inbound Life",
+      "url": "https://www.zenpilot.com/blog/episode-001-with-george-thomas-from-the-sales-lion-on-living-the-inbound-life",
+      "type": "podcast",
+      "date": null,
+      "retrievedAt": "2026-01-09",
+      "summary": "ZenPilot podcast interview about George's inbound journey.",
+      "keyPoints": [
+        "Shares path into inbound marketing",
+        "Agency life experiences",
+        "Working alongside Marcus Sheridan"
+      ],
+      "quotes": [],
+      "tags": ["podcast", "interview", "inbound-life"]
+    },
+    {
+      "title": "How HubSpot Makes Agency Owners' Lives Easier",
+      "url": "https://craigcodyandcompany.com/podcasts/george-b-thomas/",
+      "type": "podcast",
+      "date": null,
+      "retrievedAt": "2026-01-09",
+      "summary": "Podcast interview about integrating HubSpot for agency operations.",
+      "keyPoints": [
+        "HubSpot integration for agencies",
+        "Streamlining sales and marketing",
+        "Making agency work simpler"
+      ],
+      "quotes": [
+        "He shares how agency owners can begin integrating and implementing HubSpot tools into their systems and processes"
+      ],
+      "tags": ["podcast", "interview", "agencies"]
+    },
+    {
+      "title": "About George B. Thomas",
+      "url": "https://www.georgebthomas.com/about",
+      "type": "bio",
+      "date": null,
+      "retrievedAt": "2026-01-09",
+      "summary": "George's official about page with personal story and background.",
+      "keyPoints": [
+        "High school dropout success story",
+        "Started as youth pastor in Ohio",
+        "25+ years sales and marketing experience",
+        "Father, husband, speaker, trainer, catalyst"
+      ],
+      "quotes": [
+        "For years, those discouraging words from his math teacher 'haunted' him and 'dictated' his direction in life",
+        "He's 'no longer angry' but 'grateful' - he would actually thank that math teacher because 'he tossed fuel on the fire that created the man – and the empowering educator – I am today'"
+      ],
+      "tags": ["bio", "personal-story", "background"]
+    },
+    {
+      "title": "George B. Thomas LinkedIn",
+      "url": "https://www.linkedin.com/in/georgebthomas/",
+      "type": "social",
+      "date": null,
+      "retrievedAt": "2026-01-09",
+      "summary": "George's LinkedIn profile with professional recommendations.",
+      "keyPoints": [
+        "12+ LinkedIn recommendations",
+        "Sidekick Strategies owner",
+        "HubSpot Certified Trainer",
+        "Professional network connections"
+      ],
+      "quotes": [
+        "George's passion for helping others shines through in all his work",
+        "Whether he's on stage at Social Media World in front of thousands or on a HubSpot onboarding call with one person, his energy, care and desire to teach shine through",
+        "He exuded great stage presence, and he lifted the energy of the room with skill and humor!"
+      ],
+      "tags": ["social", "linkedin", "testimonials"]
+    }
+  ],
+  "keyQuotes": [
+    {
+      "quote": "HubSpot Academy was the catalyst, the place where I could absorb like a sponge. Without HubSpot Academy, there wouldn't be a George B. Thomas brand. It would be impossible.",
+      "context": "On the importance of HubSpot Academy to his career"
+    },
+    {
+      "quote": "The moment he landed in Boston and entered his first HubSpot INBOUND event, something fundamentally changed in his brain. The humanity-focused message of HubSpot spoke to his soul and purpose.",
+      "context": "First INBOUND experience in 2012"
+    },
+    {
+      "quote": "Humans don't buy from brands. They buy from other Humans. Without authenticity, empathy, and purpose, you're leaving relationships and revenue on the table.",
+      "context": "SuperHuman Marketing Framework philosophy"
+    },
+    {
+      "quote": "A walking knowledge base of everything inbound and HubSpot.",
+      "context": "Community member description"
+    },
+    {
+      "quote": "I definitely recommend George as a top notch marketer, video creator, HubSpot expert and all around good person to know.",
+      "context": "LinkedIn recommendation"
+    }
+  ],
+  "hubspotTools": [
+    "HubSpot CRM",
+    "Marketing Hub",
+    "Sales Hub",
+    "Service Hub",
+    "CMS Hub",
+    "Operations Hub",
+    "HubSpot Academy",
+    "HubSpot Workflows",
+    "HubSpot Automation",
+    "HubSpot Video",
+    "HubSpot AI Agents"
+  ],
+  "roles": [
+    {
+      "title": "Chief HubSpot Helper",
+      "company": "George B. Thomas, LLC / Sidekick Strategies",
+      "period": "2022-present"
+    },
+    {
+      "title": "Inbound Evangelist",
+      "company": "Impulse Creative",
+      "period": "Previous"
+    },
+    {
+      "title": "Inbound Designer & Brand Strategist",
+      "company": "IMPACT",
+      "period": "2018-previous"
+    },
+    {
+      "title": "Team Member & Hubcast Co-Host",
+      "company": "The Sales Lion",
+      "period": "Previous-2018"
+    }
+  ],
+  "podcastHistory": {
+    "hubcast": {
+      "episodes": 271,
+      "coHost": "Marcus Sheridan",
+      "focus": "HubSpot news, tips, and tricks"
+    },
+    "hubheroes": {
+      "episodes": "108+",
+      "started": "2022-07-11",
+      "hosts": ["George B. Thomas", "Liz", "Max", "Devyn"],
+      "focus": "HubSpot and Inbound topics"
+    }
+  }
+}

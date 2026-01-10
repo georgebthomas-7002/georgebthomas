@@ -1,0 +1,11 @@
+# Ralph Progress Log
+Started: 2025-01-09
+Feature: Context Engine for George B. Thomas
+---
+
+## Codebase Patterns
+- Context files stored in dual format: JSON (structured/) + Markdown (summaries/)
+- Quotes captured verbatim with full attribution in quotes/ directory
+- All sources must include URL and retrieval date
+
+---

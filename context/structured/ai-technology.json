@@ -1,0 +1,370 @@
+{
+  "topic": "ai-technology",
+  "lastUpdated": "2025-01-09",
+  "sourceCount": 15,
+  "overview": {
+    "corePhilosophy": "AI should augment human expertise, not replace it. George believes in human-first, purpose-driven AI that scales helpfulness while preserving authenticity.",
+    "keyTools": [
+      "Delphi.ai (AI Clone platform)",
+      "ChatGPT with Memory Bank and Custom Instructions",
+      "HubSpot Breeze AI and Co-Pilot",
+      "HubSpot Content Assistant",
+      "ChatSpot"
+    ],
+    "aiClone": {
+      "name": "George B. Thomas AI Clone / HubSpot Helper",
+      "urls": [
+        "https://helper.georgebthomas.com",
+        "https://www.georgebthomas.com/helper",
+        "https://www.georgebthomas.com/growth"
+      ],
+      "platform": "Delphi.ai",
+      "trainingData": "16+ million words of content, 25 mindsets, 25 beliefs, 10 core values, SuperHuman Framework",
+      "features": [
+        "24/7 HubSpot expert guidance",
+        "Voice conversations via 1-877 phone number",
+        "Team support via Slack integration",
+        "Content creation partner",
+        "Multi-language support"
+      ],
+      "monthlyTimeSaved": "35+ hours"
+    },
+    "upcomingBook": {
+      "title": "Cloning Human Expertise",
+      "status": "Forthcoming/Draft mode"
+    }
+  },
+  "sources": [
+    {
+      "title": "AI Digital Clone: How to Augment Your Team's Expertise with George B. Thomas",
+      "url": "https://theaihat.com/ai-digital-clone-how-to-augment-your-teams-expertise-with-george-b-thomas/",
+      "type": "article",
+      "date": null,
+      "retrievedAt": "2025-01-09",
+      "summary": "Comprehensive article about George's AI clone built on Delphi.ai, trained on 16+ million words. Covers how he embedded his values, mindsets, and beliefs into the AI rather than just content.",
+      "keyPoints": [
+        "AI clone trained on 16+ million words of content, values, and beliefs",
+        "Uses Delphi.ai platform for clone creation",
+        "Clone functions as internal assistant, content partner, and external support",
+        "Emphasizes augmentation over replacement philosophy",
+        "Purpose, passion, and persistence are essential for authentic AI creation"
+      ],
+      "quotes": [
+        "I'm not using it to replace me. I'm using it to scale me and augment me.",
+        "Creating an AI clone has to come from a place of love. It has to come from a place of purpose. It has to come from a place of passion and you have to realize that you're gonna need to be persistent over the long haul to create something that is amazing."
+      ],
+      "tags": ["ai-clone", "delphi", "augmentation", "human-first", "expertise-scaling"]
+    },
+    {
+      "title": "Interactive AI Clones: Creating Unique Human Experiences",
+      "url": "https://www.socialmediaexaminer.com/interactive-ai-clones-creating-unique-human-experiences/",
+      "type": "podcast-interview",
+      "date": null,
+      "retrievedAt": "2025-01-09",
+      "summary": "Michael Stelzner interviews George B. Thomas on the AI Explored podcast about building human-centered interactive AI clones using Delphi.ai.",
+      "keyPoints": [
+        "Interactive AI clone is a comprehensive digital representation embodying voice, tone, knowledge, expertise, and mannerisms",
+        "Clone trained on 25 mindsets, 25 beliefs, 10 core values, and SuperHuman Framework",
+        "Clone accessible via web chat and 1-877 phone number for voice conversations",
+        "Uses signature phrases like 'automagical' and catchphrase 'Don't forget to be a happy, helpful, humble human'",
+        "Less hallucination issues because it operates as a closed system"
+      ],
+      "quotes": [
+        "I can't scale myself to answer every question that everybody has.",
+        "Cloning the voice was easy - just used Zoom meeting audio."
+      ],
+      "tags": ["ai-clone", "social-media-examiner", "delphi", "voice-cloning", "ai-explored"]
+    },
+    {
+      "title": "George B. Thomas Clone | HubSpot Helper",
+      "url": "https://www.georgebthomas.com/helper",
+      "type": "tool",
+      "date": null,
+      "retrievedAt": "2025-01-09",
+      "summary": "Official page for George's HubSpot Helper AI clone that provides 24/7 expert-level HubSpot guidance.",
+      "keyPoints": [
+        "42+ HubSpot certifications embedded in clone",
+        "Covers all HubSpot Hubs: Marketing, Sales, Service, CMS, Operations, Commerce",
+        "Free trial available, unlimited access for $25/month",
+        "Trained on real HubSpot knowledge, not generic advice"
+      ],
+      "quotes": [],
+      "tags": ["hubspot-helper", "ai-clone", "hubspot", "tool"]
+    },
+    {
+      "title": "George B. Thomas | Growth Coach - AI Clone",
+      "url": "https://www.georgebthomas.com/growth",
+      "type": "tool",
+      "date": null,
+      "retrievedAt": "2025-01-09",
+      "summary": "George's purpose-driven, people-first coaching AI companion for personal and professional growth.",
+      "keyPoints": [
+        "Human-first growth guidance wrapped in George's voice and mindset",
+        "Decades of coaching experience digitized",
+        "Helps with getting unstuck, building action plans, avoiding burnout",
+        "Strategic and soulful guidance combined"
+      ],
+      "quotes": [
+        "This isn't just an AI assistant—it provides access to the voice, values, and vision of a real coach who has helped thousands flourish in both life and business."
+      ],
+      "tags": ["growth-coach", "ai-clone", "coaching", "human-first"]
+    },
+    {
+      "title": "Must-Know HubSpot Breeze AI + Co-Pilot Mindsets, Strategies, + Tactics",
+      "url": "https://sidekickstrategies.com/hubheroes/hubheroes-100th-episode-hubspot-breeze-ai-copilot",
+      "type": "podcast",
+      "date": null,
+      "retrievedAt": "2025-01-09",
+      "summary": "HubHeroes 100th episode deep dive on HubSpot Breeze AI, featuring George's strategic framework for AI implementation.",
+      "keyPoints": [
+        "Three foundational mindsets: AI as Ally, Start Small to Win Big, Data First",
+        "Breeze Impact Map uses Volume, Complexity, and Business Value dimensions",
+        "3W Framework: Where are bottlenecks, What creates friction, Why automate",
+        "Breeze represents a fundamental shift in operational strategy",
+        "Human judgment and AI work synergistically"
+      ],
+      "quotes": [
+        "AI is your ally.",
+        "These tools are here to assist, not replace.",
+        "It's all about using these tools to augment your strengths and fill the gaps where your team might be spread too thin."
+      ],
+      "tags": ["hubspot", "breeze", "co-pilot", "ai-strategy", "hubheroes"]
+    },
+    {
+      "title": "AI Mindsets for Inbound + Why Most Attempts to Use AI Fail",
+      "url": "https://sidekickstrategies.com/hubheroes/artificial-intelligence-ai-hubspot-inbound-marketing",
+      "type": "podcast",
+      "date": null,
+      "retrievedAt": "2025-01-09",
+      "summary": "George discusses why most AI attempts in marketing fail and the mindsets needed for successful AI adoption.",
+      "keyPoints": [
+        "Start with human-centered thinking, not tool obsession",
+        "Garbage in, garbage out - quality inputs determine outputs",
+        "AI should multiply impact of quality work, not just produce more volume",
+        "Communication with AI mirrors how your message reaches audiences",
+        "Use AI as a 'typist' to refine genuine knowledge and expertise"
+      ],
+      "quotes": [
+        "If you feed it good shit, good shit's going to come back.",
+        "Don't be a smart person that allows AI to turn you lazy."
+      ],
+      "tags": ["ai-mindsets", "inbound-marketing", "ai-failure", "content-creation"]
+    },
+    {
+      "title": "AI, ChatGPT, and the future of inbound, marketing, + business ethics",
+      "url": "https://sidekickstrategies.com/hubheroes/ai-chatgpt-inbound-marketing-and-hubspot",
+      "type": "podcast",
+      "date": null,
+      "retrievedAt": "2025-01-09",
+      "summary": "George shares his views on AI tools, ChatGPT, business ethics, and responsible AI use in marketing.",
+      "keyPoints": [
+        "AI is a tool, not a threat - concern is human behavior not technology",
+        "Loves AI for creativity, speed, and democratization of capabilities",
+        "Dislikes using AI as a cheat code for lazy shortcuts",
+        "Organizations need internal AI guidelines before problems emerge",
+        "Use AI for ideation and editing, never as final output"
+      ],
+      "quotes": [
+        "Don't be a smart person that allows AI to turn you lazy.",
+        "Success requires effort; technology should enhance, not replace, the creative struggle that builds genuine expertise."
+      ],
+      "tags": ["chatgpt", "ethics", "inbound-marketing", "guidelines", "ai-responsibility"]
+    },
+    {
+      "title": "Personalized AI: Memory Bank, ChatGPT, Custom Instructions",
+      "url": "https://sidekickstrategies.com/blog/personalized-ai-memory-bank-chatgpt-custom-instructions",
+      "type": "article",
+      "date": null,
+      "retrievedAt": "2025-01-09",
+      "summary": "How George uses ChatGPT's Memory Bank and Custom Instructions to create personalized AI assistance.",
+      "keyPoints": [
+        "Uploaded voice and tone workshop content, blog content, and About page to Memory Bank",
+        "Custom Instructions specify location, business focus, communication style",
+        "Requests conversational tone with metaphors, dad jokes, and pop culture references",
+        "Creates 'triad of personalized AI' for iterative learning",
+        "AI accurately maintains 'Happy, Helpful HubSpot Guy' personality"
+      ],
+      "quotes": [
+        "ChatGPT accurately characterized Thomas as 'the Happy, Helpful HubSpot Guy' and detailed his 'challenging cheerleader' approach."
+      ],
+      "tags": ["chatgpt", "memory-bank", "custom-instructions", "personalization"]
+    },
+    {
+      "title": "The Superhuman Framework for Individual + Organizational Success",
+      "url": "https://sidekickstrategies.com/blog/what-is-superhuman-framework-george-b-thomas",
+      "type": "article",
+      "date": null,
+      "retrievedAt": "2025-01-09",
+      "summary": "George's Superhuman Framework built on purpose, passion, persistence, and love, plus 10 H-pillars for personal and professional growth.",
+      "keyPoints": [
+        "Four foundations: Purpose, Passion, Persistence, Love",
+        "10 H-Pillars: Holistic, Happy, Hungry, Helpful, Humorous, Humble, Honest, Healthy, Human, Holiness",
+        "Framework serves as dashboard for life across 10 areas",
+        "Applies to leaders, employees, and individuals",
+        "AI clone is trained on this framework for authentic representation"
+      ],
+      "quotes": [],
+      "tags": ["superhuman-framework", "personal-growth", "leadership", "values"]
+    },
+    {
+      "title": "Episode 68: Cloning Yourself with ChatGPT - George B. Thomas and the Superhuman Framework",
+      "url": "https://chatgptexperiment.com/episode-68-cloning-yourself-with-chatgpt-george-b-thomas-and-the-superhuman-framework/",
+      "type": "podcast",
+      "date": null,
+      "retrievedAt": "2025-01-09",
+      "summary": "George discusses using AI as a force multiplier while maintaining authenticity through the Superhuman Framework.",
+      "keyPoints": [
+        "AI is a force multiplier to extend human values and knowledge",
+        "Four foundational pillars: Purpose, Passion, Persistence, Love",
+        "Digital clone demonstrates 24/7 authentic personality replication",
+        "Curiosity + Simplicity = Power philosophy"
+      ],
+      "quotes": [
+        "Curiosity + Simplicity = Power"
+      ],
+      "tags": ["chatgpt-experiment", "superhuman-framework", "ai-cloning", "authenticity"]
+    },
+    {
+      "title": "How George B. Thomas Reclaims 35+ Hours Every Month With Delphi",
+      "url": "https://www.delphi.ai/blog/how-george-b-thomas-reclaims-35-hours-every-month-with-delphi",
+      "type": "case-study",
+      "date": null,
+      "retrievedAt": "2025-01-09",
+      "summary": "Delphi case study on how George saves 35+ hours monthly using his AI clone for various business functions.",
+      "keyPoints": [
+        "35+ hours saved monthly through AI clone",
+        "Clone absorbs 19 million words of content from multiple sources",
+        "Recency bias ensures clone references latest HubSpot features",
+        "Team uses clone for social media content creation",
+        "Clone trained on Beyond Your Default podcast transcripts"
+      ],
+      "quotes": [
+        "It saves me time, that saves me money because she literally has access to air quotes me for the things that she's trying to create."
+      ],
+      "tags": ["delphi", "time-savings", "case-study", "productivity"]
+    },
+    {
+      "title": "INBOUND 2025 Recap: Insights, Inspiration, and the Human Side of AI",
+      "url": "https://sidekickstrategies.com/hubheroes/inbound-2025-recap-insights-inspiration-and-the-human-side-of-ai",
+      "type": "article",
+      "date": "2025-09",
+      "retrievedAt": "2025-01-09",
+      "summary": "George's recap of INBOUND 2025 focusing on AI developments and the importance of human connection.",
+      "keyPoints": [
+        "AI is About Experience, Not Features",
+        "Human value transcends task completion as AI transforms work",
+        "Stop defining ourselves by job titles",
+        "Authenticity and helpfulness matter more than chasing new tools",
+        "Fun is not optional in organizational culture"
+      ],
+      "quotes": [
+        "Helpful, human content will always win. Whether Google or ChatGPT delivers the answer, the brands that focus on actually helping people will flourish.",
+        "Be happy, helpful, humble."
+      ],
+      "tags": ["inbound-2025", "human-side-of-ai", "hubspot", "experience"]
+    },
+    {
+      "title": "Let's Build AI Skills Daily Podcast / Wake Up With AI",
+      "url": "https://podcasts.apple.com/us/podcast/lets-build-ai-skills-daily/id1773067866",
+      "type": "podcast",
+      "date": null,
+      "retrievedAt": "2025-01-09",
+      "summary": "Daily podcast co-hosted by George B. Thomas, Chris Carolan, and Niko Lafakis covering AI developments and skills for business.",
+      "keyPoints": [
+        "Daily episodes on AI skills for sales, marketing, and business operations",
+        "Covers practical AI skills for immediate implementation",
+        "44+ episodes as of retrieval date",
+        "Topics include AI operations, business models, and industry developments"
+      ],
+      "quotes": [],
+      "tags": ["podcast", "ai-skills", "daily-show", "wake-up-with-ai"]
+    },
+    {
+      "title": "AI Harmony and Human Touch - INBOUND 2024 Presentation",
+      "url": "https://www.georgebthomas.com/hubfs/INBOUND 2024 - Future of Content - AI Harmony and Human Touch - George B Thomas.pdf",
+      "type": "presentation",
+      "date": "2024-09",
+      "retrievedAt": "2025-01-09",
+      "summary": "George's INBOUND 2024 presentation on balancing AI capabilities with human touch in content creation.",
+      "keyPoints": [
+        "INBOUND 2024 featured game-changing AI tools from HubSpot",
+        "Breeze Intelligence consolidates AI features under one platform",
+        "Tools are here to assist, not replace",
+        "Use AI tools to augment strengths and fill gaps"
+      ],
+      "quotes": [
+        "These tools are here to assist, not replace."
+      ],
+      "tags": ["inbound-2024", "presentation", "breeze", "content-future"]
+    },
+    {
+      "title": "AI Prompt: George B. Thomas Writing Style & Grammar Rules",
+      "url": "https://www.linkedin.com/posts/georgebthomas_this-might-be-my-favorite-ai-prompt-aka-activity-7319022997388832768-X8HX",
+      "type": "social-post",
+      "date": null,
+      "retrievedAt": "2025-01-09",
+      "summary": "George shares his AI prompt for maintaining his unique writing style in AI-generated content.",
+      "keyPoints": [
+        "AI model trained to know 'who the flip George B. Thomas is and how he would write'",
+        "Values: empathetic, authentic, vulnerable, human",
+        "Core themes: value first, human centric, being best version of yourself",
+        "Living life beyond your default"
+      ],
+      "quotes": [],
+      "tags": ["linkedin", "writing-style", "ai-prompt", "personal-branding"]
+    }
+  ],
+  "corePhilosophies": {
+    "humanFirst": "AI should enhance human capabilities and connection, not replace them. The human element remains irreplaceable in business.",
+    "augmentation": "Use AI to scale and augment your expertise, allowing you to serve more people while focusing on higher-value work.",
+    "purposeDriven": "Building AI tools from a place of purpose, passion, and persistence rather than just monetization ensures authenticity and long-term value.",
+    "valuesEmbedded": "Simply uploading content is insufficient. Core values, mindsets, and beliefs must be integrated into AI systems for authentic representation.",
+    "allyNotThreat": "View AI as an ally that amplifies human capabilities rather than a threat to jobs or creativity.",
+    "qualityInputs": "Garbage in, garbage out. Quality AI outputs require quality human inputs and genuine expertise."
+  },
+  "aiToolsUsed": [
+    {
+      "tool": "Delphi.ai",
+      "purpose": "AI clone platform for scaling expertise",
+      "usage": "Built two clones - HubSpot Helper and Growth Coach"
+    },
+    {
+      "tool": "ChatGPT",
+      "purpose": "Content creation and ideation",
+      "usage": "Memory Bank and Custom Instructions for personalization"
+    },
+    {
+      "tool": "HubSpot Breeze",
+      "purpose": "Marketing and sales AI",
+      "usage": "Co-Pilot, Breeze Intelligence, AI agents"
+    },
+    {
+      "tool": "HubSpot Content Assistant",
+      "purpose": "Content creation within HubSpot",
+      "usage": "Integrated AI for marketing content"
+    },
+    {
+      "tool": "ChatSpot",
+      "purpose": "HubSpot AI assistant",
+      "usage": "Conversational interface for HubSpot tasks"
+    }
+  ],
+  "signaturePhrases": [
+    "Don't forget to be a happy, helpful, humble human",
+    "Automagical",
+    "The Happy, Helpful HubSpot Guy",
+    "Living beyond your default",
+    "Curiosity + Simplicity = Power"
+  ],
+  "keyQuotes": [
+    "I'm not using it to replace me. I'm using it to scale me and augment me.",
+    "Creating an AI clone has to come from a place of love. It has to come from a place of purpose.",
+    "Don't be a smart person that allows AI to turn you lazy.",
+    "These tools are here to assist, not replace.",
+    "AI's true power lies in augmentation, not replacement.",
+    "Helpful, human content will always win.",
+    "If you feed it good shit, good shit's going to come back.",
+    "I can't scale myself to answer every question that everybody has.",
+    "AI is your ally."
+  ]
+}

@@ -1,0 +1,453 @@
+{
+  "topic": "biography",
+  "lastUpdated": "2025-01-09",
+  "sourceCount": 15,
+  "timeline": [
+    {
+      "year": "~1990",
+      "milestone": "High School Dropout",
+      "description": "At 17 years old, after a math teacher told him 'You'll never amount to anything,' George believed him and dropped out of high school about six weeks later to join the Navy."
+    },
+    {
+      "year": "~2005-2007",
+      "milestone": "Youth Pastor & Church Creative",
+      "description": "Served as a youth leader and youth pastor at his local church in Ohio while working at Pizza Hut and studying to become ordained. Discovered his creative side when the church added a projection system for songs and sermon notes, and he built their website."
+    },
+    {
+      "year": "2007",
+      "milestone": "Spiritual Turning Point",
+      "description": "While serving as youth pastor, expressed frustration about unfulfilled blessings. A prophetess named Juanita told him: 'When are you gonna realize you're the blessing?' This redirected his focus from seeking blessings to becoming one."
+    },
+    {
+      "year": "2009",
+      "milestone": "Self-Taught Design Career Begins",
+      "description": "Taught himself design and web development using Lynda.com over one weekend to learn InDesign. Found a Craigslist ad for an agency in Akron, Ohio and secured a position. Also worked at a water park while teaching himself Adobe Photoshop."
+    },
+    {
+      "year": "2012",
+      "milestone": "HubSpot INBOUND Discovery",
+      "description": "Working at Wild Boy agency in Massillon, Ohio, won tickets to HubSpot's INBOUND conference through a Twitter contest during 'the world's largest webinar.' This experience fundamentally changed his brain - 'The humanity-focused message of HubSpot spoke to my soul and my purpose.'"
+    },
+    {
+      "year": "2013",
+      "milestone": "Wild Boy - Rookie Partner of the Year",
+      "description": "Wild Boy agency won HubSpot's Rookie Partner of the Year award, marking a significant achievement in their HubSpot journey."
+    },
+    {
+      "year": "2014",
+      "milestone": "Wild Boy Agency Closes / Joins The Sales Lion",
+      "description": "Wild Boy agency closed its doors. Around this time, Marcus Sheridan called and offered George a job at The Sales Lion. This began a transformative period of learning about communication, professional speaking, authenticity, and business operations."
+    },
+    {
+      "year": "~2014-2015",
+      "milestone": "First Keynote Speech & Vulnerability Breakthrough",
+      "description": "At dinner at the Cheesecake Factory before his first keynote, Marcus Sheridan told him to open with being a high school dropout. After resistance, Marcus said: 'Until you embrace being vulnerable, you're going to miss out on the magic in life.' George opened with his dropout story, leading to a powerful conversation with an attendee about life and forgiveness."
+    },
+    {
+      "year": "2015",
+      "milestone": "First INBOUND Speaker",
+      "description": "Delivered his first talk at HubSpot's INBOUND conference. Has spoken at INBOUND every year since."
+    },
+    {
+      "year": "~2015",
+      "milestone": "Hubcast Podcast Launch",
+      "description": "Marcus Sheridan encouraged George to start a podcast. This led to recording 271 episodes of the Hubcast, becoming a cornerstone of his educator brand."
+    },
+    {
+      "year": "~2017",
+      "milestone": "Part Owner at The Sales Lion",
+      "description": "Rose from employee to part owner at The Sales Lion within four years, demonstrating his owner's mentality and growth."
+    },
+    {
+      "year": "2018",
+      "milestone": "The Sales Lion Merges with IMPACT",
+      "description": "The Sales Lion merged with IMPACT, a HubSpot agency based in Connecticut. George joined briefly (~4 months) but struggled with the transition from a small close-knit team to a larger organization."
+    },
+    {
+      "year": "2018",
+      "milestone": "Joins Impulse Creative",
+      "description": "Joined Remington and Rachel Begg at Impulse Creative as Inbound Evangelist. Recognized the company name reflected his personal identity ('I am impulsive...creative...always thinking, always creating'). Built Sprocket Talk community and created thousands of educational videos."
+    },
+    {
+      "year": "2022",
+      "milestone": "Launches George B. Thomas, LLC",
+      "description": "Founded his own company, initially swearing he would never create an agency. Realized he had become a leader, not just a 'number two guy.'"
+    },
+    {
+      "year": "2023-Present",
+      "milestone": "Sidekick Strategies & Superhuman Framework",
+      "description": "George B. Thomas, LLC evolved into Sidekick Strategies. Developed the Superhuman Framework as his signature methodology for personal and organizational transformation. Launched Beyond Your Default podcast focused on living beyond the default life."
+    }
+  ],
+  "coreIdentity": {
+    "tagline": "Speaker, trainer, catalyst, and overall happy, helpful, humble, HubSpot helper",
+    "alternateTitles": [
+      "Chief HubSpot Helper",
+      "Video Jedi",
+      "Inbound Evangelist",
+      "HubSpot Certified Trainer",
+      "The Happy, Helpful HubSpot Guy"
+    ],
+    "mission": "To help Humans and organizations align their purpose, passion, and persistence to create lasting, meaningful growth.",
+    "vision": "Empowering individuals to live 'Beyond Your Default' - breaking free from what we're told to accept and reaching for something bigger and greater through education, personal development, and human connection.",
+    "values": [
+      "Vulnerability as strength",
+      "Human-centered approach",
+      "Continuous learning and growth",
+      "Purpose-driven work",
+      "Family and community",
+      "Authenticity and honesty",
+      "Serving as a blessing to others"
+    ],
+    "personalDefinitions": [
+      "The HubSpot educator who transformed his passion into a business",
+      "The dedicated father and husband who smiles so damn big every day because of his family",
+      "The man of faith who sees purpose beyond himself"
+    ]
+  },
+  "superhumanFramework": {
+    "description": "A practical roadmap for elevating both personal and professional life, designed as a 'dashboard for your life' to check in on key areas regularly.",
+    "fourCornerstones": {
+      "purpose": "The underlying 'why' behind everything - the thing that drives you when you're exhausted or ready to tap out.",
+      "passion": "The fire - what gets you excited to show up and do the work, even when it's hard or when it feels like you're not getting anywhere.",
+      "persistence": "The grit that keeps us moving when passion alone isn't enough. The importance of resilience, especially for high achievers who often face burnout.",
+      "love": "What amplifies the other cornerstones - grounding them in meaning and connection. Love isn't just a feeling - it's a choice and action."
+    },
+    "tenHPillars": [
+      {
+        "name": "Holistic",
+        "description": "Viewing life as an integrated whole where work, personal matters, and health align harmoniously"
+      },
+      {
+        "name": "Happiness",
+        "description": "Prioritizing genuine joy as a central daily element"
+      },
+      {
+        "name": "Hungry (Healthy Hustle)",
+        "description": "Maintaining sustainable ambition without burnout"
+      },
+      {
+        "name": "Helpfulness",
+        "description": "Supporting others across teams, families, and communities"
+      },
+      {
+        "name": "Humor",
+        "description": "Finding levity and not taking oneself too seriously"
+      },
+      {
+        "name": "Humility",
+        "description": "Remaining grounded and open to continuous learning"
+      },
+      {
+        "name": "Honesty",
+        "description": "Being truthful with yourself and others through authentic engagement"
+      },
+      {
+        "name": "Health",
+        "description": "Caring for physical, mental, and emotional well-being"
+      },
+      {
+        "name": "Humanity",
+        "description": "Practicing empathy, kindness, and respect"
+      },
+      {
+        "name": "Holiness",
+        "description": "Connecting with purpose and meaning beyond oneself"
+      }
+    ]
+  },
+  "transformationStory": {
+    "originMoment": "At 17, a math teacher told him 'You'll never amount to anything' in the middle of class. He believed him and dropped out six weeks later to join the Navy.",
+    "turningPoints": [
+      "2007: Prophetess Juanita's revelation: 'When are you gonna realize you're the blessing?'",
+      "2012: First HubSpot INBOUND conference - 'The humanity-focused message spoke to my soul and my purpose'",
+      "First keynote: Marcus Sheridan's advice on vulnerability at Cheesecake Factory dinner"
+    ],
+    "redemptionNarrative": "He's no longer angry about what happened; he's grateful. He wouldn't take the lost years back if offered. If he saw that math teacher today, he would thank him. That teacher 'tossed fuel on the fire that created the man - and the empowering educator - I am today.'",
+    "keyRealization": "Until you embrace being vulnerable, you're going to miss out on the magic in life."
+  },
+  "familyAndFaith": {
+    "familyRole": "Dedicated father and husband who prioritizes family. His business is built around the 'FEAM' concept - a blend of 'family' and 'team' where his wife and children work collaboratively.",
+    "faithBackground": "Man of faith who sees purpose beyond himself. Background as youth pastor and youth leader at local church in Ohio. Faith influenced his human-centered approach to business and education.",
+    "churchOrigins": "Creative agency journey started at church where he fell in love with his creative side through building projection systems for songs/sermon notes and the church website."
+  },
+  "credentials": {
+    "hubspotCertifications": "40+ HubSpot certifications (record-breaking achievement)",
+    "certificationTypes": [
+      "Inbound Marketing",
+      "Inbound Sales",
+      "Contextual Marketing",
+      "CMS Implementation",
+      "Email Marketing",
+      "Content Marketing",
+      "HubSpot Marketing Hub",
+      "HubSpot Sales Hub",
+      "HubSpot Service Hub",
+      "HubSpot CRM",
+      "HubSpot Content Hub"
+    ],
+    "hubspotTrainer": true,
+    "yearsExperience": "25+ years of sales and marketing experience",
+    "hubspotExperience": "Using HubSpot since 2012 (12+ years)",
+    "speakingVenues": [
+      "HubSpot INBOUND (every year since 2015)",
+      "Social Media Marketing World"
+    ],
+    "contentCreated": "2,000+ educational videos and podcast episodes"
+  },
+  "sources": [
+    {
+      "title": "About George | George B. Thomas",
+      "url": "https://www.georgebthomas.com/about",
+      "type": "bio/about",
+      "date": null,
+      "retrievedAt": "2025-01-09",
+      "summary": "Comprehensive personal biography page covering George's journey from high school dropout to HubSpot expert, including the formative math teacher moment, Navy service, youth pastor background, and spiritual turning point with prophetess Juanita.",
+      "keyPoints": [
+        "High school dropout at 17 after math teacher said 'You'll never amount to anything'",
+        "Joined Navy after dropping out",
+        "Youth pastor in Ohio working at Pizza Hut",
+        "2007 spiritual turning point: 'When are you gonna realize you're the blessing?'",
+        "Self-taught design via Lynda.com",
+        "First keynote vulnerability breakthrough at Cheesecake Factory"
+      ],
+      "quotes": [
+        "You will never amount to anything.",
+        "When are you gonna realize you're the blessing?",
+        "Until you embrace being vulnerable, you're going to miss out on the magic in life.",
+        "He tossed fuel on the fire that created the man - and the empowering educator - I am today."
+      ],
+      "tags": ["biography", "origin-story", "transformation", "faith", "vulnerability"]
+    },
+    {
+      "title": "Our Story | Sidekick Strategies",
+      "url": "https://sidekickstrategies.com/about/story",
+      "type": "company-story",
+      "date": null,
+      "retrievedAt": "2025-01-09",
+      "summary": "Story of founding Sidekick Strategies, George's evolution from 'number two guy' to leader, and the FEAM (family + team) business model.",
+      "keyPoints": [
+        "Founded George B. Thomas, LLC in 2022",
+        "Initially swore never to create an agency",
+        "Realized he could lead human beings",
+        "FEAM concept: family + team integration",
+        "124+ HubSpot certifications across team",
+        "Human-first service delivery"
+      ],
+      "quotes": [
+        "You have no idea who you are about to become over the next two years. You...can lead human beings.",
+        "I looked around and realized I had three contractors also hanging around... we're literally sitting here running an agency"
+      ],
+      "tags": ["business", "leadership", "family", "sidekick-strategies"]
+    },
+    {
+      "title": "George B. Thomas: An Inbound Journey from Wild Boy, The Sales Lion, Impact & Now What",
+      "url": "https://impulsecreative.com/blog/george-b.-thomas-an-inbound-journey-from-wild-boy-the-sales-lion-impact-now-what",
+      "type": "interview/article",
+      "date": null,
+      "retrievedAt": "2025-01-09",
+      "summary": "Detailed career timeline covering Wild Boy agency, The Sales Lion with Marcus Sheridan, IMPACT merger, and transition to Impulse Creative.",
+      "keyPoints": [
+        "Wild Boy: Won INBOUND tickets 2012, Rookie Partner of Year 2013, closed 2014",
+        "The Sales Lion: Recruited by Marcus Sheridan, created Hubcast (271 episodes)",
+        "Rose to part-owner in 4 years at The Sales Lion",
+        "IMPACT: Brief 4-month tenure after merger",
+        "Impulse Creative: Joined as Inbound Evangelist"
+      ],
+      "quotes": [
+        "What is it all for? Why is it ending like this?",
+        "I am impulsive...creative...always thinking, always creating"
+      ],
+      "tags": ["career-journey", "agencies", "hubspot", "marcus-sheridan"]
+    },
+    {
+      "title": "The Superhuman Framework for Individual + Organizational Success",
+      "url": "https://sidekickstrategies.com/blog/what-is-superhuman-framework-george-b-thomas",
+      "type": "article",
+      "date": null,
+      "retrievedAt": "2025-01-09",
+      "summary": "Complete overview of the Superhuman Framework including the 10 H Pillars and their applications for personal and professional growth.",
+      "keyPoints": [
+        "Framework is a 'dashboard for your life'",
+        "10 H Pillars: Holistic, Happiness, Hungry, Helpfulness, Humor, Humility, Honesty, Health, Humanity, Holiness",
+        "For leaders, employees, and individuals pursuing development",
+        "Focus on sustainable daily improvements"
+      ],
+      "quotes": [],
+      "tags": ["superhuman-framework", "10-h-pillars", "personal-development"]
+    },
+    {
+      "title": "Professional Speaker | George B. Thomas",
+      "url": "https://www.georgebthomas.com/",
+      "type": "homepage",
+      "date": null,
+      "retrievedAt": "2025-01-09",
+      "summary": "Main website homepage highlighting George's role as speaker, trainer, and catalyst with the Superhuman Framework at the core.",
+      "keyPoints": [
+        "Mission: Help Humans and organizations align purpose, passion, persistence",
+        "12+ years at forefront of HubSpot expertise",
+        "Creator of HubHeroes Podcast",
+        "Owner of Sidekick Strategies",
+        "Visionary behind Superhuman Framework"
+      ],
+      "quotes": [
+        "Humans need more than a pep talk - they need a wake-up call."
+      ],
+      "tags": ["speaker", "mission", "superhuman-framework"]
+    },
+    {
+      "title": "George B. Thomas - Sidekick Strategies | LinkedIn",
+      "url": "https://www.linkedin.com/in/georgebthomas/",
+      "type": "profile",
+      "date": null,
+      "retrievedAt": "2025-01-09",
+      "summary": "LinkedIn professional profile showing current role as Chief HubSpot Helper and owner at George B. Thomas, LLC.",
+      "keyPoints": [
+        "Chief HubSpot Helper",
+        "Owner at George B. Thomas, LLC",
+        "Top notch marketer, video creator, HubSpot expert"
+      ],
+      "quotes": [],
+      "tags": ["linkedin", "professional-profile"]
+    },
+    {
+      "title": "George B. Thomas, HubSpot Certified Trainer",
+      "url": "https://academy.hubspot.com/hubspot-certified-trainer/find-a-trainer/georgeb-thomas",
+      "type": "certification",
+      "date": null,
+      "retrievedAt": "2025-01-09",
+      "summary": "Official HubSpot Academy certification page confirming George's trainer status.",
+      "keyPoints": [
+        "HubSpot Certified Trainer",
+        "Expertise in all HubSpot Hubs",
+        "Chief HubSpot Helper at George B. Thomas, LLC"
+      ],
+      "quotes": [],
+      "tags": ["hubspot", "certification", "trainer"]
+    },
+    {
+      "title": "What Is the Beyond Your Default Podcast?",
+      "url": "https://www.georgebthomas.com/articles/what-is-the-beyond-your-default-podcast-why-now-where-are-we-going",
+      "type": "article",
+      "date": null,
+      "retrievedAt": "2025-01-09",
+      "summary": "Introduction to the Beyond Your Default podcast explaining the philosophy of living beyond what we're told to accept.",
+      "keyPoints": [
+        "Co-hosted with Liz Moorehead",
+        "Focus on living beyond the default life",
+        "Explores Superhuman Framework cornerstones",
+        "Personal development and growth focus"
+      ],
+      "quotes": [],
+      "tags": ["podcast", "beyond-your-default", "personal-development"]
+    },
+    {
+      "title": "George B. Thomas | INBOUND 2025",
+      "url": "https://www.inbound.com/speakers/recdsy4xofth6Sdor",
+      "type": "speaker-profile",
+      "date": null,
+      "retrievedAt": "2025-01-09",
+      "summary": "INBOUND 2025 speaker profile featuring SuperHuman Marketing Framework session.",
+      "keyPoints": [
+        "ENCORE session due to popularity",
+        "SuperHuman Marketing Framework presentation",
+        "Focus on marketing that builds trust and converts"
+      ],
+      "quotes": [],
+      "tags": ["inbound", "speaker", "2025"]
+    },
+    {
+      "title": "Humans of HubSpot: George B. Thomas",
+      "url": "https://community.hubspot.com/t5/Humans-of-HubSpot/Humans-of-HubSpot-George-B-Thomas/m-p/439473",
+      "type": "community-profile",
+      "date": null,
+      "retrievedAt": "2025-01-09",
+      "summary": "HubSpot Community spotlight on George sharing his journey with HubSpot.",
+      "keyPoints": [
+        "Featured in Humans of HubSpot series",
+        "Shared insight about starting his own company",
+        "Community recognition for educational videos"
+      ],
+      "quotes": [],
+      "tags": ["hubspot-community", "profile"]
+    },
+    {
+      "title": "George B. Thomas : MarketingProfs Author",
+      "url": "https://www.marketingprofs.com/authors/4505/george-b-thomas",
+      "type": "author-profile",
+      "date": null,
+      "retrievedAt": "2025-01-09",
+      "summary": "MarketingProfs author profile highlighting George's expertise as marketer, video Jedi, and HubSpot certified trainer.",
+      "keyPoints": [
+        "25+ years sales and marketing experience",
+        "Record-breaking 38 HubSpot certifications",
+        "Video Jedi title",
+        "Hosts Marketing Smarts Live Show"
+      ],
+      "quotes": [],
+      "tags": ["marketingprofs", "author", "credentials"]
+    },
+    {
+      "title": "Carving Your Own Path with George B. Thomas",
+      "url": "https://dialitinpodcast.com/dial-it-in-podcast-episodes/carving-your-own-path-with-george-b.-thomas",
+      "type": "podcast-interview",
+      "date": null,
+      "retrievedAt": "2025-01-09",
+      "summary": "Podcast interview discussing George's entrepreneurial journey and authenticity.",
+      "keyPoints": [
+        "Challenges and triumphs of starting own business",
+        "Importance of authenticity",
+        "Transition from employee to business owner"
+      ],
+      "quotes": [],
+      "tags": ["podcast", "interview", "entrepreneurship"]
+    },
+    {
+      "title": "Sprocket Talk 2.0",
+      "url": "https://www.sprockettalk.com/hub/author/george-b-thomas",
+      "type": "content-platform",
+      "date": null,
+      "retrievedAt": "2025-01-09",
+      "summary": "Sprocket Talk educational content platform built by George to help users navigate HubSpot.",
+      "keyPoints": [
+        "Mission: Help users get 100% ROI across all HubSpot Hubs",
+        "Videos that educate AND entertain",
+        "Built during Impulse Creative years"
+      ],
+      "quotes": [],
+      "tags": ["sprocket-talk", "education", "hubspot"]
+    },
+    {
+      "title": "INBOUND 2024 Late Show Coverage",
+      "url": "https://sidekickstrategies.com/blog/inbound24-inbound-late-show-night-one",
+      "type": "event-coverage",
+      "date": "2024-09",
+      "retrievedAt": "2025-01-09",
+      "summary": "George co-hosted INBOUND Late Show at INBOUND 2024 covering conference highlights.",
+      "keyPoints": [
+        "Co-hosted with Kyle Jepson, Max Cohen, Justin Givens",
+        "Taught concept: 'Human powered, AI assisted'",
+        "Balancing humanity with AI"
+      ],
+      "quotes": [
+        "The mindset should be human powered, AI assisted."
+      ],
+      "tags": ["inbound-2024", "ai", "speaking"]
+    },
+    {
+      "title": "AI Digital Clone: How to Augment Your Team's Expertise with George B. Thomas",
+      "url": "https://theaihat.com/ai-digital-clone-how-to-augment-your-teams-expertise-with-george-b-thomas/",
+      "type": "podcast-interview",
+      "date": null,
+      "retrievedAt": "2025-01-09",
+      "summary": "Discussion about creating AI digital clones to augment team expertise.",
+      "keyPoints": [
+        "Known as happy, helpful, humble HubSpot expert",
+        "Personal brand built on authenticity and relentless positivity",
+        "AI and human expertise integration"
+      ],
+      "quotes": [],
+      "tags": ["ai", "digital-clone", "podcast"]
+    }
+  ]
+}

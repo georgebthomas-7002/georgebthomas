@@ -1,0 +1,475 @@
+{
+  "topic": "podcasting",
+  "lastUpdated": "2025-01-09",
+  "sourceCount": 25,
+  "sources": [
+    {
+      "title": "HubHeroes Podcast - Official Page",
+      "url": "https://georgebthomas.com/hubheroes",
+      "type": "hosted",
+      "date": "2022-present",
+      "retrievedAt": "2025-01-09",
+      "summary": "George B. Thomas co-hosts the HubHeroes Podcast alongside Max Cohen and Devyn Bellamy of HubSpot, and Liz Moorehead. The podcast serves as 'your backstage pass to strategies that drive results,' covering HubSpot and Inbound topics that help streamline processes, communication, and revenue streams.",
+      "keyPoints": [
+        "Weekly podcast covering HubSpot strategies and inbound marketing",
+        "Co-hosted with Max Cohen, Devyn Bellamy, and Liz Moorehead",
+        "Over 108 episodes produced",
+        "Covers Marketing Hub, Sales Hub, Service Hub, and CMS tools",
+        "Features the brightest minds in the industry"
+      ],
+      "quotes": [
+        "Your backstage pass to strategies that drive results",
+        "What it takes to build impactful marketing strategies, grow with purpose, and lead with authenticity"
+      ],
+      "tags": ["hubspot", "inbound-marketing", "podcast-host", "marketing-strategy"]
+    },
+    {
+      "title": "HubHeroes Podcast - Apple Podcasts",
+      "url": "https://podcasts.apple.com/us/podcast/the-hubheroes-podcast/id1631593901",
+      "type": "hosted",
+      "date": "2022-present",
+      "retrievedAt": "2025-01-09",
+      "summary": "The HubHeroes Podcast on Apple Podcasts featuring George B. Thomas and team discussing HubSpot tools, inbound marketing, and business growth strategies.",
+      "keyPoints": [
+        "Available on Apple Podcasts",
+        "Weekly updates",
+        "Marketing podcast format"
+      ],
+      "quotes": [],
+      "tags": ["hubspot", "apple-podcasts", "podcast-host"]
+    },
+    {
+      "title": "HubHeroes - Sidekick Strategies",
+      "url": "https://sidekickstrategies.com/hubheroes/author/george-b-thomas",
+      "type": "hosted",
+      "date": "2022-present",
+      "retrievedAt": "2025-01-09",
+      "summary": "George B. Thomas's author page on Sidekick Strategies HubHeroes Podcast, showcasing his role as creator and host of the podcast.",
+      "keyPoints": [
+        "George is the creator of the HubHeroes Podcast",
+        "Owner of Sidekick Strategies",
+        "Visionary behind the Superhuman Framework",
+        "Over 10 years of HubSpot training and implementation experience"
+      ],
+      "quotes": [
+        "George's office, mic, and on any given day, his clothing is orange"
+      ],
+      "tags": ["hubspot", "sidekick-strategies", "podcast-host"]
+    },
+    {
+      "title": "Beyond Your Default Podcast - Official Website",
+      "url": "https://www.beyondyourdefault.com/",
+      "type": "hosted",
+      "date": "2023-07-17",
+      "retrievedAt": "2025-01-09",
+      "summary": "George B. Thomas hosts 'Beyond Your Default,' a personal growth podcast co-hosted with Liz Moorehead. The podcast explores what it means to live beyond default settings - beyond what we're told to accept, reaching for something bigger and greater.",
+      "keyPoints": [
+        "Launched July 17, 2023",
+        "Co-hosted with Liz Moorehead",
+        "Focuses on personal transformation and self-belief",
+        "Features the Superhuman Framework with 4 Cornerstones: Love, Purpose, Passion, and Persistence",
+        "Available on iHeart, Amazon Music, Apple Podcasts, Spotify, Google Podcasts"
+      ],
+      "quotes": [
+        "For those of you who want to get a hand up in life and show up as a whole-ass human!",
+        "Living beyond what we're told to accept, beyond the day-to-day monotony"
+      ],
+      "tags": ["personal-growth", "superhuman-framework", "podcast-host", "self-improvement"]
+    },
+    {
+      "title": "Beyond Your Default - iHeart Radio",
+      "url": "https://www.iheart.com/podcast/269-beyond-your-default-119113867/",
+      "type": "hosted",
+      "date": "2023-present",
+      "retrievedAt": "2025-01-09",
+      "summary": "Beyond Your Default podcast on iHeart Radio featuring episodes on the Superhuman Framework, including the 4 Cornerstones episode exploring Love, Purpose, Passion, and Persistence.",
+      "keyPoints": [
+        "4 Cornerstones episode explores foundational elements for fulfilling life",
+        "Episodes on time management and life perspective",
+        "Blessing Bombers episode on human connections"
+      ],
+      "quotes": [
+        "The keys to building a fulfilling, resilient life beyond the default"
+      ],
+      "tags": ["personal-growth", "iheart", "podcast-host"]
+    },
+    {
+      "title": "What Is the Beyond Your Default Podcast? - George B. Thomas Article",
+      "url": "https://www.georgebthomas.com/articles/what-is-the-beyond-your-default-podcast-why-now-where-are-we-going",
+      "type": "mention",
+      "date": "2023",
+      "retrievedAt": "2025-01-09",
+      "summary": "George B. Thomas's article explaining the origin, purpose, and vision of the Beyond Your Default podcast, sharing his personal journey of transformation and self-belief.",
+      "keyPoints": [
+        "Explains the 'why' behind starting the podcast",
+        "Discusses importance of integrating all parts of oneself",
+        "Outlines vision for future episodes"
+      ],
+      "quotes": [],
+      "tags": ["personal-growth", "podcast-origin", "article"]
+    },
+    {
+      "title": "Marketing Smarts Podcast - MarketingProfs",
+      "url": "https://www.marketingprofs.com/authors/4505/george-b-thomas",
+      "type": "hosted",
+      "date": "ongoing",
+      "retrievedAt": "2025-01-09",
+      "summary": "George B. Thomas hosts the Marketing Smarts podcast for MarketingProfs, delivering 30-minute weekly episodes with actionable insights and interviews with marketing experts on topics including SEO, AI, content marketing, social media, and email marketing.",
+      "keyPoints": [
+        "Weekly 30-minute podcast format",
+        "Interviews with marketing experts",
+        "Covers B2B marketing topics: SEO, AI, content marketing, social media",
+        "Also hosts Marketing Smarts Live Show",
+        "Featured guests include Matt Treacey, Vin Turk, Jason Harris, Marcus Sheridan, Christopher Penn"
+      ],
+      "quotes": [
+        "Delivers actionable insights and real advice to help you market smarter"
+      ],
+      "tags": ["b2b-marketing", "marketingprofs", "podcast-host", "marketing-education"]
+    },
+    {
+      "title": "The Hubcast Podcast (271 Episodes)",
+      "url": "https://georgebthomas.com/category/podcasts/",
+      "type": "hosted",
+      "date": "2012-2022",
+      "retrievedAt": "2025-01-09",
+      "summary": "George B. Thomas recorded 271 episodes of The Hubcast, the first HubSpot-specific podcast, co-hosted with Marcus Sheridan. The podcast was 20-25 minutes per episode, recorded via Skype with Ecamm Call Recorder.",
+      "keyPoints": [
+        "First HubSpot-specific podcast",
+        "271 total episodes",
+        "Co-hosted with Marcus Sheridan",
+        "20-25 minute episode format",
+        "Started after Marcus Sheridan encouraged George despite his initial hesitation",
+        "Used ATR 2100 microphone, Libsyn hosting, Blubrry plugin"
+      ],
+      "quotes": [
+        "Hubcast Episode 1: Finally, a Podcast Just for HubSpotters!",
+        "George initially resisted because he 'hated his voice'"
+      ],
+      "tags": ["hubspot", "legacy-podcast", "marcus-sheridan", "podcast-host"]
+    },
+    {
+      "title": "The Spot Podcast - George B. Thomas Introduction Interview",
+      "url": "https://open.spotify.com/episode/1Ly6FIEA4GbLLXmskUleq2",
+      "type": "guest",
+      "date": "2021",
+      "retrievedAt": "2025-01-09",
+      "summary": "Max Cohen interviews George B. Thomas from Sprocket Talk on The Spot Podcast, flipping the script to learn about George's background, experience, and approach to HubSpot.",
+      "keyPoints": [
+        "Max Cohen interviews George B. Thomas",
+        "Introduces George to The Spot audience",
+        "Discusses Sprocket Talk origins and mission"
+      ],
+      "quotes": [],
+      "tags": ["hubspot", "guest-appearance", "interview", "the-spot"]
+    },
+    {
+      "title": "The Spot Podcast - What Makes A Great Marketer?",
+      "url": "https://podcasts.apple.com/us/podcast/the-spot-ep21-what-makes-a-great-marketer/id1526304613?i=1000517810214",
+      "type": "hosted",
+      "date": "2021",
+      "retrievedAt": "2025-01-09",
+      "summary": "George B. Thomas co-hosts The Spot Podcast EP21 with Doug Davidoff, Juli Durante, and Max Cohen, discussing what makes a great marketer.",
+      "keyPoints": [
+        "Episode 21 of The Spot Podcast",
+        "Panel discussion format",
+        "Explores qualities of great marketers"
+      ],
+      "quotes": [],
+      "tags": ["marketing", "the-spot", "podcast-host"]
+    },
+    {
+      "title": "15-Minute Strategy Podcast - Sprocket Talk",
+      "url": "https://strategy.sprockettalk.com/",
+      "type": "hosted",
+      "date": "2019-2021",
+      "retrievedAt": "2025-01-09",
+      "summary": "George B. Thomas hosted the 15-Minute Strategy Podcast through Sprocket Talk, uncovering challenges faced by sales, marketing, and service professionals with strategies to overcome their biggest hurdles.",
+      "keyPoints": [
+        "Weekly 15-minute format",
+        "Focus on sales, marketing, and service challenges",
+        "Part of Sprocket Talk ecosystem",
+        "Strategy-focused content"
+      ],
+      "quotes": [
+        "Every week, George B. Thomas uncovers the challenges that sales, marketing and service professionals face"
+      ],
+      "tags": ["strategy", "sprocket-talk", "podcast-host", "hubspot"]
+    },
+    {
+      "title": "Sprocket Talk Unpacked",
+      "url": "https://www.sprockettalk.com/hub/blog-tool",
+      "type": "hosted",
+      "date": "2018-2021",
+      "retrievedAt": "2025-01-09",
+      "summary": "George B. Thomas co-hosted Sprocket Talk Unpacked with Remington Begg, discussing HubSpot tools and features in detail.",
+      "keyPoints": [
+        "Co-hosted with Remington Begg",
+        "Deep dives into HubSpot tools",
+        "Part of Sprocket Talk platform"
+      ],
+      "quotes": [],
+      "tags": ["hubspot", "sprocket-talk", "podcast-host", "tools-training"]
+    },
+    {
+      "title": "AI Digital Clone Episode - The AI Hat Podcast",
+      "url": "https://theaihat.com/ai-digital-clone-how-to-augment-your-teams-expertise-with-george-b-thomas/",
+      "type": "guest",
+      "date": "2025-09",
+      "retrievedAt": "2025-01-09",
+      "summary": "George B. Thomas appeared on The AI Hat Podcast with host Mike Allton, discussing AI digital clones and how to augment team expertise. The conversation covered cloning one's essence beyond content, real use cases for AI augmentation including George's AI clone assisting his team via Slack.",
+      "keyPoints": [
+        "Discusses AI digital clones for business",
+        "George's AI clone assists team via Slack",
+        "Emphasis on building AI from purpose, not just monetization",
+        "Real use cases for AI augmentation"
+      ],
+      "quotes": [
+        "Widely known as 'The HubSpot Helper'"
+      ],
+      "tags": ["ai", "guest-appearance", "technology", "team-augmentation"]
+    },
+    {
+      "title": "Partnership Unpacked - Agorapulse Podcast",
+      "url": "https://www.agorapulse.com/partnershipunpacked/george-thomas/",
+      "type": "guest",
+      "date": "2023-11-13",
+      "retrievedAt": "2025-01-09",
+      "summary": "George B. Thomas appeared on Partnership Unpacked with host Mike Allton, discussing how he developed close relationships with industry brands like HubSpot and how to develop and nurture brand partnerships.",
+      "keyPoints": [
+        "Focus on brand partnership development",
+        "Discusses relationship with HubSpot",
+        "Strategies for nurturing partnerships"
+      ],
+      "quotes": [],
+      "tags": ["partnerships", "guest-appearance", "brand-relationships", "hubspot"]
+    },
+    {
+      "title": "Dial It In Podcast - Carving Your Own Path",
+      "url": "https://dialitinpodcast.com/dial-it-in-podcast-episodes/carving-your-own-path-with-george-b.-thomas",
+      "type": "guest",
+      "date": "2024",
+      "retrievedAt": "2025-01-09",
+      "summary": "George B. Thomas kicked off Season 3 of the Dial It In podcast with hosts Dave and Trygve, discussing his journey from Impulse Creative to launching Sidekick Strategies, challenges of starting his own business, importance of authenticity, and being a 'whole ass human.'",
+      "keyPoints": [
+        "Season 3 premiere guest",
+        "Discusses journey from Impulse Creative to Sidekick Strategies",
+        "Emphasizes authenticity and personal branding",
+        "Focus on business, health, and being genuine"
+      ],
+      "quotes": [
+        "Show up as your true self and be a 'whole ass human'"
+      ],
+      "tags": ["entrepreneurship", "guest-appearance", "personal-brand", "authenticity"]
+    },
+    {
+      "title": "Video Marketing Value Podcast - Personalized Sales Videos",
+      "url": "https://videomarketingvalue.com/how-to-use-personalized-sales-videos-with-george-b-thomas-of-impulse-creative-and-sprockettalk/",
+      "type": "guest",
+      "date": "2019",
+      "retrievedAt": "2025-01-09",
+      "summary": "George B. Thomas discussed personalized video for sales with hosts Dane Golden and others, explaining how one-to-one video can be used across customer service, HR, sales, and marketing.",
+      "keyPoints": [
+        "Personalized video as 'communication at its basic fundamental level'",
+        "Emphasis on authenticity over production value",
+        "Application across departments: customer service, HR, sales, marketing"
+      ],
+      "quotes": [
+        "It's not about the production value, it's about how personable you can be",
+        "Just get on there with the mindset I'm going to be me because that's who I am. Authenticity totally wins the day in today's market"
+      ],
+      "tags": ["video-marketing", "guest-appearance", "sales-videos", "authenticity"]
+    },
+    {
+      "title": "The Absolute Advantage Podcast - Promoting Videos to Enhance Inbound Marketing",
+      "url": "https://absoluteadvantagepodcast.com/podcasts/george-thomas/",
+      "type": "guest",
+      "date": "2018-05-09",
+      "retrievedAt": "2025-01-09",
+      "summary": "Episode 137 of The Absolute Advantage Podcast featuring George B. Thomas discussing how video bridges sales and marketing with digital customers, video signatures on email, and the importance of video in the buyer's journey.",
+      "keyPoints": [
+        "Episode 137",
+        "Video bridges sales and marketing",
+        "70% of buyer's journey complete before contact",
+        "Recommends video signatures on email",
+        "Former youth pastor and pub bouncer background"
+      ],
+      "quotes": [
+        "Videos allow them 'to see us, hear us, know us'",
+        "A nerd who needs to educate"
+      ],
+      "tags": ["video-marketing", "guest-appearance", "inbound-marketing", "buyer-journey"]
+    },
+    {
+      "title": "YouTube Creators Hub - Episode 167: It Just Takes One Play",
+      "url": "https://podcasts.apple.com/us/podcast/167-it-just-takes-one-play-with-george-b-thomas/id843566797?i=1000439075237",
+      "type": "guest",
+      "date": "2019-05-22",
+      "retrievedAt": "2025-01-09",
+      "summary": "George B. Thomas discusses his HubSpot Sprocket Talk YouTube channel, bringing HubSpot tutorials, updates, and interviews to help users achieve more ROI with their HubSpot accounts.",
+      "keyPoints": [
+        "33-minute episode",
+        "Discussion of Sprocket Talk YouTube channel",
+        "HubSpot tutorials and interviews focus",
+        "ROI-focused content strategy"
+      ],
+      "quotes": [],
+      "tags": ["youtube", "guest-appearance", "hubspot", "tutorials"]
+    },
+    {
+      "title": "ZenPilot - Inbound Agency Journey Episode 001",
+      "url": "https://www.zenpilot.com/blog/episode-001-with-george-thomas-from-the-sales-lion-on-living-the-inbound-life",
+      "type": "guest",
+      "date": "2017",
+      "retrievedAt": "2025-01-09",
+      "summary": "George B. Thomas was the inaugural guest on ZenPilot's Inbound Agency Journey podcast, sharing his unique path into inbound marketing and his journey working alongside Marcus Sheridan at The Sales Lion.",
+      "keyPoints": [
+        "First episode of Inbound Agency Journey",
+        "Discusses path into inbound marketing",
+        "Journey to The Sales Lion",
+        "Working with Marcus Sheridan"
+      ],
+      "quotes": [],
+      "tags": ["inbound-marketing", "guest-appearance", "agency-life", "the-sales-lion"]
+    },
+    {
+      "title": "ZenPilot - How Marketing Agencies Can Dominate Video Marketing",
+      "url": "https://www.zenpilot.com/blog/how-agencies-can-dominate-video-marketing-george-thomas-sales-lion",
+      "type": "guest",
+      "date": "2018",
+      "retrievedAt": "2025-01-09",
+      "summary": "George B. Thomas from The Sales Lion discusses how agencies can get started and dominate video marketing, recommending 'They Ask, You Answer' for content strategy.",
+      "keyPoints": [
+        "Video marketing strategies for agencies",
+        "Recommends 'They Ask, You Answer' book",
+        "Types of videos and strategies agencies should pursue"
+      ],
+      "quotes": [],
+      "tags": ["video-marketing", "guest-appearance", "agency-strategy", "the-sales-lion"]
+    },
+    {
+      "title": "Ask the Experts with George B. Thomas - Ecamm",
+      "url": "https://flow.ecamm.com/videos/ask-the-experts-with-george-b-thomas/",
+      "type": "guest",
+      "date": "2019",
+      "retrievedAt": "2025-01-09",
+      "summary": "Guest host Stephanie Liu interviews George B. Thomas about video marketing, live video, and Ecamm Live software for content creation.",
+      "keyPoints": [
+        "Interview with Stephanie Liu",
+        "Discussion of video marketing strategies",
+        "Ecamm Live software demonstration",
+        "Live video best practices"
+      ],
+      "quotes": [
+        "Fire up Ecamm Live because I love Ecamm Live and the way that I can record a native video right to my computer in an instant"
+      ],
+      "tags": ["video-marketing", "guest-appearance", "ecamm", "live-video"]
+    },
+    {
+      "title": "Build A Better Agency Podcast - Agency Management Institute",
+      "url": "https://agencymanagementinstitute.com/podcasts/george-thomas/",
+      "type": "guest",
+      "date": "2018",
+      "retrievedAt": "2025-01-09",
+      "summary": "George B. Thomas appears on the Build A Better Agency podcast presented by HubSpot, discussing video marketing for agencies. Described as having an infectious passion for video.",
+      "keyPoints": [
+        "Presented by HubSpot",
+        "Focus on video as next step in inbound marketing evolution",
+        "Runs 1-2 day video marketing workshops",
+        "Background as youth pastor and pub bouncer"
+      ],
+      "quotes": [
+        "This guy gets video and has a passion around it that is infectious",
+        "Video is the next step of the inbound marketing evolution"
+      ],
+      "tags": ["video-marketing", "guest-appearance", "agency-growth", "workshops"]
+    },
+    {
+      "title": "How HubSpot Makes Agency Owners' Lives Easier - Craig Cody Podcast",
+      "url": "https://craigcodyandcompany.com/podcasts/george-b-thomas/",
+      "type": "guest",
+      "date": "2024-09",
+      "retrievedAt": "2025-01-09",
+      "summary": "George B. Thomas shares how agency owners can integrate and implement HubSpot tools into their systems and processes to streamline sales and marketing.",
+      "keyPoints": [
+        "HubSpot integration for agency owners",
+        "Streamlining sales and marketing processes",
+        "38 HubSpot certifications mentioned",
+        "Published September 2024"
+      ],
+      "quotes": [],
+      "tags": ["hubspot", "guest-appearance", "agency-owners", "operations"]
+    },
+    {
+      "title": "George B. Thomas Podchaser Profile",
+      "url": "https://www.podchaser.com/creators/george-b-thomas-107tVJ0Vbt",
+      "type": "mention",
+      "date": "ongoing",
+      "retrievedAt": "2025-01-09",
+      "summary": "Podchaser profile showcasing all of George B. Thomas's podcast credits and appearances, including hosted episodes, guest interviews, and behind-the-scenes work.",
+      "keyPoints": [
+        "Comprehensive list of podcast credits",
+        "Tracks hosted and guest appearances",
+        "Industry recognition platform"
+      ],
+      "quotes": [],
+      "tags": ["profile", "podcast-directory", "credits"]
+    },
+    {
+      "title": "HubHeroes Community",
+      "url": "https://community.hubheroes.com/",
+      "type": "mention",
+      "date": "ongoing",
+      "retrievedAt": "2025-01-09",
+      "summary": "The unofficial HubSpot community founded through the HubHeroes Podcast, offering live workshops, exclusive events like the HubSpot Content Hotline with George B. Thomas and Liz Moorehead.",
+      "keyPoints": [
+        "Live immersive workshops",
+        "Community-exclusive events",
+        "HubSpot Content Hotline feature",
+        "Free and VIP membership tiers"
+      ],
+      "quotes": [],
+      "tags": ["community", "hubspot", "workshops", "membership"]
+    }
+  ],
+  "metadata": {
+    "totalHostedPodcasts": 8,
+    "totalGuestAppearances": 14,
+    "totalMentions": 3,
+    "podcastsHosted": [
+      "HubHeroes Podcast (2022-present)",
+      "Beyond Your Default (2023-present)",
+      "Marketing Smarts - MarketingProfs (ongoing)",
+      "The Hubcast (2012-2022, 271 episodes)",
+      "The Spot Podcast (co-host)",
+      "15-Minute Strategy Podcast",
+      "Sprocket Talk Unpacked"
+    ],
+    "notableGuestAppearances": [
+      "The AI Hat Podcast - AI Digital Clones",
+      "Partnership Unpacked - Brand Partnerships",
+      "Dial It In - Entrepreneurship",
+      "Video Marketing Value - Personalized Videos",
+      "Build A Better Agency - Video for Agencies",
+      "ZenPilot - Inbound Agency Journey"
+    ],
+    "keyThemes": [
+      "HubSpot expertise and training",
+      "Inbound marketing strategies",
+      "Video marketing and live streaming",
+      "Personal growth and the Superhuman Framework",
+      "Agency operations and growth",
+      "AI and technology adoption",
+      "Authenticity and personal branding"
+    ],
+    "platforms": [
+      "Apple Podcasts",
+      "Spotify",
+      "iHeart Radio",
+      "Amazon Music",
+      "Google Podcasts",
+      "YouTube",
+      "Transistor.fm"
+    ]
+  }
+}

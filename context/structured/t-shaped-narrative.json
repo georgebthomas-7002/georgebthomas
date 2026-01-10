@@ -1,0 +1,155 @@
+{
+  "topic": "t-shaped-narrative",
+  "lastUpdated": "2025-01-09",
+  "description": "T-Shaped Marketer analysis synthesizing George B. Thomas's deep expertise and broad capabilities",
+  "tShape": {
+    "stem": {
+      "description": "Deep vertical expertise - areas of mastery",
+      "primaryExpertise": [
+        {
+          "area": "HubSpot",
+          "depth": "Master",
+          "evidence": [
+            "42+ HubSpot certifications (record-breaking)",
+            "HubSpot Certified Trainer",
+            "Using HubSpot since 2012",
+            "INBOUND speaker every year since 2015",
+            "Created first HubSpot-specific podcast (The Hubcast, 271 episodes)",
+            "Worked at 3 major HubSpot partner agencies"
+          ],
+          "uniquePosition": "One of the most certified and experienced HubSpot professionals globally"
+        },
+        {
+          "area": "Video Marketing",
+          "depth": "Master",
+          "evidence": [
+            "Known as 'Video Jedi'",
+            "Created thousands of marketing and sales videos",
+            "400+ HubSpot tutorial videos",
+            "Keynote speaker at Vidyard Fast Forward 3 consecutive years",
+            "Pioneered personalized sales video approach"
+          ],
+          "uniquePosition": "Bridges video production with marketing strategy at enterprise level"
+        },
+        {
+          "area": "Podcasting",
+          "depth": "Master",
+          "evidence": [
+            "400+ podcast episodes hosted across multiple shows",
+            "13+ years in podcasting (since 2012)",
+            "Currently hosts HubHeroes, Beyond Your Default, Marketing Smarts",
+            "Previously hosted The Hubcast (271 episodes)",
+            "Guest on 50+ podcasts"
+          ],
+          "uniquePosition": "One of longest-tenured podcasters in marketing technology space"
+        }
+      ]
+    },
+    "crossbar": {
+      "description": "Broad horizontal knowledge - areas of competency",
+      "competencies": [
+        {
+          "area": "Speaking & Training",
+          "level": "Expert",
+          "evidence": "INBOUND speaker since 2015, Social Media Marketing World emcee, All American Speakers bureau"
+        },
+        {
+          "area": "AI & Technology",
+          "level": "Advanced",
+          "evidence": "Created AI clone on Delphi.ai, trains on AI integration, writes 'Cloning Human Expertise' book"
+        },
+        {
+          "area": "Inbound Marketing",
+          "level": "Expert",
+          "evidence": "30+ years marketing experience, authored thought leadership content for MarketingProfs"
+        },
+        {
+          "area": "Sales Enablement",
+          "level": "Advanced",
+          "evidence": "Created Superhuman Marketing OS, trains on sales video, RevOps experience"
+        },
+        {
+          "area": "Content Strategy",
+          "level": "Expert",
+          "evidence": "16+ million words of content created, multiple content platforms managed"
+        },
+        {
+          "area": "Business Coaching",
+          "level": "Advanced",
+          "evidence": "Sidekick Strategies owner, Superhuman Framework creator, transition specialist"
+        },
+        {
+          "area": "Community Building",
+          "level": "Expert",
+          "evidence": "Built Sprocket Talk community, HubHeroes community, engaged HubSpot community member"
+        }
+      ]
+    }
+  },
+  "yShape": {
+    "description": "Y-Shaped Business Owner - deep expertise in multiple verticals converging",
+    "verticals": [
+      {
+        "arm": "Technology (HubSpot)",
+        "depth": "Deep mastery of HubSpot ecosystem, AI integration, marketing technology"
+      },
+      {
+        "arm": "Content Creation (Video/Podcasting)",
+        "depth": "Deep mastery of video production, podcast hosting, content strategy"
+      },
+      {
+        "stem": "Human Transformation",
+        "depth": "Convergence point - all expertise serves helping humans grow and transform"
+      }
+    ]
+  },
+  "differentiators": [
+    {
+      "factor": "Duration",
+      "description": "13+ years in HubSpot ecosystem, 30+ years in marketing - rare longevity"
+    },
+    {
+      "factor": "Volume",
+      "description": "400+ podcast episodes, thousands of videos, 16M+ words - massive content library"
+    },
+    {
+      "factor": "Certifications",
+      "description": "42+ HubSpot certifications - likely the most certified individual globally"
+    },
+    {
+      "factor": "Transformation Story",
+      "description": "High school dropout to industry expert - relatable authenticity"
+    },
+    {
+      "factor": "Philosophy Integration",
+      "description": "Superhuman Framework combines personal development with marketing expertise"
+    },
+    {
+      "factor": "Human-First Approach",
+      "description": "Technology serves humans, not vice versa - differentiates from purely tactical experts"
+    }
+  ],
+  "positioning": {
+    "title": "Y-Shaped Business Owner & Transition Specialist",
+    "tagline": "Happy, Helpful, Humble HubSpot Helper",
+    "principles": [
+      {
+        "principle": "Value-First",
+        "evidence": "Free content, educational focus, leading with help before asking"
+      },
+      {
+        "principle": "Human-First",
+        "evidence": "AI augments humans, technology serves connection, authenticity over polish"
+      },
+      {
+        "principle": "Content-Driven",
+        "evidence": "Authority built through consistent creation across podcasts, videos, articles"
+      },
+      {
+        "principle": "Expert in Helping Humans",
+        "evidence": "Superhuman Framework, coaching, transformation focus in all content"
+      }
+    ]
+  },
+  "narrativeSummary": "George B. Thomas represents a rare breed of marketer: a T-shaped professional with not one but THREE deep expertise areas (HubSpot, Video, Podcasting) connected by broad marketing competencies. His 30+ year journey from high school dropout to industry thought leader exemplifies the transformation he now helps others achieve. Unlike specialists who know one thing deeply or generalists who know many things shallowly, George has achieved mastery in multiple verticals while maintaining breadth across the marketing discipline. This 'Y-Shape' converges at a single point: helping humans become the best versions of themselves through technology, content, and genuine connection."
+}
