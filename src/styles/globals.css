@@ -3534,6 +3534,264 @@ a:hover {
 }
 
 /* ===========================================
+   TESTIMONIAL SLIDER COMPONENT
+   =========================================== */
+.testimonial-slider {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.testimonial-slider__container {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: var(--radius-xl);
+  padding: var(--space-3xl) var(--space-2xl);
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.testimonial-slider__quote-icon {
+  position: absolute;
+  top: var(--space-xl);
+  left: var(--space-xl);
+  width: 48px;
+  height: 48px;
+  color: var(--color-accent);
+  opacity: 0.4;
+}
+
+.testimonial-slider__quote-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.testimonial-slider__content {
+  text-align: center;
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.4s var(--ease-out), transform 0.4s var(--ease-out);
+}
+
+.testimonial-slider__content--animating {
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+.testimonial-slider__quote {
+  font-family: var(--font-family-heading);
+  font-size: var(--font-size-xl);
+  font-style: italic;
+  color: var(--color-white);
+  line-height: var(--line-height-relaxed);
+  margin: 0 0 var(--space-2xl);
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.testimonial-slider__author {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-md);
+}
+
+.testimonial-slider__avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: var(--radius-full);
+  overflow: hidden;
+  border: 3px solid var(--color-accent);
+  flex-shrink: 0;
+}
+
+.testimonial-slider__avatar-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.testimonial-slider__avatar-placeholder {
+  width: 100%;
+  height: 100%;
+  background: var(--gradient-accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-white);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-lg);
+}
+
+.testimonial-slider__author-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.testimonial-slider__name {
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-white);
+  font-size: var(--font-size-base);
+}
+
+.testimonial-slider__title {
+  font-size: var(--font-size-sm);
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Navigation */
+.testimonial-slider__nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-lg);
+  margin-top: var(--space-xl);
+}
+
+.testimonial-slider__arrow {
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-full);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+  color: var(--color-white);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s var(--ease-out);
+}
+
+.testimonial-slider__arrow:hover {
+  border-color: var(--color-accent);
+  background: var(--color-accent);
+  transform: scale(1.05);
+}
+
+.testimonial-slider__arrow svg {
+  width: 20px;
+  height: 20px;
+}
+
+.testimonial-slider__dots {
+  display: flex;
+  gap: var(--space-sm);
+}
+
+.testimonial-slider__dot {
+  width: 10px;
+  height: 10px;
+  border-radius: var(--radius-full);
+  border: none;
+  background: rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+  transition: all 0.3s var(--ease-out);
+  padding: 0;
+}
+
+.testimonial-slider__dot:hover {
+  background: rgba(255, 255, 255, 0.5);
+  transform: scale(1.2);
+}
+
+.testimonial-slider__dot--active {
+  background: var(--color-accent);
+  transform: scale(1.2);
+}
+
+/* Progress Bar */
+.testimonial-slider__progress {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+}
+
+.testimonial-slider__progress-bar {
+  height: 100%;
+  background: var(--color-accent);
+  animation: progress-fill linear forwards;
+  width: 0%;
+}
+
+@keyframes progress-fill {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* Counter */
+.testimonial-slider__counter {
+  text-align: center;
+  margin-top: var(--space-lg);
+  font-size: var(--font-size-sm);
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.testimonial-slider__counter-current {
+  color: var(--color-accent);
+  font-weight: var(--font-weight-semibold);
+}
+
+.testimonial-slider__counter-separator {
+  margin: 0 var(--space-xs);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .testimonial-slider__container {
+    padding: var(--space-2xl) var(--space-lg);
+  }
+
+  .testimonial-slider__quote {
+    font-size: var(--font-size-lg);
+  }
+
+  .testimonial-slider__quote-icon {
+    width: 32px;
+    height: 32px;
+    top: var(--space-lg);
+    left: var(--space-lg);
+  }
+
+  .testimonial-slider__author {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .testimonial-slider__author-info {
+    align-items: center;
+    text-align: center;
+  }
+
+  .testimonial-slider__arrow {
+    width: 36px;
+    height: 36px;
+  }
+
+  .testimonial-slider__arrow svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  .testimonial-slider__dots {
+    max-width: 150px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+/* ===========================================
    ACTIVE NAV LINK STYLE
    =========================================== */
 .header__nav-link.is-active {
@@ -4615,34 +4873,78 @@ a:hover {
 }
 
 .approach-card {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: var(--radius-lg);
   padding: var(--space-xl);
   text-align: center;
-  transition: all var(--transition-normal);
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease-out,
+              background 0.3s ease-out,
+              border-color 0.3s ease-out,
+              box-shadow 0.3s ease-out;
+}
+
+/* Subtle gradient glow on hover */
+.approach-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    circle at 50% 0%,
+    rgba(224, 122, 95, 0.15) 0%,
+    transparent 60%
+  );
+  opacity: 0;
+  transition: opacity 0.3s ease-out;
 }
 
 .approach-card:hover {
-  background: rgba(255, 255, 255, 0.08);
-  transform: translateY(-4px);
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(224, 122, 95, 0.4);
+  transform: translateY(-6px);
+  box-shadow:
+    0 12px 40px rgba(0, 0, 0, 0.3),
+    0 0 20px rgba(224, 122, 95, 0.15);
+}
+
+.approach-card:hover::before {
+  opacity: 1;
 }
 
 .approach-card__icon {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 60px;
-  height: 60px;
+  width: 64px;
+  height: 64px;
   margin: 0 auto var(--space-md);
-  background: rgba(224, 122, 95, 0.2);
+  background: rgba(224, 122, 95, 0.25);
+  border: 1px solid rgba(224, 122, 95, 0.3);
   border-radius: var(--radius-full);
   color: var(--color-accent);
+  position: relative;
+  z-index: 1;
+  transition: transform 0.3s ease-out,
+              background 0.3s ease-out,
+              box-shadow 0.3s ease-out;
+}
+
+.approach-card:hover .approach-card__icon {
+  transform: scale(1.1) rotate(5deg);
+  background: rgba(224, 122, 95, 0.35);
+  box-shadow: 0 0 20px rgba(224, 122, 95, 0.4);
 }
 
 .approach-card__icon svg {
   width: 28px;
   height: 28px;
+  transition: transform 0.3s ease-out;
+}
+
+.approach-card:hover .approach-card__icon svg {
+  transform: scale(1.05);
 }
 
 .approach-card__title {
@@ -4651,13 +4953,22 @@ a:hover {
   font-weight: var(--font-weight-semibold);
   color: #fff;
   margin: 0 0 var(--space-sm);
+  position: relative;
+  z-index: 1;
 }
 
 .approach-card__description {
   font-size: var(--text-sm);
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.75);
   line-height: 1.6;
   margin: 0;
+  position: relative;
+  z-index: 1;
+  transition: color 0.3s ease-out;
+}
+
+.approach-card:hover .approach-card__description {
+  color: rgba(255, 255, 255, 0.9);
 }
 
 /* Process Timeline */

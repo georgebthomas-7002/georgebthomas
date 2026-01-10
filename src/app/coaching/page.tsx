@@ -6,6 +6,7 @@ import Image from 'next/image'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { AnimatedSection, StaggerContainer } from '@/components/AnimatedSection'
+import { TestimonialSlider } from '@/components/TestimonialSlider'
 import { deepExpertise } from '@/data/expertise'
 
 const pricingPlans = [
@@ -588,20 +589,15 @@ export default function CoachingPage() {
           </div>
         </section>
 
-        {/* Testimonial Section */}
+        {/* Testimonial Slider Section */}
         <section className="section section--dark coaching-testimonial">
-          <div className="container container--narrow">
-            <AnimatedSection className="testimonial-featured" animation="fade-in">
-              <div className="testimonial-featured__quote-mark">&quot;</div>
-              <blockquote className="testimonial-featured__quote">
-                George has an incredible ability to take complex concepts and make them
-                accessible. His coaching helped me not just understand what to do, but
-                why it matters and that has transformed how I approach everything.
-              </blockquote>
-              <div className="testimonial-featured__attribution">
-                <span className="testimonial-featured__name">Client Success Story</span>
-                <span className="testimonial-featured__role">Business Owner</span>
-              </div>
+          <div className="container">
+            <AnimatedSection className="section-header" animation="fade-in">
+              <span className="section-header__subtitle">Client Success</span>
+              <h2 className="section-header__title">What Clients Say</h2>
+            </AnimatedSection>
+            <AnimatedSection animation="fade-in">
+              <TestimonialSlider autoPlay={true} autoPlayInterval={8000} />
             </AnimatedSection>
           </div>
         </section>
