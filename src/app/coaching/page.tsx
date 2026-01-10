@@ -6,7 +6,7 @@ import Image from 'next/image'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { AnimatedSection, StaggerContainer } from '@/components/AnimatedSection'
-import { TestimonialSlider } from '@/components/TestimonialSlider'
+import { TestimonialSection } from '@/components/TestimonialSection'
 import { deepExpertise } from '@/data/expertise'
 
 const pricingPlans = [
@@ -590,24 +590,7 @@ export default function CoachingPage() {
         </section>
 
         {/* Testimonial Slider Section */}
-        <section className="section section--dark testimonial-section-animated">
-          {/* Animated background elements */}
-          <div className="testimonial-section-animated__bg" aria-hidden="true">
-            <div className="testimonial-section-animated__orb testimonial-section-animated__orb--1"></div>
-            <div className="testimonial-section-animated__orb testimonial-section-animated__orb--2"></div>
-            <div className="testimonial-section-animated__orb testimonial-section-animated__orb--3"></div>
-            <div className="testimonial-section-animated__glow"></div>
-          </div>
-          <div className="container">
-            <AnimatedSection className="section-header" animation="fade-in">
-              <span className="section-header__subtitle">Growth & Success</span>
-              <h2 className="section-header__title">What Humans Say</h2>
-            </AnimatedSection>
-            <AnimatedSection animation="fade-in">
-              <TestimonialSlider autoPlay={true} autoPlayInterval={8000} />
-            </AnimatedSection>
-          </div>
-        </section>
+        <TestimonialSection />
 
         {/* FAQ Section */}
         <FAQSection faqs={faqs} />

@@ -5,6 +5,7 @@ import Image from 'next/image'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { AnimatedSection, StaggerContainer } from '@/components/AnimatedSection'
+import { TestimonialSection } from '@/components/TestimonialSection'
 import { realTestimonials } from '@/components/TestimonialSlider'
 
 export default function TestimonialsPage() {
@@ -16,10 +17,10 @@ export default function TestimonialsPage() {
         <section className="page-hero page-hero--testimonials">
           <div className="container page-hero__grid">
             <AnimatedSection className="page-hero__content" animation="fade-in">
-              <span className="page-hero__tagline">Client Success Stories</span>
+              <span className="page-hero__tagline">Growth & Success Stories</span>
               <h1 className="page-hero__title">
-                Real Results From
-                <span className="page-hero__title-accent">Real People</span>
+                What Humans Say
+                <span className="page-hero__title-accent"> About Working Together</span>
               </h1>
               <p className="page-hero__description">
                 Don&apos;t just take my word for it. Here&apos;s what clients, collaborators, and
@@ -45,6 +46,12 @@ export default function TestimonialsPage() {
           </div>
           <div className="page-hero__shape" aria-hidden="true"></div>
         </section>
+
+        {/* Testimonial Slider with Animated Background */}
+        <TestimonialSection
+          title="Hear It From Them"
+          subtitle="Featured Voices"
+        />
 
         {/* Stats Section */}
         <section className="section section--compact testimonials-stats">

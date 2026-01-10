@@ -6367,15 +6367,6 @@ a:hover {
     padding: var(--space-4xl) 0 var(--space-2xl);
   }
 
-  .page-hero__cta-group {
-    flex-direction: column;
-  }
-
-  .page-hero__cta-group .btn {
-    width: 100%;
-    justify-content: center;
-  }
-
   .home-story__buttons {
     flex-direction: column;
   }
