@@ -880,6 +880,31 @@ a:hover {
   transform: translateX(4px);
 }
 
+/* Text Links - Inline links within content */
+.text-link {
+  color: var(--color-accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  transition: color var(--duration-fast) var(--ease-out),
+              text-decoration-color var(--duration-fast) var(--ease-out);
+}
+
+.text-link:hover {
+  color: var(--color-primary);
+  text-decoration-color: var(--color-primary);
+}
+
+/* Text link on dark backgrounds */
+.section--dark .text-link {
+  color: var(--color-accent-light, #f4a593);
+}
+
+.section--dark .text-link:hover {
+  color: #fff;
+  text-decoration-color: #fff;
+}
+
 /* ===========================================
    SCROLL-DRIVEN ANIMATIONS
    =========================================== */
@@ -3138,7 +3163,7 @@ a:hover {
    SPEAKING PAGE - HERO WITH VIDEO
    =========================================== */
 .page-hero--speaking-video {
-  padding: var(--space-4xl) 0 var(--space-3xl);
+  padding: calc(var(--space-4xl) + 80px) 0 var(--space-3xl);
 }
 
 .speaking-hero-grid {
