@@ -1165,70 +1165,87 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0.5rem 1rem;
+  padding: 0.625rem 1.25rem;
   position: relative;
+  background: var(--color-white);
 }
 
-/* Creative border frame with corner accents */
-.header__wordmark::before,
-.header__wordmark::after {
-  content: '';
-  position: absolute;
-  width: 16px;
-  height: 16px;
-  border-color: var(--color-primary-dark);
-  border-style: solid;
-  transition: all var(--duration-normal) var(--ease-out);
-}
-
-/* Top-left corner */
+/* Animated border using conic gradient - creates traveling light effect */
 .header__wordmark::before {
-  top: 0;
-  left: 0;
-  border-width: 2px 0 0 2px;
-}
-
-/* Bottom-right corner */
-.header__wordmark::after {
-  bottom: 0;
-  right: 0;
-  border-width: 0 2px 2px 0;
-}
-
-/* Additional corners using the name element */
-.header__wordmark-name::before,
-.header__wordmark-name::after {
   content: '';
   position: absolute;
-  width: 16px;
-  height: 16px;
-  border-color: var(--color-primary-dark);
-  border-style: solid;
-  transition: all var(--duration-normal) var(--ease-out);
+  inset: 0;
+  border-radius: 4px;
+  padding: 1.5px;
+  background: conic-gradient(
+    from var(--border-angle, 0deg),
+    var(--color-primary-dark) 0%,
+    var(--color-accent) 12.5%,
+    var(--color-primary-dark) 25%,
+    transparent 37.5%,
+    transparent 62.5%,
+    var(--color-primary-dark) 75%,
+    var(--color-accent) 87.5%,
+    var(--color-primary-dark) 100%
+  );
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  animation: wordmark-border-flow 6s linear infinite;
 }
 
-/* Top-right corner */
-.header__wordmark-name::before {
-  top: 0;
-  right: 0;
-  border-width: 2px 2px 0 0;
+/* Subtle ambient glow */
+.header__wordmark::after {
+  content: '';
+  position: absolute;
+  inset: -3px;
+  border-radius: 6px;
+  background: conic-gradient(
+    from var(--border-angle, 0deg),
+    transparent 0%,
+    var(--color-accent) 12.5%,
+    transparent 25%,
+    transparent 75%,
+    var(--color-accent) 87.5%,
+    transparent 100%
+  );
+  opacity: 0.2;
+  filter: blur(6px);
+  animation: wordmark-border-flow 6s linear infinite;
+  z-index: -1;
 }
 
-/* Bottom-left corner */
-.header__wordmark-name::after {
-  bottom: 0;
-  left: 0;
-  border-width: 0 0 2px 2px;
+/* CSS custom property for animation */
+@property --border-angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
 }
 
-/* Hover effect - corners expand */
-.header__logo:hover .header__wordmark::before,
-.header__logo:hover .header__wordmark::after,
-.header__logo:hover .header__wordmark-name::before,
-.header__logo:hover .header__wordmark-name::after {
-  width: 20px;
-  height: 20px;
-  border-color: var(--color-accent);
+@keyframes wordmark-border-flow {
+  to {
+    --border-angle: 360deg;
+  }
+}
+
+/* Hover effect - intensify animation */
+.header__logo:hover .header__wordmark::before {
+  animation-duration: 2s;
+  background: conic-gradient(
+    from var(--border-angle, 0deg),
+    var(--color-primary-dark) 0%,
+    var(--color-accent) 25%,
+    var(--color-primary-dark) 50%,
+    var(--color-accent) 75%,
+    var(--color-primary-dark) 100%
+  );
+}
+
+.header__logo:hover .header__wordmark::after {
+  animation-duration: 2s;
+  opacity: 0.4;
 }
 
 .header__wordmark-name {
@@ -1238,17 +1255,16 @@ a:hover {
   color: var(--color-primary-dark);
   letter-spacing: 0.02em;
   line-height: 1.2;
-  position: relative;
 }
 
 .header__wordmark-tagline {
   font-family: var(--font-family-body);
-  font-size: 0.65rem;
-  font-weight: var(--font-weight-medium);
+  font-size: 0.6rem;
+  font-weight: var(--font-weight-semibold);
   color: var(--color-accent);
   text-transform: uppercase;
-  letter-spacing: 0.2em;
-  margin-top: 0.15rem;
+  letter-spacing: 0.18em;
+  margin-top: 0.2rem;
 }
 
 .header__nav {
@@ -1313,15 +1329,7 @@ a:hover {
 
   /* Wordmark mobile adjustments */
   .header__wordmark {
-    padding: 0.35rem 0.75rem;
-  }
-
-  .header__wordmark::before,
-  .header__wordmark::after,
-  .header__wordmark-name::before,
-  .header__wordmark-name::after {
-    width: 12px;
-    height: 12px;
+    padding: 0.4rem 0.75rem;
   }
 
   .header__wordmark-name {
@@ -1329,8 +1337,8 @@ a:hover {
   }
 
   .header__wordmark-tagline {
-    font-size: 0.55rem;
-    letter-spacing: 0.15em;
+    font-size: 0.5rem;
+    letter-spacing: 0.12em;
   }
 
   .header__nav {
