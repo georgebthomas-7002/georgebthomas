@@ -64,7 +64,7 @@ const keynotes: Keynote[] = [
     id: 'hs-1',
     topic: 'hubspot',
     title: 'The HubSpot Advantage: Beyond Software to Strategy',
-    description: 'Discover why HubSpot isn\'t just a CRM—it\'s a complete growth operating system. Learn how to leverage the full ecosystem to transform your business operations and customer relationships.',
+    description: 'Discover why HubSpot isn\'t just a CRM. It\'s a complete growth operating system. Learn how to leverage the full ecosystem to transform your business operations and customer relationships.',
     whatYouLearn: [
       'How to align marketing, sales, and service on one platform',
       'The flywheel methodology in action',
@@ -144,7 +144,7 @@ const keynotes: Keynote[] = [
     id: 'vid-1',
     topic: 'video',
     title: 'Embrace the Messy: Authentic Video That Converts',
-    description: 'The "Video Jedi" shares his philosophy on why authentic, imperfect video outperforms polished productions—and how to create videos that genuinely connect with your audience.',
+    description: 'The "Video Jedi" shares his philosophy on why authentic, imperfect video outperforms polished productions, and how to create videos that genuinely connect with your audience.',
     whatYouLearn: [
       'Why authenticity beats production value',
       'The 80/20 rule of video creation',
@@ -157,7 +157,7 @@ const keynotes: Keynote[] = [
     id: 'vid-2',
     topic: 'video',
     title: 'Video Strategy That Scales: From 1 to 1000 Videos',
-    description: 'Learn the systems and strategies that enabled George to create thousands of videos. This isn\'t about working harder—it\'s about building a sustainable video machine.',
+    description: 'Learn the systems and strategies that enabled George to create thousands of videos. This isn\'t about working harder. It\'s about building a sustainable video machine.',
     whatYouLearn: [
       'Content batching frameworks',
       'Repurposing strategies for maximum ROI',
@@ -183,7 +183,7 @@ const keynotes: Keynote[] = [
     id: 'vid-4',
     topic: 'video',
     title: 'YouTube for Business: Building Authority Through Video',
-    description: 'YouTube isn\'t just for entertainment—it\'s the world\'s second-largest search engine. Learn how to leverage YouTube to build authority and drive business results.',
+    description: 'YouTube isn\'t just for entertainment. It\'s the world\'s second-largest search engine. Learn how to leverage YouTube to build authority and drive business results.',
     whatYouLearn: [
       'YouTube SEO fundamentals',
       'Content strategy for B2B success',
@@ -209,7 +209,7 @@ const keynotes: Keynote[] = [
     id: 'vid-6',
     topic: 'video',
     title: 'The Video-First Future: Preparing Your Organization',
-    description: 'Video is no longer optional—it\'s essential. This forward-looking keynote prepares organizations for a future where video is the primary communication medium.',
+    description: 'Video is no longer optional. It\'s essential. This forward-looking keynote prepares organizations for a future where video is the primary communication medium.',
     whatYouLearn: [
       'The shift to video-first communication',
       'Building internal video capabilities',
@@ -237,7 +237,7 @@ const keynotes: Keynote[] = [
     id: 'pod-2',
     topic: 'podcasting',
     title: 'Podcast Growth Secrets: Building an Engaged Audience',
-    description: 'Launching is easy—growing is hard. Learn the audience-building strategies that have helped George\'s podcasts reach hundreds of thousands of listeners.',
+    description: 'Launching is easy, but growing is hard. Learn the audience-building strategies that have helped George\'s podcasts reach hundreds of thousands of listeners.',
     whatYouLearn: [
       'Organic growth tactics that work',
       'Cross-promotion strategies',
@@ -289,7 +289,7 @@ const keynotes: Keynote[] = [
     id: 'pod-6',
     topic: 'podcasting',
     title: 'Multi-Show Strategy: Running Multiple Successful Podcasts',
-    description: 'Managing one show is hard—managing multiple seems impossible. Learn the systems and strategies for running multiple podcasts without losing your mind.',
+    description: 'Managing one show is hard, and managing multiple seems impossible. Learn the systems and strategies for running multiple podcasts without losing your mind.',
     whatYouLearn: [
       'When to launch additional shows',
       'Content differentiation strategies',
@@ -304,7 +304,7 @@ const keynotes: Keynote[] = [
     id: 'ai-1',
     topic: 'ai',
     title: 'Human-First AI: Technology That Amplifies, Not Replaces',
-    description: 'In a world obsessed with AI replacement, George champions a different vision—AI that amplifies human potential while preserving authentic connection.',
+    description: 'In a world obsessed with AI replacement, George champions a different vision: AI that amplifies human potential while preserving authentic connection.',
     whatYouLearn: [
       'The human-first AI philosophy',
       'Identifying AI-appropriate tasks vs. human tasks',
@@ -343,7 +343,7 @@ const keynotes: Keynote[] = [
     id: 'ai-4',
     topic: 'ai',
     title: 'The AI-Augmented Salesperson: Selling in the New Era',
-    description: 'Sales is fundamentally human—but AI can make salespeople superhuman. Discover how to leverage AI to sell more effectively while maintaining genuine relationships.',
+    description: 'Sales is fundamentally human, but AI can make salespeople superhuman. Discover how to leverage AI to sell more effectively while maintaining genuine relationships.',
     whatYouLearn: [
       'AI tools for sales prospecting',
       'Personalization at scale in sales',
@@ -369,7 +369,7 @@ const keynotes: Keynote[] = [
     id: 'ai-6',
     topic: 'ai',
     title: 'The Future of Work: AI, Creativity, and Human Potential',
-    description: 'A visionary look at how AI will reshape work—not to diminish human value, but to elevate it. Discover the skills and mindsets that will matter most.',
+    description: 'A visionary look at how AI will reshape work, not to diminish human value, but to elevate it. Discover the skills and mindsets that will matter most.',
     whatYouLearn: [
       'How AI will transform job roles',
       'Skills that will remain uniquely human',
@@ -399,7 +399,7 @@ const keynotes: Keynote[] = [
     id: 'trans-2',
     topic: 'transformation',
     title: 'From Dropout to Thought Leader: The Power of Belief',
-    description: 'George\'s personal story of transformation—from high school dropout to industry expert—offers powerful lessons on the power of belief and persistence.',
+    description: 'George\'s personal story of transformation, from high school dropout to industry expert, offers powerful lessons on the power of belief and persistence.',
     whatYouLearn: [
       'How to rewrite your personal narrative',
       'Turning setbacks into setup for success',
@@ -412,7 +412,7 @@ const keynotes: Keynote[] = [
     id: 'trans-3',
     topic: 'transformation',
     title: 'Becoming Your Own Sidekick: Self-Coaching for Success',
-    description: 'You can\'t always have a coach by your side—but you can become your own. Learn the self-coaching techniques that enable continuous growth and development.',
+    description: 'You can\'t always have a coach by your side, but you can become your own. Learn the self-coaching techniques that enable continuous growth and development.',
     whatYouLearn: [
       'Self-assessment frameworks',
       'Building accountability systems',
@@ -466,7 +466,7 @@ const keynotes: Keynote[] = [
     id: 'mkt-1',
     topic: 'marketing',
     title: 'The Inbound Revolution: Why Traditional Marketing is Dying',
-    description: 'After 30+ years in marketing, George shares why inbound isn\'t just a methodology—it\'s a fundamental shift in how we connect with and serve customers.',
+    description: 'After 30+ years in marketing, George shares why inbound isn\'t just a methodology. It\'s a fundamental shift in how we connect with and serve customers.',
     whatYouLearn: [
       'The evolution of marketing effectiveness',
       'Inbound principles that endure',
@@ -479,7 +479,7 @@ const keynotes: Keynote[] = [
     id: 'mkt-2',
     topic: 'marketing',
     title: 'Content That Converts: From Awareness to Advocacy',
-    description: 'With 16+ million words created, George shares the content strategies that actually drive business results—not just vanity metrics.',
+    description: 'With 16+ million words created, George shares the content strategies that actually drive business results, not just vanity metrics.',
     whatYouLearn: [
       'Content mapping to the buyer journey',
       'Creating content that answers real questions',
@@ -531,7 +531,7 @@ const keynotes: Keynote[] = [
     id: 'mkt-6',
     topic: 'marketing',
     title: 'The Loop Marketing Model: Creating Continuous Customer Value',
-    description: 'Marketing doesn\'t end at the sale—it\'s a continuous loop of value creation. Learn how to build marketing that serves customers throughout their entire journey.',
+    description: 'Marketing doesn\'t end at the sale. It\'s a continuous loop of value creation. Learn how to build marketing that serves customers throughout their entire journey.',
     whatYouLearn: [
       'The customer loop framework',
       'Post-sale marketing strategies',
@@ -620,7 +620,7 @@ export default function SpeakingPage() {
               </h2>
               <p className="serve-intro__text">
                 Every audience is unique, but one thing is constant: when I step onto your stage,
-                into your workshop, or behind your podcast mic, my goal is the same—to empower
+                into your workshop, or behind your podcast mic, my goal is the same: to empower
                 Humans with real-world insights and actionable strategies they can use to flourish
                 personally and professionally.
               </p>
@@ -640,9 +640,9 @@ export default function SpeakingPage() {
                     burnout, I&apos;m here to help your organization flourish.
                   </p>
                   <ul className="serve-block__list">
-                    <li><strong>Keynotes that captivate</strong> — Energize your leadership team with insights on HubSpot mastery, modern marketing, and AI-powered strategies.</li>
-                    <li><strong>Workshops that transform</strong> — Hands-on training designed to strengthen communication, trust, and team alignment.</li>
-                    <li><strong>Strategies for success</strong> — Walk away with actionable frameworks to inspire growth and boost performance.</li>
+                    <li><strong>Keynotes that captivate:</strong> Energize your leadership team with insights on HubSpot mastery, modern marketing, and AI-powered strategies.</li>
+                    <li><strong>Workshops that transform:</strong> Hands-on training designed to strengthen communication, trust, and team alignment.</li>
+                    <li><strong>Strategies for success:</strong> Walk away with actionable frameworks to inspire growth and boost performance.</li>
                   </ul>
                   <Link href="/coaching" className="btn btn--primary">
                     Book George Today
@@ -670,14 +670,14 @@ export default function SpeakingPage() {
                   <span className="serve-block__label">For Event Planners & Conferences</span>
                   <h3 className="serve-block__title">Unforgettable Keynotes. Transformative Experiences.</h3>
                   <p className="serve-block__text">
-                    You&apos;re not just filling an agenda slot—you&apos;re creating a moment that your
+                    You&apos;re not just filling an agenda slot. You&apos;re creating a moment that your
                     audience will carry long after the event ends. I deliver keynotes that inspire,
                     workshops that engage, and content that resonates deeply.
                   </p>
                   <ul className="serve-block__list">
-                    <li><strong>Deep expertise, delivered simply</strong> — Sessions on marketing, sales, video strategies, and the Superhuman Framework packed with practical insights.</li>
-                    <li><strong>Energy that engages</strong> — A dynamic, relatable presence that keeps audiences engaged from the first word to the last.</li>
-                    <li><strong>Transformation that lasts</strong> — Content that challenges, empowers, and equips attendees to take meaningful action.</li>
+                    <li><strong>Deep expertise, delivered simply:</strong> Sessions on marketing, sales, video strategies, and the Superhuman Framework packed with practical insights.</li>
+                    <li><strong>Energy that engages:</strong> A dynamic, relatable presence that keeps audiences engaged from the first word to the last.</li>
+                    <li><strong>Transformation that lasts:</strong> Content that challenges, empowers, and equips attendees to take meaningful action.</li>
                   </ul>
                   <Link href="/coaching" className="btn btn--primary">
                     Get George On Your Stage
@@ -710,9 +710,9 @@ export default function SpeakingPage() {
                     takes to keep listeners coming back for more.
                   </p>
                   <ul className="serve-block__list">
-                    <li><strong>Expertise that educates</strong> — Ready to dive into AI in marketing, building trust through video, or aligning life and work with purpose.</li>
-                    <li><strong>Stories that connect</strong> — Real-world examples that resonate with professionals and entrepreneurs alike.</li>
-                    <li><strong>Insights that stick</strong> — Practical strategies and inspiration your audience can use immediately.</li>
+                    <li><strong>Expertise that educates:</strong> Ready to dive into AI in marketing, building trust through video, or aligning life and work with purpose.</li>
+                    <li><strong>Stories that connect:</strong> Real-world examples that resonate with professionals and entrepreneurs alike.</li>
+                    <li><strong>Insights that stick:</strong> Practical strategies and inspiration your audience can use immediately.</li>
                   </ul>
                   <Link href="/coaching" className="btn btn--primary">
                     Get George On Your Show
@@ -888,7 +888,7 @@ export default function SpeakingPage() {
             <AnimatedSection className="cta-block" animation="fade-in">
               <h2 className="cta-block__title">Bring George to Your Event</h2>
               <p className="cta-block__description">
-                Whether it&apos;s a keynote, workshop, or emcee role—let&apos;s create
+                Whether it&apos;s a keynote, workshop, or emcee role, let&apos;s create
                 an unforgettable experience for your audience.
               </p>
               <div className="cta-block__buttons">
