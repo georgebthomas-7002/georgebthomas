@@ -23,7 +23,10 @@ export function Header() {
       <div className="container">
         <div className="header__inner">
           <Link href="/" className="header__logo">
-            George B. Thomas
+            <span className="header__wordmark">
+              <span className="header__wordmark-name">George B. Thomas</span>
+              <span className="header__wordmark-tagline">Catalyst for Growth</span>
+            </span>
           </Link>
 
           <nav className={`header__nav ${isMenuOpen ? 'is-open' : ''}`}>

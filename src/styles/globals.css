@@ -1157,11 +1157,98 @@ a:hover {
 }
 
 .header__logo {
+  text-decoration: none;
+}
+
+/* Wordmark Logo */
+.header__wordmark {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  position: relative;
+}
+
+/* Creative border frame with corner accents */
+.header__wordmark::before,
+.header__wordmark::after {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-color: var(--color-primary-dark);
+  border-style: solid;
+  transition: all var(--duration-normal) var(--ease-out);
+}
+
+/* Top-left corner */
+.header__wordmark::before {
+  top: 0;
+  left: 0;
+  border-width: 2px 0 0 2px;
+}
+
+/* Bottom-right corner */
+.header__wordmark::after {
+  bottom: 0;
+  right: 0;
+  border-width: 0 2px 2px 0;
+}
+
+/* Additional corners using the name element */
+.header__wordmark-name::before,
+.header__wordmark-name::after {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-color: var(--color-primary-dark);
+  border-style: solid;
+  transition: all var(--duration-normal) var(--ease-out);
+}
+
+/* Top-right corner */
+.header__wordmark-name::before {
+  top: 0;
+  right: 0;
+  border-width: 2px 2px 0 0;
+}
+
+/* Bottom-left corner */
+.header__wordmark-name::after {
+  bottom: 0;
+  left: 0;
+  border-width: 0 0 2px 2px;
+}
+
+/* Hover effect - corners expand */
+.header__logo:hover .header__wordmark::before,
+.header__logo:hover .header__wordmark::after,
+.header__logo:hover .header__wordmark-name::before,
+.header__logo:hover .header__wordmark-name::after {
+  width: 20px;
+  height: 20px;
+  border-color: var(--color-accent);
+}
+
+.header__wordmark-name {
   font-family: var(--font-family-heading);
-  font-size: var(--font-size-xl);
+  font-size: var(--font-size-lg);
   font-weight: var(--font-weight-bold);
   color: var(--color-primary-dark);
-  text-decoration: none;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+  position: relative;
+}
+
+.header__wordmark-tagline {
+  font-family: var(--font-family-body);
+  font-size: 0.65rem;
+  font-weight: var(--font-weight-medium);
+  color: var(--color-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  margin-top: 0.15rem;
 }
 
 .header__nav {
@@ -1222,6 +1309,28 @@ a:hover {
 @media (max-width: 768px) {
   .header__menu-btn {
     display: flex;
+  }
+
+  /* Wordmark mobile adjustments */
+  .header__wordmark {
+    padding: 0.35rem 0.75rem;
+  }
+
+  .header__wordmark::before,
+  .header__wordmark::after,
+  .header__wordmark-name::before,
+  .header__wordmark-name::after {
+    width: 12px;
+    height: 12px;
+  }
+
+  .header__wordmark-name {
+    font-size: var(--font-size-base);
+  }
+
+  .header__wordmark-tagline {
+    font-size: 0.55rem;
+    letter-spacing: 0.15em;
   }
 
   .header__nav {
