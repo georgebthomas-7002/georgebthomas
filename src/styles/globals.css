@@ -2801,7 +2801,8 @@ a:hover {
 }
 
 .story-card__title {
-  font-size: var(--font-size-2xl);
+  font-size: clamp(1.25rem, 2.5vw, 1.75rem);
+  line-height: 1.3;
   margin-bottom: var(--space-xl);
 }
 
@@ -4712,43 +4713,92 @@ a:hover {
   opacity: 0.5;
 }
 
-/* Traveling dot animation */
+/* Traveling dot animation - slower with pauses at each step */
 .journey-timeline__traveler {
   position: absolute;
   top: 50%;
   left: 0;
-  width: 12px;
-  height: 12px;
+  width: 14px;
+  height: 14px;
   background: var(--color-accent);
   border-radius: 50%;
   transform: translateY(-50%);
   box-shadow:
-    0 0 10px var(--color-accent),
-    0 0 20px var(--color-accent),
-    0 0 30px rgba(224, 122, 95, 0.4);
-  animation: journey-travel 8s ease-in-out infinite;
+    0 0 12px var(--color-accent),
+    0 0 24px var(--color-accent),
+    0 0 36px rgba(224, 122, 95, 0.5);
+  animation: journey-travel 16s ease-in-out infinite;
 }
 
 @keyframes journey-travel {
-  0%, 100% {
+  /* Start at step 1, pause */
+  0% {
     left: 0;
     opacity: 1;
+    transform: translateY(-50%) scale(1.2);
+  }
+  5% {
+    left: 0;
+    opacity: 1;
+    transform: translateY(-50%) scale(1);
+  }
+  /* Travel to step 2, pause */
+  15% {
+    left: 33%;
+    opacity: 1;
+  }
+  20% {
+    left: 33%;
+    opacity: 1;
+    transform: translateY(-50%) scale(1.2);
+  }
+  25% {
+    left: 33%;
+    transform: translateY(-50%) scale(1);
+  }
+  /* Travel to step 3, pause */
+  35% {
+    left: 66%;
+    opacity: 1;
+  }
+  40% {
+    left: 66%;
+    opacity: 1;
+    transform: translateY(-50%) scale(1.2);
   }
   45% {
-    left: calc(100% - 12px);
-    opacity: 1;
+    left: 66%;
+    transform: translateY(-50%) scale(1);
   }
-  50% {
-    left: calc(100% - 12px);
-    opacity: 0;
-  }
+  /* Travel to step 4, pause */
   55% {
-    left: 0;
-    opacity: 0;
+    left: calc(100% - 14px);
+    opacity: 1;
   }
   60% {
+    left: calc(100% - 14px);
+    opacity: 1;
+    transform: translateY(-50%) scale(1.2);
+  }
+  /* Fade out and reset */
+  70% {
+    left: calc(100% - 14px);
+    opacity: 0;
+    transform: translateY(-50%) scale(1);
+  }
+  85% {
+    left: 0;
+    opacity: 0;
+  }
+  90% {
     left: 0;
     opacity: 1;
+    transform: translateY(-50%) scale(1);
+  }
+  100% {
+    left: 0;
+    opacity: 1;
+    transform: translateY(-50%) scale(1);
   }
 }
 
@@ -4785,13 +4835,23 @@ a:hover {
   }
 }
 
-/* Step indicator with pulse */
+/* Step indicator with pulse - centered on timeline */
 .journey-step__indicator {
   position: relative;
-  width: 56px;
-  height: 56px;
+  width: 60px;
+  height: 60px;
   margin-bottom: var(--space-lg);
-  z-index: 2;
+  z-index: 3;
+}
+
+/* Position numbers to align with timeline - 1 at start, 4 at end */
+@media (min-width: 1024px) {
+  .journey-step:first-child .journey-step__indicator {
+    margin-left: 0;
+  }
+  .journey-step:last-child .journey-step__indicator {
+    margin-right: 0;
+  }
 }
 
 @media (max-width: 1023px) {
@@ -4852,34 +4912,12 @@ a:hover {
     inset 0 1px 0 rgba(255, 255, 255, 0.2);
 }
 
-/* Connector arrow between steps */
+/* Connector arrow between steps - hidden, using timeline arrows instead */
 .journey-step__connector {
-  position: absolute;
-  top: 28px;
-  right: -32px;
-  width: 24px;
-  height: 24px;
-  color: var(--color-accent);
-  opacity: 0.6;
-  animation: journey-arrow-bounce 2s ease-in-out infinite;
+  display: none;
 }
 
-@media (max-width: 1023px) {
-  .journey-step__connector {
-    display: none;
-  }
-}
-
-@keyframes journey-arrow-bounce {
-  0%, 100% {
-    transform: translateX(0);
-  }
-  50% {
-    transform: translateX(4px);
-  }
-}
-
-/* Card content */
+/* Card content - equal height with flexbox */
 .journey-step__card {
   background: #fff;
   border-radius: var(--radius-lg);
@@ -4891,12 +4929,16 @@ a:hover {
               box-shadow var(--duration-normal) var(--ease-out);
   position: relative;
   overflow: hidden;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 280px;
 }
 
 @media (max-width: 1023px) {
   .journey-step__card {
     text-align: left;
-    flex: 1;
+    min-height: auto;
   }
 }
 
