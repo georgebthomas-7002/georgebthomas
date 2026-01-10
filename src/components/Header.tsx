@@ -2,19 +2,21 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 import { useHeaderScroll } from '@/lib/useScrollAnimation'
 
 const navLinks = [
-  { href: '#about', label: 'About' },
-  { href: '#speaking', label: 'Speaking' },
-  { href: '#coaching', label: 'Coaching' },
-  { href: '#testimonials', label: 'Testimonials' },
-  { href: '#contact', label: 'Contact' },
+  { href: '/expertise', label: 'Expertise' },
+  { href: '/speaking', label: 'Speaking' },
+  { href: '/coaching', label: 'Coaching' },
+  { href: '/#testimonials', label: 'Testimonials' },
+  { href: '/#contact', label: 'Contact' },
 ]
 
 export function Header() {
   const isScrolled = useHeaderScroll()
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const pathname = usePathname()
 
   return (
     <header className={`header ${isScrolled ? 'header--scrolled' : ''}`}>
@@ -29,13 +31,13 @@ export function Header() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="header__nav-link"
+                className={`header__nav-link ${pathname === link.href ? 'is-active' : ''}`}
                 onClick={() => setIsMenuOpen(false)}
               >
                 {link.label}
               </Link>
             ))}
-            <Link href="#contact" className="btn btn--primary" onClick={() => setIsMenuOpen(false)}>
+            <Link href="/coaching" className="btn btn--primary" onClick={() => setIsMenuOpen(false)}>
               Book George
             </Link>
           </nav>

@@ -1,10 +1,10 @@
 import Link from 'next/link'
 
 const quickLinks = [
-  { href: '#about', label: 'About' },
-  { href: '#speaking', label: 'Speaking' },
-  { href: '#coaching', label: 'Coaching' },
-  { href: '#testimonials', label: 'Testimonials' },
+  { href: '/', label: 'Home' },
+  { href: '/expertise', label: 'Expertise' },
+  { href: '/speaking', label: 'Speaking' },
+  { href: '/coaching', label: 'Coaching' },
 ]
 
 const resourceLinks = [
@@ -116,12 +116,12 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <Link href="#contact" className="footer__link">
+                <Link href="/speaking" className="footer__link">
                   Book a Speaking Engagement
                 </Link>
               </li>
               <li>
-                <Link href="#coaching" className="footer__link">
+                <Link href="/coaching" className="footer__link">
                   Schedule a Coaching Call
                 </Link>
               </li>
