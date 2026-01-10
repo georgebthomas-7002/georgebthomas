@@ -4720,9 +4720,10 @@ a:hover {
   filter: blur(6px);
 }
 
-/* Arrow markers on the timeline */
+/* Arrow markers on the timeline - 3 arrows centered between circles */
 .journey-timeline__path::before,
-.journey-timeline__path::after {
+.journey-timeline__path::after,
+.journey-timeline__path-line::before {
   content: '';
   position: absolute;
   top: 50%;
@@ -4730,20 +4731,25 @@ a:hover {
   width: 0;
   height: 0;
   border-style: solid;
+  border-width: 10px 0 10px 14px;
+  border-color: transparent transparent transparent var(--color-accent);
+  opacity: 0.6;
+  z-index: 2;
 }
 
+/* Arrow between 1 and 2 - centered at 16.66% */
 .journey-timeline__path::before {
-  left: 25%;
-  border-width: 8px 0 8px 12px;
-  border-color: transparent transparent transparent var(--color-accent);
-  opacity: 0.5;
+  left: calc(16.66% - 7px);
 }
 
+/* Arrow between 2 and 3 - centered at 50% */
 .journey-timeline__path::after {
-  left: 58%;
-  border-width: 8px 0 8px 12px;
-  border-color: transparent transparent transparent var(--color-accent);
-  opacity: 0.5;
+  left: calc(50% - 7px);
+}
+
+/* Arrow between 3 and 4 - centered at 83.33% */
+.journey-timeline__path-line::before {
+  left: calc(83.33% - 7px);
 }
 
 /* Traveling dot animation - slower with pauses at each step */
