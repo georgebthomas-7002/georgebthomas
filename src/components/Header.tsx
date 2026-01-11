@@ -12,7 +12,7 @@ const navLinks = [
   { href: '/testimonials', label: 'Testimonials' },
   { href: '/resources', label: 'Resources' },
   { href: '/about', label: 'About' },
-  { href: '/#contact', label: 'Contact' },
+  { href: '/contact', label: 'Contact' },
 ]
 
 export function Header() {
@@ -146,7 +146,7 @@ export function Header() {
                 {link.label}
               </Link>
             ))}
-            <Link href="/coaching" className="btn btn--primary btn--small" onClick={closeMenu}>
+            <Link href="/book" className="btn btn--primary btn--small" onClick={closeMenu}>
               Book George
             </Link>
           </nav>
