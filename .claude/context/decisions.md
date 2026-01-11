@@ -92,3 +92,29 @@
 
 ### Image Domains (next.config.ts)
 - Added: `www.georgebthomas.com` for legacy logo images
+
+### HubSpot CRM Integration
+
+**Phase 1 (Complete):** Properties & Pipelines
+- Custom contact properties: `inquiry_type`, `coaching_package`, `coaching_topics`, `preferred_meeting_time`, `engagement_type`, `speaking_budget_range`, `event_date`, `event_location`, `audience_size`
+- Speaking Pipeline (ID: 853766152): New Inquiry → Qualified → Proposal Sent → Negotiation → Booked → Completed
+- Coaching Pipeline (ID: 853766153): Application Received → Discovery Call → Proposal → Enrolled → Active → Completed
+- Forms created in HubSpot (contact, speaking, coaching)
+
+**Phase 2 (Complete):** Automation & Segmentation
+- Dynamic contact lists: Speaking Inquiries, Coaching Applications, General Contact, All Website Leads
+- Workflows (triggered by `inquiry_type`): Speaking, Coaching, Contact Form automation
+- Script: `scripts/hubspot-phase2-setup.ts`
+
+**Phase 3 (Complete):** Deal Automation & Notifications
+- Auto-create deals when booking/coaching forms submitted
+- Deals associated with contacts, placed in first pipeline stage
+- Internal notification tasks created for all form submissions
+- API route: `src/app/api/hubspot/route.ts`
+
+**Phase 4 (Future Options):**
+- **A. Email Sequences:** Automated follow-up emails after form submissions (info packets, welcome emails, next steps)
+- **B. Meeting Scheduling:** Integrate HubSpot Meetings, embed calendar widgets, auto-create meetings at deal stages
+- **C. Lead Scoring:** Score contacts based on form type, budget range, company size, engagement
+- **D. Reporting Dashboard:** Track form submissions, deal pipeline velocity, conversion rates by source
+- **E. Payment Integration:** Connect Stripe for coaching packages, auto-update deal stage on payment
