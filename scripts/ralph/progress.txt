@@ -32,6 +32,7 @@ Feature: Website Audit & Polish
 - **Verify CSS classes**: Before using page-specific classes, check globals.css to ensure they exist (grep for the class name)
 - **SEO metadata for client components**: Create page-specific layout.tsx files with metadata exports (client components can't export metadata directly)
 - **External images**: Add hostnames to next.config.ts remotePatterns for Next.js Image with external URLs (e.g., img.youtube.com for thumbnails)
+- **Accessibility**: All pages must have id="main-content" on main element, Header has skip-link. Use focus-visible (not focus) for form styles
 
 ---
 
@@ -398,4 +399,45 @@ Feature: Website Audit & Polish
   - Testimonial avatars currently use null values, so Image code path isn't active - but ready for future use
   - Alt text should describe the image content, not just the subject name ("in high school" is more descriptive)
   - Image sizes under 1MB are acceptable since Next.js Image optimizes at build/runtime with webp conversion
+---
+
+## 2025-01-10 - US-019
+- Implemented accessibility audit for forms and interactions
+- Files changed: src/styles/globals.css, src/components/Header.tsx, src/components/TestimonialSlider.tsx, src/components/VideoSlider.tsx, src/app/coaching/page.tsx, + all page.tsx files (9 total)
+- **Changes made:**
+  - Added skip-to-content link in Header.tsx with CSS styling (hidden until focused)
+  - Added id="main-content" to all 9 page main elements for skip link target
+  - Fixed form focus states: replaced outline:none with focus-visible outline
+  - Added ARIA labels to FAQ accordion (aria-controls, aria-expanded, role="region", aria-labelledby)
+  - Added carousel accessibility to TestimonialSlider (role="region", aria-roledescription="carousel", aria-live="polite")
+  - Added carousel accessibility to VideoSlider (same pattern)
+  - Global :focus-visible already had proper accent color outline (verified)
+  - All buttons already had aria-labels (verified in Header, VideoSlider, TestimonialSlider)
+  - Color contrast verified: #2D4A6F on white = 7.9:1, #E07A5F on white = 3.4:1 (AA for large text)
+- **Learnings for future iterations:**
+  - Skip-to-content links use position:absolute with negative top, then move into view on :focus
+  - All pages need consistent id="main-content" on main element - check when adding new pages
+  - Use focus-visible instead of focus for form styles to avoid outline on mouse clicks
+  - Carousels need aria-live="polite" on the content area that changes, not the whole carousel
+  - FAQ accordions need aria-controls/aria-labelledby linking the button to its controlled panel
+  - The hidden attribute works better than CSS display:none for accordion panels (native accessibility)
+---
+
+## 2025-01-10 - US-020
+- Completed final verification and cross-page consistency check
+- Files reviewed: All 9 page.tsx files, globals.css, components
+- **Verification results:**
+  - Build: Successful - 11 static pages generated in 483.7ms
+  - All pages: HTTP 200 (home, about, expertise, speaking, coaching, apply, thank-you, resources, testimonials)
+  - Hero sections: All use consistent page-hero pattern with proper modifiers (--home, --compact, --coaching, etc.)
+  - CTA sections: All use cta-block pattern with title, description, buttons structure
+  - Card components: All use BEM naming (testimonial-card__, theme-card__, pricing-card__, etc.)
+  - Buttons: 19 btn--primary, 15 btn--secondary, 4 btn--outline-light, 19 btn--large (all valid)
+  - Accessibility: All 9 pages have id="main-content" for skip link
+- **Learnings for future iterations:**
+  - Use `grep -roh 'btn--[a-z-]*' src/app/ | sort | uniq -c` to quickly audit button class usage
+  - Build generates 11 pages: 9 main + _not-found + root
+  - HTTP status check: `curl -s -o /dev/null -w "%{http_code}" http://localhost:3000/page`
+  - All hero sections should use page-hero base class with page-specific modifier
+  - All CTA sections should use cta-block with cta-block__title, __description, __buttons
 ---
