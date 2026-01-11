@@ -224,7 +224,7 @@ function FAQSection({ faqs }: { faqs: { question: string; answer: string }[] }) 
   }
 
   return (
-    <section className="section coaching-faq">
+    <section className="section">
       <div className="container container--narrow">
         <AnimatedSection className="section-header" animation="fade-in">
           <span className="section-header__subtitle">You&apos;re Wondering</span>
@@ -312,7 +312,7 @@ export default function CoachingPage() {
         </section>
 
         {/* Topics Section - Using expertise-stem-card style */}
-        <section id="topics" className="section section--warm coaching-topics">
+        <section id="topics" className="section section--warm">
           <div className="container">
             <AnimatedSection className="section-header" animation="fade-in">
               <span className="section-header__subtitle">What You&apos;ll Master</span>
@@ -387,7 +387,7 @@ export default function CoachingPage() {
         </section>
 
         {/* Approach Section */}
-        <section className="section section--dark coaching-approach">
+        <section className="section section--dark">
           <div className="container">
             <AnimatedSection className="section-header" animation="fade-in">
               <span className="section-header__subtitle">What You Can Expect</span>
@@ -407,7 +407,7 @@ export default function CoachingPage() {
         </section>
 
         {/* Process Section - Creative Timeline */}
-        <section className="section coaching-process">
+        <section className="section">
           <div className="container">
             <AnimatedSection className="section-header" animation="fade-in">
               <span className="section-header__subtitle">Your Path Forward</span>
@@ -473,7 +473,7 @@ export default function CoachingPage() {
         </section>
 
         {/* Pricing Section */}
-        <section id="packages" className="section section--warm coaching-pricing">
+        <section id="packages" className="section section--warm">
           <div className="container">
             <AnimatedSection className="section-header" animation="fade-in">
               <span className="section-header__subtitle">Your Investment</span>
@@ -596,7 +596,7 @@ export default function CoachingPage() {
         <FAQSection faqs={faqs} />
 
         {/* Final CTA */}
-        <section className="section section--warm coaching-final-cta">
+        <section className="section section--warm">
           <div className="container">
             <AnimatedSection className="cta-block" animation="fade-in">
               <h2 className="cta-block__title">Ready to Become Your Best Self?</h2>
