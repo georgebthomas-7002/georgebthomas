@@ -725,14 +725,11 @@ export default function SpeakingPage() {
                   </Link>
                 </AnimatedSection>
                 <AnimatedSection className="serve-block__video" animation="slide-right">
-                  <div className="serve-block__video-wrapper">
-                    <iframe
-                      src="https://www.youtube.com/embed/hxVZmwPlW9o"
-                      title="Align Your Teams. Ignite Your Growth."
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowFullScreen
-                    />
-                  </div>
+                  <VideoShowcase
+                    youtubeId="hxVZmwPlW9o"
+                    title="Align Your Teams. Ignite Your Growth."
+                    size="compact"
+                  />
                 </AnimatedSection>
               </div>
             </div>
@@ -760,14 +757,11 @@ export default function SpeakingPage() {
                   </Link>
                 </AnimatedSection>
                 <AnimatedSection className="serve-block__video" animation="slide-left">
-                  <div className="serve-block__video-wrapper">
-                    <iframe
-                      src="https://www.youtube.com/embed/Twp1ObHbC9E"
-                      title="Unforgettable Keynotes. Transformative Experiences."
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowFullScreen
-                    />
-                  </div>
+                  <VideoShowcase
+                    youtubeId="Twp1ObHbC9E"
+                    title="Unforgettable Keynotes. Transformative Experiences."
+                    size="compact"
+                  />
                 </AnimatedSection>
               </div>
             </div>
@@ -795,14 +789,11 @@ export default function SpeakingPage() {
                   </Link>
                 </AnimatedSection>
                 <AnimatedSection className="serve-block__video" animation="slide-right">
-                  <div className="serve-block__video-wrapper">
-                    <iframe
-                      src="https://www.youtube.com/embed/V3aOTc-0g-0"
-                      title="Conversations That Connect. Stories That Inspire."
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowFullScreen
-                    />
-                  </div>
+                  <VideoShowcase
+                    youtubeId="V3aOTc-0g-0"
+                    title="Conversations That Connect. Stories That Inspire."
+                    size="compact"
+                  />
                 </AnimatedSection>
               </div>
             </div>
