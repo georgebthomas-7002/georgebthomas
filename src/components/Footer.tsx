@@ -135,9 +135,9 @@ export function Footer() {
               &copy; {currentYear} George B. Thomas. All rights reserved.
             </p>
             <span className="footer__legal-links">
-              <Link href="#" className="footer__link">Privacy Policy</Link>
+              <Link href="/privacy" className="footer__link">Privacy Policy</Link>
               {' • '}
-              <Link href="#" className="footer__link">Terms of Service</Link>
+              <Link href="/terms" className="footer__link">Terms of Service</Link>
             </span>
           </div>
           <a
