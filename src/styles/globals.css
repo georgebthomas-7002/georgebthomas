@@ -8903,8 +8903,8 @@ select {
 /* Custom wrapper for "Start a conversation" label */
 .delphi-chat-wrapper {
   position: fixed;
-  bottom: 32px;
-  right: 140px;
+  bottom: 55px;
+  right: 220px;
   z-index: 9998;
   display: flex;
   align-items: center;
@@ -8973,11 +8973,10 @@ select {
 #delphi-bubble-button,
 [data-delphi-bubble],
 .delphi-bubble-trigger {
-  right: 50px !important;
+  right: 100px !important;
   bottom: 24px !important;
-  width: 70px !important;
-  height: 70px !important;
-  transform: scale(1.1) !important;
+  width: 100px !important;
+  height: 100px !important;
 }
 
 /* Make the bubble more prominent with shadow */

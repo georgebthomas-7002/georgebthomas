@@ -268,6 +268,576 @@ const dealProperties = [
 ];
 
 // ============================================================================
+// FORMS
+// ============================================================================
+
+const contactForm = {
+  name: 'George B. Thomas - Contact Form',
+  formType: 'hubspot',
+  fieldGroups: [
+    {
+      groupType: 'default_group',
+      richTextType: 'text',
+      fields: [
+        {
+          objectTypeId: '0-1',
+          name: 'firstname',
+          label: 'First Name',
+          required: true,
+          hidden: false,
+          fieldType: 'single_line_text',
+        },
+      ],
+    },
+    {
+      groupType: 'default_group',
+      richTextType: 'text',
+      fields: [
+        {
+          objectTypeId: '0-1',
+          name: 'lastname',
+          label: 'Last Name',
+          required: true,
+          hidden: false,
+          fieldType: 'single_line_text',
+        },
+      ],
+    },
+    {
+      groupType: 'default_group',
+      richTextType: 'text',
+      fields: [
+        {
+          objectTypeId: '0-1',
+          name: 'email',
+          label: 'Email',
+          required: true,
+          hidden: false,
+          fieldType: 'email',
+          validation: { blockedEmailDomains: [], useDefaultBlockList: false },
+        },
+      ],
+    },
+    {
+      groupType: 'default_group',
+      richTextType: 'text',
+      fields: [
+        {
+          objectTypeId: '0-1',
+          name: 'phone',
+          label: 'Phone',
+          required: false,
+          hidden: false,
+          fieldType: 'phone',
+          useCountryCodeSelect: false,
+          validation: { minAllowedDigits: 7, maxAllowedDigits: 20 },
+        },
+      ],
+    },
+    {
+      groupType: 'default_group',
+      richTextType: 'text',
+      fields: [
+        {
+          objectTypeId: '0-1',
+          name: 'company',
+          label: 'Company',
+          required: false,
+          hidden: false,
+          fieldType: 'single_line_text',
+        },
+      ],
+    },
+    {
+      groupType: 'default_group',
+      richTextType: 'text',
+      fields: [
+        {
+          objectTypeId: '0-1',
+          name: 'message',
+          label: 'Message',
+          required: false,
+          hidden: false,
+          fieldType: 'multi_line_text',
+        },
+      ],
+    },
+    // Hidden fields for API population
+    {
+      groupType: 'default_group',
+      richTextType: 'text',
+      fields: [
+        {
+          objectTypeId: '0-1',
+          name: 'inquiry_type',
+          label: 'Inquiry Type',
+          required: false,
+          hidden: true,
+          fieldType: 'single_line_text',
+        },
+      ],
+    },
+    {
+      groupType: 'default_group',
+      richTextType: 'text',
+      fields: [
+        {
+          objectTypeId: '0-1',
+          name: 'how_did_you_hear_about_us',
+          label: 'How Did You Hear About Us',
+          required: false,
+          hidden: true,
+          fieldType: 'single_line_text',
+        },
+      ],
+    },
+  ],
+  configuration: {
+    language: 'en',
+    cloneable: true,
+    editable: true,
+    archivable: true,
+    recaptchaEnabled: false,
+    notifyContactOwner: false,
+    notifyRecipients: [],
+    createNewContactForNewEmail: true,
+    prePopulateKnownValues: true,
+    allowLinkToResetKnownValues: false,
+    postSubmitAction: {
+      type: 'thank_you',
+      value: 'Thank you for reaching out! I\'ll get back to you soon.',
+    },
+  },
+  displayOptions: {
+    renderRawHtml: false,
+    theme: 'default_style',
+    submitButtonText: 'Send Message',
+    style: {
+      fontFamily: 'arial, helvetica, sans-serif',
+      backgroundWidth: '100%',
+      labelTextColor: '#33475b',
+      labelTextSize: '13px',
+      helpTextColor: '#7C98B6',
+      helpTextSize: '11px',
+      legalConsentTextColor: '#33475b',
+      legalConsentTextSize: '14px',
+      submitColor: '#E07A5F',
+      submitAlignment: 'left',
+      submitFontColor: '#ffffff',
+      submitSize: '12px',
+    },
+    cssClass: 'hs-form stacked',
+  },
+  legalConsentOptions: { type: 'none' },
+};
+
+const bookingForm = {
+  name: 'George B. Thomas - Speaking Inquiry Form',
+  formType: 'hubspot',
+  fieldGroups: [
+    {
+      groupType: 'default_group',
+      richTextType: 'text',
+      fields: [
+        {
+          objectTypeId: '0-1',
+          name: 'firstname',
+          label: 'First Name',
+          required: true,
+          hidden: false,
+          fieldType: 'single_line_text',
+        },
+        {
+          objectTypeId: '0-1',
+          name: 'lastname',
+          label: 'Last Name',
+          required: true,
+          hidden: false,
+          fieldType: 'single_line_text',
+        },
+      ],
+    },
+    {
+      groupType: 'default_group',
+      richTextType: 'text',
+      fields: [
+        {
+          objectTypeId: '0-1',
+          name: 'email',
+          label: 'Email',
+          required: true,
+          hidden: false,
+          fieldType: 'email',
+          validation: { blockedEmailDomains: [], useDefaultBlockList: false },
+        },
+      ],
+    },
+    {
+      groupType: 'default_group',
+      richTextType: 'text',
+      fields: [
+        {
+          objectTypeId: '0-1',
+          name: 'phone',
+          label: 'Phone',
+          required: false,
+          hidden: false,
+          fieldType: 'phone',
+          useCountryCodeSelect: false,
+          validation: { minAllowedDigits: 7, maxAllowedDigits: 20 },
+        },
+      ],
+    },
+    {
+      groupType: 'default_group',
+      richTextType: 'text',
+      fields: [
+        {
+          objectTypeId: '0-1',
+          name: 'company',
+          label: 'Company / Organization',
+          required: true,
+          hidden: false,
+          fieldType: 'single_line_text',
+        },
+      ],
+    },
+    // Hidden fields populated via API
+    {
+      groupType: 'default_group',
+      richTextType: 'text',
+      fields: [
+        {
+          objectTypeId: '0-1',
+          name: 'inquiry_type',
+          label: 'Inquiry Type',
+          required: false,
+          hidden: true,
+          fieldType: 'single_line_text',
+        },
+      ],
+    },
+    {
+      groupType: 'default_group',
+      richTextType: 'text',
+      fields: [
+        {
+          objectTypeId: '0-1',
+          name: 'engagement_type',
+          label: 'Engagement Type',
+          required: false,
+          hidden: true,
+          fieldType: 'single_line_text',
+        },
+      ],
+    },
+    {
+      groupType: 'default_group',
+      richTextType: 'text',
+      fields: [
+        {
+          objectTypeId: '0-1',
+          name: 'speaking_budget_range',
+          label: 'Budget Range',
+          required: false,
+          hidden: true,
+          fieldType: 'single_line_text',
+        },
+      ],
+    },
+    {
+      groupType: 'default_group',
+      richTextType: 'text',
+      fields: [
+        {
+          objectTypeId: '0-1',
+          name: 'event_date',
+          label: 'Event Date',
+          required: false,
+          hidden: true,
+          fieldType: 'single_line_text',
+        },
+      ],
+    },
+    {
+      groupType: 'default_group',
+      richTextType: 'text',
+      fields: [
+        {
+          objectTypeId: '0-1',
+          name: 'event_location',
+          label: 'Event Location',
+          required: false,
+          hidden: true,
+          fieldType: 'single_line_text',
+        },
+      ],
+    },
+    {
+      groupType: 'default_group',
+      richTextType: 'text',
+      fields: [
+        {
+          objectTypeId: '0-1',
+          name: 'audience_size',
+          label: 'Audience Size',
+          required: false,
+          hidden: true,
+          fieldType: 'single_line_text',
+        },
+      ],
+    },
+    {
+      groupType: 'default_group',
+      richTextType: 'text',
+      fields: [
+        {
+          objectTypeId: '0-1',
+          name: 'how_did_you_hear_about_us',
+          label: 'How Did You Hear About Us',
+          required: false,
+          hidden: true,
+          fieldType: 'single_line_text',
+        },
+      ],
+    },
+  ],
+  configuration: {
+    language: 'en',
+    cloneable: true,
+    editable: true,
+    archivable: true,
+    recaptchaEnabled: false,
+    notifyContactOwner: false,
+    notifyRecipients: [],
+    createNewContactForNewEmail: true,
+    prePopulateKnownValues: true,
+    allowLinkToResetKnownValues: false,
+    postSubmitAction: {
+      type: 'thank_you',
+      value: 'Thank you for your speaking inquiry! I\'ll review your request and get back to you within 48 hours.',
+    },
+  },
+  displayOptions: {
+    renderRawHtml: false,
+    theme: 'default_style',
+    submitButtonText: 'Submit Inquiry',
+    style: {
+      fontFamily: 'arial, helvetica, sans-serif',
+      backgroundWidth: '100%',
+      labelTextColor: '#33475b',
+      labelTextSize: '13px',
+      helpTextColor: '#7C98B6',
+      helpTextSize: '11px',
+      legalConsentTextColor: '#33475b',
+      legalConsentTextSize: '14px',
+      submitColor: '#E07A5F',
+      submitAlignment: 'left',
+      submitFontColor: '#ffffff',
+      submitSize: '12px',
+    },
+    cssClass: 'hs-form stacked',
+  },
+  legalConsentOptions: { type: 'none' },
+};
+
+const coachingForm = {
+  name: 'George B. Thomas - Coaching Application Form',
+  formType: 'hubspot',
+  fieldGroups: [
+    {
+      groupType: 'default_group',
+      richTextType: 'text',
+      fields: [
+        {
+          objectTypeId: '0-1',
+          name: 'firstname',
+          label: 'First Name',
+          required: true,
+          hidden: false,
+          fieldType: 'single_line_text',
+        },
+        {
+          objectTypeId: '0-1',
+          name: 'lastname',
+          label: 'Last Name',
+          required: true,
+          hidden: false,
+          fieldType: 'single_line_text',
+        },
+      ],
+    },
+    {
+      groupType: 'default_group',
+      richTextType: 'text',
+      fields: [
+        {
+          objectTypeId: '0-1',
+          name: 'email',
+          label: 'Email',
+          required: true,
+          hidden: false,
+          fieldType: 'email',
+          validation: { blockedEmailDomains: [], useDefaultBlockList: false },
+        },
+      ],
+    },
+    {
+      groupType: 'default_group',
+      richTextType: 'text',
+      fields: [
+        {
+          objectTypeId: '0-1',
+          name: 'phone',
+          label: 'Phone',
+          required: false,
+          hidden: false,
+          fieldType: 'phone',
+          useCountryCodeSelect: false,
+          validation: { minAllowedDigits: 7, maxAllowedDigits: 20 },
+        },
+      ],
+    },
+    {
+      groupType: 'default_group',
+      richTextType: 'text',
+      fields: [
+        {
+          objectTypeId: '0-1',
+          name: 'jobtitle',
+          label: 'Your Role / Title',
+          required: false,
+          hidden: false,
+          fieldType: 'single_line_text',
+        },
+      ],
+    },
+    {
+      groupType: 'default_group',
+      richTextType: 'text',
+      fields: [
+        {
+          objectTypeId: '0-1',
+          name: 'company',
+          label: 'Company',
+          required: false,
+          hidden: false,
+          fieldType: 'single_line_text',
+        },
+      ],
+    },
+    // Hidden fields populated via API
+    {
+      groupType: 'default_group',
+      richTextType: 'text',
+      fields: [
+        {
+          objectTypeId: '0-1',
+          name: 'inquiry_type',
+          label: 'Inquiry Type',
+          required: false,
+          hidden: true,
+          fieldType: 'single_line_text',
+        },
+      ],
+    },
+    {
+      groupType: 'default_group',
+      richTextType: 'text',
+      fields: [
+        {
+          objectTypeId: '0-1',
+          name: 'coaching_package',
+          label: 'Coaching Package',
+          required: false,
+          hidden: true,
+          fieldType: 'single_line_text',
+        },
+      ],
+    },
+    {
+      groupType: 'default_group',
+      richTextType: 'text',
+      fields: [
+        {
+          objectTypeId: '0-1',
+          name: 'coaching_topics',
+          label: 'Coaching Topics',
+          required: false,
+          hidden: true,
+          fieldType: 'single_line_text',
+        },
+      ],
+    },
+    {
+      groupType: 'default_group',
+      richTextType: 'text',
+      fields: [
+        {
+          objectTypeId: '0-1',
+          name: 'preferred_meeting_time',
+          label: 'Preferred Meeting Time',
+          required: false,
+          hidden: true,
+          fieldType: 'single_line_text',
+        },
+      ],
+    },
+    {
+      groupType: 'default_group',
+      richTextType: 'text',
+      fields: [
+        {
+          objectTypeId: '0-1',
+          name: 'how_did_you_hear_about_us',
+          label: 'How Did You Hear About Us',
+          required: false,
+          hidden: true,
+          fieldType: 'single_line_text',
+        },
+      ],
+    },
+  ],
+  configuration: {
+    language: 'en',
+    cloneable: true,
+    editable: true,
+    archivable: true,
+    recaptchaEnabled: false,
+    notifyContactOwner: false,
+    notifyRecipients: [],
+    createNewContactForNewEmail: true,
+    prePopulateKnownValues: true,
+    allowLinkToResetKnownValues: false,
+    postSubmitAction: {
+      type: 'thank_you',
+      value: 'Thank you for applying! I\'ll review your application and reach out to schedule your session.',
+    },
+  },
+  displayOptions: {
+    renderRawHtml: false,
+    theme: 'default_style',
+    submitButtonText: 'Submit Application',
+    style: {
+      fontFamily: 'arial, helvetica, sans-serif',
+      backgroundWidth: '100%',
+      labelTextColor: '#33475b',
+      labelTextSize: '13px',
+      helpTextColor: '#7C98B6',
+      helpTextSize: '11px',
+      legalConsentTextColor: '#33475b',
+      legalConsentTextSize: '14px',
+      submitColor: '#E07A5F',
+      submitAlignment: 'left',
+      submitFontColor: '#ffffff',
+      submitSize: '12px',
+    },
+    cssClass: 'hs-form stacked',
+  },
+  legalConsentOptions: { type: 'none' },
+};
+
+// ============================================================================
 // PIPELINES
 // ============================================================================
 
@@ -391,6 +961,57 @@ async function checkExistingPipelines(): Promise<string[]> {
   return [];
 }
 
+async function createForm(form: any): Promise<{ success: boolean; name: string; id?: string; error?: string }> {
+  const url = `${BASE_URL}/marketing/v3/forms/`;
+
+  try {
+    const response = await fetch(url, {
+      method: 'POST',
+      headers,
+      body: JSON.stringify(form),
+    });
+
+    if (response.ok) {
+      const data = await response.json();
+      return { success: true, name: form.name, id: data.id };
+    }
+
+    const errorData = await response.json();
+
+    // Form with same name might exist
+    if (errorData.message?.includes('already exists') || errorData.message?.includes('duplicate')) {
+      return { success: true, name: form.name, error: 'Already exists (skipped)' };
+    }
+
+    return {
+      success: false,
+      name: form.name,
+      error: errorData.message || `HTTP ${response.status}`
+    };
+  } catch (error) {
+    return {
+      success: false,
+      name: form.name,
+      error: error instanceof Error ? error.message : 'Unknown error'
+    };
+  }
+}
+
+async function checkExistingForms(): Promise<string[]> {
+  const url = `${BASE_URL}/marketing/v3/forms/`;
+
+  try {
+    const response = await fetch(url, { headers });
+    if (response.ok) {
+      const data = await response.json();
+      return data.results?.map((f: any) => f.name) || [];
+    }
+  } catch (error) {
+    // Ignore errors
+  }
+  return [];
+}
+
 // ============================================================================
 // MAIN EXECUTION
 // ============================================================================
@@ -475,14 +1096,49 @@ async function main() {
     }
   }
 
+  // Step 6: Check existing forms
+  console.log('\n🔍 Checking existing forms...\n');
+  const existingForms = await checkExistingForms();
+
+  // Step 7: Create Forms
+  console.log('📝 Creating HubSpot Forms...\n');
+
+  const forms = [
+    { form: contactForm, name: 'Contact Form' },
+    { form: bookingForm, name: 'Speaking Inquiry Form' },
+    { form: coachingForm, name: 'Coaching Application Form' },
+  ];
+
+  for (const { form, name } of forms) {
+    if (existingForms.includes(form.name)) {
+      console.log(`  ⏭️  ${name}: Already exists (skipped)`);
+    } else {
+      const result = await createForm(form);
+      if (result.success) {
+        if (result.error) {
+          console.log(`  ⏭️  ${name}: ${result.error}`);
+        } else {
+          console.log(`  ✅ ${name} (ID: ${result.id})`);
+        }
+      } else {
+        console.log(`  ❌ ${name}: ${result.error}`);
+      }
+    }
+  }
+
   // Summary
   console.log('\n================================');
   console.log('✨ Phase 1 Setup Complete!\n');
-  console.log('Next Steps:');
+  console.log('Created:');
+  console.log('  • 10 Contact Properties');
+  console.log('  • 9 Deal Properties');
+  console.log('  • 2 Deal Pipelines (Speaking Engagements, Coaching Sales)');
+  console.log('  • 3 HubSpot Forms (Contact, Speaking, Coaching)');
+  console.log('\nNext Steps:');
   console.log('  1. Verify properties in HubSpot: Settings → Properties');
   console.log('  2. Verify pipelines in HubSpot: Settings → Objects → Deals → Pipelines');
-  console.log('  3. Run Phase 2 to create workflows and email templates');
-  console.log('  4. Update your API route to use the new coaching form handler\n');
+  console.log('  3. Verify forms in HubSpot: Marketing → Forms');
+  console.log('  4. Run Phase 2 to create workflows and email templates\n');
 }
 
 main().catch(console.error);
