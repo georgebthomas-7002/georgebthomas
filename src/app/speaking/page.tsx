@@ -34,6 +34,24 @@ const speakingVideos: VideoItem[] = [
     title: 'Conversations That Connect',
     description: 'Stories and insights that inspire meaningful change.'
   },
+  {
+    id: 'vid-5',
+    youtubeId: 'qIdS7MfnYVQ',
+    title: 'Speaking Highlight',
+    description: 'Engaging audiences with actionable insights.'
+  },
+  {
+    id: 'vid-6',
+    youtubeId: 'rbue512bgMU',
+    title: 'Speaking Highlight',
+    description: 'Transformative keynote moments on stage.'
+  },
+  {
+    id: 'vid-7',
+    youtubeId: 'svAq8_Ogb7E',
+    title: 'Speaking Highlight',
+    description: 'Inspiring audiences to take meaningful action.'
+  },
 ]
 
 type Topic = 'hubspot' | 'video' | 'podcasting' | 'ai' | 'transformation' | 'marketing'
