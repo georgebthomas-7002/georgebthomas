@@ -82,7 +82,7 @@ export default function TestimonialsPage() {
           <div className="container">
             <AnimatedSection className="section-header" animation="fade-in">
               <span className="section-header__subtitle">Stories Like Yours</span>
-              <h2 className="section-header__title">You're Not Alone<br />On This Journey</h2>
+              <h2 className="section-header__title">You're Not Alone On<br />This Journey</h2>
               <p className="section-header__description">
                 These are just a few success stories from people who were once where you are now.
                 They took the leap, and here's what happened.
