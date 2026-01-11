@@ -774,7 +774,7 @@ export default function SpeakingPage() {
         />
 
         {/* Topic Navigation Section */}
-        <section className="section speaking-filter">
+        <section className="section">
           <div className="container">
             <AnimatedSection className="filter-section" animation="fade-in">
               <h2 className="filter-section__title">Explore Keynote Topics</h2>
@@ -923,7 +923,7 @@ export default function SpeakingPage() {
         </div>
 
         {/* Speaking Experience Section */}
-        <section className="section speaking-experience">
+        <section className="section section--warm">
           <div className="container">
             <AnimatedSection className="section-header" animation="fade-in">
               <span className="section-header__subtitle">Speaking Experience</span>
@@ -952,7 +952,7 @@ export default function SpeakingPage() {
         </section>
 
         {/* CTA Section */}
-        <section className="section section--dark speaking-cta">
+        <section className="section section--dark">
           <div className="container">
             <AnimatedSection className="cta-block" animation="fade-in">
               <h2 className="cta-block__title">Give Your Audience an Experience They Won&apos;t Forget</h2>
@@ -964,7 +964,7 @@ export default function SpeakingPage() {
                 <Link href="/coaching" className="btn btn--primary btn--large">
                   Ignite Your Event
                 </Link>
-                <Link href="/expertise" className="btn btn--secondary btn--large">
+                <Link href="/expertise" className="btn btn--outline-light btn--large">
                   See What&apos;s Possible
                 </Link>
               </div>
