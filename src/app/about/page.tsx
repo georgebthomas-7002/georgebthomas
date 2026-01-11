@@ -268,7 +268,7 @@ export default function AboutPage() {
                             <circle cx="8.5" cy="8.5" r="1.5"/>
                             <polyline points="21 15 16 10 5 21"/>
                           </svg>
-                          <span>{chapter.imagePlaceholder || 'Photo Coming Soon'}</span>
+                          <span>Photo Coming Soon</span>
                         </div>
                       )}
                     </div>
