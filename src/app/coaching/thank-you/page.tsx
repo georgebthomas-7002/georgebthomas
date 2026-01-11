@@ -10,68 +10,68 @@ import { AnimatedSection } from '@/components/AnimatedSection'
 const packageInfo = {
   activation: {
     name: 'Activation Meeting',
-    title: 'Your Activation Meeting is Confirmed!',
-    description: 'Get ready for a focused 45-minute session where we\'ll map out your goals and create a clear path forward.',
+    title: 'You\'re All Set—Let\'s Do This!',
+    description: 'I can\'t wait for our 45-minute session together. We\'ll map out your goals and create a clear path forward—just you and me, focused on what matters most to you.',
     nextSteps: [
-      'Check your email for calendar invite',
-      'Prepare your top 3 questions or challenges',
-      'Find a quiet space for our video call',
-      'Come ready to dream big and get specific',
+      'You\'ll get a calendar invite in your inbox shortly',
+      'Jot down your top 3 questions or challenges—we\'ll tackle them together',
+      'Find a quiet spot for our video call',
+      'Come ready to dream big—I\'ll help you get specific',
     ],
     resources: [
-      { title: 'Beyond Your Default Podcast', url: 'https://beyondyourdefault.com', description: 'Listen to episodes on personal transformation' },
-      { title: 'Hub Heroes Podcast', url: 'https://hubheroes.com', description: 'Marketing and HubSpot insights' },
+      { title: 'Beyond Your Default Podcast', url: 'https://beyondyourdefault.com', description: 'Get inspired while you wait—episodes on personal transformation' },
+      { title: 'Hub Heroes Podcast', url: 'https://hubheroes.com', description: 'Marketing and HubSpot insights you\'ll love' },
     ],
   },
   starter: {
     name: 'Starter Package',
-    title: 'Welcome to Your Coaching Journey!',
-    description: 'You\'ve taken the first step with 10 hours of transformation coaching. Let\'s make every session count.',
+    title: 'Welcome—Your Journey Starts Now!',
+    description: 'You\'ve made an amazing decision. With 10 hours of coaching, we\'ve got space to make real progress. I\'m excited to work with you!',
     nextSteps: [
-      'Check your email for welcome materials',
-      'Complete the pre-coaching assessment (sent via email)',
+      'You\'ll find your welcome materials in your inbox',
+      'Complete the pre-coaching assessment I\'ve sent you—it helps me understand you better',
       'Book your first session using the scheduling link',
-      'Join the private coaching community',
+      'Join our private coaching community—you\'re part of the family now',
     ],
     resources: [
-      { title: 'Coaching Preparation Guide', url: '#', description: 'How to get the most from each session' },
-      { title: 'Goal Setting Worksheet', url: '#', description: 'Clarify your objectives before we begin' },
+      { title: 'Coaching Preparation Guide', url: '#', description: 'Here\'s how to get the most from each session' },
+      { title: 'Goal Setting Worksheet', url: '#', description: 'You\'ll use this to clarify your objectives before we begin' },
     ],
   },
   growth: {
     name: 'Growth Package',
-    title: 'Your Transformation Begins Now!',
-    description: 'With 20 hours of coaching, we have the space for real, lasting change. Welcome to your growth journey.',
+    title: 'This Is Your Moment—Let\'s Go!',
+    description: 'With 20 hours together, we\'ve got the space for real, lasting change. I\'m honored you\'re trusting me with this—let\'s make it count!',
     nextSteps: [
-      'Check your email for welcome materials',
-      'Complete the comprehensive pre-coaching assessment',
-      'Schedule your first three sessions',
-      'Join the private coaching community',
-      'Access your custom resource library',
+      'Check your inbox for your welcome materials',
+      'You\'ll find a comprehensive assessment waiting—it helps us hit the ground running',
+      'Go ahead and schedule your first three sessions',
+      'Join our private community—you\'ll connect with fellow growth-seekers',
+      'You now have access to your custom resource library',
     ],
     resources: [
-      { title: 'Growth Roadmap Template', url: '#', description: 'Plan your 20-hour journey' },
-      { title: 'Weekly Reflection Journal', url: '#', description: 'Track insights between sessions' },
-      { title: 'Private Community Access', url: '#', description: 'Connect with fellow growth-seekers' },
+      { title: 'Growth Roadmap Template', url: '#', description: 'You\'ll use this to plan your 20-hour journey' },
+      { title: 'Weekly Reflection Journal', url: '#', description: 'Track your insights and wins between sessions' },
+      { title: 'Private Community Access', url: '#', description: 'You\'re not alone—connect with others on the same path' },
     ],
   },
   transformation: {
     name: 'Transformation Package',
-    title: 'The Deep Work Begins!',
-    description: 'You\'ve committed to 30 hours of transformative coaching. This is where real change happens. Welcome to the journey.',
+    title: 'The Deep Work Begins—I\'m So Excited!',
+    description: 'You\'ve committed to 30 hours of transformative coaching. This is where real change happens—and I\'m honored to walk this path with you.',
     nextSteps: [
-      'Check your email for VIP welcome package',
-      'Complete the in-depth transformation assessment',
+      'Your VIP welcome package is waiting in your inbox',
+      'You\'ll find an in-depth assessment there—it sets us up for success',
       'Schedule your first month of weekly sessions',
-      'Join the private coaching community',
-      'Access your comprehensive resource library',
-      'Prepare for your bonus keynote consultation',
+      'Join our private community—you\'ve got VIP access',
+      'Explore your comprehensive resource library',
+      'Don\'t forget—your bonus keynote consultation is included!',
     ],
     resources: [
-      { title: 'Transformation Roadmap', url: '#', description: 'Your 30-hour journey mapped out' },
-      { title: 'Weekly Reflection + Action Journal', url: '#', description: 'Track progress and momentum' },
-      { title: 'VIP Resource Library', url: '#', description: 'Exclusive frameworks and tools' },
-      { title: 'Private Community Access', url: '#', description: 'VIP channel for deeper discussions' },
+      { title: 'Transformation Roadmap', url: '#', description: 'Your complete 30-hour journey, mapped out step by step' },
+      { title: 'Weekly Reflection + Action Journal', url: '#', description: 'You\'ll track your progress and build momentum here' },
+      { title: 'VIP Resource Library', url: '#', description: 'Exclusive frameworks and tools—just for you' },
+      { title: 'Private Community Access', url: '#', description: 'Your VIP channel for deeper discussions' },
     ],
   },
 }
@@ -117,7 +117,7 @@ function ThankYouContent() {
                     <polyline points="10 9 9 9 8 9"/>
                   </svg>
                 </span>
-                Next Steps
+                Here&apos;s What to Do Next
               </h2>
               <ol className="thank-you-steps">
                 {info.nextSteps.map((step, index) => (
@@ -137,7 +137,7 @@ function ThankYouContent() {
                     <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
                   </svg>
                 </span>
-                Resources for You
+                Resources You&apos;ll Love
               </h2>
               <div className="thank-you-resources">
                 {info.resources.map((resource, index) => (
@@ -162,10 +162,10 @@ function ThankYouContent() {
 
             <div className="thank-you-actions">
               <Link href="/expertise" className="btn btn--secondary">
-                Explore My Expertise
+                See What You&apos;ll Master
               </Link>
               <a href="mailto:george@georgebthomas.com" className="btn btn--secondary">
-                Have Questions? Email Me
+                Got Questions? Let&apos;s Talk
               </a>
             </div>
           </AnimatedSection>
