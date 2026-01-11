@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useMemo } from 'react'
+import { useState, useMemo, useEffect } from 'react'
 import { Search, X, Play, Mic, FileText, ExternalLink, ChevronLeft, ChevronRight } from 'lucide-react'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
@@ -8,6 +8,33 @@ import resourceData from '../../../data/resources.json'
 import './resources.css'
 
 const ITEMS_PER_PAGE = 30
+
+const ROTATING_ROLES = [
+  'Leader',
+  'AI Expert',
+  'HubSpot User',
+  'Marketer',
+  'Sales Rep',
+  'Podcaster',
+  'Videographer'
+]
+
+function RotatingText({ words }: { words: string[] }) {
+  const [currentIndex, setCurrentIndex] = useState(0)
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndex((prev) => (prev + 1) % words.length)
+    }, 2000)
+    return () => clearInterval(interval)
+  }, [words.length])
+
+  return (
+    <span className="rotating-text">
+      <span className="rotating-text__word">{words[currentIndex]}</span>
+    </span>
+  )
+}
 
 interface Resource {
   id: string
@@ -264,9 +291,9 @@ export default function ResourcesPage() {
           <div className="container">
             <span className="resources-hero__eyebrow">Your Superhuman Toolkit</span>
             <h1 className="resources-hero__title">Resource Center</h1>
+            <p className="resources-hero__count">{data.totalResources}+ RESOURCES AND GROWING DAILY.</p>
             <p className="resources-hero__subtitle">
-              {data.totalResources}+ resources and growing daily—videos, podcasts, and articles
-              <br />to fuel your transformation into the superhuman you were meant to be.
+              Fuel for your transformation into a superhuman <RotatingText words={ROTATING_ROLES} />.
             </p>
           </div>
         </section>

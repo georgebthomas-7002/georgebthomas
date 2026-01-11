@@ -25,8 +25,17 @@
   font-size: var(--font-size-4xl);
   font-weight: var(--font-weight-bold);
   color: var(--color-text);
-  margin-bottom: var(--space-lg);
+  margin-bottom: var(--space-sm);
   letter-spacing: var(--letter-spacing-tight);
+}
+
+.resources-hero__count {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text);
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing-wide);
+  margin-bottom: var(--space-md);
 }
 
 .resources-hero__subtitle {
@@ -35,6 +44,30 @@
   max-width: 700px;
   margin: 0 auto;
   line-height: var(--line-height-relaxed);
+}
+
+/* Rotating Text Animation */
+.rotating-text {
+  display: inline-block;
+  position: relative;
+}
+
+.rotating-text__word {
+  display: inline-block;
+  color: var(--color-accent);
+  font-weight: var(--font-weight-semibold);
+  animation: fadeInUp 0.5s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* Filters Section */
