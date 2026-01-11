@@ -7666,7 +7666,7 @@ a:hover {
 .testimonials-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1.5rem; /* ~25px gutter */
+  gap: 1rem; /* ~16px gutter */
   margin-top: var(--space-3xl);
 }
 
