@@ -1,0 +1,215 @@
+{
+  "project": "GeorgeBThomas",
+  "branchName": "ralph/context-engine",
+  "description": "Context Engine - Gather comprehensive internet research about George B. Thomas across podcasting, video, HubSpot, speaking, AI, business coaching, and marketing",
+  "userStories": [
+    {
+      "id": "US-001",
+      "title": "Set up context engine directory structure",
+      "description": "As a developer, I need to create the directory structure and base files for storing gathered context.",
+      "acceptanceCriteria": [
+        "Create context/ directory with subdirectories: raw/, structured/, summaries/, quotes/",
+        "Create context/metadata.json to track sources and timestamps",
+        "Create context/README.md documenting the structure",
+        "Typecheck passes"
+      ],
+      "priority": 1,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "US-002",
+      "title": "Research George B. Thomas podcasting presence",
+      "description": "As a context gatherer, I need to find all podcast appearances, hosted shows, and podcasting-related content.",
+      "acceptanceCriteria": [
+        "Search for George B. Thomas podcast content across platforms",
+        "Find hosted podcasts (Hub Heroes, etc.) and guest appearances",
+        "Capture episode titles, descriptions, dates, and links",
+        "Extract key quotes and talking points",
+        "Save to context/structured/podcasting.json",
+        "Write summary to context/summaries/podcasting.md"
+      ],
+      "priority": 2,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "US-003",
+      "title": "Research George B. Thomas video and YouTube presence",
+      "description": "As a context gatherer, I need to find all video content, YouTube channels, and video marketing expertise.",
+      "acceptanceCriteria": [
+        "Search YouTube for George B. Thomas channels and appearances",
+        "Find video tutorials, presentations, and educational content",
+        "Capture video titles, descriptions, topics covered",
+        "Document video marketing expertise areas",
+        "Save to context/structured/video.json",
+        "Write summary to context/summaries/video.md"
+      ],
+      "priority": 3,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "US-004",
+      "title": "Research George B. Thomas HubSpot expertise",
+      "description": "As a context gatherer, I need to find all HubSpot-related content, community involvement, and thought leadership.",
+      "acceptanceCriteria": [
+        "Search HubSpot community for George B. Thomas contributions",
+        "Find HubSpot blog posts or features mentioning George",
+        "Find INBOUND conference appearances or presentations",
+        "Document HubSpot tools/features George specializes in",
+        "Save to context/structured/hubspot.json",
+        "Write summary to context/summaries/hubspot.md"
+      ],
+      "priority": 4,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "US-005",
+      "title": "Research George B. Thomas speaking engagements",
+      "description": "As a context gatherer, I need to find all speaking engagements, keynotes, workshops, and presentation history.",
+      "acceptanceCriteria": [
+        "Search for George B. Thomas speaker profiles",
+        "Find conference presentations and keynotes",
+        "Capture event names, dates, topics, and recordings if available",
+        "Find speaker testimonials and event feedback",
+        "Save to context/structured/speaking.json",
+        "Write summary to context/summaries/speaking.md"
+      ],
+      "priority": 5,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "US-006",
+      "title": "Gather testimonials and social proof",
+      "description": "As a context gatherer, I need to find all testimonials, reviews, recommendations, and social proof.",
+      "acceptanceCriteria": [
+        "Search for LinkedIn recommendations and endorsements",
+        "Find reviews or testimonials from various sources",
+        "Search for case studies or success stories",
+        "Capture VERBATIM quotes with full attribution (name, role, company, source URL)",
+        "Save individual quotes to context/quotes/ directory",
+        "Save to context/structured/testimonials.json",
+        "Write summary to context/summaries/testimonials.md"
+      ],
+      "priority": 6,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "US-007",
+      "title": "Research George B. Thomas AI and technology content",
+      "description": "As a context gatherer, I need to find all AI-related content and technology thought leadership.",
+      "acceptanceCriteria": [
+        "Search for George B. Thomas AI content and discussions",
+        "Find AI tools or technologies George has discussed",
+        "Document George's perspective on AI in marketing/sales",
+        "Find content about digital transformation",
+        "Save to context/structured/ai-technology.json",
+        "Write summary to context/summaries/ai-technology.md"
+      ],
+      "priority": 7,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "US-008",
+      "title": "Research George B. Thomas business and coaching content",
+      "description": "As a context gatherer, I need to find all business coaching, consulting, and entrepreneurship content.",
+      "acceptanceCriteria": [
+        "Search for Sidekick Strategies and related business info",
+        "Find coaching programs, courses, or training offerings",
+        "Document Y-Shaped Business Owner positioning",
+        "Find Transition Specialist content",
+        "Capture Value-First and Human-First philosophy examples",
+        "Save to context/structured/business-coaching.json",
+        "Write summary to context/summaries/business-coaching.md"
+      ],
+      "priority": 8,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "US-009",
+      "title": "Research George B. Thomas marketing and sales content",
+      "description": "As a context gatherer, I need to find all marketing strategy, sales enablement, and inbound marketing content.",
+      "acceptanceCriteria": [
+        "Search for marketing strategy articles by George",
+        "Find sales enablement tips and training content",
+        "Document inbound marketing philosophy",
+        "Find content marketing and SEO expertise",
+        "Save to context/structured/marketing-sales.json",
+        "Write summary to context/summaries/marketing-sales.md"
+      ],
+      "priority": 9,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "US-010",
+      "title": "Research George B. Thomas biography and personal brand",
+      "description": "As a context gatherer, I need to find biographical information, personal brand elements, and origin story.",
+      "acceptanceCriteria": [
+        "Find professional bio versions from various sources",
+        "Document career history and professional journey",
+        "Find origin story or how I got started content",
+        "Capture personal mission and vision statements",
+        "Document core values and principles",
+        "Save to context/structured/biography.json",
+        "Write summary to context/summaries/biography.md"
+      ],
+      "priority": 10,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "US-011",
+      "title": "Compile T-shaped marketer narrative",
+      "description": "As a context analyst, I need to synthesize all gathered context into a T-shaped marketer narrative.",
+      "acceptanceCriteria": [
+        "Analyze all context files to identify expertise depth areas",
+        "Map out breadth of knowledge across marketing disciplines",
+        "Document the T-shape: deep expertise + broad skills",
+        "Identify unique skill intersections that differentiate George",
+        "Write narrative connecting all expertise areas",
+        "Save to context/structured/t-shaped-narrative.json",
+        "Write summary to context/summaries/t-shaped-narrative.md"
+      ],
+      "priority": 11,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "US-012",
+      "title": "Create context engine index",
+      "description": "As a developer, I need to create an index of all gathered context for easy retrieval.",
+      "acceptanceCriteria": [
+        "Create context/index.json with all content indexed",
+        "Include tags/categories for each piece of content",
+        "Include source URLs and retrieval dates",
+        "Add statistics: total sources, quotes, topics covered",
+        "Update context/README.md with final documentation"
+      ],
+      "priority": 12,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "US-013",
+      "title": "Validate context completeness for page creation",
+      "description": "As a content strategist, I need to validate sufficient context exists for each planned website page.",
+      "acceptanceCriteria": [
+        "Review each topic area for page readiness",
+        "Document gaps requiring additional research",
+        "Confirm minimum 50 unique sources gathered",
+        "Confirm minimum 20 verbatim testimonials captured",
+        "Create context/validation-report.md with findings"
+      ],
+      "priority": 13,
+      "passes": false,
+      "notes": ""
+    }
+  ]
+}

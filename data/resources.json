@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-01-11T01:29:30.473Z",
-  "totalResources": 1200,
+  "lastUpdated": "2026-01-11T02:43:31.338Z",
+  "totalResources": 1419,
   "sources": {
     "youtube": [
       "George B Thomas",
@@ -11,7 +11,8 @@
       "Beyond Your Default"
     ],
     "blogs": [
-      "Sidekick Strategies"
+      "Sidekick Strategies",
+      "Spiritual Side of Leadership"
     ]
   },
   "taxonomy": {
@@ -35,6 +36,141 @@
   },
   "resources": [
     {
+      "id": "spiritual-side-of-leadership-rejoice-in-the-lord-always-2026-01-19",
+      "title": "Rejoice In The Lord Always",
+      "description": "\"Rejoice in the Lord always\" can feel like a dare when you're juggling bills and deadlines, but that tension is where God meets you. Discover how joy, rooted in faith, becomes not just a feeling, but...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/rejoice-in-the-lord-always",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/b3b315ca14a8d682fe04115d26abf3a229135d82-1920x1080.webp",
+      "publishedAt": "2026-01-19T12:34:00.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Personal Growth"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-a-way-in-the-wilderness-2026-01-18",
+      "title": "A Way in the Wilderness",
+      "description": "Is your business in a desert season? Times of dryness and uncertainty can actually be opportunities to clear away distractions and prepare for new growth. Refine your focus, and make space for God to...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/a-way-in-the-wilderness",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/d1b65d386c50d97d1089f7c7459ba82a8dc6b646-1920x1080.webp",
+      "publishedAt": "2026-01-18T11:29:00.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-the-plans-that-shape-us-2026-01-17",
+      "title": "The Plans That Shape Us",
+      "description": "Are you facing a business landscape that looks nothing like you planned? Discover how God uses seasons of disruption to shape your leadership and refine your vision. True strategic genius isn't about...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-plans-that-shape-us",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/c9620320f94c23ed1fdb3c864f0f69f0ae2e40b7-1920x1080.webp",
+      "publishedAt": "2026-01-17T11:18:00.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-truth-freedom-and-the-strange-math-of-god-s-kingdo-2026-01-16",
+      "title": "Truth, Freedom, and the Strange Math of God’s Kingdom",
+      "description": "God's kingdom operates on principles that often defy conventional wisdom. Discover how truth and freedom, paradoxically, unlock unexpected growth and impact in your leadership and business.",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/truth-freedom-and-the-strange-math-of-god-s-kingdom",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/ece348393b502c0ce1de1f57ef7b7e75fc604361-1920x1080.webp",
+      "publishedAt": "2026-01-16T11:50:00.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-pray-at-all-times-2026-01-15",
+      "title": "Pray At All Times",
+      "description": "Feeling hit from all sides even when you're doing everything \"right?\" It's a battle, not just a busy calendar, and prayer is your lifeline to truth. Discover how to lead with freedom by recognizing...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/pray-at-all-times",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/6684e7010ffba84978d9166365425d9828d090e2-1920x1080.webp",
+      "publishedAt": "2026-01-15T11:29:00.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-when-the-power-goes-out-inside-you-2026-01-14",
+      "title": "When The Power Goes Out Inside You",
+      "description": "Leading without God's guidance can feel like navigating a dark room, unsure and unsteady. Jesus invites us to embrace a childlike trust, not childishness, allowing His light to guide our path and...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/when-the-power-goes-out-inside-you",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/aecc700739d82ade2aa9879d155c4507f9427194-1920x1080.webp",
+      "publishedAt": "2026-01-14T11:21:00.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-working-through-the-impossible-2026-01-12",
+      "title": "Working Through The Impossible",
+      "description": "Are you facing what feels impossible in your business or leadership? Remember, your limits are not God's limits, and He steps into stories that seem stalled or broken. He is not afraid of the places...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/working-through-the",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/c830b04c897d1e0b02df486d361641d6c895c0c3-1920x1080.webp",
+      "publishedAt": "2026-01-12T19:01:00.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-when-the-bible-starts-reading-you-2026-01-12",
+      "title": "When The Bible Starts Reading You",
+      "description": "Feeling drained and disconnected? Scripture isn't just ancient text; it's a living voice that speaks directly into your challenges as a leader. Let the Bible read you, confronting and comforting,...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/when-the-bible-starts-reading-you",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/23ce80f8e36d580a828cc217b936d63dcad99a76-1920x1080.webp",
+      "publishedAt": "2026-01-12T12:13:00.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-when-you-want-god-most-everything-else-finds-its-p-2026-01-11",
+      "title": "When You Want God Most, Everything Else Finds Its Place",
+      "description": "Feeling pulled in too many directions? Prioritize your connection with God, and watch how clarity emerges in your leadership. When you consistently seek God first, even amidst the daily pressures,...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/when-you-want-god-most-everything-else-finds-its-place",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/5f091014acc0133c52bf0d0f12aa90545ae13984-1536x1024.png",
+      "publishedAt": "2026-01-11T15:15:00.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
       "id": "sidekick-strategies-women-of-hubspot-justine-gaignard-on-trusting-your-2026-01-10",
       "title": "Women of HubSpot: Justine Gaignard on Trusting Your Gut, Building Confidence, and Making HubSpot Adoption Feel Human",
       "description": "Justine Gaignard does not chase noise. She chases impact. She is the kind of founder who pays attention to what is working, what is not, and what her gut is trying to tell her. Then she moves. Clean....",
@@ -50,6 +186,21 @@
       "tags": [
         "Community Building"
       ]
+    },
+    {
+      "id": "spiritual-side-of-leadership-sabbath-was-made-for-you-let-jesus-reset-the-tempo-2026-01-10",
+      "title": "Sabbath Was Made for You: Let Jesus Reset the Tempo of a Pressured Life and Business",
+      "description": "Is your leadership fueled by a soul-shrinking grind? Jesus offers a better rhythm, one where rest resets your perspective and reconnects you to your purpose. Discover how to reclaim the Sabbath as a...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/sabbath-was-made-for-you-let-jesus-reset-the-tempo-of-a-pressured-life-and-business",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/6c9dd0b2784353315ac2de6bcf9ee314a66199f2-1536x1024.png",
+      "publishedAt": "2026-01-10T11:29:00.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
     },
     {
       "id": "george-b-thomas-time-to-talk-about-hubspot-1-9-2026-2026-01-10",
@@ -109,6 +260,21 @@
       "tags": [
         "Speaking & Training"
       ]
+    },
+    {
+      "id": "spiritual-side-of-leadership-the-power-of-open-handed-planning-2026-01-09",
+      "title": "The Power of Open-Handed Planning",
+      "description": "We plan and strategize, but life rarely unfolds exactly as expected. True leadership embraces open-handed planning: intention in our actions, trust in God's direction. Discover how to align your...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-power-of-open-handed-planning",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/f6baec09935d04344bac8a8c3b77a48f99f30aeb-1920x1080.webp",
+      "publishedAt": "2026-01-09T10:47:00.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
     },
     {
       "id": "spiritual-side-of-leadership-blessing-begins-with-belief-2026-01-08",
@@ -185,6 +351,36 @@
       "tags": [
         "Community Building"
       ]
+    },
+    {
+      "id": "spiritual-side-of-leadership-when-fear-walks-in-2026-01-08",
+      "title": "When Fear Walks In",
+      "description": "Fear can feel like failure, but what if it's actually a signal? Discover how to redefine fear as a prompt to trust more deeply, not control more tightly. Learn to shift your weight onto solid truth,...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/when-fear-walks-in",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/de6d61dbdeeaa624c0d35b5081990293c4b24634-1920x1080.webp",
+      "publishedAt": "2026-01-08T10:35:00.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-stay-awake-why-your-life-and-leadership-cannot-run-2026-01-08",
+      "title": "Stay Awake: Why Your Life and Leadership Cannot Run on Autopilot",
+      "description": "Feeling spiritually drowsy as a leader? Jesus' call to \"keep watch\" isn't just about the future, it's about living and leading with intention today. Stay awake by aligning your life and business with...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/stay-awake-why-your-life-and-leadership-cannot-run-on-autopilot",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/fc8adcb16e56aa659885a20524da8356ec078009-1920x1080.webp",
+      "publishedAt": "2026-01-08T10:01:00.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
     },
     {
       "id": "spiritual-side-of-leadership-truth-sets-me-free-faith-at-work-anthem-2026-01-07",
@@ -292,6 +488,21 @@
       ]
     },
     {
+      "id": "spiritual-side-of-leadership-shade-truth-and-freedom-2026-01-07",
+      "title": "Shade, Truth, And Freedom",
+      "description": "Feeling the heat of constant pressure? Remember, God is your keeper, your shade in the midst of the daily grind. Discover the truth that sets you free from the lies that fuel burnout, and lead from a...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/shade-truth-and-freedom",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/e7ef32254401d9220c9234e74b07944d0209f3e8-1920x1080.webp",
+      "publishedAt": "2026-01-07T11:50:00.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
       "id": "spiritual-side-of-leadership-your-heart-is-your-real-strategy-2026-01-06",
       "title": "Your Heart Is Your Real Strategy",
       "description": "Proverbs 4:23 shows that everything in life and business flows from your heart. In this Short, we talk about guarding your inner life so God’s truth can set you free in how you live and lead....",
@@ -372,6 +583,21 @@
       ]
     },
     {
+      "id": "spiritual-side-of-leadership-when-truth-walks-into-the-boardroom-2026-01-06",
+      "title": "When Truth Walks Into The Boardroom",
+      "description": "Feeling the pressure of leadership? Remember, your deepest beliefs are either a cage or a key. Anchor yourself in the truth that God is your salvation, not just your strategy, and lead with courage.",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/when-truth-walks-into-the-boardroom",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/bc1f572fc5baa7a90442d16f9eb25a06c57c7669-1920x1080.webp",
+      "publishedAt": "2026-01-06T11:39:00.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
       "id": "spiritual-side-of-leadership-guard-your-heart-christian-leadership-mindset-that-2026-01-05",
       "title": "Guard Your Heart: Christian Leadership Mindset That Sets You Free",
       "description": "If your calendar is full but your soul feels thin, this episode shows you how to guard your heart and lead from truth, not pressure. Drawing from Proverbs 4:23 and John 8:32, we unpack a simple...",
@@ -409,6 +635,66 @@
       "thumbnail": "https://i.ytimg.com/vi/zYh2s538eww/hqdefault.jpg",
       "publishedAt": "2026-01-05T19:22:27Z",
       "type": "video",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-the-truth-that-sets-you-free-in-life-and-business-2026-01-05",
+      "title": "The Truth That Sets You Free In Life And Business",
+      "description": "Hitting a wall in business? Cleverness and hustle only go so far. Discover how aligning with a deeper truth, rooted in faith, can unlock true freedom and clarity in your leadership.",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-truth-that-sets-you-free-in-life-and-business",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/ca1b86b09ef09041f0a74853aa6f0ed530d7fe32-1920x1080.webp",
+      "publishedAt": "2026-01-05T11:30:00.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-stop-polishing-the-past-and-start-perceiving-the-n-2026-01-04",
+      "title": "Stop Polishing the Past and Start Perceiving the New",
+      "description": "Leadership can turn yesterday into a ghost, but dwelling on the past obscures God's present work. Stop polishing old failures and start perceiving the new rescue God offers. He's building something...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/stop-polishing-the-past-and-start-perceiving-the-new-a-devotion-for-leaders-under-real-pressure",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/94fe49e5a909a9c43b3a46c874c178cda114893c-1536x1024.png",
+      "publishedAt": "2026-01-04T11:21:00.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-clothe-yourself-like-a-leader-2026-01-03",
+      "title": "Clothe Yourself Like a Leader",
+      "description": "In the midst of the business battlefield, what are you truly wearing? Beyond the blazer and shoes, clothe yourself in compassion, kindness, humility, gentleness, and patience. These aren't just soft...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/clothe-yourself-like-a-leader",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/a7d7615fbd6935d43b28ce57309d9d698af40d29-1536x1024.png",
+      "publishedAt": "2026-01-03T18:11:50.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-when-remembering-becomes-a-survival-skill-2026-01-03",
+      "title": "When Remembering Becomes a Survival Skill",
+      "description": "Feeling the weight of leadership? Remembered grace isn't just a nice idea, it's a powerful practice. Deliberately recalling God's specific acts of provision can shift your perspective and renew your...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/when-remembering-becomes-a-survival-skill",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/49c2fbb7e4594fdd316c375a894cda56ae8d75d9-1536x1024.png",
+      "publishedAt": "2026-01-03T11:51:00.000Z",
+      "type": "article",
       "source": "Spiritual Side of Leadership",
       "pillars": [
         "Spiritual Leadership",
@@ -534,6 +820,53 @@
       "tags": []
     },
     {
+      "id": "spiritual-side-of-leadership-god-did-not-give-you-fear-2026-01-02",
+      "title": "God Did Not Give You Fear",
+      "description": "Are you stalling on a crucial decision, letting fear masquerade as wisdom? Remember, God didn't give you a spirit of fear, but one of power, love, and a sound mind to lead with confidence. Don't let...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/god-did-not-give-you-fear",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/08b21c5802f80c45e75d7aac0fe5ae75363b3351-1920x1080.webp",
+      "publishedAt": "2026-01-02T10:58:00.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-love-truth-and-the-work-of-alignment-2026-01-01",
+      "title": "Love, Truth, and the Work of Alignment",
+      "description": "Are you settling for appearances, or practicing true goodness? Authentic leadership isn't just about feeling right, it's about aligning with truth. Discover how to cultivate a love that celebrates...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/love-truth-and-the-work-of-alignment",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/63c13366600982ae51612ed4181fdec2e25aab02-1920x1080.webp",
+      "publishedAt": "2026-01-01T12:01:00.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Personal Growth"
+      ],
+      "tags": [
+        "Leadership"
+      ]
+    },
+    {
+      "id": "spiritual-side-of-leadership-you-will-never-walk-into6-that-conversation-alone-2025-12-31",
+      "title": "You Will Never Walk Into6 That Conversation Alone",
+      "description": "Facing a tough conversation at work? Remember, you're not alone: God's Spirit can guide your words in those critical moments. Release the pressure of having all the answers, and trust that you are a...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/you-will-never-walk-into-that-conversation-alone",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/ee055d3c175fb4409af16022267979baefd12b25-1536x1024.png",
+      "publishedAt": "2025-12-31T10:05:00.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
       "id": "spiritual-side-of-leadership-near-in-the-pressure-psalm-145-18-2025-12-30",
       "title": "Near In The Pressure (Psalm 145:18)",
       "description": "A calm worship song inspired by Psalm 145:18, written for leaders and business owners who need to remember that God is near when we call on Him in truth. Let this track walk with you through late...",
@@ -561,6 +894,23 @@
         "Leadership"
       ],
       "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-keep-the-faith-2025-12-30",
+      "title": "Keep the Faith",
+      "description": "Are you in the middle of the grind, where endurance feels harder than vision? Paul's words, \"I have kept the faith,\" remind us that true success lies in aligning with God's calling, not chasing...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/keep-the-faith",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/05d82361a23e35073b49f7f6188a10d7714e5367-1920x1080.webp",
+      "publishedAt": "2025-12-30T10:51:00.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Personal Growth"
+      ],
+      "tags": [
+        "Leadership"
+      ]
     },
     {
       "id": "spiritual-side-of-leadership-you-are-a-steward-not-the-savior-2025-12-29",
@@ -618,6 +968,96 @@
       "pillars": [
         "Marketing & Sales",
         "Personal Growth"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-healed-by-his-wounds-2025-12-29",
+      "title": "Healed by His Wounds",
+      "description": "Are you leading from a place of pressure or peace? Discover how Jesus's sacrifice offers a path to wholeness, transforming how you lead, mentor, and build trust within your team. Embrace your scars;...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/healed-by-his-wounds",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/1dd0934a3e74f7baa7aad4051808ff7f5a6ee0a4-1536x1024.png",
+      "publishedAt": "2025-12-29T11:39:00.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-walk-as-jesus-did-2025-12-28",
+      "title": "Walk As Jesus Did",
+      "description": "Are your actions truly aligned with your faith? To lead like Jesus means embracing service, empathy, and integrity in every decision, building trust through compassion, not control. Let your life be...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/walk-as-jesus-did",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/6054f05fafaad0363d45d844dae3d96c724aa89d-1536x1024.png",
+      "publishedAt": "2025-12-28T11:22:00.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-peace-that-begins-where-striving-ends-2025-12-27",
+      "title": "Peace That Begins Where Striving Ends",
+      "description": "Are you striving for success to prove your worth? Discover a deeper peace that transforms how you lead, relate, and move through the world. Embrace the freedom of leading from a place of trust, not...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/peace-that-begins-where-striving-ends",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/5d03d1ae8cb9967d01f5ca65a3aa1d03ab6b7efc-1920x1080.webp",
+      "publishedAt": "2025-12-27T11:09:00.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-the-treasure-test-2025-12-26",
+      "title": "The Treasure Test",
+      "description": "Are you building a legacy that lasts, or chasing fleeting comfort? Discover how aligning your treasure with eternal values transforms your leadership and creates lasting impact. Where you invest your...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-treasure-test",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/b6d68234c906b3c52efdf2e017c7d827b5f0f3c8-1536x1024.png",
+      "publishedAt": "2025-12-26T10:45:00.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-when-jesus-is-lord-you-can-stop-trying-to-be-the-h-2025-12-25",
+      "title": "When Jesus Is Lord, You Can Stop Trying to Be the Hero",
+      "description": "Feeling the weight of leadership at 2:00 a.m.? What if that burden was never meant for you? Discover how recognizing Jesus as Lord allows you to release control and embrace your true role as a...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/when-jesus-is-lord-you-can-stop-trying-to-be-the-hero",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/b25c4b5ffe32e23698403d355ac933ed746b3d19-1536x1024.png",
+      "publishedAt": "2025-12-25T12:09:00.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-when-glory-interrupts-your-ordinary-leading-from-g-2025-12-24",
+      "title": "When Glory Interrupts Your Ordinary: Leading From Good News Instead of Fear",
+      "description": "Are you letting fear write the script for your leadership? Discover how the good news interrupts the ordinary, offering reassurance instead of pressure. Learn to lead from a place of joy, not...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/when-glory-interrupts-your-ordinary-leading-from-good-news-instead-of-fear",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/b9315f4bef4facfc10d8f7bec1a9ee989c400e34-1536x1024.png",
+      "publishedAt": "2025-12-24T11:49:00.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
       ],
       "tags": []
     },
@@ -694,6 +1134,23 @@
       "tags": []
     },
     {
+      "id": "spiritual-side-of-leadership-no-room-still-god-leading-with-trust-when-the-plan-2025-12-23",
+      "title": "No Room, Still God: Leading With Trust When the Plan Breaks",
+      "description": "When the plan breaks and the room disappears, trust feels impossible, but it's the invitation to a deeper faith. See the tight place not as a detour, but as the exact location where God wants to...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/no-room-still-god-leading-with-trust-when-the-plan-breaks",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/2c94c8e76829daed1120ea647f5fce2a026280ad-1536x1024.png",
+      "publishedAt": "2025-12-23T13:45:00.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Personal Growth"
+      ],
+      "tags": [
+        "Leadership"
+      ]
+    },
+    {
       "id": "spiritual-side-of-leadership-the-lie-your-calendar-keeps-preaching-2025-12-22",
       "title": "The Lie Your Calendar Keeps Preaching",
       "description": "This Short unpacks Matthew 24:42 and shows how God’s truth exposes the lies our schedules preach about worth and success. Learn a simple way to trade hustle driven identity for real freedom in life...",
@@ -753,6 +1210,51 @@
       "tags": []
     },
     {
+      "id": "spiritual-side-of-leadership-god-did-not-give-you-fear-2025-12-22",
+      "title": "God Did Not Give You Fear",
+      "description": "Feeling stuck and indecisive? That anxiety might not be wisdom, but fear in disguise. Remember, God empowers you with love and a clear mind to lead boldly.",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/god-did-not-give-you",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/2d17b77a2dced0ea1c3180d75949bf15e1ac4384-1920x1080.webp",
+      "publishedAt": "2025-12-22T10:10:00.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-blessing-begins-where-belief-stops-negotiating-2025-12-21",
+      "title": "Blessing Begins Where Belief Stops Negotiating",
+      "description": "Feeling the pressure to control every outcome? True leadership trusts God's word even when the path ahead is unclear. Stop negotiating with God and start agreeing with His direction, even in the...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/blessing-begins-where-belief-stops-negotiating",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/ab816bb0691c9486be47a1f9176e1ebbce2e3959-1536x1024.png",
+      "publishedAt": "2025-12-21T14:01:00.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-when-god-asks-for-what-feels-impossible-2025-12-20",
+      "title": "When God Asks For What Feels Impossible",
+      "description": "Are you chasing impossible deals or facing an impossible internal battle? This passage reframes what Jesus calls \"impossible,\" shifting the focus from external achievements to the surrender of our...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/when-god-asks-for-what-feels-impossible",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/4505ed3e72394c05a19d384dc947520178dea166-1920x1080.webp",
+      "publishedAt": "2025-12-20T14:38:00.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Personal Growth"
+      ],
+      "tags": []
+    },
+    {
       "id": "george-b-thomas-christmas-wishlist-call-in-and-let-us-know-2025-12-20",
       "title": "Christmas Wishlist? Call in and let us know.",
       "description": "What would you like to see under your tree? 🎙️ New to streaming or looking to level up? Check out StreamYard and get $10 discount! 😍 https://streamyard.com/pal/d/5384198837633024",
@@ -791,6 +1293,21 @@
       "source": "George B Thomas",
       "pillars": [
         "AI & Technology"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-when-love-walks-into-the-boardroom-2025-12-19",
+      "title": "When Love Walks Into The Boardroom",
+      "description": "Imagine Jesus walking into your Monday morning, not as a verse on a mug, but as a personal statement: \"I loved you first.\" Let this disruptive truth shape your leadership, touching your marriage,...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/when-love-walks-into-the-boardroom",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/ac31ec5010bca9b638e4edb6ad19f56e14bd0cb9-1920x1080.webp",
+      "publishedAt": "2025-12-19T18:32:00.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
       ],
       "tags": []
     },
@@ -958,6 +1475,21 @@
       "tags": []
     },
     {
+      "id": "spiritual-side-of-leadership-the-harvest-is-now-2025-12-18",
+      "title": "The Harvest Is Now",
+      "description": "Are you seeing the harvest in your business, or just the daily grind? Jesus saw fields ripe with opportunity, a powerful reminder that leadership starts with recognizing the potential in those around...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/harvest-is-now",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/cf992d96fbead566aee65dbd4509e5280689c61a-1920x1080.webp",
+      "publishedAt": "2025-12-18T10:55:00.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
       "id": "george-b-thomas-wake-up-with-customer-platform-live-hubspot-update-2025-12-18",
       "title": "Wake Up With Customer Platform LIVE | HubSpot Updates | 12/16/2025",
       "description": "Wake up with the latest HubSpot updates you can actually use. Today we are covering: 👉 Customer Agent Working Hours 👉 Built-in video editor for social posts 👉 Improved Team Hierarchy View In this...",
@@ -1045,6 +1577,23 @@
       ],
       "tags": [
         "Community Building"
+      ]
+    },
+    {
+      "id": "spiritual-side-of-leadership-create-in-me-a-clean-heart-2025-12-17",
+      "title": "Create in Me a Clean Heart",
+      "description": "Success can dull our awareness, making us forget our need for grace. True leadership requires a Spirit-driven renewal of who you are and why you lead, focusing on purity of motive, not perfection....",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/create-in-me-a-clean-heart",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/2ddfcd23a2487b3639816aee4f26ae51d6d01c9b-1920x1080.webp",
+      "publishedAt": "2025-12-17T10:43:00.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Personal Growth"
+      ],
+      "tags": [
+        "Leadership"
       ]
     },
     {
@@ -1139,6 +1688,21 @@
       "tags": []
     },
     {
+      "id": "spiritual-side-of-leadership-leading-with-freedom-when-pressure-gets-loud-2025-12-16",
+      "title": "Leading With Freedom When Pressure Gets Loud",
+      "description": "Feeling the weight of leadership? Remember, Jesus doesn't call you to admire His leadership from afar, but to trust His heart, especially when tempted to lead with control instead of love. When...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/leading-with-freedom-when-pressure-gets-loud",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/9cfe71debe3ec73822a03b31c0413c4c1ac19efb-1920x1080.webp",
+      "publishedAt": "2025-12-16T11:23:00.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
       "id": "george-b-thomas-hubspot-updates-12-15-2025-2025-12-16",
       "title": "HubSpot Updates 12/15/2025",
       "description": "Time to talk about the HubSpot updates you may need. #hubspot #hubspotcms #hubspotcrm 🎙️ New to streaming or looking to level up? Check out StreamYard and get $10 discount! 😍...",
@@ -1149,6 +1713,53 @@
       "source": "George B Thomas",
       "pillars": [
         "HubSpot"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-how-remembering-god-s-mercy-rewrites-your-life-and-2025-12-15",
+      "title": "How Remembering God’s Mercy Rewrites Your Life and Leadership",
+      "description": "Feeling the weight of past decisions? Remember God's mercy, a powerful force that rewrites your leadership story and frees you from the grip of shame. Embrace His forgiveness as a blueprint for...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/how-remembering-god-s-mercy-rewrites-your-life-and-leadership",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/3343de41ab88e0cb4aa92e7aa3a47cfbe8ca1041-1920x1080.webp",
+      "publishedAt": "2025-12-15T11:29:00.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Personal Growth"
+      ],
+      "tags": [
+        "Leadership"
+      ]
+    },
+    {
+      "id": "spiritual-side-of-leadership-how-god-s-truth-sets-you-free-in-life-and-business-2025-12-14",
+      "title": "How God’s Truth Sets You Free In Life And Business",
+      "description": "Your heart is the control center, influencing everything you do, so guard it above all else, even strategy and brand. Are you truly aware of what shapes your inner life, the one steering your...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/how-god-s-truth-sets-you-free-in-life-and-business",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/01069c67d2623b4cf2295aa88d0dbb8d684ac370-1920x1080.webp",
+      "publishedAt": "2025-12-14T11:07:00.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-when-truth-meets-a-tired-leader-2025-12-13",
+      "title": "When Truth Meets A Tired Leader",
+      "description": "Feeling the weight of leadership? Remember, endurance isn't just grinding harder, it's God-given strength to stay true to your calling. Ask yourself: Whose truth are you building on, and is it truly...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/when-truth-meets-a-tired-leader",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/63f533875c872998d79d058ce47a12974d4a4441-1920x1080.webp",
+      "publishedAt": "2025-12-13T10:59:00.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
       ],
       "tags": []
     },
@@ -1167,6 +1778,36 @@
       "tags": []
     },
     {
+      "id": "spiritual-side-of-leadership-the-reflex-that-rewrites-the-room-2025-12-12",
+      "title": "The Reflex That Rewrites the Room",
+      "description": "Feeling squeezed by pressure or puffed up by success? Scripture offers a simple reflex: pray in the pinch, praise in the plenty. This isn't mood management, it's spiritual alignment, choosing God's...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-reflex-that-rewrites-the-room",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/1a662ded2eaebc8247aaef5c05470e0e382d05f4-1920x1080.webp",
+      "publishedAt": "2025-12-12T10:42:00.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Personal Growth"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-be-strong-and-take-heart-2025-12-11",
+      "title": "Be Strong and Take Heart",
+      "description": "Feeling hemmed in by endless demands? Psalm 31 reminds us that true strength isn't about \"acting tough,\" but about receiving courage from a Source greater than ourselves. Learn to refuel by drawing...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/be-strong-and-take-heart",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/54212e836f5c275eff5d360bec1fc988a9f07b79-1920x1080.webp",
+      "publishedAt": "2025-12-11T10:17:00.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Personal Growth"
+      ],
+      "tags": []
+    },
+    {
       "id": "george-b-thomas-time-to-talk-about-hubspot-updates-2025-12-11",
       "title": "Time to Talk about HubSpot Updates",
       "description": "Time to talk to HubSpot Updates for your portfolio and team. #hubspot #hubspotcrm #hubspotcms #marketing #sales #service #revops 🎙️ New to streaming or looking to level up? Check out StreamYard and...",
@@ -1177,6 +1818,21 @@
       "source": "George B Thomas",
       "pillars": [
         "HubSpot"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-think-about-what-you-think-about-2025-12-10",
+      "title": "Think About What You Think About",
+      "description": "Most battles are fought in the mind, where fear whispers doubts. Faith must rise and answer with truth, shaping your leadership before strategy ever does. Lead your thoughts; build what you believe.",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/think-about-what-you-think-about",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/5c86d4cb06f972ca1354cee4bd45e8580caa4394-1920x1080.webp",
+      "publishedAt": "2025-12-10T11:23:00.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Personal Growth"
       ],
       "tags": []
     },
@@ -1212,6 +1868,21 @@
       "tags": []
     },
     {
+      "id": "spiritual-side-of-leadership-the-room-you-can-t-see-still-runs-the-room-2025-12-09",
+      "title": "The Room You Can’t See Still Runs the Room",
+      "description": "Don't let the visible pressures of business overshadow the unseen values that truly matter. Focus on integrity, people, and truth to build a resilient culture that weathers any storm. Prioritize...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-room-you-can-t-see-still-runs-the-room",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/d4d434849db3470ef509508fd3595b9e002cb0e1-1920x1080.webp",
+      "publishedAt": "2025-12-09T11:27:00.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
       "id": "george-b-thomas-hubspot-updates-on-a-monday-morning-12-8-2025-2025-12-09",
       "title": "HuBSpot Updates on a Monday Morning 12/8/2025",
       "description": "Time to chat about HubSpot updates. #hubspot #hubsporcrm #hubspotcms 🎙️ New to streaming or looking to level up? Check out StreamYard and get $10 discount! 😍...",
@@ -1222,6 +1893,36 @@
       "source": "George B Thomas",
       "pillars": [
         "HubSpot"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-truth-and-real-freedom-in-life-and-business-2025-12-08",
+      "title": "Truth, and Real Freedom In Life And Business",
+      "description": "Are you leading from a place of brokenness? Psalm 34:18 offers a powerful reminder that God meets us not just on Sundays, but in the quiet desperation of late nights at the office. Discover how...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/truth-and-real-freedom-in-life-and-business",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/f62078f9eaa913e6beb16c8b3df221da632b1109-1920x1080.webp",
+      "publishedAt": "2025-12-08T11:03:00.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Personal Growth"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-loved-first-free-to-lead-2025-12-07",
+      "title": "Loved First, Free To Lead",
+      "description": "Are you running on fumes, trying to manufacture love and truth in your business? Discover how God's initiating love and truth can be the source of real freedom, not just another performance metric....",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/loved-first-free-to-lead",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/5184fdb579a33fecf1a8a2d4591d59c5b0aea187-1536x1024.png",
+      "publishedAt": "2025-12-07T12:40:00.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
       ],
       "tags": []
     },
@@ -1268,6 +1969,21 @@
       "tags": []
     },
     {
+      "id": "spiritual-side-of-leadership-leading-through-the-broken-places-2025-12-04",
+      "title": "Leading Through the Broken Places",
+      "description": "In the face of broken dreams and failed plans, true leadership emerges. It's in these challenging moments that God’s closeness transforms from a comforting idea to a powerful, sustaining presence....",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/leading-through-the-broken-places",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/209dbbb4ddcf116d90c3532d5626a74bc9c8e098-1536x1024.png",
+      "publishedAt": "2025-12-04T21:49:00.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
       "id": "george-b-thomas-hubspot-updates-12-3-2025-2025-12-04",
       "title": "HubSpot Updates 12/3/2025",
       "description": "Time to talk about HubSpot Updates that you may or may not know about. #hubspot #hubspotcrm #hubspotcms 🎙️ New to streaming or looking to level up? Check out StreamYard and get $10 discount! 😍...",
@@ -1278,6 +1994,21 @@
       "source": "George B Thomas",
       "pillars": [
         "HubSpot"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-reclaiming-abundance-in-a-world-that-keeps-taking-2025-12-03",
+      "title": "Reclaiming Abundance in a World That Keeps Taking",
+      "description": "Are you feeling drained despite your success? The \"thief\" Jesus spoke of can steal your peace through busyness and relentless ambition. Discover how to reclaim true abundance by prioritizing rhythm...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/reclaiming-abundance-in-a-world-that-keeps-taking",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/f9a75bdd8b436a39aa550604956d62666a217487-1920x1080.webp",
+      "publishedAt": "2025-12-03T21:41:00.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Personal Growth"
       ],
       "tags": []
     },
@@ -1347,6 +2078,36 @@
       "tags": []
     },
     {
+      "id": "spiritual-side-of-leadership-the-unlikely-warrior-within-2025-11-28",
+      "title": "The Unlikely Warrior Within",
+      "description": "Even when you feel hidden in your own winepress, remember Gideon: God calls the willing, not just the ready. Your leadership isn't about a perfect resume, but about saying \"yes\" and letting heaven...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-unlikely-warrior-within",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/8731328d65d673232ec47446c3f40397a6e8653d-1536x1024.png",
+      "publishedAt": "2025-11-28T13:36:36.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-the-freedom-of-confession-2025-11-27",
+      "title": "The Freedom of Confession",
+      "description": "In leadership, trying to appear flawless often leads to a fractured soul. Confession isn't about guilt; it's about integrity and aligning with truth. When leaders acknowledge their imperfections,...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-freedom-of-confession",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/a855811cd70b695fa0e43c07a0f4c6d099d7f9de-1456x971.webp",
+      "publishedAt": "2025-11-27T13:30:53.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
       "id": "george-b-thomas-hubspot-updates-2025-11-27",
       "title": "HuBSpot Updates",
       "description": "Time to talk about HubSpot. 🎙️ New to streaming or looking to level up? Check out StreamYard and get $10 discount! 😍 https://streamyard.com/pal/d/5384198837633024",
@@ -1357,6 +2118,21 @@
       "source": "George B Thomas",
       "pillars": [
         "HubSpot"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-love-compelled-him-2025-11-26",
+      "title": "Love Compelled Him",
+      "description": "What compels you as a leader? Jesus wasn't driven by power, but by love, a force that can redefine how you lead and build. When love compels you, you'll see your team and your work through a new,...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/love-compelled-him",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/c83d47172516d0cebb6d1bf479f8f0a879ca0d41-1456x971.webp",
+      "publishedAt": "2025-11-26T13:27:35.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
       ],
       "tags": []
     },
@@ -1389,6 +2165,51 @@
       "tags": []
     },
     {
+      "id": "spiritual-side-of-leadership-what-you-plant-is-what-you-lead-2025-11-25",
+      "title": "What You Plant Is What You Lead",
+      "description": "In leadership, every thought and action is a seed with the potential to either flourish meaningfully or leave you hollow. The challenge lies in choosing to nurture patience, empathy, and authenticity...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/what-you-plant-is-what-you-lead",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/e5833c45deebb7e1bcaac2a0bd948188bec67480-1456x971.webp",
+      "publishedAt": "2025-11-25T13:23:29.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Personal Growth"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-the-spirit-that-raises-the-dead-2025-11-24",
+      "title": "The Spirit That Raises the Dead",
+      "description": "Are you running on empty? Romans 8:11 reminds us that the same Spirit that raised Jesus from the dead lives in you, offering power beyond your own strength. Discover how this ancient truth can...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-spirit-that-raises-the-dead",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/24609b03101ce599a2f4e1e5c6c8cbcbd26c9136-1456x971.webp",
+      "publishedAt": "2025-11-24T13:21:31.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Personal Growth"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-sacrificial-love-2025-11-23",
+      "title": "Sacrificial Love",
+      "description": "Sacrificial love is not just a spiritual tenet; it is a transformative business principle. As leaders, the quality of your relationships is measured by what you are willing to give, not what you say....",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/sacrificial-love",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/03814b05a45fb42bb7b4a80fa2753b28dc4f63fb-1456x971.webp",
+      "publishedAt": "2025-11-23T13:17:43.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
       "id": "george-b-thomas-getting-nerdy-on-a-saturday-with-ai-ai-2025-11-22",
       "title": "Getting Nerdy on a Saturday with AI #ai",
       "description": "Time to see what I can learn about AI and vibe coding. #business #ai #aiassisted #growth #vibecoding 🎙️ New to streaming or looking to level up? Check out StreamYard and get $10 discount! 😍...",
@@ -1399,6 +2220,21 @@
       "source": "George B Thomas",
       "pillars": [
         "AI & Technology"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-ask-seek-knock-2025-11-22",
+      "title": "Ask. Seek. Knock.",
+      "description": "Are you truly ready for the opportunities you're pursuing? Jesus' call to \"ask, seek, knock\" isn't just about prayer, it's a framework for aligning your ambitions with a deeper purpose. Discover how...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/ask-seek-knock",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/aae3ee8840e055d7f2d7ddfcb34f44772f3a9613-1456x971.webp",
+      "publishedAt": "2025-11-22T13:14:28.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Personal Growth"
       ],
       "tags": []
     },
@@ -1431,6 +2267,21 @@
       "tags": []
     },
     {
+      "id": "spiritual-side-of-leadership-the-peace-of-glory-2025-11-21",
+      "title": "The Peace of Glory",
+      "description": "Are sleepless nights piling up as you carry the weight of leadership? True peace isn't the absence of chaos, but the presence of trust, knowing God sustains what you're building. Reframe your purpose...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-peace-of-glory",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/86cb9f27bcf377f8ab80c7106d2cd4260d0478a5-1456x971.webp",
+      "publishedAt": "2025-11-21T13:12:38.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Personal Growth"
+      ],
+      "tags": []
+    },
+    {
       "id": "george-b-thomas-hubspot-updates-11-20-2025-hubspotcrm-2025-11-21",
       "title": "HubSpot Updates 11/20/2025 #hubspotcrm",
       "description": "Time to talk about important HubSpot Updates! #hubspot #hubspotcrm #hubspotcms #hubpartner #marketing #sales #service #revops 🎙️ New to streaming or looking to level up? Check out StreamYard and get...",
@@ -1445,6 +2296,21 @@
       "tags": []
     },
     {
+      "id": "spiritual-side-of-leadership-the-light-that-draws-nations-2025-11-20",
+      "title": "The Light That Draws Nations",
+      "description": "Your faith isn't a personal accessory, it's a directional light. People are watching how you handle pressure and conflict, let your integrity guide them forward. Are you chasing, or are you shining?",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-light-that-draws-nations",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/6245aff00f4b4498d669da6053dd7e1430355082-1456x971.webp",
+      "publishedAt": "2025-11-20T13:08:37.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
       "id": "george-b-thomas-hubbspot-updates-11-19-2025-hubspotcrm-2025-11-20",
       "title": "HubbSpot Updates 11/19/2025 #hubspotcrm",
       "description": "Time to talk about HubSpot updates you might care about. #hubspot #hubspotcrm #hubspotcms 🎙️ New to streaming or looking to level up? Check out StreamYard and get $10 discount! 😍...",
@@ -1455,6 +2321,21 @@
       "source": "George B Thomas",
       "pillars": [
         "HubSpot"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-the-shepherd-s-way-2025-11-19",
+      "title": "The Shepherd’s Way",
+      "description": "Are you leading like a driver or a shepherd? Isaiah 40:11 offers a powerful model: strength to challenge, tenderness to nurture. Discover how integrating both can cultivate loyalty, creativity, and...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-shepherds-way",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/107071ec871653205e954fda6e8c172d5642a2a7-1456x971.webp",
+      "publishedAt": "2025-11-19T22:01:25.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
       ],
       "tags": []
     },
@@ -1483,6 +2364,21 @@
       "source": "George B Thomas",
       "pillars": [
         "HubSpot"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-rest-is-a-reality-why-hebrews-4-9-speaks-to-life-a-2025-11-18",
+      "title": "Rest Is a Reality: Why Hebrews 4:9 Speaks to Life and Business",
+      "description": "In the relentless pace of business, Hebrews 4:9 offers a transformative insight: authentic rest is not a luxury, but a necessity for sustainable success. Embrace rest as a strategic advantage,...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/rest-is-a-reality-why-hebrews-4-9-speaks-to-life-and-business",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/16baa022ce0d7d31c1650cb1e6ba76569775d943-1456x971.webp",
+      "publishedAt": "2025-11-18T13:57:09.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
       ],
       "tags": []
     },
@@ -1519,6 +2415,66 @@
       ]
     },
     {
+      "id": "spiritual-side-of-leadership-a-new-heart-for-life-and-leadership-2025-11-17",
+      "title": "A New Heart for Life and Leadership",
+      "description": "Is your leadership heart failing? Pride, fear, regret, they calcify us until we cannot flourish. God offers a transplant, a responsive heart capable of sustaining life and purpose in your business.",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/a-new-heart-for-life-and-leadership",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/8c2c0801db89af3ce6ba1dd5836da01b52e5693c-1456x971.webp",
+      "publishedAt": "2025-11-17T13:51:24.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-the-only-way-forward-2025-11-16",
+      "title": "The Only Way Forward",
+      "description": "Feeling lost in the chaos of leadership? Jesus doesn't offer a map, He offers Himself: the way forward. Align your decisions with His truth, and discover a life that sustains you through every...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-only-way-forward",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/b24f1af57f498c4211988ecc46d4803b611df54b-1456x971.webp",
+      "publishedAt": "2025-11-16T13:44:35.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-from-dawn-to-dusk-2025-11-15",
+      "title": "From Dawn to Dusk",
+      "description": "The call to praise from dawn to dusk isn't just poetic, it's a leadership mandate, reminding us that perspective shapes our purpose. Embrace a posture of continuous gratitude, and watch how it...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/from-dawn-to-dusk",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/69f68d625b989f9e4e76a651978772eafade3cfa-1456x971.webp",
+      "publishedAt": "2025-11-15T13:41:37.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-prove-it-wisdom-is-more-than-words-2025-11-14",
+      "title": "Prove It: Wisdom Is More Than Words",
+      "description": "In leadership, wisdom shows not in words but in actions. It's easy to craft a compelling story or boast about accomplishments, but true wisdom is demonstrated in daily choices and humility. As...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/prove-it",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/a17cb0474387ed44f9728c5b5ac63f6cea0bbfc7-1456x971.webp",
+      "publishedAt": "2025-11-14T13:13:25.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
       "id": "george-b-thomas-let-s-chat-about-what-it-could-look-like-in-busine-2025-11-14",
       "title": "Let's chat about what it could look like in business.",
       "description": "Time to chat! 🎙️ New to streaming or looking to level up? Check out StreamYard and get $10 discount! 😍 https://streamyard.com/pal/d/5384198837633024",
@@ -1533,6 +2489,36 @@
       "tags": []
     },
     {
+      "id": "spiritual-side-of-leadership-live-prepared-2025-11-13",
+      "title": "Live Prepared",
+      "description": "In the high-stakes world of leadership, readiness is crucial, much like a firefighter or pilot. As a faith-driven leader, being prepared means embodying hope even amid challenges. Your greatest...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/live-prepared",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/ec0e07bf83ee88d7fa33807b7eeab65bb10e3b53-1456x971.webp",
+      "publishedAt": "2025-11-13T13:08:41.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-trust-in-the-rock-eternal-2025-11-11",
+      "title": "Trust in the Rock Eternal",
+      "description": "Everything we build will eventually be tested, dreams stall, markets shift, leaders fail. Anchor your trust in the Rock that doesn’t move; it’s not just theology, it's a survival strategy. Root your...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/trust-in-the-rock-eternal",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/8211f848a3d2f5a2ac704626f7efa5c4a3097752-1456x971.webp",
+      "publishedAt": "2025-11-11T13:58:23.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
       "id": "george-b-thomas-hubspot-updates-customer-platform-hubspot-2025-11-11",
       "title": "HubSpot Updates - Customer Platform #hubspot",
       "description": "Time to talk about the new HubSpot Updates in Customer Platform you may need or want. #hubspot #hubspotcrm #hubspotcms #marketing #sales #service 🎙️ New to streaming or looking to level up? Check...",
@@ -1543,6 +2529,51 @@
       "source": "George B Thomas",
       "pillars": [
         "HubSpot"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-stepping-into-the-unknown-with-courage-2025-11-10",
+      "title": "Stepping Into the Unknown With Courage",
+      "description": "In the dynamic world of leadership, the daunting unknown often feels like a constant companion. Yet, just as Moses passed the torch to Joshua, we learn that leadership is not about one person's...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/stepping-into-the-unknown-with-courage",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/78c32f5ff3d2ebd582cbca88eb122e31ef07418d-1456x971.webp",
+      "publishedAt": "2025-11-10T13:08:37.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-when-hearts-turn-everything-changes-2025-11-09",
+      "title": "When Hearts Turn, Everything Changes",
+      "description": "In a world where politics and families often feel fractured, true leadership calls for the turning of hearts. This isn't just about spiritual repentance; it's about relational renewal and closing the...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/when-hearts-turn-everything-changes",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/a0571ce15884e45155599fd48fba54d07c1cdaa8-1456x971.webp",
+      "publishedAt": "2025-11-09T13:03:18.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-the-power-of-a-lamp-2025-11-08",
+      "title": "The Power of a Lamp",
+      "description": "Feeling lost in the dark? God's Word isn't a spotlight revealing the whole future, but a lamp guiding your next step with courage. Trust the lamp you've been given, and remember it illuminates not...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-power-of-a-lamp",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/1c53f6b4b0bcc6c9fae963b027a45615ff8e8aab-1456x971.webp",
+      "publishedAt": "2025-11-08T13:50:03.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
       ],
       "tags": []
     },
@@ -1590,6 +2621,21 @@
       "tags": []
     },
     {
+      "id": "spiritual-side-of-leadership-the-myth-of-more-effort-2025-11-07",
+      "title": "The Myth of More Effort",
+      "description": "Tired of the \"hustle harder\" myth? True strength isn't about relentless effort, it's about aligning with a higher power to find sustainable energy. Discover how waiting on God can redefine your...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-myth-of-more-effort",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/b59cc716068f5ee71d6b5c52331c5454303e1443-1456x971.webp",
+      "publishedAt": "2025-11-07T13:39:39.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
       "id": "george-b-thomas-hubspot-updates-11-6-2025-hubspot-2025-11-07",
       "title": "HuBSpot Updates 11/6/2025 #hubspot",
       "description": "Time to talk about HubSpot updates you just might care about. #hubspot #hubspotcrm #hubspotcme #marketing #dales #service 🎙️ New to streaming or looking to level up? Check out StreamYard and get $10...",
@@ -1600,6 +2646,21 @@
       "source": "George B Thomas",
       "pillars": [
         "HubSpot"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-the-fight-for-gratitude-2025-11-06",
+      "title": "The Fight for Gratitude",
+      "description": "Cynicism can creep in when things get tough, whispering doubts that undermine your vision. Fight back with gratitude: it's not denial, but a deliberate choice to see God's grace and find...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-fight-for-gratitude",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/f9b0a3b212755d9755fd626c443e8679dd866bdd-1456x971.webp",
+      "publishedAt": "2025-11-06T13:35:37.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Personal Growth"
       ],
       "tags": []
     },
@@ -1618,6 +2679,20 @@
       "tags": []
     },
     {
+      "id": "spiritual-side-of-leadership-the-call-that-comes-when-you-least-expect-it-2025-11-05",
+      "title": "The Call That Comes When You Least Expect It",
+      "description": "The Call That Comes When You Least Expect It",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-call-that-comes-when-you-least-expect-it",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/b6d00f36b3e1ad4a33fe671c3102dc352e0a4a4d-1456x971.webp",
+      "publishedAt": "2025-11-05T13:45:28.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
       "id": "george-b-thomas-hubspot-updates-11-4-2025-hubspot-2025-11-05",
       "title": "HubSpot Updates 11/4/2025 #hubspot",
       "description": "Let's talk about what's new in your HubSpot portal. #hubspot #hubspotcrm #hubspotcms #customerplatform #marketing #sales #service 🎙️ New to streaming or looking to level up? Check out StreamYard and...",
@@ -1632,6 +2707,21 @@
       "tags": []
     },
     {
+      "id": "spiritual-side-of-leadership-stay-alert-2025-11-04",
+      "title": "Stay Alert",
+      "description": "Leading with faith requires constant vigilance, not just grand gestures. Don't let distractions devour your focus or compromise your values, stay alert to the challenges around you. Build yourself up...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/stay-alert",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/a189782ed7d7cfcd467bb949d106134e72171bec-1456x971.webp",
+      "publishedAt": "2025-11-04T13:46:26.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
       "id": "george-b-thomas-hubspot-updates-customer-platform-hubspot-2025-11-04",
       "title": "HubSpot Updates - Customer Platform #hubspot",
       "description": "Time to discuss the HubSpot updates that may interest you. #hubspot #hubspotcrm #hubspotcms #marketing #sales #service 🎙️ New to streaming or looking to level up? Check out StreamYard and get $10...",
@@ -1642,6 +2732,21 @@
       "source": "George B Thomas",
       "pillars": [
         "HubSpot"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-the-most-powerful-person-in-the-room-is-the-one-wi-2025-11-03",
+      "title": "The Most Powerful Person in the Room Is the One Willing to Kneel",
+      "description": "True leadership isn't about climbing the ladder, it's about picking up the towel. Discover how the most powerful person in the room is often the one willing to kneel and serve others.",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-most-powerful-person-in-the-room-is-the-one-willing-to-kneel",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/9624b19d3027f4c894808b6522083c07d1e05484-1456x971.webp",
+      "publishedAt": "2025-11-03T17:44:28.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
       ],
       "tags": []
     },
@@ -1662,6 +2767,21 @@
       "tags": [
         "Inbound Marketing"
       ]
+    },
+    {
+      "id": "spiritual-side-of-leadership-what-god-loves-2025-11-01",
+      "title": "What God Loves",
+      "description": "In an ever-changing business landscape, having a steadfast compass is crucial. Psalm 33:5 highlights what God truly loves, righteousness and justice, offering leaders a reliable guide to navigate...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/what-god-loves",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/d070c74687256d153a8d4c7a686c0af51570e04b-1456x971.webp",
+      "publishedAt": "2025-11-01T12:46:46.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
     },
     {
       "id": "george-b-thomas-call-in-and-talk-to-me-hubspot-2025-11-01",
@@ -1766,6 +2886,98 @@
       ]
     },
     {
+      "id": "spiritual-side-of-leadership-an-example-worth-following-in-life-and-leadership-2025-10-27",
+      "title": "An Example Worth Following in Life and Leadership",
+      "description": "In the boardroom and beyond, the true mark of leadership is not authority but humility. Embrace the countercultural strength of serving others, which builds trust and amplifies influence. Choose a...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/an-example-worth-following-in-life-and-leadership",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/1b42e21ad982018a6987de72424fbafd0dd073c1-1456x971.webp",
+      "publishedAt": "2025-10-27T12:18:26.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-the-call-that-won-t-let-you-sit-still-2025-10-26",
+      "title": "The Call That Won’t Let You Sit Still",
+      "description": "As leaders, we're often faced with a call that challenges our comfort zones. Just like Jesus' directive in Matthew 28, our mission isn't limited by job titles or confined spaces. Whether guiding a...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-call-that-won-t-let-you-sit-still",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/b285531bfac255f22a88ab917233a22e675ed233-1456x971.webp",
+      "publishedAt": "2025-10-26T12:12:29.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-breaking-down-barriers-living-and-leading-with-acc-2025-10-25",
+      "title": "Breaking Down Barriers: Living and Leading with Access",
+      "description": "As leaders, we often build invisible walls, thinking they protect us, yet they can limit our growth and impact. True belonging is found in inclusion, not exclusion, reflecting the divine access...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/breaking-down-barriers-living-and-leading-with-access",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/ec4e4c6e4f22fed78988de0c2c0c8926256d36a6-1456x971.webp",
+      "publishedAt": "2025-10-25T12:30:50.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": [
+        "Community Building"
+      ]
+    },
+    {
+      "id": "spiritual-side-of-leadership-jesus-confronts-our-if-with-his-anything-2025-10-24",
+      "title": "Jesus Confronts Our “If” With His “Anything”",
+      "description": "In the demanding world of leadership, belief and doubt often coexist. Jesus' interaction with a desperate father reminds us that genuine faith doesn't mean eradicating doubt, but bringing both to Him...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/jesus-confronts-our-if-with-his-anything",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/5cf3630530d90e0723669714778e3aee5461f684-1456x971.webp",
+      "publishedAt": "2025-10-24T12:36:14.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-the-path-to-true-success-faithfulness-in-the-small-2025-10-23",
+      "title": "The Path to True Success: Faithfulness in the Small",
+      "description": "In a world focused on metrics, true leadership redefines success by character, not just outcomes. Jesus' words highlight the importance of faithfulness in small acts, which are seeds that grow into...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-path-to-true-success-faithfulness-in-the-small",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/c1c2176b23f82b5f1900358ee205ce5d36222da6-1456x971.webp",
+      "publishedAt": "2025-10-23T12:30:31.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-transformation-starts-with-the-mind-2025-10-22",
+      "title": "Transformation Starts with the Mind",
+      "description": "Change begins in the mind: this isn't just a spiritual concept but a strategic approach to leadership. By renewing your mindset, you unlock the potential to lead with clarity, discernment, and...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/transformation-starts-with-the-mind",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/f04abd419da3f8efa99661ba7cd24c4a3a64e152-1456x971.webp",
+      "publishedAt": "2025-10-22T12:30:28.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Personal Growth",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
       "id": "hub-heroes-hubspot-loop-marketing-express-stage-deep-dive-par-2025-10-21",
       "title": "HubSpot Loop Marketing EXPRESS STAGE Deep-Dive Part I",
       "description": "",
@@ -1784,6 +2996,130 @@
       ]
     },
     {
+      "id": "spiritual-side-of-leadership-the-way-you-live-the-way-you-think-2025-10-21",
+      "title": "The Way You Live, The Way You Think",
+      "description": "In \"The Way You Live, The Way You Think,\" we explore how aligning your thoughts with your actions can transform your leadership. Deuteronomy's call to fix principles in your heart isn't just ancient...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-way-you-live-the-way-you-think",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/57754078d56a908649d3677ee8fca8eceb869801-1456x971.webp",
+      "publishedAt": "2025-10-21T12:21:18.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Personal Growth",
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-bottomless-riches-2025-10-16",
+      "title": "Bottomless Riches",
+      "description": "In the realm of business, where expansion often breeds more hunger, Paul's insight reminds us that true contentment is relational, not circumstantial. It's about building on an endless supply,...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/bottomless-riches",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/31a7391cc37f969f7512321757ea1577f99a976b-1456x971.webp",
+      "publishedAt": "2025-10-16T12:36:15.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Personal Growth",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-unshakable-2025-10-15",
+      "title": "Unshakable",
+      "description": "Unshakable success isn't about avoiding the storm; it's about building on rock-solid principles. Isaiah’s timeless wisdom challenges us to anchor our ambitions on values that endure beyond immediate...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/unshakable",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/c99a15cfda4ea91ea1acb88e3d142971ab7f1aad-1456x971.webp",
+      "publishedAt": "2025-10-15T12:31:15.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Personal Growth",
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-waiting-well-2025-10-14",
+      "title": "Waiting Well",
+      "description": "In \"Waiting Well\", discover how patience can be a strategic advantage in leadership. Learn to harness the power of timing to make informed decisions that align with your values and vision.",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/waiting-well",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/ed3903f628a8c5ce3ad3e1b036e9125dedc67a16-1456x971.webp",
+      "publishedAt": "2025-10-14T12:33:21.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-fighting-fear-finding-trust-2025-10-13",
+      "title": "Fighting Fear, Finding Trust",
+      "description": "In the face of fear's relentless whispers, leaders are called to anchor in trust. Just as Jesus assured His followers amidst turmoil, you too can choose to embody trust over fear, transforming your...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/fighting-fear-finding-trust",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/697b9fe5bb62de768ff339f8494de9046e33de69-1456x971.webp",
+      "publishedAt": "2025-10-13T12:22:21.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership",
+        "Personal Growth"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-power-before-purpose-2025-10-11",
+      "title": "Power Before Purpose",
+      "description": "Power comes before purpose. In leadership and business, trying to muscle your way through without the right source of power will leave you running on fumes. Acts 1:8 reminds us that true success...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/power-before-purpose",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/35b5f6381a54153683cf87858ff5ec031bcd4911-1536x1024.png",
+      "publishedAt": "2025-10-11T12:49:51.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-choosing-thankfulness-when-life-doesn-t-look-good-2025-10-10",
+      "title": "Choosing Thankfulness When Life Doesn’t Look Good",
+      "description": "In the midst of tight deadlines and underestimated efforts, gratitude might seem elusive. Yet, like David, embracing thankfulness can be a powerful leadership tool. It's not just a reaction to...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/choosing-thankfulness-when-life-doesn-t-look-good",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/2aab441bc4c57d1ba6f05c497e7cdb5854c4978a-1456x971.webp",
+      "publishedAt": "2025-10-10T12:31:57.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Personal Growth",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-the-power-of-one-mediator-2025-10-09",
+      "title": "The Power of One Mediator",
+      "description": "Discover the transformative power of having one mediator in your professional and personal life. This isn't just about theology; it's about freedom from the pressures that dominate modern leadership....",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-power-of-one-mediator",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/da0fc2f94c0a7c9a3feacb75f7bf4239c56feab5-1456x971.webp",
+      "publishedAt": "2025-10-09T12:04:01.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
       "id": "hub-heroes-hubspot-marketing-studio-and-campaigns-deep-dive-2025-10-07",
       "title": "HubSpot Marketing Studio and Campaigns Deep-Dive",
       "description": "",
@@ -1796,6 +3132,99 @@
       "pillars": [
         "HubSpot",
         "Marketing & Sales"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-the-blueprint-for-resilient-leadership-2025-10-06",
+      "title": "The Blueprint for Resilient Leadership",
+      "description": "Unlock the power of resilient leadership by rooting your hope in a vision bigger than yourself, enduring the fires of affliction, and staying grounded through consistent communication. Romans 12:12...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-blueprint-for-resilient-leadership",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/d2910922979f915cf62f57880e079f74e8cd558c-1456x971.webp",
+      "publishedAt": "2025-10-06T12:53:58.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-first-things-first-2025-10-05",
+      "title": "First Things First",
+      "description": "In a world where leaders are constantly pulled in every direction, \"First Things First\" offers a transformative approach: prioritize seeking God's kingdom in your daily leadership. This isn't about...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/first-things-first",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/2696e2e6a7601835b20b08418996de15dc91c220-1456x971.webp",
+      "publishedAt": "2025-10-05T12:49:21.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership",
+        "Personal Growth"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-walking-through-valleys-2025-10-04",
+      "title": "Walking Through Valleys",
+      "description": "\"Walking Through Valleys\" explores the profound leadership lesson found in Psalm 23:4, urging leaders to face crises with steady progress rather than fear. It highlights the reality that shadows,...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/walking-through-valleys",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/c128ab1218621ae58df6b16061f49382d8e45a22-1456x971.webp",
+      "publishedAt": "2025-10-04T12:42:30.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-strength-for-the-journey-2025-10-03",
+      "title": "Strength for the Journey",
+      "description": "In the fast-paced realm of business, relying solely on personal grit can lead to burnout. Psalm 84:5 offers a powerful alternative: draw strength from a source beyond yourself. By setting your heart...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/strength-for-the-journey",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/7b7b9d61e4cdad4953296b5f1e808fd376a5c46d-1456x971.webp",
+      "publishedAt": "2025-10-03T12:45:29.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership",
+        "Personal Growth"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-created-to-give-2025-10-01",
+      "title": "Created to Give",
+      "description": "Leadership isn't just about climbing the ladder. It's about flipping it upside down, lifting others as you rise. Paul’s example in Acts 20:35 challenges us to build lives and businesses that matter...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/created-to-give",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/4b9b8862f242ae3ced25e50c73e20dad59514741-1456x971.webp",
+      "publishedAt": "2025-10-01T12:36:33.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-run-your-race-2025-09-30",
+      "title": "Run Your Race",
+      "description": "In the marathon of leadership, faith, purpose, and perseverance are your guiding forces. Hebrews 12:1 offers a timeless strategy: identify what hinders you and choose to let it go. Remember, you're...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/run-your-race",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/4582907df2058a62f61448fe58891c913f36914c-1456x971.webp",
+      "publishedAt": "2025-09-30T12:09:31.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership",
+        "Personal Growth"
       ],
       "tags": []
     },
@@ -1818,6 +3247,159 @@
       ]
     },
     {
+      "id": "spiritual-side-of-leadership-cast-it-or-carry-2025-09-26",
+      "title": "Cast It or Carry",
+      "description": "Leadership isn't just about carrying the load, it's about knowing when to cast it away. If you're feeling the weight of responsibilities, remember, it's not a sign of weakness to seek support. True...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/cast-it-or-carry-it",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/c74d45e956e13fc8703d18ecd9f4d85e93495ca0-1456x971.webp",
+      "publishedAt": "2025-09-26T12:04:07.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Personal Growth"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-forgive-forward-2025-09-25",
+      "title": "Forgive Forward",
+      "description": "In the high-stakes world of leadership, the ability to forgive isn't just a virtue, it's a strategic advantage. Unforgiveness drains your energy and focus, keeping you stuck in past grievances rather...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/forgive-forward",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/4922a39b6d85f7c8f9b3d6faccaf7d5174a45b90-1456x971.webp",
+      "publishedAt": "2025-09-25T12:29:30.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Personal Growth"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-true-beauty-in-life-and-leadership-2025-09-24",
+      "title": "True Beauty in Life and Leadership",
+      "description": "In a world captivated by charm and beauty, true leadership lies in what remains steadfast: reverence and alignment with enduring values. Just as a mountain stands firm against time, your leadership...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/true-beauty-in-life-and-leadership",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/222fa0432595c66af7e8838dea7875d59fcc24b3-1456x971.webp",
+      "publishedAt": "2025-09-24T12:51:34.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership",
+        "Personal Growth"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-the-love-that-finds-you-first-2025-09-22",
+      "title": "The Love That Finds You First",
+      "description": "In \"The Love That Finds You First,\" we uncover the moment leaders face their own vulnerabilities behind polished facades. Romans 5:8 challenges us to embrace a love that shows up unconditionally,...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-love-that-finds-you-first",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/14e17070becf7e6f3827a4b0ab2b003ed515a092-1456x971.webp",
+      "publishedAt": "2025-09-22T12:35:32.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership",
+        "Personal Growth"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-we-is-greater-than-me-2025-09-21",
+      "title": "WE is Greater than ME",
+      "description": "In the pursuit of success, leaders often face the critical choice between self-centered ambition and collaborative growth. \"We > Me\" explores how genuine humility, not just talent or shared goals,...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/we-is-greater-than-me",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/92c9b5433a3792c3f578ae15b59c6eece3ad6a87-1456x971.webp",
+      "publishedAt": "2025-09-21T11:38:12.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Personal Growth"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-success-that-lasts-2025-09-20",
+      "title": "Success That Lasts",
+      "description": "\"Success That Lasts\" invites leaders to rethink their approach to achievement. Instead of chasing the hustle, consider a soul-deep strategy rooted in internal alignment. By keeping wisdom on your...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/success-that-lasts",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/8689d00729ead95c175a28f44ef8f3bb127aec1c-1456x971.webp",
+      "publishedAt": "2025-09-20T20:28:16.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Personal Growth",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-the-wilderness-test-2025-09-19",
+      "title": "The Wilderness Test",
+      "description": "In leadership and business, there come moments that test you deeply. When metrics and applause are absent, you're called to rely not on shortcuts but on steadfast trust. Just as Jesus resisted the...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-wilderness-test",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/c5ac9a4e5dcc504b0b90004fdbfb3a9e53b88f66-1456x971.webp",
+      "publishedAt": "2025-09-19T12:35:21.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-when-light-breaks-in-2025-09-18",
+      "title": "When Light Breaks In",
+      "description": "In the chaos of business leadership, clarity often seems elusive. \"When Light Breaks In\" explores how Jesus' declaration, \"I am the light of the world,\" offers a navigational framework for leaders...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/when-light-breaks-in",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/3e908d08fd8883068b2a6c74b49d683d8a7c5239-1456x971.webp",
+      "publishedAt": "2025-09-18T12:28:25.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-the-high-cost-of-knowing-and-not-doing-2025-09-17",
+      "title": "The High Cost of Knowing and Not Doing",
+      "description": "In the business world, knowing the right course of action and failing to act can be a costly oversight. As leaders, we're often faced with moments where courage must bridge the gap between clarity...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-high-cost-of-knowing-and-not-doing",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/bc4eeb7460e00a73300169b1fad06730aadac1c9-1456x971.webp",
+      "publishedAt": "2025-09-17T12:26:24.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-the-unseen-war-2025-09-16",
+      "title": "The Unseen War",
+      "description": "In \"The Unseen War,\" discover how the real battles you face aren't just about performance and pressure, but deeper spiritual struggles. Learn to see your career as sacred ground where your integrity...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-unseen-war",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/d928def365ac556ea461e8ca1d3ccf69a453d706-1456x971.webp",
+      "publishedAt": "2025-09-16T12:04:21.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
       "id": "hub-heroes-strange-loopy-and-ai-everywhere-our-honest-inbound-2025-09-15",
       "title": "Strange, Loopy, and AI Everywhere: Our Honest #INBOUND25 Recap",
       "description": "",
@@ -1834,6 +3416,111 @@
       "tags": [
         "Inbound Marketing"
       ]
+    },
+    {
+      "id": "spiritual-side-of-leadership-hope-on-the-frontlines-2025-09-15",
+      "title": "Hope on the Frontlines",
+      "description": "Life is a battlefield filled with distractions, doubts, and deadlines. Psalm 119:114 offers a robust strategy for leaders, not just a comforting verse. By anchoring hope in God's Word, you create a...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/hope-on-the-frontlines",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/d13c09eb96ee47a6bfe934a1fae7e4692ea5f45e-1456x971.webp",
+      "publishedAt": "2025-09-15T12:41:00.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-no-one-else-2025-09-14",
+      "title": "No One Else",
+      "description": "In the high-octane world of business, it's easy to feel like you're pouring out effort only to end up with empty hands. Leaders often chase titles, deals, and validation, hoping these will fill the...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/no-one-else",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/582bfbe8f033fc1bf43dfb69f3c2c1e5b6b36b0a-1456x971.webp",
+      "publishedAt": "2025-09-14T12:20:26.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-when-the-well-runs-dry-2025-09-13",
+      "title": "When the Well Runs Dry",
+      "description": "In the relentless journey of leadership, even the strongest can run dry, feeling the weight of expectations and the pressure to perform. But true leadership is not just about grit; it's about grace....",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/when-the-well-runs-dry",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/fe36c8e5f54ead13a744a0702a2d94598456a427-1456x971.webp",
+      "publishedAt": "2025-09-13T12:11:20.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-the-yoke-that-fits-2025-09-12",
+      "title": "The Yoke That Fits",
+      "description": "Discover a new kind of leadership that aligns your soul with your work. In \"The Yoke That Fits,\" we explore how to trade relentless hustle for a rhythm of rest that fuels your effectiveness. Step...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-yoke-that-fits",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/21c7aa6d76fd68f3cb01593c66680184f52d6d5b-1456x971.webp",
+      "publishedAt": "2025-09-12T12:04:32.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-the-cross-in-the-conference-room-2025-09-11",
+      "title": "The Cross in the Conference Room",
+      "description": "In \"The Cross in the Conference Room,\" discover how authentic leadership is less about climbing ladders and more about carrying crosses. This path challenges executives to trade control for purpose,...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-cross-in-the-conference-room",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/8d9b181e1adb43776763f235947f50ab5cf257f6-1456x971.webp",
+      "publishedAt": "2025-09-11T12:56:21.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-the-gift-you-re-sitting-on-2025-09-10",
+      "title": "The Gift You're Sitting On",
+      "description": "In \"The Gift You're Sitting On,\" we explore the gap between intention and action, a challenge many leaders face. Like the Corinthians who delayed their commitment, we often let urgent tasks...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-gift-you-re-sitting-on",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/208d1750e775b5f7c9dbbcd36949f385f5a5eb20-1456x971.webp",
+      "publishedAt": "2025-09-10T12:49:27.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-everyone-who-calls-a-faith-driven-leaders-guide-2025-09-09",
+      "title": "Everyone Who Calls | A Faith-Driven Leaders Guide",
+      "description": "Romans 10:13 offers a profound lesson for leaders: simplicity is strength. In a world obsessed with complexity, the power lies in a straightforward call for help. Whether you're navigating business...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/everyone-who-calls",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/a991aa113fc9bd20ef17a36dd6cb2244d8708e41-1536x1024.png",
+      "publishedAt": "2025-09-09T12:44:35.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
     },
     {
       "id": "hub-heroes-inbound25-after-hours-show-day-2-2025-09-08",
@@ -1870,6 +3557,275 @@
       ]
     },
     {
+      "id": "spiritual-side-of-leadership-you-ve-been-sent-2025-09-08",
+      "title": "You've Been Sent",
+      "description": "In John 20:21, Jesus offers a profound lesson for leaders: peace precedes purpose. As He sends His disciples, not with qualifications but with peace, He illustrates that leadership doesn't require...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/you-ve-been-sent",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/c8d19e3ef406ee4515d27deb63c68b2b9257618a-1456x971.webp",
+      "publishedAt": "2025-09-08T12:41:21.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-the-transformational-power-of-kindness-compassion--2025-09-07",
+      "title": "The Transformational Power of Kindness, Compassion, and Forgiveness",
+      "description": "In the crossroads of leadership decisions, the choice to embody kindness, compassion, and forgiveness is transformative. These aren't mere niceties but vital elements that shape your legacy and the...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-transformational-power-of-kindness-compassion-and-forgiveness",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/30eedb5f19138e76b562d3b9894effa3c4ab3894-1536x1024.png",
+      "publishedAt": "2025-09-07T12:03:15.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-commit-to-the-work-2025-09-06",
+      "title": "Commit to the Work",
+      "description": "In the complex dance of business, where control often feels elusive, embracing the balance of faithfulness and surrender can transform your leadership journey. By committing your work to a higher...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/commit-to-the-work",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/bd8b4800eb3f4e4c72a7bba8250f7f89ec75286b-1536x1024.png",
+      "publishedAt": "2025-09-06T14:55:06.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-love-as-the-ultimate-leadership-strategy-2025-09-05",
+      "title": "Love as the Ultimate Leadership Strategy",
+      "description": "\"Love one another as I have loved you\" is not just a sentiment, it's a leadership strategy that transforms how we lead and engage in business. While love might feel risky and unconventional in the...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/love-as-the-ultimate-leadership-strategy",
+      "thumbnail": "",
+      "publishedAt": "2025-09-05T12:32:18.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-the-leader-no-one-champions-2025-09-04",
+      "title": "The Leader No One Champions",
+      "description": "Are you the leader everyone expects to have it all together? Discover how God's advocacy for the vulnerable reveals a powerful path to leading with true strength. Learn to lead like God, by stepping...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-leader-no-one-champions",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/d75b26b9f3650c9c4185ef06dd095d2e94ca0d10-1920x1080.webp",
+      "publishedAt": "2025-09-04T12:22:22.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-when-god-hands-you-a-leadership-manual-2025-09-03",
+      "title": "When God Hands You a Leadership Manual",
+      "description": "Every leader knows that moment when effort does not match outcomes. \"When God Hands You a Leadership Manual\" offers a roadmap from 2 Chronicles 7:14: humility, prayer, and repentance. These...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/when-god-hands-you-a-leadership-manual",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/a0d3aa28e0b582140bbc276a396ba8986f963d99-1456x971.webp",
+      "publishedAt": "2025-09-03T12:25:22.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-trust-isn-t-a-strategy-it-s-the-foundation-for-lif-2025-09-02",
+      "title": "Trust Isn't a Strategy, It's the Foundation for Life and Business",
+      "description": "In the high-stakes world of leadership, trust isn't just an option, it's your foundation. When your instincts clash with data, and advisors and expectations pull you in different directions,...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/trust-isn-t-a-strategy-it-s-the-foundation-for-life-and-business",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/21d0c4e9a7534c99a4b818e7c8a6258884199d9b-1456x971.webp",
+      "publishedAt": "2025-09-02T12:53:19.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-why-peace-is-the-new-power-2025-09-01",
+      "title": "Why Peace Is the New Power",
+      "description": "In the chaos of leadership, peace becomes your greatest strength. When anxiety drives decisions, it fosters fear and urgency rather than excellence. Philippians 4:6-7 isn't just a comforting verse;...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/why-peace-is-the-new-power",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/4554c04b7d338e152befb5c5271bd34e1c8a778d-1456x971.webp",
+      "publishedAt": "2025-09-01T12:44:21.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-a-longing-for-home-2025-08-31",
+      "title": "A Longing for Home",
+      "description": "In the relentless pursuit of professional success, many leaders feel an underlying ache that isn't simply burnout, but a longing for true alignment. This longing is spiritual, highlighting the need...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/a-longing-for-home",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/86e32b8713d5f2d94e13f1f933305ae920a0329c-1536x1024.png",
+      "publishedAt": "2025-08-31T12:26:23.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-you-are-not-your-fear-2025-08-30",
+      "title": "You Are Not Your Fear",
+      "description": "In the relentless pursuit of success, leaders can often let fear dictate their decisions. \"You Are Not Your Fear\" reminds us that true leadership begins with understanding our identity beyond...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/you-are-not-your-fear",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/1d7a987e6f642067340afee4c84d2e8eb79cd3a7-1536x1024.png",
+      "publishedAt": "2025-08-30T12:22:25.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Personal Growth",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-he-started-it-and-he-s-not-done-2025-08-29",
+      "title": "He Started It… and He's Not Done",
+      "description": "Philippians 1:6 is more than a verse; it's a promise that God will complete the good work He started in you. For leaders in the thick of business challenges, this offers assurance that you're not...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/he-started-it-and-he-s-not-done",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/d2dd961bab8921e2127f540bfc00ece5a754ba6f-1456x971.webp",
+      "publishedAt": "2025-08-29T12:17:17.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-god-brings-the-growth-2025-08-28",
+      "title": "God Brings the Growth",
+      "description": "In the relentless pursuit of success, it's easy for leaders to feel like everything depends on them, from company growth to client satisfaction. Yet, true leadership is about faithfully planting and...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/god-brings-the-growth",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/228ffdd610a617080c23fb7b8d52bf9483ac51b5-1456x971.webp",
+      "publishedAt": "2025-08-28T12:03:40.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-don-t-quit-before-the-harvest-2025-08-26",
+      "title": "Don't Quit Before the Harvest",
+      "description": "In the relentless pursuit of success, it's easy to be consumed by exhaustion and doubt. Yet, just like farming, leadership requires patience, perseverance, and faith in unseen results. Remember:...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/don-t-quit-before-the-harvest",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/e56dab9d3f4bcf8ae7edf8b3b2bb16b4ace16668-1456x971.webp",
+      "publishedAt": "2025-08-26T12:03:36.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-the-door-that-s-still-open-2025-08-24",
+      "title": "The Door That's Still Open",
+      "description": "As leaders, our patience often feels stretched to its limits. Yet, what if the delay we experience isn't failure but an opportunity for growth? \"The Door That's Still Open\" challenges you to reflect...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-door-that-s-still-open",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/7908a909c41c72715cf3eaddce08847af035d11d-1456x971.webp",
+      "publishedAt": "2025-08-24T12:28:19.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Personal Growth",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-when-the-room-shakes-2025-08-23",
+      "title": "When the Room Shakes",
+      "description": "In moments when the stakes are high, it's tempting to choose safety over truth. Yet, leaders are called to rise above self-preservation and embrace boldness. Imagine the transformation if you prayed...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/when-the-room-shakes",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/a8e9ca78c527f9242b80cd1586efd15c50ed18ef-1456x971.webp",
+      "publishedAt": "2025-08-23T12:19:33.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-from-covenant-to-commitment-2025-08-22",
+      "title": "From Covenant to Commitment",
+      "description": "From \"Covenant to Commitment\" invites leaders to embrace a foundational truth: God's unwavering faithfulness demands a response of integrity and conviction in our leadership. As you navigate business...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/from-covenant-to-commitment",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/776bf977d9aba1cb419ddbfa7662d484b29b64c6-1456x971.webp",
+      "publishedAt": "2025-08-22T12:10:23.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-forgiven-and-free-2025-08-21",
+      "title": "Forgiven and Free",
+      "description": "\"Forgiven and Free\" delves into the transformative power of John 3:17 for leaders, encouraging a shift from performance-driven validation to a framework of grace and authenticity. As leaders, how we...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/forgiven-and-free",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/3913c6e3d5e86db3745c3c2648425a97d047eed5-1456x971.webp",
+      "publishedAt": "2025-08-21T12:09:16.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Personal Growth"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-stop-overthinking-2025-08-20",
+      "title": "Stop Overthinking",
+      "description": "In the relentless pace of leadership, overthinking can become your constant companion, robbing you of clarity and strength. Sleepless nights filled with \"what ifs\" only lead to exhaustion,...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/stop-overthinking",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/631bba38d4fc531cbfafc4e7bb10e25e96aa8c70-1456x971.webp",
+      "publishedAt": "2025-08-20T12:18:22.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Personal Growth",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
       "id": "hub-heroes-inbound25-hubheroes-annual-inbound-prep-episode-sa-2025-08-18",
       "title": "#INBOUND25: HubHeroes Annual INBOUND Prep Episode (San Francisco Edition)",
       "description": "",
@@ -1888,6 +3844,66 @@
       ]
     },
     {
+      "id": "spiritual-side-of-leadership-nothing-can-separate-you-2025-08-15",
+      "title": "Nothing Can Separate You",
+      "description": "In the relentless pursuit of success, leaders often grapple with the haunting question: Am I still loved if I stop performing? This isn't just a spiritual dilemma but a silent driver of your...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/nothing-can-separate-you",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/c36f4385e39533edf23fd915cd15c71afbf7836c-1536x1024.png",
+      "publishedAt": "2025-08-15T12:08:18.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Personal Growth"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-the-morning-is-coming-2025-08-14",
+      "title": "The Morning Is Coming",
+      "description": "In \"The Morning Is Coming,\" we explore Psalm 30:5's blueprint for navigating sorrow and leading with resilience. It challenges leaders to embrace the night of grief while holding faith in the promise...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-morning-is-coming",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/380e9f86022678ca55013e91ebb4cfa551c84b79-1456x971.webp",
+      "publishedAt": "2025-08-14T12:37:06.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Personal Growth"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-you-were-made-for-this-2025-08-13",
+      "title": "You Were Made for This",
+      "description": "Ever paused to question your life's direction or the impact of your business? You're not alone, and there's clarity in knowing you are crafted with purpose, uniquely designed to contribute...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/you-were-made-for-this",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/9e145167bded4371c3ed2e52bd00be97fb278a1c-1456x971.webp",
+      "publishedAt": "2025-08-13T12:46:05.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Personal Growth",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-shine-like-you-mean-it-2025-08-12",
+      "title": "Shine Like You Mean It",
+      "description": "In \"Shine Like You Mean It,\" we explore the transformative power of living as a light in both personal and professional spaces. This isn't about mere niceness; it's a call to embody integrity and...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/shine-like-you-mean-it",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/c9a495937c3d818b9ebe36ef92685af9b4758a62-1456x971.webp",
+      "publishedAt": "2025-08-12T17:44:42.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
       "id": "hub-heroes-hubspot-sandbox-updates-for-2025-grab-your-shovel--2025-08-11",
       "title": "HubSpot Sandbox Updates for 2025: Grab Your Shovel & Your Sandcastle Bucket!",
       "description": "",
@@ -1904,6 +3920,111 @@
       "tags": []
     },
     {
+      "id": "spiritual-side-of-leadership-the-wake-up-call-you-can-t-afford-to-ignore-2025-08-11",
+      "title": "The Wake-Up Call You Can't Afford to Ignore",
+      "description": "Feeling stuck in a gray zone of routine and uncertainty? \"Arise, shine, for your light has come\" is not just poetic; it's a strategic call to action. Leaders, now is the time to stand up, step...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-wake-up-call-you-can-t-afford-to-ignore",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/212b5dbb8e7fcb18424d4dccaaddbf8ba273557c-1456x971.webp",
+      "publishedAt": "2025-08-11T16:39:17.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-greater-is-he-living-2025-08-10",
+      "title": "Greater Is He Living",
+      "description": "Leading with Unshakable Authority",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/greater-is-he-living",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/266c74bf520c87ebfc460671fcce139106eed487-1456x971.webp",
+      "publishedAt": "2025-08-10T12:08:17.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-what-to-do-when-your-soul-is-downcast-2025-08-09",
+      "title": "What to Do When Your Soul Is Downcast",
+      "description": "In the midst of life's relentless pace, leaders often find their souls weighed down by the pressure of balancing professional demands and personal commitments. Drawing insight from Psalm 42, this...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/what-to-do-when-your-soul-is-downcast",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/1c060ae5aaa6c15331483aa93210dddc6650c6a8-1456x971.webp",
+      "publishedAt": "2025-08-09T12:56:18.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Personal Growth"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-the-cross-the-cost-and-the-calling-2025-08-08",
+      "title": "The Cross, the Cost, and the Calling",
+      "description": "Why True Leadership Looks Like Dying First",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-cross-the-cost-and-the-calling",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/8913582b647ea67e0ac2d90e15890cb4716f525e-1456x971.webp",
+      "publishedAt": "2025-08-08T12:31:45.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-the-upside-down-way-2025-08-07",
+      "title": "The Upside-Down Way",
+      "description": "In \"The Upside-Down Way,\" we explore how true leadership begins with humility, not pride. Just like the tax collector in ancient Jerusalem, recognizing our need for mercy can transform our...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-upside-down-way",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/c7dd5775dbdaf9a70eeb70353dfdbaa4e3a48188-1456x971.webp",
+      "publishedAt": "2025-08-07T21:22:50.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-living-as-a-sacrifice-2025-08-06",
+      "title": "Living as a Sacrifice",
+      "description": "Striking a balance between purpose and performance can be challenging for leaders, but Romans 12:1 offers a transformative approach: living as a \"living sacrifice.\" This is not about grand gestures...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/living-as-a-sacrifice",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/c762d44bfbef44de5394eb5abd764a294e405ef7-1456x971.webp",
+      "publishedAt": "2025-08-06T20:23:24.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-the-hope-that-works-2025-07-29",
+      "title": "The Hope That Works",
+      "description": "Living Between Brokenness and Wholeness",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-hope-that-works",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/9933592b574de19f34da2b08ce7cf2a6ef7c112b-1456x971.webp",
+      "publishedAt": "2025-07-29T12:11:10.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Personal Growth"
+      ],
+      "tags": []
+    },
+    {
       "id": "hub-heroes-customizing-hubspot-records-why-now-s-the-time-to--2025-07-28",
       "title": "Customizing HubSpot Records: Why Now’s the Time to Go All In",
       "description": "",
@@ -1915,6 +4036,126 @@
       "source": "Hub Heroes",
       "pillars": [
         "HubSpot"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-stand-firm-lead-bold-2025-07-28",
+      "title": "Stand Firm, Lead Bold",
+      "description": "In moments of pressure and cultural shifts, leaders often question how to remain true to their core values. Drawing inspiration from 1 Corinthians 16:13, this content provides a blueprint for...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/stand-firm-lead-bold",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/eafecd8600b0a95a944ac419c1242047677e570e-1536x1024.png",
+      "publishedAt": "2025-07-28T12:57:05.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-take-every-thought-captive-2025-07-27",
+      "title": "Take Every Thought Captive",
+      "description": "Imagine entering a boardroom where every chair is occupied by your thoughts, some encouraging, others brutal. In leadership and business, these mental narratives can shape decisions and outcomes....",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/take-every-thought-captive",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/0a6a81fac76c6bae4e6ad350f7c1f64b1cead10a-1456x971.webp",
+      "publishedAt": "2025-07-27T12:15:23.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Personal Growth"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-the-glory-effect-2025-07-26",
+      "title": "The Glory Effect",
+      "description": "\"The Glory Effect\" invites leaders to see Habakkuk 2:14 as more than a comforting verse. It's a strategic vision for integrating God's character into business, shaping branding, culture, and client...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-glory-effect",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/f8dc16218c66c52b13fc7f6584551006a878d139-1456x971.webp",
+      "publishedAt": "2025-07-26T12:14:57.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-walking-in-darkness-2025-07-25",
+      "title": "Walking in Darkness?",
+      "description": "Feeling lost in business or life is all too common, but it's not the end of the story. Isaiah 9:2 reminds us of a transformative light that brings clarity and purpose, even in our darkest moments....",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/walking-in-darkness",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/a7c5a1758e2245516b8e8ed3415081a4adf8136a-1456x971.webp",
+      "publishedAt": "2025-07-25T12:56:53.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-desperate-for-strength-2025-07-24",
+      "title": "Desperate for Strength",
+      "description": "In the fast-paced world of leadership, relying solely on self-sufficiency can lead to burnout and missed opportunities. \"Desperate for Strength\" invites you to shift from carrying the weight alone to...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/desperate-for-strength",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/288449880c784c50eff90194d06f4bb0d6662c84-1456x971.webp",
+      "publishedAt": "2025-07-24T12:43:29.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-cast-it-off-2025-07-23",
+      "title": "Cast It Off",
+      "description": "Navigating the weight of leadership often means wrestling with anxiety, whether it's over deadlines or decisions. But what if anxiety was a divine invitation to release control? 1 Peter 5:7 offers a...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/cast-it-off",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/d6cf95c605d2b68783d83b68ee461e3ccd957512-1456x971.webp",
+      "publishedAt": "2025-07-23T20:29:54.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-a-table-in-the-tension-2025-07-22",
+      "title": "A Table in the Tension",
+      "description": "In \"A Table in the Tension,\" we explore the profound leadership insights from Psalm 23:5-6. This isn't about escaping challenges but embracing them with courage and divine strategy. Whether you're...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/a-table-in-the-tension",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/bc4727f122e4c291c0b1438cd84a69c9000b7076-1456x971.webp",
+      "publishedAt": "2025-07-22T12:20:14.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-the-unexpected-path-to-greatness-2025-07-22",
+      "title": "The Unexpected Path to Greatness",
+      "description": "Discover the power of childlike leadership: where humility redefines strength and dependency becomes your greatest asset. In a world obsessed with the grind, embrace a mindset of grace and clarity....",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-unexpected-path-to-greatness",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/1e8c4f220c80d5bb8024db0d0ba02dc0310124b4-1456x971.webp",
+      "publishedAt": "2025-07-22T00:12:21.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Personal Growth"
       ],
       "tags": []
     },
@@ -1937,6 +4178,81 @@
       ]
     },
     {
+      "id": "spiritual-side-of-leadership-come-hungry-2025-07-19",
+      "title": "Come Hungry",
+      "description": "Hungry for insight in your leadership journey? Discover how faith transforms chaos into clarity with David's story from the wilderness. As leaders, we often rush through tasks without savoring the...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/come-hungry",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/68219dfbf4df667c79ad0be0be3e1418bc795429-1456x971.webp",
+      "publishedAt": "2025-07-19T12:59:18.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-what-matters-in-life-and-leadership-2025-07-18",
+      "title": "What Matters in Life and Leadership",
+      "description": "In today's fast-paced business world, leaders often face a crossroads between the efficient, expected path and the one that demands more heart and discernment. Drawing from Philippians 1:9-10, we...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/what-matters-in-life-and-leadership",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/eb2ca4ef82d5eacc06c2618df2013b316bfd2dc1-1456x971.webp",
+      "publishedAt": "2025-07-18T12:33:20.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-the-ultimate-roi-2025-07-17",
+      "title": "The Ultimate ROI",
+      "description": "In the relentless pursuit of success, have you paused to consider if there's more beyond the accolades? \"The Ultimate ROI\" invites leaders to refocus on what truly endures: the cultivation of...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-ultimate-roi",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/b33b95748ccae5689d97cf4da47909ea295405d4-1456x971.webp",
+      "publishedAt": "2025-07-17T12:12:16.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-the-marketplace-messenger-2025-07-16",
+      "title": "The Marketplace Messenger",
+      "description": "In the hustle of business life, every mundane moment can be a mission of influence. Romans 10:14 reminds us that hearing comes from someone willing to speak, and that someone might just be you....",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-marketplace-messenger",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/9c24666cdf8a74d0de461ab2f83f847a6a991132-1456x971.webp",
+      "publishedAt": "2025-07-16T12:04:15.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-the-triumphant-king-2025-07-15",
+      "title": "The Triumphant King",
+      "description": "Discover how the story of a humble entry into Jerusalem can transform your leadership perspective. True triumph in business may not come with fanfare and immediate success but through quiet...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-triumphant-king",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/ebe5dfd6a9e2b4cd7706e65351eba91335caf5e9-1456x971.webp",
+      "publishedAt": "2025-07-15T12:38:24.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
       "id": "hub-heroes-3-epic-nerdy-hubspot-commerce-hub-updates-with-cha-2025-07-15",
       "title": "3 Epic Nerdy HubSpot Commerce Hub Updates with Chad Hohn",
       "description": "",
@@ -1948,6 +4264,141 @@
       "source": "Hub Heroes",
       "pillars": [
         "HubSpot"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-faith-at-work-2025-07-14",
+      "title": "Faith at Work",
+      "description": "Faith demands movement before certainty, requiring you to invest in the unseen. It's the invisible blueprint for life and business, the scaffolding your future hangs on. True faith acknowledges risks...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/faith-at-work",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/4b2abcfa434c31bc9f249f7241f4d41ea66fcbef-1456x971.webp",
+      "publishedAt": "2025-07-14T16:58:10.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-where-the-spirit-is-freedom-isn-t-optional-2025-07-08",
+      "title": "Where The Spirit Is, Freedom Isn't Optional",
+      "description": "In the relentless pursuit of control, many leaders find themselves in a cycle of exhaustion and anxiety. True freedom, however, isn't in mastering circumstances but in embracing the transformative...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/where-the-spirit-is-freedom-isn-t-optional",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/9f6cb116982dfdbb5675c76f4d490da611324fb1-1456x971.webp",
+      "publishedAt": "2025-07-08T12:32:02.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-stop-dragging-tomorrow-into-today-2025-07-07",
+      "title": "Stop Dragging Tomorrow Into Today",
+      "description": "In the fast-paced world of leadership, it's easy to let tomorrow's worries overshadow today's opportunities. Jesus' wisdom invites us to focus on today's challenges, using our energy for present...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/stop-dragging-tomorrow-into-today",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/ff721c229597f23e9f1a57a4d9dbfcd18501866f-1456x971.webp",
+      "publishedAt": "2025-07-07T12:21:18.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-the-war-between-two-minds-2025-07-06",
+      "title": "The War Between Two Minds",
+      "description": "In the daily whirlwind of leadership, the battle between two mindsets is real. One mindset leads to exhaustion and hollow victories, while the other fosters purpose and peace. By aligning your...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-war-between-two-minds",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/69c67c241f30d3d9f542d5ab0c4e66f73ec141c9-1456x971.webp",
+      "publishedAt": "2025-07-06T13:04:47.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Personal Growth"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-when-uncertainty-knocks-praise-opens-the-door-2025-07-05",
+      "title": "When Uncertainty Knocks, Praise Opens the Door",
+      "description": "In the face of uncertainty, leaders can transform crises into opportunities by embracing the discipline of praise. Just as David reframed his turmoil into structured worship, executives can anchor...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/when-uncertainty-knocks-praise-opens-the-door",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/aa8fc0fce2040a4def1c1861ffc3556d4eae09dd-1456x971.webp",
+      "publishedAt": "2025-07-05T12:22:37.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-the-leadership-power-of-believing-without-seeing-2025-07-04",
+      "title": "The Leadership Power of Believing Without Seeing",
+      "description": "In the face of uncertainty and doubt, leaders often find themselves needing to believe before they see tangible results. Just as Thomas needed to touch the scars to move from skepticism to belief,...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-leadership-power-of-believing-without-seeing",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/e3bac99e9b1c932c3916669a2a5e65f4eaaf7f81-1456x971.webp",
+      "publishedAt": "2025-07-04T12:33:12.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-the-love-that-moves-2025-07-03",
+      "title": "The Love That Moves",
+      "description": "As leaders, when love becomes the driving force behind our actions, it transforms how we engage with others. Rooted in sacrificial love, our influence extends beyond mere business objectives,...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-love-that-moves",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/8cc5dec72213c3d603afc5a72f2c96dc96b7c3e4-1456x971.webp",
+      "publishedAt": "2025-07-03T11:42:24.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-the-hidden-gift-of-rejection-2025-07-02",
+      "title": "The Hidden Gift of Rejection",
+      "description": "In the face of pressure to take the easy path, the courage to choose integrity over convenience defines true leadership. Embracing rejection for doing what is right is not a defeat but a profound...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-hidden-gift-of-rejection",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/7a5b28bcf75e6b3e2ae5c66e4833d4d1071edab3-1456x971.webp",
+      "publishedAt": "2025-07-02T12:20:22.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-the-uncomfortable-work-of-peacemaking-2025-07-01",
+      "title": "The Uncomfortable Work of Peacemaking",
+      "description": "As a leader, embracing the role of a peacemaker transforms not just your professional environment but your personal interactions as well. Peacemakers actively engage in resolving conflicts, fostering...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-uncomfortable-work-of-peacemaking",
+      "thumbnail": "",
+      "publishedAt": "2025-07-01T12:44:27.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Personal Growth"
       ],
       "tags": []
     },
@@ -1970,6 +4421,366 @@
       ]
     },
     {
+      "id": "spiritual-side-of-leadership-the-business-of-a-pure-heart-2025-06-30",
+      "title": "The Business of a Pure Heart",
+      "description": "Embark on a journey toward clarity and focus with \"The Business of a Pure Heart.\" In leadership, purity isn't about moral perfection; it's about strategic clarity and undivided vision. As a leader,...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-business-of-a-pure-heart",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/4bae6a493c09da5d87ecf9954a37e9201d5fae49-1456x971.webp",
+      "publishedAt": "2025-06-30T12:38:34.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-the-gift-no-one-wants-but-everyone-needs-2025-06-29",
+      "title": "The Gift No One Wants But Everyone Needs",
+      "description": "In leadership, grief isn't a detour, it's a meeting place where divine comfort meets human vulnerability. Embracing this sacred space can transform the way you lead, offering strength through...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-gift-no-one-wants-but-everyone-needs",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/ef9d81312b712c6a2f98444bb94ea014f2202b54-1456x971.webp",
+      "publishedAt": "2025-06-29T12:41:17.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-meekness-is-your-superpower-2025-06-28",
+      "title": "Meekness Is Your Superpower",
+      "description": "Discover the quiet strength of meekness, a transformative leadership quality often overlooked in the business world. Meekness isn't weakness; it's power under control, guiding you through the...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/meekness-is-your-superpower",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/fc9695167240e76ae42462c3a72836cef9568c7d-1456x971.webp",
+      "publishedAt": "2025-06-28T11:47:28.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Personal Growth"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-why-your-weakness-is-actually-your-greatest-streng-2025-06-27",
+      "title": "Why Your Weakness is Actually Your Greatest Strength",
+      "description": "In business, admitting weakness often feels like a liability, yet it can be a profound strength. When we stop striving to mask our vulnerabilities and instead invite divine strength into those...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/why-your-weakness-is-actually-your-greatest-strength",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/8b593d847b4859c794d8d8a128e7d653f96896c6-1536x1024.png",
+      "publishedAt": "2025-06-27T21:03:41.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-the-road-less-traveled-2025-06-27",
+      "title": "The Road Less Traveled",
+      "description": "Are you choosing comfort over growth, both in life and business? The wide road offers ease and instant gratification, yet it leads nowhere meaningful. Embrace the narrow path: where growth happens,...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-road-less-traveled",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/f8e7cf317142a42db92730416485136780adb12d-1536x1024.png",
+      "publishedAt": "2025-06-27T20:59:18.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Personal Growth"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-the-lamb-of-god-the-ultimate-business-strategy-2025-06-27",
+      "title": "The Lamb of God & The Ultimate Business Strategy",
+      "description": "Discover the transformative power of sacrifice in leadership. Success isn't just about climbing the ladder,it's about serving others and prioritizing long-term impact over short-term gains. Embrace...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-lamb-of-god-the-ultimate-business-strategy",
+      "thumbnail": "",
+      "publishedAt": "2025-06-27T20:58:27.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-living-on-purpose-why-your-business-need-a-philipp-2025-06-27",
+      "title": "Living on Purpose: Why Your Business Need a Philippians Mindset",
+      "description": "Embrace the mindset of \"living on purpose\" as a transformative approach in both life and business. Inspired by the principles in Philippians 1:21, this perspective encourages leaders to commit fully...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/living-on-purpose-why-your-life-and-business-need-a-philippians-1-21-mindset",
+      "thumbnail": "",
+      "publishedAt": "2025-06-27T20:57:20.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-what-jonah-s-story-teaches-us-about-business-life--2025-06-27",
+      "title": "What Jonah’s Story Teaches Us About Business, Life, and Purpose",
+      "description": "In the story of Jonah, we find profound lessons for navigating business and life: you can't outrun your purpose. Whether it's a business decision you're avoiding or a fear of stepping into new...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/what-jonah-s-story-teaches-us-about-business-life-and-purpose",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/cf19ecdd8538bef6fa694f1e5463bae1f5a2ac4f-1536x1024.png",
+      "publishedAt": "2025-06-27T20:55:57.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-the-power-of-mercy-in-business-and-life-2025-06-27",
+      "title": "The Power of Mercy in Business and Life",
+      "description": "Mercy in leadership isn't just a lofty ideal; it's a practical tool for building trust and influence. By responding to mistakes with grace and wisdom, leaders create environments where people can...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-power-of-mercy-in-business-and-life",
+      "thumbnail": "",
+      "publishedAt": "2025-06-27T20:54:57.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Personal Growth"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-the-fruit-of-your-life-and-business-2025-06-27",
+      "title": "The Fruit of Your Life and Business",
+      "description": "Reflect on the seeds you've planted in your life and business: are they yielding integrity and kindness, or have you drifted into compromise? The true measure of success is not in shortcuts, but in a...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-fruit-of-your-life-and-business",
+      "thumbnail": "",
+      "publishedAt": "2025-06-27T18:16:14.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-when-fear-whispers-faith-can-speak-louder-2025-06-27",
+      "title": "When Fear Whispers, Faith Can Speak Louder",
+      "description": "Feeling paralyzed by fear in your leadership role? Remember, fear is a feeling, not a verdict. God has already equipped you with power, love, and a sound mind to face any challenge.",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/when-fear-whispers-faith-can-speak-louder",
+      "thumbnail": "",
+      "publishedAt": "2025-06-27T18:14:42.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-the-currency-of-mercy-2025-06-27",
+      "title": "The Currency of Mercy",
+      "description": "In the fast-paced world of leadership, mercy may seem like a risk, but it's actually a profound strength. True mercy reframes accountability, allowing you to address failures without crushing...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-currency-of-mercy",
+      "thumbnail": "",
+      "publishedAt": "2025-06-27T15:00:41.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Personal Growth"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-rejection-the-cornerstone-and-the-blueprint-you-di-2025-06-26",
+      "title": "Rejection, the Cornerstone, and the Blueprint You Didn't Know You Needed",
+      "description": "Rejection isn't just a setback; it's a strategic redirection. In professional settings, being overlooked can feel like a personal defeat, but it may be the divine scaffolding for your true calling....",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/rejection-the-cornerstone-and-the-blueprint-you-didn-t-know-you-needed",
+      "thumbnail": "",
+      "publishedAt": "2025-06-26T12:30:27.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-for-such-a-time-as-this-2025-06-25",
+      "title": "For Such a Time as This",
+      "description": "Feel like you're at a pivotal moment in your leadership journey? Like Esther, you may be in your role for a reason greater than yourself. Before making bold decisions, take time to pause and seek...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/for-such-a-time-as-this",
+      "thumbnail": "",
+      "publishedAt": "2025-06-25T20:56:22.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-the-word-your-work-and-the-business-of-life-2025-06-25",
+      "title": "The Word, Your Work, and the Business of Life",
+      "description": "In the relentless pursuit of success, it's vital to ask: Are you building on a solid foundation or merely chasing fleeting trends? John 1:1 reveals that aligning with timeless truth can transform...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-word-your-work-and-the-business-of-life",
+      "thumbnail": "",
+      "publishedAt": "2025-06-25T20:54:57.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-jesus-is-knocking-2025-06-25",
+      "title": "Jesus is Knocking",
+      "description": "As a leader, are you too busy to hear the most important knock at your door? In the hustle of emails, social media, and daily demands, opportunities for true growth and impact often go unanswered....",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/jesus-is-knocking",
+      "thumbnail": "",
+      "publishedAt": "2025-06-25T20:53:49.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-the-business-of-worship-2025-06-25",
+      "title": "The Business of Worship",
+      "description": "In \"The Business of Worship,\" we explore how integrating worship and love into your business strategy can redefine success and impact. By viewing work as an act of worship, aligned with your core...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-business-of-worship",
+      "thumbnail": "",
+      "publishedAt": "2025-06-25T20:52:07.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-iron-sharpens-iron-2025-06-25",
+      "title": "Iron Sharpens Iron",
+      "description": "Growth isn't found in comfort. It's the friction of being challenged, the heat of hard conversations, and the discomfort of being sharpened that elevate your leadership and business. Embrace the...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/iron-sharpens-iron",
+      "thumbnail": "",
+      "publishedAt": "2025-06-25T20:50:46.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Personal Growth"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-you-are-not-powerless-2025-06-25",
+      "title": "You Are Not Powerless",
+      "description": "Feeling pressured by temptation is common, but it's also an invitation to grow stronger. You're not alone in this struggle, and there's always a path forward. God equips you with strategies to...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/you-are-not-powerless",
+      "thumbnail": "",
+      "publishedAt": "2025-06-25T20:49:24.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Personal Growth",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-your-words-are-building-something-so-what-are-you--2025-06-25",
+      "title": "Your Words Are Building Something, So What Are You Building?",
+      "description": "In every conversation, your words are the building blocks of trust, clarity, and culture. Whether you're leading a team or nurturing family, what you say can either fortify or erode the foundation...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/your-words-are-building-something-so-what-are-you-building",
+      "thumbnail": "",
+      "publishedAt": "2025-06-25T15:31:23.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-why-becoming-like-christ-is-the-secret-sauce-in-li-2025-06-24",
+      "title": "Why Becoming Like Christ is the Secret Sauce in Life and Business",
+      "description": "In a world flooded with leadership advice and productivity hacks, one biblical verse offers a profound blueprint for integrity and purpose in business. By aligning your leadership style with...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/why-becoming-like-christ-is-the-secret-sauce-in-life-and-business",
+      "thumbnail": "",
+      "publishedAt": "2025-06-24T18:06:42.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-the-most-important-thing-in-life-and-business-2025-06-24",
+      "title": "The Most Important Thing in Life and Business",
+      "description": "Success without soul feels hollow. Loving God with all aspects of your life, including business, transforms your work into a meaningful journey. Anchor every decision and ambition in this love, and...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-most-important-thing-in-life-and-business",
+      "thumbnail": "",
+      "publishedAt": "2025-06-24T18:05:30.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-why-we-run-from-what-we-need-most-2025-06-24",
+      "title": "Why We Run From What We Need Most",
+      "description": "As leaders, we often resist the embrace that brings clarity and peace, much like Jerusalem resisted mercy. In business, we are told to hustle and compete, but nurturing and protective leadership can...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/why-we-run-from-what-we-need-most",
+      "thumbnail": "",
+      "publishedAt": "2025-06-24T17:56:45.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-the-fruit-that-builds-kingdoms-2025-06-24",
+      "title": "The Fruit That Builds Kingdoms",
+      "description": "In \"The Fruit That Builds Kingdoms,\" we are challenged to rethink our leadership: are we merely busy, or truly fruitful? This isn't just a Sunday sermon, but a practical call to align our influence...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-fruit-that-builds-kingdoms",
+      "thumbnail": "",
+      "publishedAt": "2025-06-24T17:54:33.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
       "id": "hub-heroes-hubspot-lead-scoring-strategy-rookie-mistakes-tool-2025-06-24",
       "title": "HubSpot Lead Scoring: Strategy, Rookie Mistakes, + Tool Updates",
       "description": "",
@@ -1982,6 +4793,499 @@
       "pillars": [
         "HubSpot",
         "Marketing & Sales"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-blessed-are-the-spiritually-broke-2025-06-24",
+      "title": "Blessed Are the Spiritually Broke",
+      "description": "In the pursuit of success, it's easy to fall into the trap of self-sufficiency, believing that strength is in having it all together. Yet, true leadership begins when we acknowledge our limitations...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/blessed-are-the-spiritually-broke",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/356c82400eed578edc14ce989c4e80e8066fa68d-1536x1024.png",
+      "publishedAt": "2025-06-24T12:35:17.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-humility-is-your-hidden-superpower-2025-06-23",
+      "title": "Humility Is Your Hidden Superpower",
+      "description": "In today's fast-paced business world, humility isn't just a virtue, it's a strategic advantage for faith-driven leaders. Embracing humility allows you to build something enduring, grow into a leader...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/humility-is-your-hidden-superpower",
+      "thumbnail": "",
+      "publishedAt": "2025-06-23T12:12:13.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-remembering-is-a-strategy-2025-06-22",
+      "title": "Remembering Is a Strategy",
+      "description": "In the whirlwind of business challenges, remembering is more than nostalgia. It's a strategic move that re-anchors purpose and fuels momentum. By reflecting on past victories and where you've seen...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/remembering-is-a-strategy",
+      "thumbnail": "",
+      "publishedAt": "2025-06-22T12:07:26.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-the-ultimate-reset-2025-06-21",
+      "title": "The Ultimate Reset",
+      "description": "Feeling like something's missing despite your business achievements? Romans 3 offers more than theology: it provides a blueprint for clarity and transformation. Discover how leading from grace, not...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-ultimate-reset",
+      "thumbnail": "",
+      "publishedAt": "2025-06-21T12:33:20.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-you-re-not-on-your-own-2025-06-20",
+      "title": "You’re Not on Your Own",
+      "description": "In the fast-paced world of business, it's easy to feel like success hinges solely on your hustle. But what if you're not meant to do it all on your own? You're purposefully positioned to partner with...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/you-re-not-on-your-own",
+      "thumbnail": "",
+      "publishedAt": "2025-06-20T15:17:42.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-the-secret-to-a-fruitful-life-and-business-2025-06-20",
+      "title": "The Secret to a Fruitful Life and Business",
+      "description": "In the relentless world of business, the true secret to success isn't about grinding harder but staying connected to a deeper source. Imagine the difference if your leadership was driven by...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-secret-to-a-fruitful-life-and-business",
+      "thumbnail": "",
+      "publishedAt": "2025-06-20T14:42:48.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-trading-labels-2025-06-20",
+      "title": "Trading Labels",
+      "description": "In \"Trading Labels,\" we explore the profound impact of identity on leadership. Many leaders face burnout not from workload but from identity confusion, questioning their worth beyond achievements. By...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/trading-labels",
+      "thumbnail": "",
+      "publishedAt": "2025-06-20T14:39:49.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-never-forget-a-wake-up-call-for-life-leadership-an-2025-06-20",
+      "title": "Never Forget A Wake-Up Call for Life, Leadership, and Legacy",
+      "description": "In the fast-paced world of leadership, it's easy to forget the milestones that have shaped your journey. This piece invites you to pause and reflect, emphasizing the strategic power of remembrance....",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/never-forget",
+      "thumbnail": "",
+      "publishedAt": "2025-06-20T14:37:27.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-stop-running-the-wrong-race-a-wake-up-call-from-ac-2025-06-20",
+      "title": "Stop Running the Wrong Race A Wake-Up Call from Acts 20:24",
+      "description": "In the relentless pursuit of success, it's easy to run in the wrong direction. Paul's insight from Acts 20:24 challenges leaders to align their professional ambitions with their ultimate purpose....",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/stop-running-the-wrong-race",
+      "thumbnail": "",
+      "publishedAt": "2025-06-20T12:19:33.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-no-greater-love-2025-06-19",
+      "title": "No Greater Love",
+      "description": "In a world where success is often measured by profit, \"No Greater Love\" challenges leaders to redefine greatness through sacrificial love. This powerful principle transforms boardrooms and startups...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/no-greater-love",
+      "thumbnail": "",
+      "publishedAt": "2025-06-19T18:45:21.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-you-re-already-victorious-2025-06-19",
+      "title": "You're Already Victorious",
+      "description": "As leaders, we often find ourselves striving to earn victory, believing that success lies in hard work and relentless pursuit. But what if we started from a place of victory instead? The realization...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/you-re-already-victorious",
+      "thumbnail": "",
+      "publishedAt": "2025-06-19T11:57:31.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-when-leadership-weeps-the-power-of-reverent-submis-2025-06-18",
+      "title": "When Leadership Weeps The Power of Reverent Submission in Business",
+      "description": "The Power of Reverent Submission in Life and Business",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/when-leadership-weeps",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/2e5fbd4c939a134cd8eb0c8036025ec07c37cae8-1456x971.webp",
+      "publishedAt": "2025-06-18T12:40:50.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-love-without-strings-the-secret-advantage-in-busin-2025-06-17",
+      "title": "Love Without Strings The Secret Advantage in Business",
+      "description": "In \"Love Without Strings,\" we explore how unconditional love becomes a powerful leadership tool. It's not just about warm feelings but about creating environments where people feel valued for who...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/love-without-strings",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/60ce3ed399e8cc9c33d777e77899077e743e4abc-1920x1080.webp",
+      "publishedAt": "2025-06-17T13:36:08.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-there-is-no-other-name-2025-06-17",
+      "title": "There Is No Other Name",
+      "description": "In a world full of options, choosing to lead with clarity and conviction transforms how you view every aspect of business and life. Acts 4:12 teaches us that true empowerment doesn't come from...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/there-is-no-other-name",
+      "thumbnail": "",
+      "publishedAt": "2025-06-17T13:33:36.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-when-weapons-form-what-faith-life-and-business-all-2025-06-17",
+      "title": "When Weapons Form What Faith, Life, and Business All Have in Common",
+      "description": "When the pressures of leadership mount, remember that opposition is part of the journey, not the destination. As you navigate overloaded inboxes and strained team dynamics, embrace the promise that...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/when-weapons-form",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/2720727e21bbe4e7c09a871698a6604ec781f889-1456x971.webp",
+      "publishedAt": "2025-06-17T13:31:15.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-the-bread-that-fills-2025-06-16",
+      "title": "The Bread That Fills",
+      "description": "In \"The Bread That Fills,\" we explore how deep, soul-level nourishment can transform your leadership approach. Are you building a legacy or chasing temporary wins? Great leaders meet not just surface...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-bread-that-fills",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/87b887a41209228b2d1c49d42982613032064cdb-1456x971.webp",
+      "publishedAt": "2025-06-16T23:31:56.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-the-confidence-to-ask-2025-06-16",
+      "title": "The Confidence to Ask",
+      "description": "Discover the quiet confidence that lets you make tough decisions without needing universal approval. Rooted in your identity as a child of God, this assurance transforms your leadership style from...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-confidence-to-ask",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/01886c7092c387ef1f520ea09074e4d706496a2a-1456x971.webp",
+      "publishedAt": "2025-06-16T23:27:34.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-walking-through-the-fire-2025-06-16",
+      "title": "Walking Through the Fire",
+      "description": "In \"Walking Through the Fire,\" we explore the reality that trials are not just obstacles but opportunities for growth and transformation. For leaders navigating business pressures, this is a reminder...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/walking-through-the-fire",
+      "thumbnail": "",
+      "publishedAt": "2025-06-16T23:24:54.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-you-are-the-temple-what-that-means-for-your-busine-2025-06-16",
+      "title": "You Are the Temple What That Means for Your Business",
+      "description": "In the hustle of building brands and platforms, remember: you are more than a professional, you are a temple. As leaders, it's crucial to recognize that what we let into our lives affects the...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/you-are-the-temple",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/4247c7773d73828f90bbfbddd21399c18322a6df-1456x971.webp",
+      "publishedAt": "2025-06-16T18:37:14.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-strength-for-the-season-2025-06-16",
+      "title": "Strength for the Season",
+      "description": "In \"Strength for the Season,\" we explore a powerful truth: Philippians 4:13 is less about achieving dreams and more about enduring the journey. For leaders, true strength lies not in success, but in...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/strength-for-the-season",
+      "thumbnail": "",
+      "publishedAt": "2025-06-16T18:35:38.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-from-grief-to-growth-2025-06-16",
+      "title": "From Grief to Growth",
+      "description": "Grief isn't just a personal matter; it's a leadership crucible that can transform your professional journey. Embrace the loss, sit with hope, and recognize that the toughest seasons are often the...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/from-grief-to-growth",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/f811b2817cab0eafcf5782b04e85ff5008c6a11b-1456x971.webp",
+      "publishedAt": "2025-06-16T16:43:11.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Personal Growth",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-safe-with-him-2025-06-16",
+      "title": "Safe with Him",
+      "description": "In a world driven by relentless hustle, \"Safe with Him\" offers a refreshing perspective: true security begins in the soul. Drawing from Psalm 16, this piece explores King David's unshakeable peace...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/safe-with-him",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/d39fd4bf3a4b674d04181304e619a8a39d45a12f-1456x971.webp",
+      "publishedAt": "2025-06-16T16:33:41.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Personal Growth"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-no-longer-enslaved-people-2025-06-16",
+      "title": "No Longer Enslaved People",
+      "description": "Every leader faces moments when the grind feels overwhelming, leaving them questioning their worth and belonging. By embracing the identity of an heir, not a slave, you unlock a mindset shift that...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/no-longer-enslaved-people",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/d59ccd9e60d4a824825e9e004f5103d33c3de413-1456x971.webp",
+      "publishedAt": "2025-06-16T16:26:41.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-leadership-at-ground-level-2025-06-16",
+      "title": "Leadership at Ground Level",
+      "description": "Imagine leadership not as a position on a stage, but as a posture of service. Authentic leadership might look more like someone kneeling with a towel, prioritizing others' needs without seeking...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/leadership-at-ground-level",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/2e4fd73b6df9e4f730813ec761570d916a0d5fc7-1456x971.webp",
+      "publishedAt": "2025-06-16T16:09:09.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-enter-with-thanks-2025-06-16",
+      "title": "Enter with Thanks",
+      "description": "Gratitude is more than a spiritual nicety; it's an anchor for leaders navigating the chaos of business and life. By entering every situation with thankfulness, you align with clarity and presence,...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/enter-with-thanks",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/b3ede93b557467b6c3331fe0e6e5ec5cf5412914-1456x971.webp",
+      "publishedAt": "2025-06-16T16:06:50.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-be-the-example-2025-06-16",
+      "title": "Be the Example",
+      "description": "In the face of doubt and skepticism, true leadership isn't about defending your place but demonstrating it with integrity. By embracing five key arenas,speech, conduct, love, faith, and purity,you...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/be-the-example",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/388921d8491bc8db82cb9bd264e494b1cbe31272-1456x971.webp",
+      "publishedAt": "2025-06-16T12:50:43.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Personal Growth"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-he-makes-it-work-2025-06-15",
+      "title": "He Makes It Work",
+      "description": "In the world of strategic plans and quarterly targets, detours can feel like dead ends. But what if those twists are the start of a greater purpose? Romans 8:28 invites us to see these moments not as...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/he-makes-it-work",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/567e907ff9c1c7b153ce875ba5ac00bd57b7bef5-1536x1024.png",
+      "publishedAt": "2025-06-15T16:56:12.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-guided-by-the-spirit-2025-06-15",
+      "title": "Guided by the Spirit",
+      "description": "Guidance in today's fast-paced world can feel elusive, especially when technology lets us down. Yet, as leaders, we aren't navigating alone. The Spirit is our ever-present guide, offering direction...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/guided-by-the-spirit",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/44ffb608da193fd62ab6cb058dddc3c9806fd780-1456x971.webp",
+      "publishedAt": "2025-06-15T03:22:12.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-your-inheritance-awaits-grace-growth-and-how-we-le-2025-06-15",
+      "title": "Your Inheritance Awaits: Grace, Growth, and How We Lead",
+      "description": "Stop building like an orphan. Start leading like an heir. Biblical leadership principles from Matthew 25:34 that transform how you work, decide, and flourish.",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/your-inheritance-awaits-grace-growth-and-how-we-lead",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/251005123145c31793d977b2354e23b4ddbdb5dc-2752x1536.png",
+      "publishedAt": "2025-06-15T00:11:00.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-leading-like-a-shepherd-2025-06-14",
+      "title": "Leading Like a Shepherd",
+      "description": "In \"Leading Like a Shepherd,\" we explore how true leadership is not about exerting control but about embodying the quiet strength of a follower attuned to a higher calling. The best leaders listen...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/leading-like-a-shepherd",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/2ac9a536aba9c3ab942250bf151dea431821c5f1-1456x971.webp",
+      "publishedAt": "2025-06-14T22:59:30.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Spiritual Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-how-to-save-your-life-and-lead-with-eternal-impact-2025-06-14",
+      "title": "How to Save Your Life and Lead with Eternal Impact",
+      "description": "Amid the hustle for success, leaders often grapple with the tension of building versus surrendering their lives. In Mark 8:35, Jesus challenges us to let go of our version of success for a greater...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/how-to-save-your-life-and-lead-with-eternal-impact",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/5064a621e6ab1022b07156c4ba4d4291865aa1b0-1456x971.webp",
+      "publishedAt": "2025-06-14T22:19:02.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Personal Growth"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-living-between-kingdoms-2025-06-14",
+      "title": "Living Between Kingdoms",
+      "description": "In \"Living Between Kingdoms,\" we explore the profound shift leaders experience when they embrace their faith as more than just a spiritual aspect, but as a complete transformation. Colossians 1:13...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/living-between-kingdoms",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/98c990a080bd64484cf349938c019feeffede06d-1456x971.webp",
+      "publishedAt": "2025-06-14T21:57:20.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Spiritual Leadership",
+        "Leadership"
+      ],
+      "tags": []
+    },
+    {
+      "id": "spiritual-side-of-leadership-the-trust-trap-2025-06-14",
+      "title": "The Trust Trap",
+      "description": "Navigating the \"Trust Trap\" requires leaders to confront the subtle fears that paralyze decision-making. When fear masquerades as collaboration, it can stifle your true calling. Proverbs 3:5-7 offers...",
+      "url": "https://www.spiritualsideofleadership.com/resources/articles/the-trust-trap",
+      "thumbnail": "https://cdn.sanity.io/images/s29lr5e0/production/9ae9d18297f5f8a26b61e45aee7296724da2c730-1456x971.webp",
+      "publishedAt": "2025-06-14T21:35:20.000Z",
+      "type": "article",
+      "source": "Spiritual Side of Leadership",
+      "pillars": [
+        "Leadership",
+        "Personal Growth"
       ],
       "tags": []
     },

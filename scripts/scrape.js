@@ -179,7 +179,7 @@ async function fetchPodcastFeed(feed) {
 
     const items = Array.isArray(channel.item) ? channel.item : [channel.item].filter(Boolean);
     
-    const resources = items.slice(0, 100).map(item => {
+    const resources = items.map(item => {
       // Get episode URL (prefer link, fallback to enclosure)
       let episodeUrl = item.link;
       if (!episodeUrl && item.enclosure) {
@@ -242,7 +242,7 @@ async function fetchBlogFeed(feed) {
         : [parsed.feed.entry];
     }
 
-    const resources = items.slice(0, 100).map(item => {
+    const resources = items.map(item => {
       // Handle RSS vs Atom format differences
       const title = item.title?._ || item.title || '';
       // RSS uses string link, Atom uses object with $.href

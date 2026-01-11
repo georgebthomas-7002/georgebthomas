@@ -53,10 +53,10 @@ export function Testimonials() {
                   {testimonial.avatar ? (
                     <Image
                       src={testimonial.avatar}
-                      alt={`${testimonial.name} avatar`}
+                      alt={testimonial.name}
                       width={48}
                       height={48}
-                      style={{ objectFit: 'cover' }}
+                      className="testimonial-card__avatar-img"
                     />
                   ) : (
                     <div

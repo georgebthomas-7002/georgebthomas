@@ -9,11 +9,19 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: 'https',
+        hostname: 'i.ytimg.com',
+      },
+      {
+        protocol: 'https',
         hostname: 'img.youtube.com',
       },
       {
         protocol: 'https',
-        hostname: 'i.ytimg.com',
+        hostname: 'img.transistorcdn.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'img.transistor.fm',
       },
       {
         protocol: 'https',

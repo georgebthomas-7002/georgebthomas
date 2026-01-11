@@ -13,7 +13,8 @@ podcast_feeds:
 blog_feeds:
   - url: "https://sidekickstrategies.com/blog/rss.xml"
     name: "Sidekick Strategies"
-  # Note: SSL site doesn't have RSS feed yet
+  - url: "https://www.spiritualsideofleadership.com/rss"
+    name: "Spiritual Side of Leadership"
 
 taxonomy:
   pillars:

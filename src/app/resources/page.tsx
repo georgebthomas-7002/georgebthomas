@@ -242,8 +242,8 @@ export default function ResourcesPage() {
 
     const handleScroll = () => {
       const rect = filtersEl.getBoundingClientRect()
-      // Filter bar is sticky when its top reaches ~80px (header height)
-      const sticky = rect.top <= 80
+      // Filter bar is sticky when its top reaches ~70px (scrolled header height)
+      const sticky = rect.top <= 70
       setIsFiltersSticky(sticky)
 
       // Toggle body class for header shadow control
