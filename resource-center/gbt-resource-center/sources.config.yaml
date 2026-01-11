@@ -1,0 +1,35 @@
+youtube_channels:
+  - id: "@thegeorgebthomas"
+    name: "George B Thomas"
+  - id: "@thespiritualsideofleadership"
+    name: "Spiritual Side of Leadership"
+
+podcast_feeds:
+  - url: "https://feeds.transistor.fm/the-hubheroes-podcast"
+    name: "Hub Heroes"
+  - url: "https://feeds.transistor.fm/beyond-the-default"
+    name: "Beyond Your Default"
+
+blog_feeds:
+  - url: "https://sidekickstrategies.com/blog/rss.xml"
+    name: "Sidekick Strategies"
+  # Add SSL blog RSS when available:
+  # - url: "https://spiritualsideofleadership.com/rss.xml"
+  #   name: "Spiritual Side of Leadership"
+
+taxonomy:
+  pillars:
+    - AI & Technology
+    - HubSpot
+    - Marketing & Sales
+    - Video
+    - Podcasting
+    - Personal Growth
+    - Leadership
+    - Spiritual Leadership
+  secondary_tags:
+    - Speaking & Training
+    - Inbound Marketing
+    - Sales Enablement
+    - Content Strategy
+    - Community Building

@@ -40,3 +40,5 @@ next-env.d.ts
 
 # Sanity
 /sanity/.sanity/
+resource-center/gbt-resource-center/node_modules/
+resource-center/gbt-resource-center/.next/
