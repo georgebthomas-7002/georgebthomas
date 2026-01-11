@@ -242,7 +242,7 @@ export default function Home() {
           <div className="container">
             <AnimatedSection className="section-header" animation="fade-in">
               <span className="section-header__subtitle">T-Shaped Expertise</span>
-              <h2 className="section-header__title">Deep Knowledge, Broad Vision</h2>
+              <h2 className="section-header__title">Deep Knowledge, Broad Vision for You</h2>
               <p className="section-header__description">
                 You deserve more than a one-dimensional expert. You&apos;ll get deep expertise across eight pillars,
                 all converging to help you achieve your transformation.
