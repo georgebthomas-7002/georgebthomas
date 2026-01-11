@@ -77,6 +77,12 @@ const speakingVideos: VideoItem[] = [
     title: 'Speaking Highlight',
     description: 'Inspiring transformation through powerful presentations.'
   },
+  {
+    id: 'vid-12',
+    youtubeId: 'fzl2vlBNn3Q',
+    title: 'Speaking Highlight',
+    description: 'Delivering transformative insights that drive action.'
+  },
 ]
 
 type Topic = 'hubspot' | 'video' | 'podcasting' | 'ai' | 'transformation' | 'marketing'
