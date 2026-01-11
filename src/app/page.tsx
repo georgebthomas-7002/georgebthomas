@@ -198,7 +198,7 @@ export default function Home() {
                 <div className="home-story__image-accent" aria-hidden="true"></div>
                 <Image
                   src="/images/george-highschool.webp"
-                  alt="George B. Thomas"
+                  alt="George B. Thomas in high school"
                   width={400}
                   height={500}
                   className="home-story__image"

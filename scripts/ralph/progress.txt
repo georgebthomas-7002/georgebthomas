@@ -30,6 +30,8 @@ Feature: Website Audit & Polish
 - **Button variants**: btn--primary, btn--secondary, btn--outline-light only (no btn--accent or btn--outline)
 - **Dark backgrounds**: Use btn--outline-light for secondary buttons, add text color overrides to section class
 - **Verify CSS classes**: Before using page-specific classes, check globals.css to ensure they exist (grep for the class name)
+- **SEO metadata for client components**: Create page-specific layout.tsx files with metadata exports (client components can't export metadata directly)
+- **External images**: Add hostnames to next.config.ts remotePatterns for Next.js Image with external URLs (e.g., img.youtube.com for thumbnails)
 
 ---
 
@@ -356,4 +358,44 @@ Feature: Website Audit & Polish
   - Page-hero sections don't need page-specific modifiers if base styles are sufficient
   - Stats section reuses the same .stat-item styling from homepage (defined once, used everywhere)
   - Theme cards already have proper design system tokens defined (lines 7390-7460 in globals.css)
+---
+
+## 2025-01-10 - US-017
+- Implemented SEO and meta audit for all pages
+- Files changed: src/app/layout.tsx, src/app/about/layout.tsx, src/app/expertise/layout.tsx, src/app/speaking/layout.tsx, src/app/coaching/layout.tsx, src/app/coaching/apply/layout.tsx, src/app/coaching/thank-you/layout.tsx, src/app/resources/layout.tsx, src/app/testimonials/layout.tsx
+- **Changes made:**
+  - Created 8 page-specific layout.tsx files with unique metadata
+  - Each page has unique, SEO-optimized title and description
+  - All descriptions under 160 characters for proper SERP display
+  - OG tags (title, description, image) added to all public pages
+  - Twitter cards configured with summary_large_image
+  - Added metadataBase to root layout for proper OG image URL resolution
+  - Apply page: noindex (privacy), nofollow (no crawling)
+  - Thank You page: noindex/nofollow (private confirmation)
+  - Root layout description updated to be more benefit-focused and action-oriented
+- **Learnings for future iterations:**
+  - Client components ('use client') cannot export metadata - need page-specific layout.tsx files
+  - metadataBase is required for OG images to resolve correctly (shows warning otherwise)
+  - Descriptions should be 150-160 chars max (Google truncates at 155-160)
+  - Apply/Thank You pages should be noindex to avoid thin content in search results
+  - Use | as separator in titles (e.g., "Page Name | George B. Thomas")
+  - OG descriptions can be slightly different from meta descriptions (shorter is OK for social)
+---
+
+## 2025-01-10 - US-018
+- Implemented performance audit for images and assets
+- Files changed: src/components/Testimonials.tsx, src/components/VideoSlider.tsx, next.config.ts, src/app/page.tsx
+- **Changes made:**
+  - Converted <img> in Testimonials.tsx to Next.js Image component (with width/height 48x48)
+  - Converted <img> in VideoSlider.tsx to Next.js Image component (with width/height 320x180 for YouTube thumbnails)
+  - Added img.youtube.com to next.config.ts remotePatterns for external YouTube thumbnails
+  - Improved alt text on homepage story image: "George B. Thomas" → "George B. Thomas in high school"
+  - Verified all 17 Image components have proper width/height or fill attributes
+  - Reviewed image file sizes: largest is george-family.jpg (948KB), george-hero.png (455KB) - acceptable since Next.js optimizes at runtime
+- **Learnings for future iterations:**
+  - YouTube thumbnails use img.youtube.com domain, not i.ytimg.com (different from embedded videos)
+  - Next.js Image with external URLs requires hostname in next.config.ts remotePatterns
+  - Testimonial avatars currently use null values, so Image code path isn't active - but ready for future use
+  - Alt text should describe the image content, not just the subject name ("in high school" is more descriptive)
+  - Image sizes under 1MB are acceptable since Next.js Image optimizes at build/runtime with webp conversion
 ---

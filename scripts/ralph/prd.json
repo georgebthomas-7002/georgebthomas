@@ -277,8 +277,8 @@
         "Typecheck passes"
       ],
       "priority": 17,
-      "passes": false,
-      "notes": ""
+      "passes": true,
+      "notes": "Completed: Created page-specific layout.tsx files for all 8 pages with unique titles, descriptions under 160 chars, OG tags, and Twitter cards. Added metadataBase to root layout. Apply/Thank You pages marked noindex."
     },
     {
       "id": "US-018",
@@ -292,8 +292,8 @@
         "Typecheck passes"
       ],
       "priority": 18,
-      "passes": false,
-      "notes": ""
+      "passes": true,
+      "notes": "Completed: Converted 2 <img> tags to Next.js Image (Testimonials.tsx, VideoSlider.tsx). Added img.youtube.com to next.config.ts remotePatterns. Verified all 17 Image components have width/height or fill. Improved alt text for homepage story image. Image sizes reviewed - all reasonable, Next.js optimizes at runtime."
     },
     {
       "id": "US-019",
