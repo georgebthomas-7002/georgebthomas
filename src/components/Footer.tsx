@@ -63,7 +63,7 @@ export function Footer() {
           <div className="footer__brand">
             <div className="footer__logo">George B. Thomas</div>
             <p className="footer__tagline">
-              Empowering individuals and organizations to unlock their potential and achieve extraordinary results.
+              Be strong and courageous. Do not be afraid or terrified because of them, for the LORD your God goes with you; he will never leave you nor forsake you. ~ Deuteronomy 31:6
             </p>
             <div className="footer__social">
               {socialLinks.map((social) => (
