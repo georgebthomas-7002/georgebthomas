@@ -85,3 +85,21 @@ Feature: Website Audit & Polish
   - When credentials are mentioned, frame them as "built from X years" not "with X years of experience"
 ---
 
+## 2025-01-11 - US-005
+- Implemented Coaching page content audit with contractions and you-focused language
+- Files changed: src/app/coaching/page.tsx
+- **Changes made:**
+  - Hero: Added contractions (I'm, let's), benefit-focused CTAs
+  - Pricing: Descriptions reframed ("if you're ready to..." instead of "perfect for...")
+  - Coaching Approach (6 cards): All descriptions updated with contractions and you-focus
+  - Process (4 steps): Rewritten as "You'll receive...", "You'll work through..."
+  - FAQs (5 items): Added contractions, updated to conversational tone
+  - Story section: Added contractions (I'd, I've, there's, that's, I'm)
+  - CTAs: "Start Your Transformation", "Begin Your Journey", "Get Clarity Now", "Explore What You'll Master"
+- **Learnings for future iterations:**
+  - Coaching page has many inline data arrays (pricingPlans, coachingApproach, process, faqs) - check all of them
+  - FAQs benefit from contractions in answers and question reframing ("What's the..." vs "What is the...")
+  - Pricing descriptions should speak to the buyer's readiness ("if you're ready for...")
+  - Process steps work well framed as "You'll [verb]..." to emphasize client's active role
+---
+
