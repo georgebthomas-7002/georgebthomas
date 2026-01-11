@@ -12,7 +12,10 @@
     "scrape:podcasts": "node scripts/scrape.js --podcasts-only",
     "scrape:blogs": "node scripts/scrape.js --blogs-only",
     "scrape:images": "node scripts/scrape-missing-images.js",
-    "check:404s": "node scripts/check-404s.js"
+    "check:404s": "node scripts/check-404s.js",
+    "test:e2e": "playwright test",
+    "test:e2e:ui": "playwright test --ui",
+    "test:e2e:headed": "playwright test --headed"
   },
   "dependencies": {
     "@sanity/client": "^7.14.0",
