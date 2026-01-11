@@ -126,8 +126,8 @@
         "Typecheck passes"
       ],
       "priority": 8,
-      "passes": false,
-      "notes": ""
+      "passes": true,
+      "notes": "Completed: Hero reframed as 'clients like you have experienced', slider section updated to 'What You Can Expect', featured section header changed to 'You're Not Alone on This Journey', all 4 theme cards reframed to 'You'll' language, CTA updated to 'Start Your Transformation' and 'Let's Talk'"
     },
     {
       "id": "US-009",
