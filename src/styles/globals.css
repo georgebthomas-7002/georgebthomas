@@ -7666,18 +7666,21 @@ a:hover {
 .testimonials-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 2.5rem; /* ~40px - tighter gutter for wider cards */
+  gap: 1.5rem; /* ~25px gutter */
   margin-top: var(--space-3xl);
 }
 
 .testimonial-card {
   background: var(--color-white);
   border-radius: var(--radius-xl);
-  padding: var(--space-2xl);
+  padding: var(--space-xl) var(--space-2xl);
   box-shadow: var(--shadow-md);
   position: relative;
   transition: transform var(--duration-normal) var(--ease-out),
               box-shadow var(--duration-normal) var(--ease-out);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .testimonial-card:hover {
@@ -7726,7 +7729,7 @@ a:hover {
   font-size: var(--font-size-base);
   line-height: var(--line-height-relaxed);
   color: var(--color-text);
-  margin-bottom: var(--space-xl);
+  margin-bottom: var(--space-md);
   font-style: italic;
 }
 
@@ -7734,7 +7737,7 @@ a:hover {
   display: flex;
   align-items: center;
   gap: var(--space-md);
-  padding-top: var(--space-lg);
+  padding-top: var(--space-md);
   border-top: 1px solid var(--color-warm-dark);
 }
 
