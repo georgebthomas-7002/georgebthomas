@@ -1268,7 +1268,7 @@ a:hover {
   inherits: false;
 }
 
-/* Animated border - colors travel along the edges */
+/* Animated border - single snake segment travels around edges */
 .header__wordmark::before {
   content: '';
   position: absolute;
@@ -1277,41 +1277,36 @@ a:hover {
   padding: 1.5px;
   background: conic-gradient(
     from var(--border-angle, 0deg),
-    var(--color-primary-dark) 0%,
-    var(--color-accent) 12.5%,
-    var(--color-primary-dark) 25%,
-    transparent 37.5%,
-    transparent 62.5%,
-    var(--color-primary-dark) 75%,
-    var(--color-accent) 87.5%,
-    var(--color-primary-dark) 100%
+    var(--color-accent) 0%,
+    var(--color-primary-dark) 8%,
+    rgba(45, 74, 111, 0.3) 15%,
+    transparent 20%,
+    transparent 100%
   );
   -webkit-mask:
     linear-gradient(#fff 0 0) content-box,
     linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
-  animation: wordmark-border-flow 6s linear infinite;
+  animation: wordmark-border-flow 8s linear infinite;
 }
 
-/* Subtle ambient glow */
+/* Subtle ambient glow follows the snake */
 .header__wordmark::after {
   content: '';
   position: absolute;
-  inset: -3px;
+  inset: -4px;
   border-radius: 6px;
   background: conic-gradient(
     from var(--border-angle, 0deg),
-    transparent 0%,
-    var(--color-accent) 12.5%,
-    transparent 25%,
-    transparent 75%,
-    var(--color-accent) 87.5%,
+    var(--color-accent) 0%,
+    rgba(224, 122, 95, 0.4) 10%,
+    transparent 18%,
     transparent 100%
   );
-  opacity: 0.2;
-  filter: blur(6px);
-  animation: wordmark-border-flow 6s linear infinite;
+  opacity: 0.4;
+  filter: blur(8px);
+  animation: wordmark-border-flow 8s linear infinite;
   z-index: -1;
 }
 
