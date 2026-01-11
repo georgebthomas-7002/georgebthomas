@@ -111,9 +111,9 @@ export function Footer() {
             <h4 className="footer__heading">Contact</h4>
             <ul className="footer__links">
               <li>
-                <a href="mailto:george@georgebthomas.com" className="footer__link">
-                  george@georgebthomas.com
-                </a>
+                <Link href="/contact" className="footer__link">
+                  Get in Touch
+                </Link>
               </li>
               <li>
                 <Link href="/speaking" className="footer__link">
