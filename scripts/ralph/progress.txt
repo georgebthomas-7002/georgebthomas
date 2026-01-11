@@ -22,6 +22,8 @@ Feature: Website Audit & Polish
 - CTAs should follow action + benefit pattern (e.g., "Ignite Your Event")
 - Use &apos; for apostrophes in JSX strings
 - Story sections can keep some "I" language - balance with "you" framing
+- Check data files (src/data/*.tsx) for content - page.tsx often imports from there
+- Expertise/pillar descriptions work best as "You'll [verb]..." for visitor focus
 
 ---
 
@@ -47,5 +49,21 @@ Feature: Website Audit & Polish
   - Personal story sections can keep "I" perspective - that's authentic
   - Values/beliefs sections should pivot to show visitor benefit
   - Section subtitles are a good place to shift from "about me" to "about you"
+---
+
+## 2025-01-11 - US-003
+- Implemented Expertise page content audit with contractions and you-focused language
+- Files changed: src/app/expertise/page.tsx, src/data/expertise.tsx
+- **Changes made:**
+  - Hero: "When you work with George, you're getting" (reframed from third-person)
+  - Section subtitles: "What You'll Gain Access To", "More Ways You'll Benefit", "What You Can Expect"
+  - Deep expertise (8 pillars): All descriptions rewritten from "George does X" to "You'll gain/learn/discover X"
+  - Principles (6 total): All updated to be visitor-focused with contractions
+  - CTAs: "Ignite Your Event", "Start Your Transformation"
+- **Learnings for future iterations:**
+  - Data files (like expertise.tsx) contain content too - don't forget to audit them
+  - Expertise descriptions work best as "You'll [verb]..." rather than passive third-person
+  - Principles can be reframed as promises/expectations ("You'll receive value upfront")
+  - Em-dashes (—) work well for conversational breaks instead of formal punctuation
 ---
 
