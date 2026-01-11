@@ -7736,15 +7736,58 @@ a:hover {
   border-radius: var(--radius-lg);
   padding: var(--space-xl);
   text-align: center;
-  transition: all var(--duration-normal) var(--ease-out);
+  transition:
+    transform var(--duration-normal) var(--ease-out),
+    box-shadow var(--duration-normal) var(--ease-out),
+    border-color var(--duration-normal) var(--ease-out);
   box-shadow: var(--shadow-sm);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Subtle shimmer effect */
+.expertise-preview-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(224, 122, 95, 0.08),
+    transparent
+  );
+  transition: left 0.6s ease;
+}
+
+.expertise-preview-card:hover::before {
+  left: 100%;
+}
+
+/* Soft glow on hover */
+.expertise-preview-card::after {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border-radius: var(--radius-lg);
+  background: linear-gradient(135deg, var(--color-accent), var(--color-primary));
+  opacity: 0;
+  z-index: -1;
+  transition: opacity var(--duration-normal) var(--ease-out);
 }
 
 .expertise-preview-card:hover {
-  background: var(--color-white);
   border-color: var(--color-accent);
-  transform: translateY(-4px);
-  box-shadow: var(--shadow-md);
+  transform: translateY(-6px);
+  box-shadow:
+    var(--shadow-md),
+    0 8px 30px rgba(224, 122, 95, 0.15);
+}
+
+.expertise-preview-card:hover::after {
+  opacity: 0.1;
 }
 
 .expertise-preview-card__icon {
@@ -7755,11 +7798,28 @@ a:hover {
   align-items: center;
   justify-content: center;
   color: var(--color-accent);
+  transition: transform var(--duration-normal) var(--ease-out);
+}
+
+.expertise-preview-card:hover .expertise-preview-card__icon {
+  transform: scale(1.1);
+  animation: icon-pulse 0.6s ease-out;
+}
+
+@keyframes icon-pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.15); }
+  100% { transform: scale(1.1); }
 }
 
 .expertise-preview-card__icon svg {
   width: 100%;
   height: 100%;
+  transition: filter var(--duration-normal) var(--ease-out);
+}
+
+.expertise-preview-card:hover .expertise-preview-card__icon svg {
+  filter: drop-shadow(0 2px 4px rgba(224, 122, 95, 0.3));
 }
 
 .expertise-preview-card__title {
@@ -7767,6 +7827,11 @@ a:hover {
   font-size: var(--font-size-base);
   color: var(--color-text);
   margin-bottom: var(--space-xs);
+  transition: color var(--duration-normal) var(--ease-out);
+}
+
+.expertise-preview-card:hover .expertise-preview-card__title {
+  color: var(--color-primary-dark);
 }
 
 .expertise-preview-card__level {
@@ -7774,6 +7839,11 @@ a:hover {
   color: var(--color-accent);
   text-transform: uppercase;
   letter-spacing: var(--letter-spacing-wide);
+  transition: letter-spacing var(--duration-normal) var(--ease-out);
+}
+
+.expertise-preview-card:hover .expertise-preview-card__level {
+  letter-spacing: 0.2em;
 }
 
 .home-expertise__cta {
