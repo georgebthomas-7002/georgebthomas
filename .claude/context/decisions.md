@@ -137,3 +137,28 @@
 3. After payment, HubSpot redirects to `/coaching/thank-you?purchased=X`
 
 **Context saved:** `.claude/context/coaching.md` - full product details for future reference
+
+### Legal Pages Created
+- **Privacy Policy** (`/privacy`): Data collection, HubSpot/GA/Vercel integrations, cookies, user rights, GDPR-aware
+- **Terms of Service** (`/terms`): Coaching packages, pricing ($200/hr), refund policy, scheduling, confidentiality, liability
+- Both pages link to each other and back to homepage
+- Added to sitemap.ts
+
+### Footer Refactored
+- **Removed:** Resources section (had placeholder # links for Substack, HubHeroes, Video Gallery, Ultimate Guide)
+- **Added social icons:** Facebook, Sidekick Strategies YouTube, Spiritual Side of Leadership YouTube
+- **Layout:** 7 social icons now display in 2 rows (max-width: 220px, flex-wrap)
+- **Final structure:** 3 columns (Brand, Quick Links, Contact)
+
+### Site Completion Status
+**Done:**
+- All 13 pages functional
+- HubSpot CRM integration complete
+- Payment links configured
+- Legal pages created
+- Social links updated
+
+**Remaining (optional):**
+- Upload og-image.jpg (social sharing)
+- Upload favicon.ico (browser tab)
+- Upload george-speaking.jpg (speaking page)
