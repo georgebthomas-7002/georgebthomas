@@ -23,9 +23,9 @@ export default function TestimonialsPage() {
                 <span className="page-hero__title-accent"> About Working Together</span>
               </h1>
               <p className="page-hero__description">
-                Don&apos;t just take my word for it. Here&apos;s what clients, collaborators, and
-                industry peers have to say about working together. Every testimonial represents
-                a real transformation and genuine partnership.
+                Don&apos;t just take my word for it—here&apos;s what clients like you have experienced.
+                These aren&apos;t just testimonials; they&apos;re real stories of transformation from
+                people who&apos;ve walked the path you&apos;re considering.
               </p>
             </AnimatedSection>
 
@@ -49,8 +49,8 @@ export default function TestimonialsPage() {
 
         {/* Testimonial Slider - Dark Blue with Animated Background */}
         <TestimonialSection
-          title="Hear It From Them"
-          subtitle="Featured Voices"
+          title="What You Can Expect"
+          subtitle="Voices Like Yours"
         />
 
         {/* Stats Section - Warm Background (contrast with dark above) */}
@@ -81,11 +81,11 @@ export default function TestimonialsPage() {
         <section className="section testimonials-featured">
           <div className="container">
             <AnimatedSection className="section-header" animation="fade-in">
-              <span className="section-header__subtitle">All Stories</span>
-              <h2 className="section-header__title">Transformations That Speak Volumes</h2>
+              <span className="section-header__subtitle">Stories Like Yours</span>
+              <h2 className="section-header__title">You&apos;re Not Alone on This Journey</h2>
               <p className="section-header__description">
-                These are just a few of the many success stories from people who have
-                partnered with me on their journey to becoming superhuman.
+                These are just a few success stories from people who were once where you are now.
+                They took the leap—and here&apos;s what happened.
               </p>
             </AnimatedSection>
 
@@ -140,8 +140,8 @@ export default function TestimonialsPage() {
         <section className="section section--warm testimonials-themes">
           <div className="container">
             <AnimatedSection className="section-header" animation="fade-in">
-              <span className="section-header__subtitle">Common Themes</span>
-              <h2 className="section-header__title">What Clients Consistently Say</h2>
+              <span className="section-header__subtitle">What You&apos;ll Experience</span>
+              <h2 className="section-header__title">Here&apos;s What Keeps Coming Up</h2>
             </AnimatedSection>
 
             <StaggerContainer className="themes-grid">
@@ -152,10 +152,10 @@ export default function TestimonialsPage() {
                     <polyline points="22 4 12 14.01 9 11.01"/>
                   </svg>
                 </div>
-                <h3 className="theme-card__title">Gets It<br />Done</h3>
+                <h3 className="theme-card__title">You&apos;ll Get<br />Results</h3>
                 <p className="theme-card__description">
-                  Clients consistently mention that George delivers on promises and makes
-                  more progress in weeks than others do in months.
+                  You won&apos;t be stuck in planning mode. You&apos;ll see real progress—often
+                  in weeks rather than months—because that&apos;s how we roll.
                 </p>
               </div>
 
@@ -165,10 +165,10 @@ export default function TestimonialsPage() {
                     <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
                   </svg>
                 </div>
-                <h3 className="theme-card__title">Genuine Care<br />and Love</h3>
+                <h3 className="theme-card__title">You&apos;ll Feel<br />Genuinely Supported</h3>
                 <p className="theme-card__description">
-                  A passion for helping others shines through in every interaction, whether
-                  on stage or in a one-on-one coaching call.
+                  This isn&apos;t transactional. You&apos;ll feel the passion and care in every
+                  interaction—whether on stage or one-on-one.
                 </p>
               </div>
 
@@ -180,10 +180,10 @@ export default function TestimonialsPage() {
                     <line x1="12" y1="8" x2="12.01" y2="8"/>
                   </svg>
                 </div>
-                <h3 className="theme-card__title">Technical<br />Expertise</h3>
+                <h3 className="theme-card__title">You&apos;ll Get<br />Real Expertise</h3>
                 <p className="theme-card__description">
-                  Deep HubSpot knowledge combined with practical marketing insights
-                  that translate into real business results.
+                  You&apos;ll work with someone who knows HubSpot inside and out—and can translate
+                  that into practical strategies that actually move your business forward.
                 </p>
               </div>
 
@@ -193,10 +193,10 @@ export default function TestimonialsPage() {
                     <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
                   </svg>
                 </div>
-                <h3 className="theme-card__title">Energy &<br />Enthusiasm</h3>
+                <h3 className="theme-card__title">You&apos;ll Catch<br />the Energy</h3>
                 <p className="theme-card__description">
-                  Described as &quot;FIRE&quot; and a &quot;force of positive energy,&quot;
-                  George brings contagious enthusiasm to every engagement.
+                  Clients call it &quot;FIRE&quot;—that positive energy that&apos;s contagious.
+                  You&apos;ll leave every interaction feeling inspired and ready to take action.
                 </p>
               </div>
             </StaggerContainer>
@@ -207,17 +207,17 @@ export default function TestimonialsPage() {
         <section className="section section--dark testimonials-cta">
           <div className="container">
             <AnimatedSection className="cta-block" animation="fade-in">
-              <h2 className="cta-block__title">Ready to Write Your Success Story?</h2>
+              <h2 className="cta-block__title">Ready to Write Your Own Success Story?</h2>
               <p className="cta-block__description">
-                Join the hundreds of clients who have transformed their businesses and lives.
-                Let&apos;s start a conversation about your journey.
+                You&apos;ve seen what&apos;s possible. You&apos;ve heard from people who were once where you are.
+                Now it&apos;s your turn—let&apos;s start a conversation about your transformation.
               </p>
               <div className="cta-block__buttons">
                 <Link href="/coaching/apply" className="btn btn--primary btn--large">
-                  Apply for Coaching
+                  Start Your Transformation
                 </Link>
                 <Link href="/contact" className="btn btn--secondary btn--large">
-                  Get in Touch
+                  Let&apos;s Talk
                 </Link>
               </div>
             </AnimatedSection>
