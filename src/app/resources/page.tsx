@@ -190,7 +190,7 @@ export default function ResourcesPage() {
         <div className="container">
           <h1 className="resources-hero__title">Resource Center</h1>
           <p className="resources-hero__subtitle">
-            {data.totalResources} resources across {sources.length} sources to help you grow
+            {data.totalResources} resources and growing daily—fuel for your superhuman journey
           </p>
         </div>
       </section>
