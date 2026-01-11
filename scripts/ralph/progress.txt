@@ -27,6 +27,8 @@ Feature: Website Audit & Polish
 - **Design system baseline documented in .claude/context/design.md** - refer to this for consistency checks
 - Section padding: var(--space-5xl) = 8rem; Cards: --radius-xl (24px) + --space-2xl (3rem) padding
 - Standard card hover: translateY(-8px); Info cards: translateY(-6px) scale(1.02)
+- **Button variants**: btn--primary, btn--secondary, btn--outline-light only (no btn--accent or btn--outline)
+- **Dark backgrounds**: Use btn--outline-light for secondary buttons, add text color overrides to section class
 
 ---
 
@@ -190,5 +192,28 @@ Feature: Website Audit & Polish
   - Standard card padding is --space-2xl (3rem), info cards use --space-xl (2rem)
   - Hover transforms vary: cards -8px, info cards -6px with scale
   - Primary buttons use gradient + glow shadow, secondary are outline
+---
+
+## 2025-01-11 - US-010
+- Audited and fixed Homepage design for consistency with design system
+- Files changed: src/app/page.tsx, src/components/TestimonialSection.tsx, src/styles/globals.css
+- **Changes made:**
+  - Fixed btn--accent → btn--primary in Expertise Preview section (no btn--accent in design system)
+  - Fixed btn--outline → btn--outline-light in CTA section (no btn--outline in design system)
+  - Fixed btn--accent → btn--outline-light in TestimonialSection component
+  - Added .home-cta text styling for dark gradient background:
+    - White headings (h1-h4)
+    - 80% opacity white description text
+    - White secondary button with hover to white background
+- **Verification:**
+  - Section spacing: All sections use var(--space-5xl) correctly
+  - Card styling: home-service-card uses correct --radius-xl, --space-2xl padding, --shadow-md
+  - Color usage: All colors from design system tokens
+  - Button classes: Now all valid (primary, secondary, outline-light only)
+- **Learnings for future iterations:**
+  - Check for undefined CSS classes by grepping for usage and verifying in globals.css
+  - When section uses dark gradient background but not section--dark, add explicit text color overrides
+  - TestimonialSection component is shared - changes there affect multiple pages
+  - Verify button classes in browser by checking what classes are rendered: `curl | grep -o 'btn--[a-z-]*'`
 ---
 

@@ -159,8 +159,8 @@
         "Verify in browser using dev-browser skill"
       ],
       "priority": 10,
-      "passes": false,
-      "notes": ""
+      "passes": true,
+      "notes": "Completed: Fixed undefined button classes (btn--accent → btn--primary in Expertise section, btn--outline → btn--outline-light in CTA section, btn--accent → btn--outline-light in TestimonialSection). Added proper dark-background styling for .home-cta (white headings, 80% opacity description, white secondary button variant)"
     },
     {
       "id": "US-011",
