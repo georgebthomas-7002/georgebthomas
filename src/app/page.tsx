@@ -82,21 +82,20 @@ export default function Home() {
                 <span className="page-hero__title-accent">Superhuman</span>
               </h1>
               <p className="page-hero__description">
-                For 30+ years, I&apos;ve been empowering individuals and organizations to unlock their
-                potential, embrace growth, and achieve extraordinary results. Whether you need a
-                <strong> keynote that inspires</strong>, <strong>coaching that transforms</strong>, or
-                <strong> HubSpot expertise that accelerates</strong>, I&apos;m your sidekick on the journey
-                to becoming superhuman.
+                You&apos;ve got untapped potential waiting to be unleashed. Whether you need a
+                <strong> keynote that inspires your team</strong>, <strong>coaching that transforms your mindset</strong>, or
+                <strong> HubSpot expertise that accelerates your growth</strong>—you&apos;ll have a dedicated sidekick
+                with 30+ years of experience on your journey to becoming superhuman.
               </p>
               <div className="page-hero__cta-group">
                 <Link href="/speaking" className="btn btn--primary btn--large">
-                  Book a Keynote
+                  Ignite Your Event
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M5 12h14M12 5l7 7-7 7"/>
                   </svg>
                 </Link>
                 <Link href="/coaching/apply" className="btn btn--secondary btn--large">
-                  Apply for Coaching
+                  Start Your Transformation
                 </Link>
               </div>
             </AnimatedSection>
@@ -145,11 +144,11 @@ export default function Home() {
         <section className="section section--warm home-services">
           <div className="container">
             <AnimatedSection className="section-header" animation="fade-in">
-              <span className="section-header__subtitle">How I Help</span>
-              <h2 className="section-header__title">Three Ways to Transform</h2>
+              <span className="section-header__subtitle">Your Path Forward</span>
+              <h2 className="section-header__title">Three Ways to Transform Your World</h2>
               <p className="section-header__description">
-                Whether you&apos;re looking to inspire your team, develop personally, or
-                maximize your HubSpot investment, I have the experience and passion to help.
+                Whether you&apos;re looking to inspire your team, grow personally, or
+                maximize your HubSpot investment—you&apos;ll get the experience and passion you need to succeed.
               </p>
             </AnimatedSection>
 
@@ -212,13 +211,12 @@ export default function Home() {
 
                 <p className="home-story__text">
                   At 17, a teacher told me I&apos;d never amount to anything. That moment became
-                  the catalyst for an extraordinary transformation that I now help others achieve.
+                  the catalyst for an extraordinary transformation—and it&apos;s the same kind of breakthrough you can experience.
                 </p>
 
                 <p className="home-story__text">
-                  Today, with 30+ years of experience, 400+ podcast episodes, 16+ million words
-                  of content, and countless lives impacted, I exemplify the transformation I help
-                  others achieve through the <a href="https://superhumanframework.com/" target="_blank" rel="noopener noreferrer" className="text-link"><strong>Superhuman Framework</strong></a>.
+                  Today, that story of transformation is yours to claim too. With 30+ years of experience, 400+ podcast episodes, and 16+ million words
+                  of content, I&apos;ve developed the <a href="https://superhumanframework.com/" target="_blank" rel="noopener noreferrer" className="text-link"><strong>Superhuman Framework</strong></a>—designed to help you unlock your own extraordinary potential.
                 </p>
 
                 <blockquote className="home-story__quote">
@@ -228,10 +226,10 @@ export default function Home() {
 
                 <div className="home-story__buttons">
                   <Link href="/about" className="btn btn--primary">
-                    Read the Full Story
+                    Discover the Journey
                   </Link>
                   <Link href="/expertise" className="btn btn--secondary">
-                    Explore My Expertise
+                    See How You&apos;ll Benefit
                   </Link>
                 </div>
               </AnimatedSection>
@@ -246,8 +244,8 @@ export default function Home() {
               <span className="section-header__subtitle">T-Shaped Expertise</span>
               <h2 className="section-header__title">Deep Knowledge, Broad Vision</h2>
               <p className="section-header__description">
-                Not just a speaker or a coach—I bring deep expertise across eight pillars,
-                all converging at one purpose: helping humans transform.
+                You deserve more than a one-dimensional expert. You&apos;ll get deep expertise across eight pillars,
+                all converging to help you achieve your transformation.
               </p>
             </AnimatedSection>
 
@@ -289,13 +287,13 @@ export default function Home() {
               </p>
               <div className="cta-block__buttons">
                 <Link href="/speaking" className="btn btn--primary btn--large">
-                  Book a Keynote
+                  Ignite Your Event
                 </Link>
                 <Link href="/coaching/apply" className="btn btn--secondary btn--large">
-                  Apply for Coaching
+                  Start Your Transformation
                 </Link>
                 <Link href="/contact" className="btn btn--outline btn--large">
-                  Get in Touch
+                  Let&apos;s Connect
                 </Link>
               </div>
             </AnimatedSection>
