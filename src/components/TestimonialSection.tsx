@@ -54,7 +54,7 @@ export function TestimonialSection({
         </AnimatedSection>
         {showCta && (
           <AnimatedSection className="testimonial-section__cta" animation="fade-in">
-            <Link href={ctaLink} className="btn btn--accent">
+            <Link href={ctaLink} className="btn btn--outline-light">
               {ctaText}
             </Link>
           </AnimatedSection>

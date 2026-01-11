@@ -7762,6 +7762,29 @@ a:hover {
 /* Home CTA Section */
 .home-cta {
   background: linear-gradient(135deg, var(--color-primary-dark) 0%, var(--color-primary) 100%);
+  color: var(--color-white);
+}
+
+.home-cta h1,
+.home-cta h2,
+.home-cta h3,
+.home-cta h4 {
+  color: var(--color-white);
+}
+
+.home-cta .cta-block__description {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.home-cta .btn--secondary {
+  color: var(--color-white);
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+.home-cta .btn--secondary:hover {
+  background: var(--color-white);
+  color: var(--color-primary-dark);
+  border-color: var(--color-white);
 }
 
 /* Responsive for Homepage V2 */
