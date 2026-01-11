@@ -24,6 +24,9 @@ Feature: Website Audit & Polish
 - Story sections can keep some "I" language - balance with "you" framing
 - Check data files (src/data/*.tsx) for content - page.tsx often imports from there
 - Expertise/pillar descriptions work best as "You'll [verb]..." for visitor focus
+- **Design system baseline documented in .claude/context/design.md** - refer to this for consistency checks
+- Section padding: var(--space-5xl) = 8rem; Cards: --radius-xl (24px) + --space-2xl (3rem) padding
+- Standard card hover: translateY(-8px); Info cards: translateY(-6px) scale(1.02)
 
 ---
 
@@ -163,5 +166,29 @@ Feature: Website Audit & Polish
   - "You'll [verb]" pattern works great for theme card titles to show visitor outcomes
   - Em-dash (—) works well for conversational transitions ("They took the leap—and here's what happened")
   - CTA descriptions work best when they reference what the visitor just saw ("You've seen what's possible")
+---
+
+## 2025-01-11 - US-009
+- Documented comprehensive design system baseline from globals.css
+- Files changed: .claude/context/design.md
+- **Changes made:**
+  - Complete color palette documentation (16 tokens): primary, accent, neutral, text colors with values and usage
+  - Typography system: font families, 9-level fluid size scale, weights, line heights
+  - Spacing scale: 9 levels from --space-xs (4px) to --space-5xl (128px)
+  - Section patterns: standard (.section), hero, dark (.section--dark), warm (.section--warm)
+  - Card patterns: 5 types documented (standard, service, feature, info, testimonial)
+  - Button patterns: primary, secondary, outline-light; 3 sizes; hover states
+  - Border radius scale: 6 levels from --radius-sm (4px) to --radius-full (9999px)
+  - Shadow system: 5 levels from --shadow-sm to --shadow-glow
+  - Animation system: scroll-triggered classes, durations, easing curves
+  - Created verification checklist for page audits (sections, cards, buttons, colors, spacing, animations)
+- **Learnings for future iterations:**
+  - globals.css is well-organized with clear section comments - easy to navigate
+  - CSS custom properties provide the source of truth for all design values
+  - Section padding is consistently var(--space-5xl) = 8rem
+  - Cards use either --radius-xl (24px) or --radius-lg (16px) depending on type
+  - Standard card padding is --space-2xl (3rem), info cards use --space-xl (2rem)
+  - Hover transforms vary: cards -8px, info cards -6px with scale
+  - Primary buttons use gradient + glow shadow, secondary are outline
 ---
 
