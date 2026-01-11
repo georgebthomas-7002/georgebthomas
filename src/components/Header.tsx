@@ -10,6 +10,7 @@ const navLinks = [
   { href: '/speaking', label: 'Speaking' },
   { href: '/coaching', label: 'Coaching' },
   { href: '/testimonials', label: 'Testimonials' },
+  { href: '/resources', label: 'Resources' },
   { href: '/about', label: 'About' },
   { href: '/#contact', label: 'Contact' },
 ]
@@ -41,7 +42,7 @@ export function Header() {
                 {link.label}
               </Link>
             ))}
-            <Link href="/coaching" className="btn btn--primary" onClick={() => setIsMenuOpen(false)}>
+            <Link href="/coaching" className="btn btn--primary btn--small" onClick={() => setIsMenuOpen(false)}>
               Book George
             </Link>
           </nav>

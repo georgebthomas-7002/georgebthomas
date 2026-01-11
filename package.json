@@ -6,19 +6,28 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "scrape": "node scripts/scrape.js",
+    "scrape:youtube": "node scripts/scrape.js --youtube-only",
+    "scrape:podcasts": "node scripts/scrape.js --podcasts-only",
+    "scrape:blogs": "node scripts/scrape.js --blogs-only"
   },
   "dependencies": {
     "@sanity/client": "^7.14.0",
     "@sanity/image-url": "^2.0.2",
+    "dotenv": "^17.2.3",
+    "lucide-react": "^0.562.0",
     "next": "^16.1.1",
     "next-sanity": "^12.0.10",
     "react": "^19.2.3",
-    "react-dom": "^19.2.3"
+    "react-dom": "^19.2.3",
+    "xml2js": "^0.6.2",
+    "yaml": "^2.8.2"
   },
   "devDependencies": {
     "@types/node": "^25.0.3",
     "@types/react": "^19.2.7",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "xlsx": "^0.18.5"
   }
 }
