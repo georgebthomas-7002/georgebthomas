@@ -75,7 +75,7 @@ export default function RootLayout({
 
         {/* Custom Delphi Chat Label */}
         <div className="delphi-chat-wrapper">
-          <span className="delphi-chat-label">Start a conversation</span>
+          <span className="delphi-chat-label">Start a conversation with George Bot</span>
         </div>
       </body>
     </html>
