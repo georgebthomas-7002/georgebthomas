@@ -1387,12 +1387,57 @@ a:hover {
   width: 24px;
   height: 2px;
   background: var(--color-primary-dark);
-  transition: transform var(--duration-normal) var(--ease-out);
+  transition: transform var(--duration-normal) var(--ease-out),
+              opacity var(--duration-normal) var(--ease-out);
+}
+
+/* Hamburger to X animation */
+.header__menu-btn.is-open span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.header__menu-btn.is-open span:nth-child(2) {
+  opacity: 0;
+  transform: translateX(-10px);
+}
+
+.header__menu-btn.is-open span:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* Backdrop overlay for mobile menu */
+.header__backdrop {
+  display: none;
 }
 
 @media (max-width: 768px) {
+  .header__backdrop {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity var(--duration-normal) var(--ease-out),
+                visibility var(--duration-normal) var(--ease-out);
+    z-index: 999;
+  }
+
+  .header__backdrop.is-open {
+    opacity: 1;
+    visibility: visible;
+  }
+
   .header__menu-btn {
     display: flex;
+    z-index: 1001;
+    min-width: 48px;
+    min-height: 48px;
+    align-items: center;
+    justify-content: center;
   }
 
   /* Wordmark mobile adjustments */
@@ -1428,6 +1473,19 @@ a:hover {
 
   .header__nav-link {
     font-size: var(--font-size-2xl);
+    padding: var(--space-md) var(--space-xl);
+    width: 100%;
+    text-align: center;
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header__nav .btn {
+    margin-top: var(--space-lg);
+    min-height: 48px;
+    min-width: 200px;
   }
 }
 
