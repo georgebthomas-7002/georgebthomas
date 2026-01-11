@@ -59,6 +59,24 @@ const speakingVideos: VideoItem[] = [
     title: 'Speaking Highlight',
     description: 'Dynamic keynote delivering real-world strategies.'
   },
+  {
+    id: 'vid-9',
+    youtubeId: '3N7ui0V3cn4',
+    title: 'Speaking Highlight',
+    description: 'Empowering audiences with practical insights.'
+  },
+  {
+    id: 'vid-10',
+    youtubeId: '7t8f0arv_0M',
+    title: 'Speaking Highlight',
+    description: 'Connecting with audiences through authentic storytelling.'
+  },
+  {
+    id: 'vid-11',
+    youtubeId: '5wMDBYQYbZk',
+    title: 'Speaking Highlight',
+    description: 'Inspiring transformation through powerful presentations.'
+  },
 ]
 
 type Topic = 'hubspot' | 'video' | 'podcasting' | 'ai' | 'transformation' | 'marketing'
