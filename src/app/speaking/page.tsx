@@ -653,7 +653,7 @@ export default function SpeakingPage() {
                   <span className="page-hero__title-accent"> Transform Your Audience</span>
                 </h1>
                 <p className="page-hero__description">
-                  From INBOUND to Social Media Marketing World, you&apos;ll get keynotes that inspire action,
+                  From INBOUND to Social Media Marketing World, you'll get keynotes that inspire action,
                   challenge perspectives, and create lasting change. Every talk blends deep expertise
                   with genuine human connection so your audience leaves transformed.
                 </p>
@@ -695,9 +695,9 @@ export default function SpeakingPage() {
                 Insights Meet Impact.
               </h2>
               <p className="serve-intro__text">
-                Every audience is unique, but one thing&apos;s constant: whether it&apos;s your stage,
+                Every audience is unique, but one thing's constant: whether it's your stage,
                 workshop, or podcast, your people will leave with real-world insights and actionable
-                strategies they can use immediately. That&apos;s what matters most: empowering
+                strategies they can use immediately. That's what matters most: empowering
                 your audience to flourish personally and professionally.
               </p>
             </AnimatedSection>
@@ -711,9 +711,9 @@ export default function SpeakingPage() {
                   <span className="serve-block__label">For Corporate Leaders & Organizations</span>
                   <h3 className="serve-block__title">Align Your Teams. Ignite Your Growth.</h3>
                   <p className="serve-block__text">
-                    Today&apos;s leaders face challenges that demand clarity, innovation, and resilience.
-                    Whether you&apos;re managing a growing team, navigating a shift in strategy, or tackling
-                    burnout, I&apos;m here to help your organization flourish.
+                    Today's leaders face challenges that demand clarity, innovation, and resilience.
+                    Whether you're managing a growing team, navigating a shift in strategy, or tackling
+                    burnout, I'm here to help your organization flourish.
                   </p>
                   <ul className="serve-block__list">
                     <li><strong>Keynotes that captivate:</strong> Energize your leadership team with insights on HubSpot mastery, modern marketing, and AI-powered strategies.</li>
@@ -743,7 +743,7 @@ export default function SpeakingPage() {
                   <span className="serve-block__label">For Event Planners & Conferences</span>
                   <h3 className="serve-block__title">Unforgettable Keynotes. Transformative Experiences.</h3>
                   <p className="serve-block__text">
-                    You&apos;re not just filling an agenda slot. You&apos;re creating a moment that your
+                    You're not just filling an agenda slot. You're creating a moment that your
                     audience will carry long after the event ends. I deliver keynotes that inspire,
                     workshops that engage, and content that resonates deeply.
                   </p>
@@ -928,7 +928,7 @@ export default function SpeakingPage() {
 
                     <div className="keynote-card__details">
                       <div className="keynote-card__section">
-                        <h4>What You&apos;ll Learn</h4>
+                        <h4>What You'll Learn</h4>
                         <ul>
                           {keynote.whatYouLearn.map((item, i) => (
                             <li key={i}>{item}</li>
@@ -937,7 +937,7 @@ export default function SpeakingPage() {
                       </div>
 
                       <div className="keynote-card__section">
-                        <h4>Who It&apos;s For</h4>
+                        <h4>Who It's For</h4>
                         <ul>
                           {keynote.whoItsFor.map((item, i) => (
                             <li key={i}>{item}</li>
@@ -1102,9 +1102,9 @@ export default function SpeakingPage() {
         <section className="section cta-section-light">
           <div className="container">
             <AnimatedSection className="cta-block cta-block--light" animation="fade-in">
-              <h2 className="cta-block__title">Give Your Audience an Experience They Won&apos;t Forget</h2>
+              <h2 className="cta-block__title">Give Your Audience an Experience They Won't Forget</h2>
               <p className="cta-block__description">
-                Whether it&apos;s a keynote, workshop, or emcee role, let&apos;s create
+                Whether it's a keynote, workshop, or emcee role, let's create
                 something transformative together. Your audience deserves it.
               </p>
               <div className="cta-block__buttons">
@@ -1112,7 +1112,7 @@ export default function SpeakingPage() {
                   Ignite Your Event
                 </Link>
                 <Link href="/expertise" className="btn btn--outline btn--large">
-                  See What&apos;s Possible
+                  See What's Possible
                 </Link>
               </div>
             </AnimatedSection>

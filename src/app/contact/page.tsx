@@ -80,7 +80,7 @@ export default function ContactPage() {
                 </div>
                 <h1 className="apply-complete__title">Message Sent!</h1>
                 <p className="apply-complete__description">
-                  Thank you for reaching out! I&apos;ll review your message and get back to you as soon as possible—usually within 24-48 hours.
+                  Thank you for reaching out! I'll review your message and get back to you as soon as possible—usually within 24-48 hours.
                 </p>
                 <Link href="/" className="btn btn--primary">
                   Back to Home
@@ -103,10 +103,10 @@ export default function ContactPage() {
           <div className="container">
             <AnimatedSection className="page-hero__content" animation="fade-in">
               <span className="page-hero__tagline">Get In Touch</span>
-              <h1 className="page-hero__title">Let&apos;s Start a Conversation</h1>
+              <h1 className="page-hero__title">Let's Start a Conversation</h1>
               <p className="page-hero__description">
                 Have a question or want to explore how we can work together?
-                I&apos;d love to hear from you.
+                I'd love to hear from you.
               </p>
             </AnimatedSection>
           </div>

@@ -438,7 +438,7 @@ export default function ResourcesPage() {
                 </div>
                 <h3 className="resources-empty__title">No resources found</h3>
                 <p className="resources-empty__text">
-                  Try adjusting your search or filters to find what you&apos;re looking for.
+                  Try adjusting your search or filters to find what you're looking for.
                 </p>
                 <button onClick={clearFilters} className="btn btn--secondary">
                   Clear all filters

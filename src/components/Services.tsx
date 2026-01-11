@@ -77,7 +77,7 @@ export function Services() {
           <span className="services__subtitle">How I Can Help</span>
           <h2 className="services__title">Services That Drive Results</h2>
           <p className="services__description">
-            Whether you&apos;re looking to inspire your team, develop your leadership skills,
+            Whether you're looking to inspire your team, develop your leadership skills,
             or transform your organization, I offer tailored solutions to meet your unique needs.
           </p>
         </AnimatedSection>

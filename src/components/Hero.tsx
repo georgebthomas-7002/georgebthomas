@@ -18,9 +18,9 @@ export function Hero() {
           </h1>
 
           <p className="hero__description">
-            For over a decade, I&apos;ve been empowering individuals and organizations
+            For over a decade, I've been empowering individuals and organizations
             to unlock their potential, embrace growth, and achieve extraordinary results.
-            Let&apos;s transform your journey together.
+            Let's transform your journey together.
           </p>
 
           <div className="hero__cta-group">

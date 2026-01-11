@@ -82,9 +82,9 @@ export default function Home() {
                 <span className="page-hero__title-accent">Superhuman</span>
               </h1>
               <p className="page-hero__description">
-                You&apos;ve got untapped potential waiting to be unleashed. Whether you need a
+                You've got untapped potential waiting to be unleashed. Whether you need a
                 <strong> keynote that inspires your team</strong>, <strong>coaching that transforms your mindset</strong>, or
-                <strong> HubSpot expertise that accelerates your growth</strong>, you&apos;ll have a dedicated sidekick
+                <strong> HubSpot expertise that accelerates your growth</strong>, you'll have a dedicated sidekick
                 with 30+ years of experience on your journey to becoming superhuman.
               </p>
               <div className="page-hero__cta-group">
@@ -147,8 +147,8 @@ export default function Home() {
               <span className="section-header__subtitle">Your Path Forward</span>
               <h2 className="section-header__title">Three Ways to Transform Your World</h2>
               <p className="section-header__description">
-                Whether you&apos;re looking to inspire your team, grow personally, or
-                maximize your HubSpot investment, you&apos;ll get the experience and passion you need to succeed.
+                Whether you're looking to inspire your team, grow personally, or
+                maximize your HubSpot investment, you'll get the experience and passion you need to succeed.
               </p>
             </AnimatedSection>
 
@@ -210,18 +210,18 @@ export default function Home() {
                 <h2 className="home-story__title">From Dropout to Industry Expert</h2>
 
                 <p className="home-story__text">
-                  At 17, a teacher told me I&apos;d never amount to anything. That moment became
-                  the catalyst for an extraordinary transformation, and it&apos;s the same kind of breakthrough you can experience.
+                  At 17, a teacher told me I'd never amount to anything. That moment became
+                  the catalyst for an extraordinary transformation, and it's the same kind of breakthrough you can experience.
                 </p>
 
                 <p className="home-story__text">
                   Today, that story of transformation is yours to claim too. With 30+ years of experience, 400+ podcast episodes, and 16+ million words
-                  of content, I&apos;ve developed the <a href="https://superhumanframework.com/" target="_blank" rel="noopener noreferrer" className="text-link"><strong>Superhuman Framework</strong></a>, designed to help you unlock your own extraordinary potential.
+                  of content, I've developed the <a href="https://superhumanframework.com/" target="_blank" rel="noopener noreferrer" className="text-link"><strong>Superhuman Framework</strong></a>, designed to help you unlock your own extraordinary potential.
                 </p>
 
                 <blockquote className="home-story__quote">
-                  &quot;I&apos;m not here to be the hero of your story. I&apos;m here to be the sidekick
-                  that helps you become the superhuman you were meant to be.&quot;
+                  "I'm not here to be the hero of your story. I'm here to be the sidekick
+                  that helps you become the superhuman you were meant to be."
                 </blockquote>
 
                 <div className="home-story__buttons">
@@ -229,7 +229,7 @@ export default function Home() {
                     Discover the Journey
                   </Link>
                   <Link href="/expertise" className="btn btn--secondary">
-                    See How You&apos;ll Benefit
+                    See How You'll Benefit
                   </Link>
                 </div>
               </AnimatedSection>
@@ -244,7 +244,7 @@ export default function Home() {
               <span className="section-header__subtitle">T-Shaped Expertise</span>
               <h2 className="section-header__title">Deep Knowledge, Broad Vision for You</h2>
               <p className="section-header__description">
-                You deserve more than a one-dimensional expert. You&apos;ll get deep expertise across eight pillars,
+                You deserve more than a one-dimensional expert. You'll get deep expertise across eight pillars,
                 all converging to help you achieve your transformation.
               </p>
             </AnimatedSection>
@@ -283,7 +283,7 @@ export default function Home() {
               <h2 className="cta-block__title">Ready to Transform?</h2>
               <p className="cta-block__description">
                 Whether you need a keynote that inspires, coaching that transforms, or
-                HubSpot expertise that accelerates, let&apos;s start a conversation.
+                HubSpot expertise that accelerates, let's start a conversation.
               </p>
               <div className="cta-block__buttons">
                 <Link href="/speaking" className="btn btn--primary">

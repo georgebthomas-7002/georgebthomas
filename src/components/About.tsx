@@ -27,7 +27,7 @@ export function About() {
                   fontSize: 'var(--font-size-lg)',
                 }}
               >
-                [George&apos;s Photo]
+                [George's Photo]
               </div>
             </div>
             <div className="about__image-accent" aria-hidden="true"></div>
@@ -44,13 +44,13 @@ export function About() {
             </p>
 
             <p className="about__text">
-              Through keynote speaking, personalized coaching, and dynamic workshops, I&apos;ve
+              Through keynote speaking, personalized coaching, and dynamic workshops, I've
               had the privilege of working with organizations and individuals who are ready to
               break through barriers and achieve what they once thought impossible.
             </p>
 
             <p className="about__text">
-              I don&apos;t just share knowledge—I create experiences that spark lasting change.
+              I don't just share knowledge—I create experiences that spark lasting change.
               My approach blends practical strategies with heartfelt storytelling, ensuring every
               interaction leaves a meaningful impact.
             </p>

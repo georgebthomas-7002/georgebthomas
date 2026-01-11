@@ -119,7 +119,7 @@ const values = [
   },
   {
     title: 'Sidekick Mentality',
-    description: 'You&apos;re the hero. I&apos;m here to help you succeed.',
+    description: `You're the hero. I'm here to help you succeed.`,
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
@@ -131,7 +131,7 @@ const values = [
   },
   {
     title: 'Faith-Driven',
-    description: 'Your success shouldn&apos;t cost your soul. Lead with purpose.',
+    description: `Your success shouldn't cost your soul. Lead with purpose.`,
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
@@ -166,7 +166,7 @@ export default function AboutPage() {
               </h1>
               <p className="page-hero__description">
                 I believe journeys matter. Through understanding and connection,
-                you&apos;ll unlock your potential and become the superhuman you were meant to be.
+                you'll unlock your potential and become the superhuman you were meant to be.
               </p>
               <div className="page-hero__cta-group">
                 <Link href="/coaching" className="btn btn--primary">
@@ -309,7 +309,7 @@ export default function AboutPage() {
               <h2 className="cta-block__title">Ready to Start Your Journey?</h2>
               <p className="cta-block__description">
                 Whether you need help with HubSpot, want coaching to reach your next level,
-                or need a speaker who&apos;ll connect with your audience—I&apos;m here to be your sidekick.
+                or need a speaker who'll connect with your audience—I'm here to be your sidekick.
               </p>
               <div className="cta-block__buttons">
                 <Link href="/coaching/apply" className="btn btn--primary btn--large">

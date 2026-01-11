@@ -31,7 +31,7 @@ export const deepExpertise = [
       'Writing "Cloning Human Expertise" book',
       'Trains teams on ethical AI integration',
     ],
-    description: 'You&apos;ll learn how AI can amplify your human connection, not replace it. George&apos;s AI clone, trained on decades of content, shows what&apos;s possible when you embrace technology authentically.',
+    description: `You'll learn how AI can amplify your human connection, not replace it. George's AI clone, trained on decades of content, shows what's possible when you embrace technology authentically.`,
   },
   {
     id: 'hubspot',
@@ -58,7 +58,7 @@ export const deepExpertise = [
       'INBOUND speaker every year since 2015',
       'Likely the most certified individual globally',
     ],
-    description: 'You&apos;ll get guidance from someone who&apos;s been shaping the HubSpot conversation for over a decade, with deep understanding spanning marketing, sales, service, and operations hubs.',
+    description: `You'll get guidance from someone who's been shaping the HubSpot conversation for over a decade, with deep understanding spanning marketing, sales, service, and operations hubs.`,
   },
   {
     id: 'marketing',
@@ -85,7 +85,7 @@ export const deepExpertise = [
       'MarketingProfs thought leader and contributor',
       'Sales enablement through video and content',
     ],
-    description: 'You&apos;ll gain access to battle-tested strategies built on three decades of inbound methodology and authentic human connection to drive your sustainable growth.',
+    description: `You'll gain access to battle-tested strategies built on three decades of inbound methodology and authentic human connection to drive your sustainable growth.`,
   },
   {
     id: 'video',
@@ -111,7 +111,7 @@ export const deepExpertise = [
       'Pioneered personalized sales video approach',
       'Philosophy: "Embrace the messy" because authenticity wins',
     ],
-    description: 'You&apos;ll discover how to bridge video production with marketing strategy at the enterprise level. The "Video Jedi" approach emphasizes your authentic connection over polished perfection.',
+    description: `You'll discover how to bridge video production with marketing strategy at the enterprise level. The "Video Jedi" approach emphasizes your authentic connection over polished perfection.`,
   },
   {
     id: 'podcasting',
@@ -139,7 +139,7 @@ export const deepExpertise = [
       'Created The Hubcast (271 episodes)',
       'Guest on 50+ industry podcasts',
     ],
-    description: 'You&apos;ll learn from one of the longest-tenured podcasters in marketing technology, someone who&apos;s built audiences, sparked conversations, and created community through audio for over a decade.',
+    description: `You'll learn from one of the longest-tenured podcasters in marketing technology, someone who's built audiences, sparked conversations, and created community through audio for over a decade.`,
   },
   {
     id: 'personal',
@@ -164,7 +164,7 @@ export const deepExpertise = [
       'Specializes in limiting belief breakthrough',
       'From dropout to thought leader, proof it works',
     ],
-    description: 'You&apos;ll use the Superhuman Framework: four cornerstones (Love, Purpose, Passion, Persistence) and ten H-Pillars to break through your limiting beliefs and transform.',
+    description: `You'll use the Superhuman Framework: four cornerstones (Love, Purpose, Passion, Persistence) and ten H-Pillars to break through your limiting beliefs and transform.`,
   },
   {
     id: 'leadership',
@@ -192,7 +192,7 @@ export const deepExpertise = [
       'Servant leadership philosophy',
       'Develops future marketing leaders',
     ],
-    description: 'You&apos;ll discover what it means to lead by serving others. The sidekick mentality empowers your team members to become heroes in their own stories while building organizations that put humans first.',
+    description: `You'll discover what it means to lead by serving others. The sidekick mentality empowers your team members to become heroes in their own stories while building organizations that put humans first.`,
   },
   {
     id: 'spiritual',
@@ -219,7 +219,7 @@ export const deepExpertise = [
       'Helping leaders find deeper purpose',
       'Building values driven organizations',
     ],
-    description: 'You&apos;ll explore the intersection of faith and leadership, integrating your spiritual values with your professional life to lead with purpose and authenticity.',
+    description: `You'll explore the intersection of faith and leadership, integrating your spiritual values with your professional life to lead with purpose and authenticity.`,
   },
 ]
 
@@ -271,7 +271,7 @@ export const principles = [
   },
   {
     title: 'Value First',
-    description: 'You&apos;ll receive value upfront: free content, educational focus, help before anything&apos;s asked in return.',
+    description: `You'll receive value upfront: free content, educational focus, help before anything's asked in return.`,
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
@@ -280,7 +280,7 @@ export const principles = [
   },
   {
     title: 'Content Driven',
-    description: 'You&apos;re learning from someone who&apos;s built authority through consistent creation across podcasts, videos, and articles.',
+    description: `You're learning from someone who's built authority through consistent creation across podcasts, videos, and articles.`,
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/>
@@ -290,7 +290,7 @@ export const principles = [
   },
   {
     title: 'AI Assisted',
-    description: 'You&apos;ll leverage cutting-edge AI tools to amplify your productivity, creativity, and reach.',
+    description: `You'll leverage cutting-edge AI tools to amplify your productivity, creativity, and reach.`,
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <rect x="4" y="4" width="16" height="16" rx="2" ry="2"/>

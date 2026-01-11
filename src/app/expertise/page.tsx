@@ -11,7 +11,7 @@ import { deepExpertise, broadCompetencies, principles } from '@/data/expertise'
 const additionalPrinciples = [
   {
     title: 'Human Powered',
-    description: 'You&apos;re at the center of every decision, interaction, and outcome.',
+    description: `You're at the center of every decision, interaction, and outcome.`,
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M18 8h1a4 4 0 0 1 0 8h-1"/>
@@ -26,7 +26,7 @@ const additionalPrinciples = [
     title: 'Expert in Helping',
     description: (
       <>
-        You&apos;ll tap into the <a href="https://superhumanframework.com/" target="_blank" rel="noopener noreferrer" className="text-link">Superhuman Framework</a>, coaching, and transformation-focused guidance.
+        You'll tap into the <a href="https://superhumanframework.com/" target="_blank" rel="noopener noreferrer" className="text-link">Superhuman Framework</a>, coaching, and transformation-focused guidance.
       </>
     ),
     icon: (
@@ -55,7 +55,7 @@ export default function ExpertisePage() {
                 <span className="page-hero__title-accent">Broad Vision</span>
               </h1>
               <p className="page-hero__description">
-                When you work with George, you&apos;re getting something rare: <strong>eight pillars of deep expertise</strong> combined
+                When you work with George, you're getting something rare: <strong>eight pillars of deep expertise</strong> combined
                 with exceptional breadth—all focused on one purpose:
                 <em> helping you transform.</em>
               </p>
@@ -171,11 +171,11 @@ export default function ExpertisePage() {
         <section className="section section--warm expertise-deep">
           <div className="container">
             <AnimatedSection className="section-header" animation="fade-in">
-              <span className="section-header__subtitle">What You&apos;ll Gain Access To</span>
+              <span className="section-header__subtitle">What You'll Gain Access To</span>
               <h2 className="section-header__title">Eight Pillars of Mastery</h2>
               <p className="section-header__description">
                 Each pillar represents years of dedicated practice, continuous learning,
-                and real-world application—so you don&apos;t have to figure it out alone.
+                and real-world application—so you don't have to figure it out alone.
               </p>
             </AnimatedSection>
 
@@ -246,10 +246,10 @@ export default function ExpertisePage() {
         <section className="section expertise-broad">
           <div className="container">
             <AnimatedSection className="section-header" animation="fade-in">
-              <span className="section-header__subtitle">More Ways You&apos;ll Benefit</span>
+              <span className="section-header__subtitle">More Ways You'll Benefit</span>
               <h2 className="section-header__title">The Crossbar of Knowledge</h2>
               <p className="section-header__description">
-                You&apos;ll also tap into advanced competencies across
+                You'll also tap into advanced competencies across
                 the full spectrum of modern marketing and business.
               </p>
             </AnimatedSection>
@@ -308,7 +308,7 @@ export default function ExpertisePage() {
                 <h2 className="story-card__title">From High School Dropout<br />to Industry Expert</h2>
                 <div className="story-card__content">
                   <p>
-                    At 17, a teacher told George he&apos;d never amount to anything. That moment became
+                    At 17, a teacher told George he'd never amount to anything. That moment became
                     the catalyst for an extraordinary transformation.
                   </p>
                   <p>
@@ -316,8 +316,8 @@ export default function ExpertisePage() {
                     of content, George exemplifies the transformation he helps others achieve.
                   </p>
                   <blockquote className="story-card__quote">
-                    &quot;I&apos;m not here to be the hero of your story. I&apos;m here to be the sidekick
-                    that helps you become the superhuman you were meant to be.&quot;
+                    "I'm not here to be the hero of your story. I'm here to be the sidekick
+                    that helps you become the superhuman you were meant to be."
                   </blockquote>
                   <Link href="/about" className="btn btn--secondary story-card__cta">
                     Read the Full Story
@@ -335,7 +335,7 @@ export default function ExpertisePage() {
               <h2 className="cta-block__title">Ready to Transform?</h2>
               <p className="cta-block__description">
                 Whether you need a keynote that inspires, coaching that transforms, or
-                expertise that accelerates—let&apos;s start a conversation.
+                expertise that accelerates—let's start a conversation.
               </p>
               <div className="cta-block__buttons">
                 <Link href="/speaking" className="btn btn--primary btn--large">

@@ -19,7 +19,7 @@ const coachingTopics = [
     ),
     questions: [
       { id: 'hubspot_tier', label: 'What HubSpot tier are you currently using?', type: 'select', options: ['Not using HubSpot yet', 'Free', 'Starter', 'Professional', 'Enterprise'] },
-      { id: 'hubspot_challenge', label: 'What&apos;s your biggest HubSpot challenge right now?', type: 'textarea' },
+      { id: `hubspot_challenge`, label: `What's your biggest HubSpot challenge right now?`, type: `textarea` },
       { id: 'hubspot_team', label: 'How many people on your team use HubSpot?', type: 'select', options: ['Just me', '2-5', '6-10', '11-25', '25+'] },
     ],
   },
@@ -228,9 +228,9 @@ function ApplyContent() {
                   <polyline points="22 4 12 14.01 9 11.01"/>
                 </svg>
               </div>
-              <h1 className="apply-complete__title">You&apos;re Almost There!</h1>
+              <h1 className="apply-complete__title">You're Almost There!</h1>
               <p className="apply-complete__description">
-                I&apos;m excited to work with you! Complete your purchase below to lock in your spot—I can&apos;t wait to get started.
+                I'm excited to work with you! Complete your purchase below to lock in your spot—I can't wait to get started.
               </p>
 
               <div className="apply-complete__summary">
@@ -258,8 +258,8 @@ function ApplyContent() {
                   Complete Purchase - ${currentPackage?.price}
                 </a>
                 <p className="apply-complete__note">
-                  You&apos;ll receive a payment link via email shortly.
-                  Got questions? Just hit reply—I&apos;m here to help.
+                  You'll receive a payment link via email shortly.
+                  Got questions? Just hit reply—I'm here to help.
                 </p>
               </div>
 
@@ -281,9 +281,9 @@ function ApplyContent() {
             <Link href="/coaching" className="apply-header__back">
               &larr; Back to Coaching
             </Link>
-            <h1 className="apply-header__title">Let&apos;s Get Started</h1>
+            <h1 className="apply-header__title">Let's Get Started</h1>
             <p className="apply-header__description">
-              Tell me about yourself and your goals—I&apos;ll use this to create the perfect coaching experience for you.
+              Tell me about yourself and your goals—I'll use this to create the perfect coaching experience for you.
             </p>
           </AnimatedSection>
         </div>
@@ -307,7 +307,7 @@ function ApplyContent() {
             <div className="apply-step">
               <h2 className="apply-step__title">Choose Your Path</h2>
               <p className="apply-step__description">
-                Which coaching option fits where you are right now? Don&apos;t worry—you can always upgrade later.
+                Which coaching option fits where you are right now? Don't worry—you can always upgrade later.
               </p>
 
               <div className="apply-packages">
@@ -320,7 +320,7 @@ function ApplyContent() {
                     <h3>Activation Meeting</h3>
                     <span className="apply-package__price">$99</span>
                   </div>
-                  <p>A 45-minute focused session where we&apos;ll map out your goals and create a clear path forward together.</p>
+                  <p>A 45-minute focused session where we'll map out your goals and create a clear path forward together.</p>
                 </button>
 
                 <div className="apply-packages__divider">
@@ -352,7 +352,7 @@ function ApplyContent() {
             <div className="apply-step">
               <h2 className="apply-step__title">What Would You Like to Focus On?</h2>
               <p className="apply-step__description">
-                Select one or more areas you&apos;d like to explore. Don&apos;t overthink it—we&apos;ll adjust as we work together.
+                Select one or more areas you'd like to explore. Don't overthink it—we'll adjust as we work together.
               </p>
 
               <div className="apply-topics">
@@ -383,7 +383,7 @@ function ApplyContent() {
             <div className="apply-step">
               <h2 className="apply-step__title">Tell Me About Your Goals</h2>
               <p className="apply-step__description">
-                The more you share, the better I can tailor your coaching experience. There&apos;s no wrong answer here.
+                The more you share, the better I can tailor your coaching experience. There's no wrong answer here.
               </p>
 
               <div className="apply-form">
@@ -529,7 +529,7 @@ function ApplyContent() {
                 </div>
 
                 <div className="apply-field">
-                  <label htmlFor="bestTime">When&apos;s best for you to meet?</label>
+                  <label htmlFor="bestTime">When's best for you to meet?</label>
                   <select
                     id="bestTime"
                     value={formData.bestTime}

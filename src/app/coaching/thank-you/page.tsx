@@ -117,7 +117,7 @@ function ThankYouContent() {
                     <polyline points="10 9 9 9 8 9"/>
                   </svg>
                 </span>
-                Here&apos;s What to Do Next
+                Here's What to Do Next
               </h2>
               <ol className="thank-you-steps">
                 {info.nextSteps.map((step, index) => (
@@ -137,7 +137,7 @@ function ThankYouContent() {
                     <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
                   </svg>
                 </span>
-                Resources You&apos;ll Love
+                Resources You'll Love
               </h2>
               <div className="thank-you-resources">
                 {info.resources.map((resource, index) => (
@@ -154,18 +154,18 @@ function ThankYouContent() {
           <AnimatedSection className="thank-you-cta" animation="fade-in">
             <div className="thank-you-quote">
               <blockquote>
-                &quot;I&apos;m not here to be the hero of your story. I&apos;m here to be the sidekick
-                that helps you become the superhuman you were meant to be.&quot;
+                "I'm not here to be the hero of your story. I'm here to be the sidekick
+                that helps you become the superhuman you were meant to be."
               </blockquote>
               <cite>George B. Thomas</cite>
             </div>
 
             <div className="thank-you-actions">
               <Link href="/expertise" className="btn btn--secondary">
-                See What You&apos;ll Master
+                See What You'll Master
               </Link>
               <a href="mailto:george@georgebthomas.com" className="btn btn--secondary">
-                Got Questions? Let&apos;s Talk
+                Got Questions? Let's Talk
               </a>
             </div>
           </AnimatedSection>

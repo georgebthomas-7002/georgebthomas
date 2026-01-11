@@ -227,7 +227,7 @@ function FAQSection({ faqs }: { faqs: { question: string; answer: string }[] }) 
     <section className="section">
       <div className="container container--narrow">
         <AnimatedSection className="section-header" animation="fade-in">
-          <span className="section-header__subtitle">You&apos;re Wondering</span>
+          <span className="section-header__subtitle">You're Wondering</span>
           <h2 className="section-header__title">Common Questions</h2>
         </AnimatedSection>
 
@@ -286,9 +286,9 @@ export default function CoachingPage() {
                 <span className="page-hero__title-accent"> Real Results</span>
               </h1>
               <p className="page-hero__description">
-                I&apos;m not here to be the hero of your story. I&apos;m here to be the sidekick
+                I'm not here to be the hero of your story. I'm here to be the sidekick
                 that helps you become the superhuman you were meant to be. With over 30 years
-                of experience and a genuine passion for helping humans grow, let&apos;s
+                of experience and a genuine passion for helping humans grow, let's
                 unlock your next level together.
               </p>
               <div className="page-hero__cta-group">
@@ -323,7 +323,7 @@ export default function CoachingPage() {
         <section id="topics" className="section section--warm">
           <div className="container">
             <AnimatedSection className="section-header" animation="fade-in">
-              <span className="section-header__subtitle">What You&apos;ll Master</span>
+              <span className="section-header__subtitle">What You'll Master</span>
               <h2 className="section-header__title">Areas of Deep Expertise</h2>
               <p className="section-header__description">
                 Choose your focus area or combine multiple topics for a comprehensive
@@ -539,7 +539,7 @@ export default function CoachingPage() {
                 <div className="activation-meeting__content">
                   <h3 className="activation-meeting__title">Not sure where to start?</h3>
                   <p className="activation-meeting__description">
-                    Book an <strong>Activation Meeting</strong>, a focused 45-minute session where we&apos;ll
+                    Book an <strong>Activation Meeting</strong>, a focused 45-minute session where we'll
                     map out your goals, identify your biggest opportunities, and create a clear path forward.
                   </p>
                 </div>
@@ -574,19 +574,19 @@ export default function CoachingPage() {
                   />
                 </div>
                 <span className="story-card__label">Why I Coach</span>
-                <h2 className="story-card__title">From &quot;You Will Never Amount to Anything&quot;<br />to Helping Others Transform</h2>
+                <h2 className="story-card__title">From "You Will Never Amount to Anything"<br />to Helping Others Transform</h2>
                 <div className="story-card__content">
                   <p>
-                    At 17, a teacher told me I&apos;d never amount to anything. That moment became
-                    the catalyst for my own transformation and is now my life&apos;s mission.
+                    At 17, a teacher told me I'd never amount to anything. That moment became
+                    the catalyst for my own transformation and is now my life's mission.
                   </p>
                   <p>
-                    I&apos;ve been where you might be: uncertain, stuck, or just knowing there&apos;s
-                    more inside you waiting to come out. That&apos;s exactly why I coach.
+                    I've been where you might be: uncertain, stuck, or just knowing there's
+                    more inside you waiting to come out. That's exactly why I coach.
                   </p>
                   <blockquote className="story-card__quote">
-                    &quot;I&apos;m not here to be the hero of your story. I&apos;m here to be the sidekick
-                    that helps you become the superhuman you were meant to be.&quot;
+                    "I'm not here to be the hero of your story. I'm here to be the sidekick
+                    that helps you become the superhuman you were meant to be."
                   </blockquote>
                   <Link href="/about" className="btn btn--secondary story-card__cta">
                     Discover My Journey
@@ -616,7 +616,7 @@ export default function CoachingPage() {
                   Start Your Transformation
                 </Link>
                 <Link href="/expertise" className="btn btn--secondary btn--large">
-                  Explore What You&apos;ll Master
+                  Explore What You'll Master
                 </Link>
               </div>
             </AnimatedSection>

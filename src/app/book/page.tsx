@@ -205,7 +205,7 @@ export default function BookPage() {
                 </div>
                 <h1 className="apply-complete__title">Inquiry Received!</h1>
                 <p className="apply-complete__description">
-                  Thank you for your interest in booking George. I&apos;ll review your inquiry and get back to you within 24-48 hours to discuss the details.
+                  Thank you for your interest in booking George. I'll review your inquiry and get back to you within 24-48 hours to discuss the details.
                 </p>
                 <div className="apply-complete__actions">
                   <Link href="/speaking" className="btn btn--primary">
@@ -235,8 +235,8 @@ export default function BookPage() {
               <span className="page-hero__tagline">Book George</span>
               <h1 className="page-hero__title">Bring Transformation to Your Event</h1>
               <p className="page-hero__description">
-                From keynotes to podcasts, workshops to virtual events—let&apos;s
-                create an experience your audience won&apos;t forget.
+                From keynotes to podcasts, workshops to virtual events—let's
+                create an experience your audience won't forget.
               </p>
             </AnimatedSection>
           </div>
@@ -398,7 +398,7 @@ export default function BookPage() {
 
                   <div className="apply-field">
                     <label htmlFor="eventDetails">
-                      Tell me about your event and what you&apos;re looking for *
+                      Tell me about your event and what you're looking for *
                     </label>
                     <textarea
                       id="eventDetails"
