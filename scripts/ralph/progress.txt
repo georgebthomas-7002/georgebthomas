@@ -242,3 +242,24 @@ Feature: Website Audit & Polish
   - When removing page-specific classes, ensure base classes (section, section--tight, section--warm) provide the needed styling
 ---
 
+
+## 2025-01-11 - US-012
+- Audited and fixed Expertise page design for consistency with design system
+- Files changed: src/app/expertise/page.tsx, src/styles/globals.css
+- **Changes made:**
+  - Removed undefined page-hero__image-wrapper--expertise class (uses base page-hero__image-wrapper class)
+  - Removed undefined expertise-story class from story section
+  - Removed undefined expertise-cta class from CTA section
+  - Added .section--dark .section-header__description styling for dark mode (rgba(255,255,255,0.8))
+- **Verification:**
+  - Build passes successfully
+  - Hero section renders correctly with base page-hero classes
+  - Story card section uses .section with container--narrow
+  - CTA section uses .section.section--warm with cta-block
+  - Dark principles section header description now visible (white text at 80% opacity)
+- **Learnings for future iterations:**
+  - The page-hero--expertise selector in CSS applies to .page-hero--expertise, so base page-hero__image-wrapper works with it
+  - Section-specific classes (expertise-story, expertise-cta) may have been added as hooks but never styled - remove them if no CSS exists
+  - Dark mode sections need explicit text color overrides for all text elements, including section-header__description
+  - Always check if there's a dark mode override for muted text colors when section--dark is used
+---

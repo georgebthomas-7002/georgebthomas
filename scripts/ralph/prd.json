@@ -193,8 +193,8 @@
         "Verify in browser using dev-browser skill"
       ],
       "priority": 12,
-      "passes": false,
-      "notes": ""
+      "passes": true,
+      "notes": "Completed: Removed undefined CSS classes (page-hero__image-wrapper--expertise, expertise-story, expertise-cta). Added .section--dark .section-header__description styling for dark mode text visibility. All sections now use valid design system classes only."
     },
     {
       "id": "US-013",
