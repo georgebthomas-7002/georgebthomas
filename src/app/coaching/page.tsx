@@ -16,7 +16,7 @@ const pricingPlans = [
     price: 2000,
     pricePerHour: 200,
     slug: 'starter',
-    description: 'Perfect for focused projects or getting started with coaching.',
+    description: 'Perfect if you\'re ready to tackle a focused project or test the waters with coaching.',
     features: [
       '10 hours of 1:1 coaching',
       'Flexible scheduling',
@@ -32,7 +32,7 @@ const pricingPlans = [
     price: 4000,
     pricePerHour: 200,
     slug: 'growth',
-    description: 'Ideal for comprehensive transformation and ongoing development.',
+    description: 'Ideal if you\'re ready for comprehensive transformation and sustained momentum.',
     features: [
       '20 hours of 1:1 coaching',
       'Priority scheduling',
@@ -49,7 +49,7 @@ const pricingPlans = [
     price: 6000,
     pricePerHour: 200,
     slug: 'transformation',
-    description: 'For deep, sustained transformation and mastery level development.',
+    description: 'For when you\'re ready to go all-in on deep, sustained transformation and mastery.',
     features: [
       '30 hours of 1:1 coaching',
       'VIP scheduling access',
@@ -66,7 +66,7 @@ const pricingPlans = [
 const coachingApproach = [
   {
     title: 'Sidekick Mentality',
-    description: 'I am not here to be the hero. I am here to help you become one. Your success is my success.',
+    description: 'I\'m not here to be the hero—I\'m here to help you become one. Your success is my success.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
@@ -78,7 +78,7 @@ const coachingApproach = [
   },
   {
     title: 'Real World Focus',
-    description: 'No fluff or theory for the sake of theory. Everything we do applies directly to your goals.',
+    description: 'No fluff or theory for theory\'s sake. Everything we do applies directly to your goals.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <circle cx="12" cy="12" r="10"/>
@@ -88,7 +88,7 @@ const coachingApproach = [
   },
   {
     title: 'Authentic Connection',
-    description: 'Embrace the messy. Real growth happens when we show up as ourselves.',
+    description: 'Let\'s embrace the messy. Real growth happens when you show up as yourself.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
@@ -97,7 +97,7 @@ const coachingApproach = [
   },
   {
     title: 'Human First Tech',
-    description: 'Technology and AI should amplify human connection, never replace it.',
+    description: 'You\'ll learn how technology and AI can amplify your connections, never replace them.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <rect x="4" y="4" width="16" height="16" rx="2" ry="2"/>
@@ -115,7 +115,7 @@ const coachingApproach = [
   },
   {
     title: 'Celebration Culture',
-    description: 'We celebrate every win, big or small. Progress deserves recognition.',
+    description: 'We\'ll celebrate every win, big or small. Your progress deserves recognition.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
@@ -124,7 +124,7 @@ const coachingApproach = [
   },
   {
     title: 'Continuous Growth',
-    description: 'Learning never stops. I bring fresh insights from my own ongoing journey.',
+    description: 'You\'ll benefit from fresh insights I bring from my own ongoing learning journey.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/>
@@ -139,7 +139,7 @@ const process = [
     step: 1,
     title: 'Activation Meeting',
     subtitle: '$99 for 45 minutes',
-    description: 'We start with a focused session to understand your goals, challenges, and create your transformation roadmap.',
+    description: 'We\'ll start with a focused session to understand your goals, challenges, and create your transformation roadmap.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <circle cx="12" cy="12" r="10"/>
@@ -154,7 +154,7 @@ const process = [
     step: 2,
     title: 'Custom Plan',
     subtitle: 'Tailored to You',
-    description: 'Based on our discovery session, I design a coaching plan focused on your specific objectives, timeline, and growth areas.',
+    description: 'You\'ll receive a coaching plan designed around your specific objectives, timeline, and growth areas.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
@@ -169,7 +169,7 @@ const process = [
     step: 3,
     title: 'Transform Together',
     subtitle: 'Regular Sessions',
-    description: 'We work through regular 1:1 sessions, applying frameworks and strategies to achieve your goals.',
+    description: 'You\'ll work through regular 1:1 sessions, applying frameworks and strategies that move you toward your goals.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
@@ -183,7 +183,7 @@ const process = [
     step: 4,
     title: 'Measure & Iterate',
     subtitle: 'Track Progress',
-    description: 'Together we track your progress, celebrate your wins along the way, and refine our approach to maximize your growth.',
+    description: 'You\'ll track your progress, celebrate your wins along the way, and we\'ll refine our approach to maximize your growth.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
@@ -199,19 +199,19 @@ const faqs = [
   },
   {
     question: 'How quickly can I use my coaching hours?',
-    answer: 'Coaching hours are valid for 12 months from purchase. Most clients complete their hours within 3 to 6 months, but we will work at a pace that suits your schedule.',
+    answer: 'Your coaching hours are valid for 12 months from purchase. Most clients complete their hours within 3 to 6 months, but we\'ll work at a pace that suits your schedule.',
   },
   {
     question: 'Can I mix topics within my coaching package?',
-    answer: 'Absolutely! Your coaching is fully customized. We can focus on one area or blend multiple topics based on what will help you most.',
+    answer: 'Absolutely! Your coaching is fully customized. We can focus on one area or blend multiple topics based on what\'ll help you most.',
   },
   {
     question: 'Do you offer team or group coaching?',
-    answer: 'Yes! For team coaching, workshops, or training programs, please reach out directly to discuss custom solutions for your organization.',
+    answer: 'Yes! For team coaching, workshops, or training programs, reach out directly and we\'ll discuss custom solutions for your organization.',
   },
   {
-    question: 'What is the refund policy?',
-    answer: 'If after our first session you feel this is not the right fit, I will refund your remaining unused hours, no questions asked. Your transformation matters most.',
+    question: 'What\'s the refund policy?',
+    answer: 'If after our first session you feel this isn\'t the right fit, I\'ll refund your remaining unused hours—no questions asked. Your transformation matters most.',
   },
 ]
 
@@ -227,8 +227,8 @@ function FAQSection({ faqs }: { faqs: { question: string; answer: string }[] }) 
     <section className="section coaching-faq">
       <div className="container container--narrow">
         <AnimatedSection className="section-header" animation="fade-in">
-          <span className="section-header__subtitle">Questions</span>
-          <h2 className="section-header__title">Frequently Asked</h2>
+          <span className="section-header__subtitle">You&apos;re Wondering</span>
+          <h2 className="section-header__title">Common Questions</h2>
         </AnimatedSection>
 
         <div className="faq-accordion">
@@ -278,17 +278,17 @@ export default function CoachingPage() {
                 <span className="page-hero__title-accent"> Real Results</span>
               </h1>
               <p className="page-hero__description">
-                I am not here to be the hero of your story. I am here to be the sidekick
+                I&apos;m not here to be the hero of your story—I&apos;m here to be the sidekick
                 that helps you become the superhuman you were meant to be. With over 30 years
-                of experience and a genuine passion for helping humans grow, let us
+                of experience and a genuine passion for helping humans grow, let&apos;s
                 unlock your next level together.
               </p>
               <div className="page-hero__cta-group">
                 <Link href="/coaching/apply?type=activation" className="btn btn--primary">
-                  Book Activation Meeting
+                  Start Your Transformation
                 </Link>
                 <a href="#packages" className="btn btn--secondary">
-                  View Packages
+                  Explore Your Options
                 </a>
               </div>
             </AnimatedSection>
@@ -315,7 +315,7 @@ export default function CoachingPage() {
         <section id="topics" className="section section--warm coaching-topics">
           <div className="container">
             <AnimatedSection className="section-header" animation="fade-in">
-              <span className="section-header__subtitle">Coaching Topics</span>
+              <span className="section-header__subtitle">What You&apos;ll Master</span>
               <h2 className="section-header__title">Areas of Deep Expertise</h2>
               <p className="section-header__description">
                 Choose your focus area or combine multiple topics for a comprehensive
@@ -390,8 +390,8 @@ export default function CoachingPage() {
         <section className="section section--dark coaching-approach">
           <div className="container">
             <AnimatedSection className="section-header" animation="fade-in">
-              <span className="section-header__subtitle">The Sidekick Approach</span>
-              <h2 className="section-header__title">How I Work With You</h2>
+              <span className="section-header__subtitle">What You Can Expect</span>
+              <h2 className="section-header__title">The Sidekick Approach</h2>
             </AnimatedSection>
 
             <StaggerContainer className="approach-grid">
@@ -410,8 +410,8 @@ export default function CoachingPage() {
         <section className="section coaching-process">
           <div className="container">
             <AnimatedSection className="section-header" animation="fade-in">
-              <span className="section-header__subtitle">How It Works</span>
-              <h2 className="section-header__title">The Coaching Journey</h2>
+              <span className="section-header__subtitle">Your Path Forward</span>
+              <h2 className="section-header__title">How It Works</h2>
               <p className="section-header__description">
                 A simple, transparent process designed to get you results.
               </p>
@@ -476,11 +476,11 @@ export default function CoachingPage() {
         <section id="packages" className="section section--warm coaching-pricing">
           <div className="container">
             <AnimatedSection className="section-header" animation="fade-in">
-              <span className="section-header__subtitle">Investment</span>
-              <h2 className="section-header__title">Coaching Packages</h2>
+              <span className="section-header__subtitle">Your Investment</span>
+              <h2 className="section-header__title">Choose Your Path</h2>
               <p className="section-header__description">
-                All packages are billed at <strong>$200 per hour</strong>. Transparent pricing
-                with no hidden fees. Choose the package that fits your transformation goals.
+                All packages are billed at <strong>$200 per hour</strong>—transparent pricing
+                with no hidden fees. Pick the package that fits your transformation goals.
               </p>
             </AnimatedSection>
 
@@ -520,7 +520,7 @@ export default function CoachingPage() {
                     href={`/coaching/apply?package=${plan.slug}`}
                     className={`btn ${plan.popular ? 'btn--primary' : 'btn--secondary'} pricing-card__cta`}
                   >
-                    Get Started
+                    Begin Your Journey
                   </Link>
                 </div>
               ))}
@@ -531,7 +531,7 @@ export default function CoachingPage() {
                 <div className="activation-meeting__content">
                   <h3 className="activation-meeting__title">Not sure where to start?</h3>
                   <p className="activation-meeting__description">
-                    Book an <strong>Activation Meeting</strong>. A focused 45 minute session where we will
+                    Book an <strong>Activation Meeting</strong>—a focused 45-minute session where we&apos;ll
                     map out your goals, identify your biggest opportunities, and create a clear path forward.
                   </p>
                 </div>
@@ -540,7 +540,7 @@ export default function CoachingPage() {
                   <span className="activation-meeting__label">45 minute session</span>
                 </div>
                 <Link href="/coaching/apply?type=activation" className="btn btn--outline-light btn--large btn--arrow">
-                  Book Activation Meeting
+                  Get Clarity Now
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <line x1="5" y1="12" x2="19" y2="12" />
                     <polyline points="12 5 19 12 12 19" />
@@ -569,19 +569,19 @@ export default function CoachingPage() {
                 <h2 className="story-card__title">From &quot;You Will Never Amount to Anything&quot;<br />to Helping Others Transform</h2>
                 <div className="story-card__content">
                   <p>
-                    At 17, a teacher told me I would never amount to anything. That moment became
-                    the catalyst for my own transformation and now my life&apos;s mission.
+                    At 17, a teacher told me I&apos;d never amount to anything. That moment became
+                    the catalyst for my own transformation—and now my life&apos;s mission.
                   </p>
                   <p>
-                    I have been where you might be: uncertain, stuck, or just knowing there is
-                    more inside you waiting to come out. That is exactly why I coach.
+                    I&apos;ve been where you might be: uncertain, stuck, or just knowing there&apos;s
+                    more inside you waiting to come out. That&apos;s exactly why I coach.
                   </p>
                   <blockquote className="story-card__quote">
-                    &quot;I am not here to be the hero of your story. I am here to be the sidekick
+                    &quot;I&apos;m not here to be the hero of your story. I&apos;m here to be the sidekick
                     that helps you become the superhuman you were meant to be.&quot;
                   </blockquote>
                   <Link href="/about" className="btn btn--secondary story-card__cta">
-                    Read My Full Story
+                    Discover My Journey
                   </Link>
                 </div>
               </div>
@@ -599,16 +599,16 @@ export default function CoachingPage() {
         <section className="section section--warm coaching-final-cta">
           <div className="container">
             <AnimatedSection className="cta-block" animation="fade-in">
-              <h2 className="cta-block__title">Ready to Transform?</h2>
+              <h2 className="cta-block__title">Ready to Become Your Best Self?</h2>
               <p className="cta-block__description">
-                Your journey to becoming the best version of yourself starts with a single conversation.
+                Your journey to becoming the superhuman you were meant to be starts with a single conversation.
               </p>
               <div className="cta-block__buttons">
                 <Link href="/coaching/apply?type=activation" className="btn btn--primary btn--large">
-                  Book Activation Meeting
+                  Start Your Transformation
                 </Link>
                 <Link href="/expertise" className="btn btn--secondary btn--large">
-                  Learn About My Expertise
+                  Explore What You&apos;ll Master
                 </Link>
               </div>
             </AnimatedSection>
