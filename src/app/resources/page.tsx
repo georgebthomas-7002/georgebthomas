@@ -1,11 +1,13 @@
 'use client'
 
 import { useState, useMemo } from 'react'
-import { Search, Filter, X, Play, Mic, FileText, ExternalLink } from 'lucide-react'
+import { Search, X, Play, Mic, FileText, ExternalLink, ChevronLeft, ChevronRight } from 'lucide-react'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import resourceData from '../../../data/resources.json'
 import './resources.css'
+
+const ITEMS_PER_PAGE = 30
 
 interface Resource {
   id: string
@@ -112,36 +114,94 @@ function ResourceCard({ resource }: { resource: Resource }) {
   )
 }
 
-function FilterButton({
-  active,
-  onClick,
-  children,
-  count
+function Pagination({
+  currentPage,
+  totalPages,
+  onPageChange
 }: {
-  active: boolean
-  onClick: () => void
-  children: React.ReactNode
-  count?: number
+  currentPage: number
+  totalPages: number
+  onPageChange: (page: number) => void
 }) {
+  if (totalPages <= 1) return null
+
+  const getVisiblePages = () => {
+    const pages: (number | 'ellipsis')[] = []
+
+    if (totalPages <= 7) {
+      for (let i = 1; i <= totalPages; i++) pages.push(i)
+    } else {
+      pages.push(1)
+
+      if (currentPage > 3) {
+        pages.push('ellipsis')
+      }
+
+      const start = Math.max(2, currentPage - 1)
+      const end = Math.min(totalPages - 1, currentPage + 1)
+
+      for (let i = start; i <= end; i++) {
+        if (!pages.includes(i)) pages.push(i)
+      }
+
+      if (currentPage < totalPages - 2) {
+        pages.push('ellipsis')
+      }
+
+      if (!pages.includes(totalPages)) pages.push(totalPages)
+    }
+
+    return pages
+  }
+
   return (
-    <button
-      onClick={onClick}
-      className={`filter-button ${active ? 'filter-button--active' : ''}`}
-    >
-      {children}
-      {count !== undefined && (
-        <span className="filter-button__count">({count})</span>
-      )}
-    </button>
+    <nav className="pagination" aria-label="Pagination">
+      <button
+        onClick={() => onPageChange(currentPage - 1)}
+        disabled={currentPage === 1}
+        className="pagination__btn pagination__btn--nav"
+        aria-label="Previous page"
+      >
+        <ChevronLeft size={18} />
+        <span>Previous</span>
+      </button>
+
+      <div className="pagination__pages">
+        {getVisiblePages().map((page, idx) =>
+          page === 'ellipsis' ? (
+            <span key={`ellipsis-${idx}`} className="pagination__ellipsis">...</span>
+          ) : (
+            <button
+              key={page}
+              onClick={() => onPageChange(page)}
+              className={`pagination__btn ${currentPage === page ? 'pagination__btn--active' : ''}`}
+              aria-current={currentPage === page ? 'page' : undefined}
+            >
+              {page}
+            </button>
+          )
+        )}
+      </div>
+
+      <button
+        onClick={() => onPageChange(currentPage + 1)}
+        disabled={currentPage === totalPages}
+        className="pagination__btn pagination__btn--nav"
+        aria-label="Next page"
+      >
+        <span>Next</span>
+        <ChevronRight size={18} />
+      </button>
+    </nav>
   )
 }
 
 export default function ResourcesPage() {
   const [searchQuery, setSearchQuery] = useState('')
-  const [selectedType, setSelectedType] = useState<string | null>(null)
-  const [selectedPillar, setSelectedPillar] = useState<string | null>(null)
-  const [selectedSource, setSelectedSource] = useState<string | null>(null)
-  const [showFilters, setShowFilters] = useState(false)
+  const [selectedType, setSelectedType] = useState<string>('')
+  const [selectedPillar, setSelectedPillar] = useState<string>('')
+  const [selectedSource, setSelectedSource] = useState<string>('')
+  const [currentPage, setCurrentPage] = useState(1)
 
   const sources = useMemo(() => {
     const sourceSet = new Set(data.resources.map(r => r.source))
@@ -166,19 +226,33 @@ export default function ResourcesPage() {
     })
   }, [searchQuery, selectedType, selectedPillar, selectedSource])
 
-  const typeCounts = useMemo(() => ({
-    video: data.resources.filter(r => r.type === 'video').length,
-    podcast: data.resources.filter(r => r.type === 'podcast').length,
-    article: data.resources.filter(r => r.type === 'article').length,
-  }), [])
+  // Reset to page 1 when filters change
+  const handleFilterChange = (setter: (val: string) => void, value: string) => {
+    setter(value)
+    setCurrentPage(1)
+  }
+
+  // Pagination calculations
+  const totalPages = Math.ceil(filteredResources.length / ITEMS_PER_PAGE)
+  const paginatedResources = useMemo(() => {
+    const start = (currentPage - 1) * ITEMS_PER_PAGE
+    return filteredResources.slice(start, start + ITEMS_PER_PAGE)
+  }, [filteredResources, currentPage])
 
   const hasActiveFilters = selectedType || selectedPillar || selectedSource
 
   const clearFilters = () => {
-    setSelectedType(null)
-    setSelectedPillar(null)
-    setSelectedSource(null)
+    setSelectedType('')
+    setSelectedPillar('')
+    setSelectedSource('')
     setSearchQuery('')
+    setCurrentPage(1)
+  }
+
+  // Scroll to top when page changes
+  const handlePageChange = (page: number) => {
+    setCurrentPage(page)
+    window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 
   return (
@@ -186,148 +260,134 @@ export default function ResourcesPage() {
       <Header />
       <main className="resources-page">
         {/* Hero Section */}
-      <section className="resources-hero">
-        <div className="container">
-          <h1 className="resources-hero__title">Resource Center</h1>
-          <p className="resources-hero__subtitle">
-            {data.totalResources} resources and growing daily—fuel for your superhuman journey
-          </p>
-        </div>
-      </section>
-
-      {/* Search & Filters */}
-      <section className="resources-filters">
-        <div className="container">
-          {/* Search */}
-          <div className="resources-search">
-            <Search className="resources-search__icon" size={20} />
-            <input
-              type="text"
-              placeholder="Search resources..."
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              className="resources-search__input"
-            />
-            {searchQuery && (
-              <button onClick={() => setSearchQuery('')} className="resources-search__clear">
-                <X size={16} />
-              </button>
-            )}
-          </div>
-
-          {/* Mobile filter toggle */}
-          <button
-            onClick={() => setShowFilters(!showFilters)}
-            className="resources-filters__toggle"
-          >
-            <Filter size={16} />
-            Filters
-            {hasActiveFilters && <span className="resources-filters__indicator" />}
-          </button>
-
-          {/* Filter groups */}
-          <div className={`resources-filters__groups ${showFilters ? 'is-open' : ''}`}>
-            {/* Type filters */}
-            <div className="filter-group">
-              <div className="filter-group__label">Content Type</div>
-              <div className="filter-group__buttons">
-                <FilterButton active={selectedType === null} onClick={() => setSelectedType(null)} count={data.totalResources}>
-                  All
-                </FilterButton>
-                <FilterButton active={selectedType === 'video'} onClick={() => setSelectedType(selectedType === 'video' ? null : 'video')} count={typeCounts.video}>
-                  <Play size={14} /> Videos
-                </FilterButton>
-                <FilterButton active={selectedType === 'podcast'} onClick={() => setSelectedType(selectedType === 'podcast' ? null : 'podcast')} count={typeCounts.podcast}>
-                  <Mic size={14} /> Podcasts
-                </FilterButton>
-                <FilterButton active={selectedType === 'article'} onClick={() => setSelectedType(selectedType === 'article' ? null : 'article')} count={typeCounts.article}>
-                  <FileText size={14} /> Articles
-                </FilterButton>
-              </div>
-            </div>
-
-            {/* Pillar filters */}
-            <div className="filter-group">
-              <div className="filter-group__label">Topic</div>
-              <div className="filter-group__buttons">
-                <FilterButton active={selectedPillar === null} onClick={() => setSelectedPillar(null)}>
-                  All Topics
-                </FilterButton>
-                {data.taxonomy.pillars.map(pillar => (
-                  <FilterButton
-                    key={pillar}
-                    active={selectedPillar === pillar}
-                    onClick={() => setSelectedPillar(selectedPillar === pillar ? null : pillar)}
-                  >
-                    {pillar}
-                  </FilterButton>
-                ))}
-              </div>
-            </div>
-
-            {/* Source filters */}
-            <div className="filter-group">
-              <div className="filter-group__label">Source</div>
-              <div className="filter-group__buttons">
-                <FilterButton active={selectedSource === null} onClick={() => setSelectedSource(null)}>
-                  All Sources
-                </FilterButton>
-                {sources.map(source => (
-                  <FilterButton
-                    key={source}
-                    active={selectedSource === source}
-                    onClick={() => setSelectedSource(selectedSource === source ? null : source)}
-                  >
-                    {source}
-                  </FilterButton>
-                ))}
-              </div>
-            </div>
-
-            {hasActiveFilters && (
-              <button onClick={clearFilters} className="resources-filters__clear">
-                <X size={16} />
-                Clear all filters
-              </button>
-            )}
-          </div>
-        </div>
-      </section>
-
-      {/* Results */}
-      <section className="resources-results">
-        <div className="container">
-          <div className="resources-results__header">
-            <p className="resources-results__count">
-              Showing <strong>{filteredResources.length}</strong> of <strong>{data.totalResources}</strong> resources
-            </p>
-            <p className="resources-results__updated">
-              Last updated: {new Date(data.lastUpdated).toLocaleDateString()}
+        <section className="resources-hero">
+          <div className="container">
+            <span className="resources-hero__eyebrow">Your Superhuman Toolkit</span>
+            <h1 className="resources-hero__title">Resource Center</h1>
+            <p className="resources-hero__subtitle">
+              {data.totalResources}+ resources and growing daily—videos, podcasts, and articles
+              <br />to fuel your transformation into the superhuman you were meant to be.
             </p>
           </div>
+        </section>
 
-          {filteredResources.length > 0 ? (
-            <div className="resources-grid">
-              {filteredResources.map(resource => (
-                <ResourceCard key={resource.id} resource={resource} />
-              ))}
-            </div>
-          ) : (
-            <div className="resources-empty">
-              <div className="resources-empty__icon">
-                <Search size={32} />
+        {/* Search & Filters */}
+        <section className="resources-filters">
+          <div className="container">
+            <div className="resources-filters__bar">
+              {/* Search */}
+              <div className="resources-search">
+                <Search className="resources-search__icon" size={20} />
+                <input
+                  type="text"
+                  placeholder="Search resources..."
+                  value={searchQuery}
+                  onChange={(e) => {
+                    setSearchQuery(e.target.value)
+                    setCurrentPage(1)
+                  }}
+                  className="resources-search__input"
+                />
+                {searchQuery && (
+                  <button onClick={() => { setSearchQuery(''); setCurrentPage(1) }} className="resources-search__clear">
+                    <X size={16} />
+                  </button>
+                )}
               </div>
-              <h3 className="resources-empty__title">No resources found</h3>
-              <p className="resources-empty__text">
-                Try adjusting your search or filters to find what you're looking for.
+
+              {/* Dropdown Filters */}
+              <div className="resources-filters__dropdowns">
+                <select
+                  value={selectedType}
+                  onChange={(e) => handleFilterChange(setSelectedType, e.target.value)}
+                  className="resources-select"
+                >
+                  <option value="">All Types</option>
+                  <option value="video">Videos</option>
+                  <option value="podcast">Podcasts</option>
+                  <option value="article">Articles</option>
+                </select>
+
+                <select
+                  value={selectedPillar}
+                  onChange={(e) => handleFilterChange(setSelectedPillar, e.target.value)}
+                  className="resources-select"
+                >
+                  <option value="">All Topics</option>
+                  {data.taxonomy.pillars.map(pillar => (
+                    <option key={pillar} value={pillar}>{pillar}</option>
+                  ))}
+                </select>
+
+                <select
+                  value={selectedSource}
+                  onChange={(e) => handleFilterChange(setSelectedSource, e.target.value)}
+                  className="resources-select"
+                >
+                  <option value="">All Sources</option>
+                  {sources.map(source => (
+                    <option key={source} value={source}>{source}</option>
+                  ))}
+                </select>
+
+                {hasActiveFilters && (
+                  <button onClick={clearFilters} className="resources-filters__clear">
+                    <X size={14} />
+                    Clear
+                  </button>
+                )}
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Results */}
+        <section className="resources-results">
+          <div className="container">
+            <div className="resources-results__header">
+              <p className="resources-results__count">
+                Showing <strong>{paginatedResources.length}</strong> of <strong>{filteredResources.length}</strong> resources
+                {filteredResources.length !== data.totalResources && (
+                  <span className="resources-results__filtered"> (filtered from {data.totalResources})</span>
+                )}
               </p>
-              <button onClick={clearFilters} className="btn btn--secondary">
-                Clear all filters
-              </button>
+              {totalPages > 1 && (
+                <p className="resources-results__page">
+                  Page {currentPage} of {totalPages}
+                </p>
+              )}
             </div>
-          )}
-        </div>
-      </section>
+
+            {paginatedResources.length > 0 ? (
+              <>
+                <div className="resources-grid">
+                  {paginatedResources.map(resource => (
+                    <ResourceCard key={resource.id} resource={resource} />
+                  ))}
+                </div>
+
+                <Pagination
+                  currentPage={currentPage}
+                  totalPages={totalPages}
+                  onPageChange={handlePageChange}
+                />
+              </>
+            ) : (
+              <div className="resources-empty">
+                <div className="resources-empty__icon">
+                  <Search size={32} />
+                </div>
+                <h3 className="resources-empty__title">No resources found</h3>
+                <p className="resources-empty__text">
+                  Try adjusting your search or filters to find what you&apos;re looking for.
+                </p>
+                <button onClick={clearFilters} className="btn btn--secondary">
+                  Clear all filters
+                </button>
+              </div>
+            )}
+          </div>
+        </section>
       </main>
       <Footer />
     </>
