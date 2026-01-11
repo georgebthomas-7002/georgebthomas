@@ -274,6 +274,9 @@ const dealProperties = [
 const contactForm = {
   name: 'George B. Thomas - Contact Form',
   formType: 'hubspot',
+  createdAt: new Date().toISOString(),
+  updatedAt: new Date().toISOString(),
+  archived: false,
   fieldGroups: [
     {
       groupType: 'default_group',
@@ -434,6 +437,9 @@ const contactForm = {
 const bookingForm = {
   name: 'George B. Thomas - Speaking Inquiry Form',
   formType: 'hubspot',
+  createdAt: new Date().toISOString(),
+  updatedAt: new Date().toISOString(),
+  archived: false,
   fieldGroups: [
     {
       groupType: 'default_group',
@@ -644,6 +650,9 @@ const bookingForm = {
 const coachingForm = {
   name: 'George B. Thomas - Coaching Application Form',
   formType: 'hubspot',
+  createdAt: new Date().toISOString(),
+  updatedAt: new Date().toISOString(),
+  archived: false,
   fieldGroups: [
     {
       groupType: 'default_group',
