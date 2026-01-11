@@ -156,7 +156,7 @@ export default function AboutPage() {
       <Header />
       <main>
         {/* Hero Section - Tighter */}
-        <section className="page-hero page-hero--about page-hero--compact">
+        <section className="page-hero page-hero--compact">
           <div className="container page-hero__grid">
             <AnimatedSection className="page-hero__content" animation="fade-in">
               <span className="page-hero__tagline">Father. Husband. Marketer. Believer.</span>
@@ -178,7 +178,7 @@ export default function AboutPage() {
               </div>
             </AnimatedSection>
 
-            <AnimatedSection className="page-hero__image-wrapper page-hero__image-wrapper--about" animation="slide-right">
+            <AnimatedSection className="page-hero__image-wrapper" animation="slide-right">
               <div className="page-hero__image-frame" aria-hidden="true"></div>
               <div className="page-hero__image-accent" aria-hidden="true"></div>
               <div className="page-hero__image-container">
@@ -197,7 +197,7 @@ export default function AboutPage() {
         </section>
 
         {/* Stats Section - Tighter */}
-        <section className="section section--tight about-stats">
+        <section className="section section--tight">
           <div className="container">
             <StaggerContainer className="stats-row">
               {credentials.map((stat) => (
@@ -211,7 +211,7 @@ export default function AboutPage() {
         </section>
 
         {/* Story Timeline Section - Wide Layout */}
-        <section id="story" className="section section--tight about-story">
+        <section id="story" className="section section--tight">
           <div className="container container--wide">
             <AnimatedSection className="section-header section-header--tight" animation="fade-in">
               <span className="section-header__subtitle">The Journey</span>
@@ -283,7 +283,7 @@ export default function AboutPage() {
         </section>
 
         {/* Values Section - Compact */}
-        <section className="section section--tight section--warm about-values">
+        <section className="section section--tight section--warm">
           <div className="container">
             <AnimatedSection className="section-header section-header--tight" animation="fade-in">
               <span className="section-header__subtitle">What This Means For You</span>
@@ -303,7 +303,7 @@ export default function AboutPage() {
         </section>
 
         {/* CTA Section */}
-        <section className="section section--tight about-cta">
+        <section className="section section--tight">
           <div className="container">
             <AnimatedSection className="cta-block cta-block--compact" animation="fade-in">
               <h2 className="cta-block__title">Ready to Start Your Journey?</h2>
