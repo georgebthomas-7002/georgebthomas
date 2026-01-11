@@ -14,7 +14,7 @@ export default function TestimonialsPage() {
       <Header />
       <main>
         {/* Hero Section - Warm Background */}
-        <section className="page-hero page-hero--testimonials">
+        <section className="page-hero">
           <div className="container page-hero__grid">
             <AnimatedSection className="page-hero__content" animation="fade-in">
               <span className="page-hero__tagline">Growth & Success Stories</span>
@@ -29,7 +29,7 @@ export default function TestimonialsPage() {
               </p>
             </AnimatedSection>
 
-            <AnimatedSection className="page-hero__image-wrapper page-hero__image-wrapper--testimonials" animation="slide-right">
+            <AnimatedSection className="page-hero__image-wrapper" animation="slide-right">
               <div className="page-hero__image-frame" aria-hidden="true"></div>
               <div className="page-hero__image-accent" aria-hidden="true"></div>
               <div className="page-hero__image-container">
@@ -78,7 +78,7 @@ export default function TestimonialsPage() {
         </section>
 
         {/* Featured Testimonials Grid - White Background */}
-        <section className="section testimonials-featured">
+        <section className="section">
           <div className="container">
             <AnimatedSection className="section-header" animation="fade-in">
               <span className="section-header__subtitle">Stories Like Yours</span>
@@ -137,7 +137,7 @@ export default function TestimonialsPage() {
         </section>
 
         {/* What Clients Say Section - Warm Background */}
-        <section className="section section--warm testimonials-themes">
+        <section className="section section--warm">
           <div className="container">
             <AnimatedSection className="section-header" animation="fade-in">
               <span className="section-header__subtitle">What You&apos;ll Experience</span>
@@ -216,7 +216,7 @@ export default function TestimonialsPage() {
                 <Link href="/coaching/apply" className="btn btn--primary btn--large">
                   Start Your Transformation
                 </Link>
-                <Link href="/contact" className="btn btn--secondary btn--large">
+                <Link href="/contact" className="btn btn--outline-light btn--large">
                   Let&apos;s Talk
                 </Link>
               </div>
