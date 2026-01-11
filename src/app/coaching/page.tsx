@@ -487,8 +487,8 @@ export default function CoachingPage() {
               <span className="section-header__subtitle">Your Investment</span>
               <h2 className="section-header__title">Choose Your Path</h2>
               <p className="section-header__description">
-                All packages are billed at <strong>$200 per hour</strong>. Transparent pricing
-                with no hidden fees. Pick the package that fits your transformation goals.
+                All packages are billed at <strong>$200 per hour</strong> with transparent pricing
+                and no hidden fees. Pick the package that fits your transformation goals.
               </p>
             </AnimatedSection>
 
@@ -578,7 +578,7 @@ export default function CoachingPage() {
                 <div className="story-card__content">
                   <p>
                     At 17, a teacher told me I&apos;d never amount to anything. That moment became
-                    the catalyst for my own transformation, and now my life&apos;s mission.
+                    the catalyst for my own transformation and is now my life&apos;s mission.
                   </p>
                   <p>
                     I&apos;ve been where you might be: uncertain, stuck, or just knowing there&apos;s

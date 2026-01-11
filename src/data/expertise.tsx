@@ -85,7 +85,7 @@ export const deepExpertise = [
       'MarketingProfs thought leader and contributor',
       'Sales enablement through video and content',
     ],
-    description: 'You&apos;ll gain access to battle-tested strategies: three decades of inbound methodology blended with authentic human connection that&apos;ll drive your sustainable growth.',
+    description: 'You&apos;ll gain access to battle-tested strategies built on three decades of inbound methodology and authentic human connection to drive your sustainable growth.',
   },
   {
     id: 'video',
