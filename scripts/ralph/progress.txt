@@ -263,3 +263,27 @@ Feature: Website Audit & Polish
   - Dark mode sections need explicit text color overrides for all text elements, including section-header__description
   - Always check if there's a dark mode override for muted text colors when section--dark is used
 ---
+
+
+## 2025-01-11 - US-013
+- Audited and fixed Speaking page design for consistency with design system
+- Files changed: src/app/speaking/page.tsx
+- **Changes made:**
+  - Removed undefined speaking-filter class from Topic Navigation section
+  - Removed undefined speaking-experience class from Speaking Experience section
+  - Added section--warm to Speaking Experience section for visual distinction
+  - Removed undefined speaking-cta class from CTA section
+  - Changed btn--secondary to btn--outline-light for CTA section (dark background)
+- **Verification:**
+  - Build passes successfully
+  - All button classes valid (btn--primary, btn--outline-light)
+  - Hero section uses correct page-hero--speaking-video class (defined)
+  - Keynote cards use proper design system tokens (--radius-xl, --shadow-md, translateY(-4px))
+  - Experience cards use correct styling (--radius-lg, --shadow-sm)
+  - Video components (VideoSlider, VideoShowcase) use defined wrapper styles
+- **Learnings for future iterations:**
+  - Speaking page has many specialized components (keynote cards, experience cards, serve blocks) that are all properly defined
+  - The speaking page hero (page-hero--speaking-video) has its own two-column layout with video showcase
+  - KeynoteCard uses CSS custom properties (--keynote-color) for topic-based theming
+  - serve-block component handles the "Who I Serve" editorial sections with video embeds
+---

@@ -210,8 +210,8 @@
         "Verify in browser using dev-browser skill"
       ],
       "priority": 13,
-      "passes": false,
-      "notes": ""
+      "passes": true,
+      "notes": "Completed: Removed undefined CSS classes (speaking-filter, speaking-experience, speaking-cta). Changed btn--secondary to btn--outline-light for dark background CTA. Added section--warm to Speaking Experience section. All keynote cards, video components, and experience cards verified to use design system patterns."
     },
     {
       "id": "US-014",
