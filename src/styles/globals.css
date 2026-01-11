@@ -1229,8 +1229,7 @@ a:hover {
 }
 
 .header--scrolled {
-  background: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(10px);
+  background: var(--color-white);
   box-shadow: var(--shadow-md);
   padding: var(--space-sm) 0;
 }
