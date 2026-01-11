@@ -117,4 +117,23 @@
 - **B. Meeting Scheduling:** Integrate HubSpot Meetings, embed calendar widgets, auto-create meetings at deal stages
 - **C. Lead Scoring:** Score contacts based on form type, budget range, company size, engagement
 - **D. Reporting Dashboard:** Track form submissions, deal pipeline velocity, conversion rates by source
-- **E. Payment Integration:** Connect Stripe for coaching packages, auto-update deal stage on payment
+
+### HubSpot Payment Links (Coaching)
+
+**Implemented:** Form submission → CRM → Payment redirect → Thank you page
+
+| Package | Price | Payment Link ID |
+|---------|-------|-----------------|
+| Activation | $99 | `sjjHzmQqYWTPn7bn` |
+| Starter | $2,000 | `hhGnDxVKkRCC` |
+| Growth | $4,000 | `sdJMg4rSXj2H7` |
+| Transformation | $6,000 | `xRtR6JnWmvymn4` |
+
+**Domain:** `sidekickstrategies.com/hs/payments/...`
+
+**Flow:**
+1. Apply form submits to `/api/hubspot` (creates contact + deal)
+2. Redirect to HubSpot payment link
+3. After payment, HubSpot redirects to `/coaching/thank-you?purchased=X`
+
+**Context saved:** `.claude/context/coaching.md` - full product details for future reference

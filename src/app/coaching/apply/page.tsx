@@ -148,7 +148,7 @@ function ApplyContent() {
     topicAnswers: {},
   })
   const [isSubmitting, setIsSubmitting] = useState(false)
-  const [isComplete, setIsComplete] = useState(false)
+  const [submitError, setSubmitError] = useState<string | null>(null)
 
   useEffect(() => {
     const packageParam = searchParams.get('package')
@@ -209,69 +209,61 @@ function ApplyContent() {
 
   const handleSubmit = async () => {
     setIsSubmitting(true)
-    await new Promise(resolve => setTimeout(resolve, 1500))
-    setIsComplete(true)
-    setIsSubmitting(false)
+    setSubmitError(null)
+
+    try {
+      // Submit to HubSpot CRM
+      const response = await fetch('/api/hubspot', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          formType: 'coaching',
+          firstName: formData.firstName,
+          lastName: formData.lastName,
+          email: formData.email,
+          phone: formData.phone,
+          company: formData.company,
+          role: formData.role,
+          howHeard: formData.howHeard,
+          coachingPackage: selectedPackage,
+          coachingPackageLabel: currentPackage?.name,
+          coachingTopics: selectedTopics,
+          coachingGoals: formData.goals,
+          topicAnswers: formData.topicAnswers,
+          preferredTime: formData.bestTime,
+          price: currentPackage?.price,
+        }),
+      })
+
+      if (!response.ok) {
+        throw new Error('Failed to submit application')
+      }
+
+      // Get payment link based on selected package
+      const paymentLinks: Record<string, string | undefined> = {
+        activation: process.env.NEXT_PUBLIC_PAYMENT_LINK_ACTIVATION,
+        starter: process.env.NEXT_PUBLIC_PAYMENT_LINK_STARTER,
+        growth: process.env.NEXT_PUBLIC_PAYMENT_LINK_GROWTH,
+        transformation: process.env.NEXT_PUBLIC_PAYMENT_LINK_TRANSFORMATION,
+      }
+
+      const paymentLink = paymentLinks[selectedPackage]
+
+      if (paymentLink) {
+        // Redirect to HubSpot payment link
+        window.location.href = paymentLink
+      } else {
+        // Fallback to thank you page if no payment link configured
+        window.location.href = `/coaching/thank-you?purchased=${selectedPackage}&name=${encodeURIComponent(formData.firstName)}`
+      }
+    } catch (error) {
+      console.error('Submission error:', error)
+      setSubmitError('Something went wrong. Please try again or email george@georgebthomas.com directly.')
+      setIsSubmitting(false)
+    }
   }
 
   const currentPackage = packageDetails[selectedPackage as keyof typeof packageDetails]
-
-  if (isComplete) {
-    return (
-      <>
-        <section className="page-hero page-hero--compact">
-          <div className="container">
-            <AnimatedSection className="apply-complete" animation="fade-in">
-              <div className="apply-complete__icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
-                  <polyline points="22 4 12 14.01 9 11.01"/>
-                </svg>
-              </div>
-              <h1 className="apply-complete__title">You're Almost There!</h1>
-              <p className="apply-complete__description">
-                I'm excited to work with you! Complete your purchase below to lock in your spot—I can't wait to get started.
-              </p>
-
-              <div className="apply-complete__summary">
-                <h3>Your Selection</h3>
-                <div className="apply-complete__item">
-                  <span>{currentPackage?.name}</span>
-                  <strong>${currentPackage?.price}</strong>
-                </div>
-                <div className="apply-complete__topics">
-                  <span>Focus Areas:</span>
-                  <ul>
-                    {selectedTopics.map(topicId => {
-                      const topic = coachingTopics.find(t => t.id === topicId)
-                      return <li key={topicId}>{topic?.title}</li>
-                    })}
-                  </ul>
-                </div>
-              </div>
-
-              <div className="apply-complete__actions">
-                <a
-                  href={`mailto:george@georgebthomas.com?subject=${encodeURIComponent(`${currentPackage?.name} Purchase - ${formData.firstName} ${formData.lastName}`)}&body=${encodeURIComponent(`Hi George,\n\nI'd like to purchase the ${currentPackage?.name} package.\n\nName: ${formData.firstName} ${formData.lastName}\nEmail: ${formData.email}\nPhone: ${formData.phone}\nCompany: ${formData.company || 'N/A'}\n\nFocus Areas: ${selectedTopics.map(id => coachingTopics.find(t => t.id === id)?.title).join(', ')}\n\nGoals: ${formData.goals}\n\nBest,\n${formData.firstName}`)}`}
-                  className="btn btn--primary btn--large"
-                >
-                  Complete Purchase - ${currentPackage?.price}
-                </a>
-                <p className="apply-complete__note">
-                  You'll receive a payment link via email shortly.
-                  Got questions? Just hit reply—I'm here to help.
-                </p>
-              </div>
-
-              <Link href="/coaching" className="apply-complete__back">
-                &larr; Back to Coaching
-              </Link>
-            </AnimatedSection>
-          </div>
-        </section>
-      </>
-    )
-  }
 
   return (
     <>
@@ -546,6 +538,21 @@ function ApplyContent() {
             </div>
           )}
 
+          {/* Error Display */}
+          {submitError && (
+            <div className="apply-error" style={{
+              padding: '1rem',
+              marginBottom: '1rem',
+              backgroundColor: '#fef2f2',
+              border: '1px solid #fecaca',
+              borderRadius: '0.5rem',
+              color: '#dc2626',
+              textAlign: 'center'
+            }}>
+              {submitError}
+            </div>
+          )}
+
           {/* Navigation */}
           <div className="apply-nav">
             {step > 1 && (
@@ -574,7 +581,7 @@ function ApplyContent() {
                 onClick={handleSubmit}
                 disabled={!canProceed() || isSubmitting}
               >
-                {isSubmitting ? 'Processing...' : `Continue to Payment - $${currentPackage?.price}`}
+                {isSubmitting ? 'Submitting...' : `Continue to Payment - $${currentPackage?.price}`}
               </button>
             )}
           </div>
