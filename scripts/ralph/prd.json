@@ -1,33 +1,35 @@
 {
   "project": "GeorgeBThomas",
-  "branchName": "ralph/context-engine",
-  "description": "Context Engine - Gather comprehensive internet research about George B. Thomas across podcasting, video, HubSpot, speaking, AI, business coaching, and marketing",
+  "branchName": "ralph/website-audit-polish",
+  "description": "Comprehensive Website Audit & Polish - Take the site from 80-85% to 95-100% through content, design, SEO, performance, and accessibility improvements",
   "userStories": [
     {
       "id": "US-001",
-      "title": "Set up context engine directory structure",
-      "description": "As a developer, I need to create the directory structure and base files for storing gathered context.",
+      "title": "Content audit: Homepage",
+      "description": "As a content strategist, I need to audit and fix the homepage copy to use contractions, you/yours language, and benefit-focused messaging.",
       "acceptanceCriteria": [
-        "Create context/ directory with subdirectories: raw/, structured/, summaries/, quotes/",
-        "Create context/metadata.json to track sources and timestamps",
-        "Create context/README.md documenting the structure",
+        "Read src/app/page.tsx and identify all copy",
+        "Replace 'You will' with 'You'll' and similar contractions throughout",
+        "Reframe 'I/we' sections to use 'you/yours' language (80%+ you-focused)",
+        "Ensure headlines lead with visitor benefits, not features",
+        "CTAs use action verbs + benefit (e.g., 'Start Your Journey' not 'Contact Me')",
         "Typecheck passes"
       ],
       "priority": 1,
-      "passes": false,
-      "notes": ""
+      "passes": true,
+      "notes": "Completed: Hero, Services, Story, Expertise, and CTA sections updated with contractions, you-focused language, and benefit-driven CTAs"
     },
     {
       "id": "US-002",
-      "title": "Research George B. Thomas podcasting presence",
-      "description": "As a context gatherer, I need to find all podcast appearances, hosted shows, and podcasting-related content.",
+      "title": "Content audit: About page",
+      "description": "As a content strategist, I need to audit and fix the About page copy for conversational tone and you-focused language.",
       "acceptanceCriteria": [
-        "Search for George B. Thomas podcast content across platforms",
-        "Find hosted podcasts (Hub Heroes, etc.) and guest appearances",
-        "Capture episode titles, descriptions, dates, and links",
-        "Extract key quotes and talking points",
-        "Save to context/structured/podcasting.json",
-        "Write summary to context/summaries/podcasting.md"
+        "Read src/app/about/page.tsx and identify all copy",
+        "Use contractions throughout (it's, you'll, we've, etc.)",
+        "Balance 'my story' with 'what this means for you'",
+        "Frame credentials/stats around visitor benefit",
+        "Ensure CTAs are benefit-focused",
+        "Typecheck passes"
       ],
       "priority": 2,
       "passes": false,
@@ -35,15 +37,14 @@
     },
     {
       "id": "US-003",
-      "title": "Research George B. Thomas video and YouTube presence",
-      "description": "As a context gatherer, I need to find all video content, YouTube channels, and video marketing expertise.",
+      "title": "Content audit: Expertise page",
+      "description": "As a content strategist, I need to audit and fix the Expertise page copy for you-focused, benefit-driven messaging.",
       "acceptanceCriteria": [
-        "Search YouTube for George B. Thomas channels and appearances",
-        "Find video tutorials, presentations, and educational content",
-        "Capture video titles, descriptions, topics covered",
-        "Document video marketing expertise areas",
-        "Save to context/structured/video.json",
-        "Write summary to context/summaries/video.md"
+        "Read src/app/expertise/page.tsx and identify all copy",
+        "Use contractions consistently",
+        "Frame each expertise area as 'how this helps you' not 'what I know'",
+        "Ensure pillar descriptions lead with visitor outcomes",
+        "Typecheck passes"
       ],
       "priority": 3,
       "passes": false,
@@ -51,15 +52,15 @@
     },
     {
       "id": "US-004",
-      "title": "Research George B. Thomas HubSpot expertise",
-      "description": "As a context gatherer, I need to find all HubSpot-related content, community involvement, and thought leadership.",
+      "title": "Content audit: Speaking page",
+      "description": "As a content strategist, I need to audit and fix the Speaking page copy for conversational, you-focused tone.",
       "acceptanceCriteria": [
-        "Search HubSpot community for George B. Thomas contributions",
-        "Find HubSpot blog posts or features mentioning George",
-        "Find INBOUND conference appearances or presentations",
-        "Document HubSpot tools/features George specializes in",
-        "Save to context/structured/hubspot.json",
-        "Write summary to context/summaries/hubspot.md"
+        "Read src/app/speaking/page.tsx and identify all copy",
+        "Use contractions throughout",
+        "Frame keynote topics as audience outcomes ('Your team will...')",
+        "Ensure 'Who I Serve' section focuses on audience needs, not just titles",
+        "CTAs use action verbs + benefit",
+        "Typecheck passes"
       ],
       "priority": 4,
       "passes": false,
@@ -67,15 +68,16 @@
     },
     {
       "id": "US-005",
-      "title": "Research George B. Thomas speaking engagements",
-      "description": "As a context gatherer, I need to find all speaking engagements, keynotes, workshops, and presentation history.",
+      "title": "Content audit: Coaching page",
+      "description": "As a content strategist, I need to audit and fix the Coaching page copy for conversational, benefit-focused messaging.",
       "acceptanceCriteria": [
-        "Search for George B. Thomas speaker profiles",
-        "Find conference presentations and keynotes",
-        "Capture event names, dates, topics, and recordings if available",
-        "Find speaker testimonials and event feedback",
-        "Save to context/structured/speaking.json",
-        "Write summary to context/summaries/speaking.md"
+        "Read src/app/coaching/page.tsx and identify all copy",
+        "Use contractions consistently",
+        "Frame coaching outcomes around client transformation",
+        "Pricing section emphasizes value/outcomes, not just features",
+        "FAQs use conversational 'you' language",
+        "CTAs are benefit-focused",
+        "Typecheck passes"
       ],
       "priority": 5,
       "passes": false,
@@ -83,16 +85,14 @@
     },
     {
       "id": "US-006",
-      "title": "Gather testimonials and social proof",
-      "description": "As a context gatherer, I need to find all testimonials, reviews, recommendations, and social proof.",
+      "title": "Content audit: Coaching Apply page",
+      "description": "As a content strategist, I need to audit and fix the coaching application form for conversational, encouraging tone.",
       "acceptanceCriteria": [
-        "Search for LinkedIn recommendations and endorsements",
-        "Find reviews or testimonials from various sources",
-        "Search for case studies or success stories",
-        "Capture VERBATIM quotes with full attribution (name, role, company, source URL)",
-        "Save individual quotes to context/quotes/ directory",
-        "Save to context/structured/testimonials.json",
-        "Write summary to context/summaries/testimonials.md"
+        "Read src/app/coaching/apply/page.tsx and identify all copy",
+        "Form labels use friendly, conversational language",
+        "Step descriptions encourage and guide the applicant",
+        "Use contractions in helper text and descriptions",
+        "Typecheck passes"
       ],
       "priority": 6,
       "passes": false,
@@ -100,15 +100,14 @@
     },
     {
       "id": "US-007",
-      "title": "Research George B. Thomas AI and technology content",
-      "description": "As a context gatherer, I need to find all AI-related content and technology thought leadership.",
+      "title": "Content audit: Thank You page",
+      "description": "As a content strategist, I need to audit and fix the Thank You page for warm, conversational confirmation.",
       "acceptanceCriteria": [
-        "Search for George B. Thomas AI content and discussions",
-        "Find AI tools or technologies George has discussed",
-        "Document George's perspective on AI in marketing/sales",
-        "Find content about digital transformation",
-        "Save to context/structured/ai-technology.json",
-        "Write summary to context/summaries/ai-technology.md"
+        "Read src/app/coaching/thank-you/page.tsx and identify all copy",
+        "Confirmation message is warm and personal",
+        "Next steps are clear and use 'you' language",
+        "Use contractions throughout",
+        "Typecheck passes"
       ],
       "priority": 7,
       "passes": false,
@@ -116,16 +115,15 @@
     },
     {
       "id": "US-008",
-      "title": "Research George B. Thomas business and coaching content",
-      "description": "As a context gatherer, I need to find all business coaching, consulting, and entrepreneurship content.",
+      "title": "Content audit: Testimonials page",
+      "description": "As a content strategist, I need to audit and fix the Testimonials page for you-focused framing.",
       "acceptanceCriteria": [
-        "Search for Sidekick Strategies and related business info",
-        "Find coaching programs, courses, or training offerings",
-        "Document Y-Shaped Business Owner positioning",
-        "Find Transition Specialist content",
-        "Capture Value-First and Human-First philosophy examples",
-        "Save to context/structured/business-coaching.json",
-        "Write summary to context/summaries/business-coaching.md"
+        "Read src/app/testimonials/page.tsx and identify all copy",
+        "Page intro frames testimonials as 'what clients like you experience'",
+        "Theme cards emphasize outcomes visitors can expect",
+        "Use contractions in all non-testimonial copy",
+        "CTA is benefit-focused",
+        "Typecheck passes"
       ],
       "priority": 8,
       "passes": false,
@@ -133,15 +131,15 @@
     },
     {
       "id": "US-009",
-      "title": "Research George B. Thomas marketing and sales content",
-      "description": "As a context gatherer, I need to find all marketing strategy, sales enablement, and inbound marketing content.",
+      "title": "Design audit: Establish baseline from globals.css",
+      "description": "As a designer, I need to document the design system standards to ensure consistency across pages.",
       "acceptanceCriteria": [
-        "Search for marketing strategy articles by George",
-        "Find sales enablement tips and training content",
-        "Document inbound marketing philosophy",
-        "Find content marketing and SEO expertise",
-        "Save to context/structured/marketing-sales.json",
-        "Write summary to context/summaries/marketing-sales.md"
+        "Read src/styles/globals.css to document spacing values used",
+        "Document section padding patterns (page-section, hero, CTA sections)",
+        "Document card styling (shadows, borders, padding, border-radius)",
+        "Document button styling (sizes, colors, hover states)",
+        "Create checklist of values to verify on each page",
+        "Typecheck passes"
       ],
       "priority": 9,
       "passes": false,
@@ -149,16 +147,16 @@
     },
     {
       "id": "US-010",
-      "title": "Research George B. Thomas biography and personal brand",
-      "description": "As a context gatherer, I need to find biographical information, personal brand elements, and origin story.",
+      "title": "Design audit: Homepage consistency",
+      "description": "As a designer, I need to verify and fix the Homepage design for consistency with the design system.",
       "acceptanceCriteria": [
-        "Find professional bio versions from various sources",
-        "Document career history and professional journey",
-        "Find origin story or how I got started content",
-        "Capture personal mission and vision statements",
-        "Document core values and principles",
-        "Save to context/structured/biography.json",
-        "Write summary to context/summaries/biography.md"
+        "Verify section spacing matches globals.css patterns",
+        "Verify card styling uses consistent shadows/borders",
+        "Verify button styling matches design system",
+        "Verify color usage only uses design system colors",
+        "Fix any inconsistencies found",
+        "Typecheck passes",
+        "Verify in browser using dev-browser skill"
       ],
       "priority": 10,
       "passes": false,
@@ -166,16 +164,16 @@
     },
     {
       "id": "US-011",
-      "title": "Compile T-shaped marketer narrative",
-      "description": "As a context analyst, I need to synthesize all gathered context into a T-shaped marketer narrative.",
+      "title": "Design audit: About page consistency",
+      "description": "As a designer, I need to verify and fix the About page design for consistency.",
       "acceptanceCriteria": [
-        "Analyze all context files to identify expertise depth areas",
-        "Map out breadth of knowledge across marketing disciplines",
-        "Document the T-shape: deep expertise + broad skills",
-        "Identify unique skill intersections that differentiate George",
-        "Write narrative connecting all expertise areas",
-        "Save to context/structured/t-shaped-narrative.json",
-        "Write summary to context/summaries/t-shaped-narrative.md"
+        "Verify hero section matches homepage hero pattern",
+        "Verify timeline styling is consistent",
+        "Verify card styling matches other pages",
+        "Verify CTA section matches other pages",
+        "Fix any inconsistencies",
+        "Typecheck passes",
+        "Verify in browser using dev-browser skill"
       ],
       "priority": 11,
       "passes": false,
@@ -183,14 +181,16 @@
     },
     {
       "id": "US-012",
-      "title": "Create context engine index",
-      "description": "As a developer, I need to create an index of all gathered context for easy retrieval.",
+      "title": "Design audit: Expertise page consistency",
+      "description": "As a designer, I need to verify and fix the Expertise page design for consistency.",
       "acceptanceCriteria": [
-        "Create context/index.json with all content indexed",
-        "Include tags/categories for each piece of content",
-        "Include source URLs and retrieval dates",
-        "Add statistics: total sources, quotes, topics covered",
-        "Update context/README.md with final documentation"
+        "Verify section spacing matches design system",
+        "Verify expertise wheel styling is polished",
+        "Verify pillar cards match card styling on other pages",
+        "Verify CTA section matches other pages",
+        "Fix any inconsistencies",
+        "Typecheck passes",
+        "Verify in browser using dev-browser skill"
       ],
       "priority": 12,
       "passes": false,
@@ -198,16 +198,132 @@
     },
     {
       "id": "US-013",
-      "title": "Validate context completeness for page creation",
-      "description": "As a content strategist, I need to validate sufficient context exists for each planned website page.",
+      "title": "Design audit: Speaking page consistency",
+      "description": "As a designer, I need to verify and fix the Speaking page design for consistency.",
       "acceptanceCriteria": [
-        "Review each topic area for page readiness",
-        "Document gaps requiring additional research",
-        "Confirm minimum 50 unique sources gathered",
-        "Confirm minimum 20 verbatim testimonials captured",
-        "Create context/validation-report.md with findings"
+        "Verify hero section matches pattern",
+        "Verify keynote cards match card styling",
+        "Verify video components are styled consistently",
+        "Verify experience cards match other card patterns",
+        "Fix any inconsistencies",
+        "Typecheck passes",
+        "Verify in browser using dev-browser skill"
       ],
       "priority": 13,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "US-014",
+      "title": "Design audit: Coaching page consistency",
+      "description": "As a designer, I need to verify and fix the Coaching page design for consistency.",
+      "acceptanceCriteria": [
+        "Verify pricing cards match card styling",
+        "Verify approach/process sections use consistent spacing",
+        "Verify FAQ accordion styling is polished",
+        "Verify CTA section matches other pages",
+        "Fix any inconsistencies",
+        "Typecheck passes",
+        "Verify in browser using dev-browser skill"
+      ],
+      "priority": 14,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "US-015",
+      "title": "Design audit: Form and Thank You pages",
+      "description": "As a designer, I need to verify and fix the Apply and Thank You pages for consistency.",
+      "acceptanceCriteria": [
+        "Verify form styling matches design system",
+        "Verify progress bar styling is polished",
+        "Verify button styling is consistent",
+        "Verify Thank You page matches overall site feel",
+        "Fix any inconsistencies",
+        "Typecheck passes",
+        "Verify in browser using dev-browser skill"
+      ],
+      "priority": 15,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "US-016",
+      "title": "Design audit: Testimonials page consistency",
+      "description": "As a designer, I need to verify and fix the Testimonials page design for consistency.",
+      "acceptanceCriteria": [
+        "Verify testimonial cards match styling on other pages",
+        "Verify stats section matches homepage stats",
+        "Verify theme cards are styled consistently",
+        "Verify CTA section matches other pages",
+        "Fix any inconsistencies",
+        "Typecheck passes",
+        "Verify in browser using dev-browser skill"
+      ],
+      "priority": 16,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "US-017",
+      "title": "SEO and meta audit: All pages",
+      "description": "As an SEO specialist, I need to audit and improve meta tags across all pages.",
+      "acceptanceCriteria": [
+        "Read src/app/layout.tsx for root metadata",
+        "Verify each page has unique, descriptive title",
+        "Verify meta descriptions are under 160 chars and compelling",
+        "Verify OG tags (title, description, image) are set",
+        "Add or fix any missing/weak metadata",
+        "Typecheck passes"
+      ],
+      "priority": 17,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "US-018",
+      "title": "Performance audit: Images and assets",
+      "description": "As a performance engineer, I need to verify images use Next.js Image component and are optimized.",
+      "acceptanceCriteria": [
+        "Search all pages for <img> tags and convert to <Image>",
+        "Verify all Image components have width/height or fill",
+        "Verify images have appropriate alt text",
+        "Check for any unoptimized large assets",
+        "Typecheck passes"
+      ],
+      "priority": 18,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "US-019",
+      "title": "Accessibility audit: Forms and interactions",
+      "description": "As an accessibility engineer, I need to verify forms and interactive elements are accessible.",
+      "acceptanceCriteria": [
+        "Verify all form inputs have associated labels",
+        "Verify focus states are visible on all interactive elements",
+        "Verify buttons have accessible names",
+        "Verify color contrast meets WCAG AA (4.5:1)",
+        "Add ARIA labels where needed",
+        "Typecheck passes"
+      ],
+      "priority": 19,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "US-020",
+      "title": "Final verification: Cross-page consistency check",
+      "description": "As a QA engineer, I need to verify consistency across all pages.",
+      "acceptanceCriteria": [
+        "Run npm run build to verify no build errors",
+        "Verify all pages load without errors",
+        "Spot-check hero sections are consistent across pages",
+        "Spot-check CTA sections are consistent",
+        "Spot-check card components are consistent",
+        "Typecheck passes"
+      ],
+      "priority": 20,
       "passes": false,
       "notes": ""
     }

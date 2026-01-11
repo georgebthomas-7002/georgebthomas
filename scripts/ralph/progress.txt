@@ -1,11 +1,36 @@
 # Ralph Progress Log
-Started: 2025-01-09
-Feature: Context Engine for George B. Thomas
+Started: 2025-01-10
+Feature: Website Audit & Polish
 ---
+
+## Voice & Tone Standards
+- Always use contractions (you'll, it's, we've, etc.)
+- Prioritize "you/yours" over "I/we" (80%+ you-focused)
+- Lead with benefits, not features
+- Conversational, like talking to a friend
+
+## Design System Reference
+- Primary: #2D4A6F (deep navy)
+- Accent: #E07A5F (warm coral)
+- Background: #F8EDE3 (warm cream) / #FFFFFF
+- Headings: Georgia (serif)
+- Body: System UI stack (sans-serif)
 
 ## Codebase Patterns
-- Context files stored in dual format: JSON (structured/) + Markdown (summaries/)
-- Quotes captured verbatim with full attribution in quotes/ directory
-- All sources must include URL and retrieval date
+- Use AnimatedSection and StaggerContainer components for scroll animations
+- Section headers follow pattern: subtitle (span) + title (h2) + description (p)
+- CTAs should follow action + benefit pattern (e.g., "Ignite Your Event")
+- Use &apos; for apostrophes in JSX strings
+- Story sections can keep some "I" language - balance with "you" framing
 
 ---
+
+## 2025-01-10 - US-001
+- Implemented homepage content audit with you-focused language
+- Files changed: src/app/page.tsx
+- **Learnings for future iterations:**
+  - Hero section sets the tone - lead with visitor's potential, not speaker's credentials
+  - Service cards already have good structure - focus on description text
+  - CTA buttons appear in multiple places (hero, story, bottom CTA) - keep them consistent
+---
+
