@@ -19,7 +19,7 @@ const coachingTopics = [
     ),
     questions: [
       { id: 'hubspot_tier', label: 'What HubSpot tier are you currently using?', type: 'select', options: ['Not using HubSpot yet', 'Free', 'Starter', 'Professional', 'Enterprise'] },
-      { id: 'hubspot_challenge', label: 'What is your biggest HubSpot challenge?', type: 'textarea' },
+      { id: 'hubspot_challenge', label: 'What&apos;s your biggest HubSpot challenge right now?', type: 'textarea' },
       { id: 'hubspot_team', label: 'How many people on your team use HubSpot?', type: 'select', options: ['Just me', '2-5', '6-10', '11-25', '25+'] },
     ],
   },
@@ -33,9 +33,9 @@ const coachingTopics = [
       </svg>
     ),
     questions: [
-      { id: 'video_current', label: 'Are you currently creating video content?', type: 'select', options: ['No, just getting started', 'Yes, occasionally', 'Yes, regularly', 'Yes, but need to improve'] },
+      { id: 'video_current', label: 'Are you currently creating video content?', type: 'select', options: ['No, just getting started', 'Yes, occasionally', 'Yes, regularly', 'Yes, but I need to improve'] },
       { id: 'video_goals', label: 'What are your main video marketing goals?', type: 'textarea' },
-      { id: 'video_comfort', label: 'How comfortable are you on camera?', type: 'select', options: ['Not comfortable at all', 'Somewhat nervous', 'Getting better', 'Very comfortable'] },
+      { id: 'video_comfort', label: 'How comfortable are you on camera? (Be honest!)', type: 'select', options: ['Not comfortable at all', 'Somewhat nervous', 'Getting better', 'Very comfortable'] },
     ],
   },
   {
@@ -51,7 +51,7 @@ const coachingTopics = [
     ),
     questions: [
       { id: 'podcast_status', label: 'Do you have an existing podcast?', type: 'select', options: ['No, planning to launch', 'Yes, less than 20 episodes', 'Yes, 20-50 episodes', 'Yes, 50+ episodes'] },
-      { id: 'podcast_goals', label: 'What do you want to achieve with podcasting?', type: 'textarea' },
+      { id: 'podcast_goals', label: 'What do you want to achieve with your podcast?', type: 'textarea' },
       { id: 'podcast_frequency', label: 'How often do you want to publish?', type: 'select', options: ['Weekly', 'Bi-weekly', 'Monthly', 'Not sure yet'] },
     ],
   },
@@ -73,9 +73,9 @@ const coachingTopics = [
       </svg>
     ),
     questions: [
-      { id: 'ai_tools', label: 'What AI tools are you currently using?', type: 'textarea' },
+      { id: 'ai_tools', label: 'What AI tools are you currently using (if any)?', type: 'textarea' },
       { id: 'ai_concerns', label: 'What are your biggest concerns about AI adoption?', type: 'textarea' },
-      { id: 'ai_readiness', label: 'How ready is your team to adopt AI?', type: 'select', options: ['Not ready', 'Curious but hesitant', 'Ready to explore', 'Already using some tools'] },
+      { id: 'ai_readiness', label: 'How ready is your team to embrace AI?', type: 'select', options: ['Not ready', 'Curious but hesitant', 'Ready to explore', 'Already using some tools'] },
     ],
   },
   {
@@ -89,7 +89,7 @@ const coachingTopics = [
     questions: [
       { id: 'personal_belief', label: 'What limiting belief is holding you back most?', type: 'textarea' },
       { id: 'personal_area', label: 'What area of your life do you most want to transform?', type: 'select', options: ['Career/Business', 'Relationships', 'Health/Wellness', 'Mindset/Confidence', 'Multiple areas'] },
-      { id: 'personal_vision', label: 'Describe your ideal future self in 1 year:', type: 'textarea' },
+      { id: 'personal_vision', label: 'Describe your ideal future self in 1 year—dream big!', type: 'textarea' },
     ],
   },
   {
@@ -104,7 +104,7 @@ const coachingTopics = [
     ),
     questions: [
       { id: 'marketing_stage', label: 'What stage is your business at?', type: 'select', options: ['Startup (0-2 years)', 'Growth (3-5 years)', 'Established (5+ years)', 'Enterprise'] },
-      { id: 'marketing_current', label: 'Describe your current marketing efforts:', type: 'textarea' },
+      { id: 'marketing_current', label: 'Tell me about your current marketing efforts:', type: 'textarea' },
       { id: 'marketing_goals', label: 'What are your top 3 marketing goals?', type: 'textarea' },
     ],
   },
@@ -230,8 +230,7 @@ function ApplyContent() {
               </div>
               <h1 className="apply-complete__title">You&apos;re Almost There!</h1>
               <p className="apply-complete__description">
-                Thank you for your interest in {currentPackage?.name}!
-                Complete your purchase below to secure your spot.
+                I&apos;m excited to work with you! Complete your purchase below to lock in your spot—I can&apos;t wait to get started.
               </p>
 
               <div className="apply-complete__summary">
@@ -259,8 +258,8 @@ function ApplyContent() {
                   Complete Purchase - ${currentPackage?.price}
                 </a>
                 <p className="apply-complete__note">
-                  You&apos;ll receive a HubSpot payment link via email shortly.
-                  If you have any questions, reply to the confirmation email.
+                  You&apos;ll receive a payment link via email shortly.
+                  Got questions? Just hit reply—I&apos;m here to help.
                 </p>
               </div>
 
@@ -282,9 +281,9 @@ function ApplyContent() {
             <Link href="/coaching" className="apply-header__back">
               &larr; Back to Coaching
             </Link>
-            <h1 className="apply-header__title">Get Started with Coaching</h1>
+            <h1 className="apply-header__title">Let&apos;s Get Started</h1>
             <p className="apply-header__description">
-              Tell us about yourself and your goals so we can create the perfect coaching experience.
+              Tell me about yourself and your goals—I&apos;ll use this to create the perfect coaching experience for you.
             </p>
           </AnimatedSection>
         </div>
@@ -308,7 +307,7 @@ function ApplyContent() {
             <div className="apply-step">
               <h2 className="apply-step__title">Choose Your Path</h2>
               <p className="apply-step__description">
-                Select the coaching option that best fits your needs.
+                Which coaching option fits where you are right now? Don&apos;t worry—you can always upgrade later.
               </p>
 
               <div className="apply-packages">
@@ -321,7 +320,7 @@ function ApplyContent() {
                     <h3>Activation Meeting</h3>
                     <span className="apply-package__price">$99</span>
                   </div>
-                  <p>45-minute focused session to map out your goals and create a clear path forward.</p>
+                  <p>A 45-minute focused session where we&apos;ll map out your goals and create a clear path forward together.</p>
                 </button>
 
                 <div className="apply-packages__divider">
@@ -353,7 +352,7 @@ function ApplyContent() {
             <div className="apply-step">
               <h2 className="apply-step__title">What Would You Like to Focus On?</h2>
               <p className="apply-step__description">
-                Select one or more areas you&apos;d like to explore. You can always adjust as we work together.
+                Select one or more areas you&apos;d like to explore. Don&apos;t overthink it—we&apos;ll adjust as we work together.
               </p>
 
               <div className="apply-topics">
@@ -382,9 +381,9 @@ function ApplyContent() {
           {/* Step 3: Goals & Topic Questions */}
           {step === 3 && (
             <div className="apply-step">
-              <h2 className="apply-step__title">Tell Us About Your Goals</h2>
+              <h2 className="apply-step__title">Tell Me About Your Goals</h2>
               <p className="apply-step__description">
-                The more you share, the better we can tailor your coaching experience.
+                The more you share, the better I can tailor your coaching experience. There&apos;s no wrong answer here.
               </p>
 
               <div className="apply-form">
@@ -394,7 +393,7 @@ function ApplyContent() {
                     id="goals"
                     value={formData.goals}
                     onChange={(e) => handleInputChange('goals', e.target.value)}
-                    placeholder="Describe your goals, challenges, and what success looks like for you..."
+                    placeholder="Share your goals, challenges, and what success looks like for you..."
                     rows={4}
                   />
                 </div>
@@ -442,7 +441,7 @@ function ApplyContent() {
             <div className="apply-step">
               <h2 className="apply-step__title">Your Information</h2>
               <p className="apply-step__description">
-                How can we reach you to schedule your sessions?
+                Almost done! How can I reach you to schedule your sessions?
               </p>
 
               <div className="apply-form">
@@ -512,7 +511,7 @@ function ApplyContent() {
                 </div>
 
                 <div className="apply-field">
-                  <label htmlFor="howHeard">How did you hear about George?</label>
+                  <label htmlFor="howHeard">How did you find me?</label>
                   <select
                     id="howHeard"
                     value={formData.howHeard}
@@ -530,7 +529,7 @@ function ApplyContent() {
                 </div>
 
                 <div className="apply-field">
-                  <label htmlFor="bestTime">Best time for sessions?</label>
+                  <label htmlFor="bestTime">When&apos;s best for you to meet?</label>
                   <select
                     id="bestTime"
                     value={formData.bestTime}
