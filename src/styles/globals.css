@@ -8895,3 +8895,104 @@ select {
     font-size: var(--font-size-sm);
   }
 }
+
+/* ==========================================================================
+   DELPHI.AI CHAT BUBBLE CUSTOMIZATION
+   ========================================================================== */
+
+/* Custom wrapper for "Start a conversation" label */
+.delphi-chat-wrapper {
+  position: fixed;
+  bottom: 24px;
+  right: 100px;
+  z-index: 9998;
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  pointer-events: none;
+}
+
+.delphi-chat-label {
+  background: var(--color-white);
+  color: var(--color-text);
+  padding: var(--space-xs) var(--space-md);
+  border-radius: var(--radius-full);
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  box-shadow: var(--shadow-lg);
+  white-space: nowrap;
+  animation: delphi-label-pulse 3s ease-in-out infinite;
+}
+
+.delphi-chat-label::after {
+  content: '';
+  position: absolute;
+  right: -8px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 6px solid transparent;
+  border-left-color: var(--color-white);
+}
+
+@keyframes delphi-label-pulse {
+  0%, 100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  50% {
+    opacity: 0.8;
+    transform: translateX(-4px);
+  }
+}
+
+/* Override Delphi bubble positioning and size */
+#delphi-bubble-button,
+[data-delphi-bubble],
+.delphi-bubble-trigger {
+  right: 24px !important;
+  bottom: 24px !important;
+  width: 70px !important;
+  height: 70px !important;
+  transform: scale(1.1) !important;
+}
+
+/* Make the bubble more prominent with shadow */
+#delphi-bubble-button::after,
+[data-delphi-bubble]::after {
+  content: '';
+  position: absolute;
+  inset: -4px;
+  border-radius: 50%;
+  background: var(--color-accent);
+  opacity: 0.3;
+  animation: delphi-glow 2s ease-in-out infinite;
+  z-index: -1;
+}
+
+@keyframes delphi-glow {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.3;
+  }
+  50% {
+    transform: scale(1.15);
+    opacity: 0.15;
+  }
+}
+
+/* Hide label on smaller screens */
+@media (max-width: 768px) {
+  .delphi-chat-wrapper {
+    display: none;
+  }
+  
+  #delphi-bubble-button,
+  [data-delphi-bubble],
+  .delphi-bubble-trigger {
+    right: 16px !important;
+    bottom: 16px !important;
+    width: 60px !important;
+    height: 60px !important;
+    transform: scale(1) !important;
+  }
+}

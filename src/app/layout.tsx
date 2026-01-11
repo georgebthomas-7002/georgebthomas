@@ -62,7 +62,7 @@ export default function RootLayout({
                 landingPage: "VOICE",
               },
               trigger: {
-                color: "#F76B15",
+                color: "#E07A5F",
               },
             };
           `}
@@ -72,6 +72,11 @@ export default function RootLayout({
           src="https://embed.delphi.ai/loader.js"
           strategy="afterInteractive"
         />
+
+        {/* Custom Delphi Chat Label */}
+        <div className="delphi-chat-wrapper">
+          <span className="delphi-chat-label">Start a conversation</span>
+        </div>
       </body>
     </html>
   )

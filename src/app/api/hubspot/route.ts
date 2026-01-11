@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 
 interface ContactFormData {
-  formType: 'contact' | 'booking'
+  formType: 'contact' | 'booking' | 'coaching'
   firstName: string
   lastName: string
   email: string
@@ -18,6 +18,15 @@ interface ContactFormData {
   budgetRange?: string
   eventDetails?: string
   howHeard?: string
+  // Coaching-specific fields
+  coachingPackage?: string
+  coachingPackageLabel?: string
+  coachingTopics?: string[]
+  coachingGoals?: string
+  topicAnswers?: Record<string, string>
+  role?: string
+  preferredTime?: string
+  price?: number
 }
 
 export async function POST(request: NextRequest) {
@@ -55,14 +64,36 @@ export async function POST(request: NextRequest) {
     // For booking form - build comprehensive note
     if (data.formType === 'booking') {
       properties.hs_lead_status = 'NEW'
+      properties.inquiry_type = 'speaking_inquiry'
+
+      // Set custom properties for speaking inquiries
+      if (data.engagementType) properties.engagement_type = data.engagementType
+      if (data.budgetRange) properties.speaking_budget_range = data.budgetRange
+      if (data.eventDate) properties.event_date = data.eventDate
+      if (data.eventLocation) properties.event_location = data.eventLocation
+      if (data.audienceSize) properties.audience_size = data.audienceSize
 
       // Build booking inquiry note
       const bookingNote = buildBookingNote(data)
-
-      // Store the full booking details in notes
-      // Note: These are standard HubSpot properties. For custom properties,
-      // they would need to be created in HubSpot first.
       properties.notes_last_contacted = bookingNote
+    }
+
+    // For coaching application - use custom properties
+    if (data.formType === 'coaching') {
+      properties.hs_lead_status = 'NEW'
+      properties.inquiry_type = 'coaching_application'
+
+      // Set coaching-specific custom properties
+      if (data.coachingPackage) properties.coaching_package = data.coachingPackage
+      if (data.coachingTopics?.length) {
+        properties.coaching_topics = data.coachingTopics.join(';')
+      }
+      if (data.preferredTime) properties.preferred_meeting_time = data.preferredTime
+      if (data.role) properties.jobtitle = data.role
+
+      // Build coaching application note with all details
+      const coachingNote = buildCoachingNote(data)
+      properties.notes_last_contacted = coachingNote
     }
 
     // Create contact via HubSpot API
@@ -191,4 +222,62 @@ async function updateExistingContact(
       body: JSON.stringify({ properties }),
     }
   )
+}
+
+function buildCoachingNote(data: ContactFormData): string {
+  const packageLabels: Record<string, string> = {
+    'activation': 'Activation Meeting ($99)',
+    'starter': 'Starter Package ($2,000)',
+    'growth': 'Growth Package ($4,000)',
+    'transformation': 'Transformation Package ($6,000)',
+  }
+
+  const topicLabels: Record<string, string> = {
+    'hubspot': 'HubSpot Strategy & Implementation',
+    'video': 'Video Marketing Mastery',
+    'podcast': 'Podcasting Excellence',
+    'ai': 'AI Integration & Strategy',
+    'transformation': 'Personal Transformation',
+    'marketing': 'Marketing & Content Strategy',
+  }
+
+  const lines = [
+    `=== COACHING APPLICATION ===`,
+    `Submitted: ${new Date().toLocaleString()}`,
+    ``,
+    `PACKAGE SELECTED`,
+    data.coachingPackage
+      ? packageLabels[data.coachingPackage] || data.coachingPackageLabel || data.coachingPackage
+      : 'Not specified',
+    data.price ? `Price: $${data.price}` : '',
+    ``,
+    `COACHING FOCUS AREAS`,
+    data.coachingTopics?.length
+      ? data.coachingTopics.map(t => topicLabels[t] || t).join(', ')
+      : 'None selected',
+    ``,
+    `GOALS & OBJECTIVES`,
+    data.coachingGoals || 'None provided',
+    ``,
+  ]
+
+  // Add topic-specific answers if present
+  if (data.topicAnswers && Object.keys(data.topicAnswers).length > 0) {
+    lines.push(`TOPIC-SPECIFIC RESPONSES`)
+    for (const [question, answer] of Object.entries(data.topicAnswers)) {
+      lines.push(`${question}:`)
+      lines.push(`  ${answer}`)
+    }
+    lines.push(``)
+  }
+
+  lines.push(
+    `CONTACT PREFERENCES`,
+    `Role: ${data.role || 'Not specified'}`,
+    `Preferred Time: ${data.preferredTime || 'Not specified'}`,
+    ``,
+    `SOURCE: ${data.howHeard || 'Not specified'}`,
+  )
+
+  return lines.filter(line => line !== '').join('\n')
 }
