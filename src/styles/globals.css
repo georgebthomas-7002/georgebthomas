@@ -1251,7 +1251,7 @@ a:hover {
   align-items: center;
   padding: 0.4rem 0.9rem;
   position: relative;
-  z-index: 0; /* Creates stacking context for pseudo-element layering */
+  background: var(--color-white);
   border-radius: 4px;
   box-shadow: 0 2px 8px rgba(45, 74, 111, 0.12);
   transition: box-shadow var(--duration-normal) var(--ease-out);
@@ -1261,14 +1261,22 @@ a:hover {
   box-shadow: 0 4px 16px rgba(45, 74, 111, 0.25);
 }
 
-/* Animated border using rotating conic gradient */
+/* CSS custom property registration for animation */
+@property --border-angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+
+/* Animated border - colors travel along the edges */
 .header__wordmark::before {
   content: '';
   position: absolute;
-  inset: -1.5px;
-  border-radius: 5px;
+  inset: 0;
+  border-radius: 4px;
+  padding: 1.5px;
   background: conic-gradient(
-    from 0deg,
+    from var(--border-angle, 0deg),
     var(--color-primary-dark) 0%,
     var(--color-accent) 12.5%,
     var(--color-primary-dark) 25%,
@@ -1278,23 +1286,38 @@ a:hover {
     var(--color-accent) 87.5%,
     var(--color-primary-dark) 100%
   );
-  animation: wordmark-border-rotate 6s linear infinite;
-  z-index: -2;
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  animation: wordmark-border-flow 6s linear infinite;
 }
 
-/* Inner mask to create border effect */
+/* Subtle ambient glow */
 .header__wordmark::after {
   content: '';
   position: absolute;
-  inset: 0;
-  border-radius: 4px;
-  background: var(--color-white);
+  inset: -3px;
+  border-radius: 6px;
+  background: conic-gradient(
+    from var(--border-angle, 0deg),
+    transparent 0%,
+    var(--color-accent) 12.5%,
+    transparent 25%,
+    transparent 75%,
+    var(--color-accent) 87.5%,
+    transparent 100%
+  );
+  opacity: 0.2;
+  filter: blur(6px);
+  animation: wordmark-border-flow 6s linear infinite;
   z-index: -1;
 }
 
-@keyframes wordmark-border-rotate {
+@keyframes wordmark-border-flow {
   to {
-    transform: rotate(360deg);
+    --border-angle: 360deg;
   }
 }
 
