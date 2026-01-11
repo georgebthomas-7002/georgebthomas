@@ -84,17 +84,17 @@ export default function Home() {
               <p className="page-hero__description">
                 You&apos;ve got untapped potential waiting to be unleashed. Whether you need a
                 <strong> keynote that inspires your team</strong>, <strong>coaching that transforms your mindset</strong>, or
-                <strong> HubSpot expertise that accelerates your growth</strong>—you&apos;ll have a dedicated sidekick
+                <strong> HubSpot expertise that accelerates your growth</strong>, you&apos;ll have a dedicated sidekick
                 with 30+ years of experience on your journey to becoming superhuman.
               </p>
               <div className="page-hero__cta-group">
-                <Link href="/speaking" className="btn btn--primary btn--large">
+                <Link href="/speaking" className="btn btn--primary">
                   Ignite Your Event
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M5 12h14M12 5l7 7-7 7"/>
                   </svg>
                 </Link>
-                <Link href="/coaching/apply" className="btn btn--secondary btn--large">
+                <Link href="/coaching/apply" className="btn btn--secondary">
                   Start Your Transformation
                 </Link>
               </div>
@@ -148,7 +148,7 @@ export default function Home() {
               <h2 className="section-header__title">Three Ways to Transform Your World</h2>
               <p className="section-header__description">
                 Whether you&apos;re looking to inspire your team, grow personally, or
-                maximize your HubSpot investment—you&apos;ll get the experience and passion you need to succeed.
+                maximize your HubSpot investment, you&apos;ll get the experience and passion you need to succeed.
               </p>
             </AnimatedSection>
 
@@ -211,12 +211,12 @@ export default function Home() {
 
                 <p className="home-story__text">
                   At 17, a teacher told me I&apos;d never amount to anything. That moment became
-                  the catalyst for an extraordinary transformation—and it&apos;s the same kind of breakthrough you can experience.
+                  the catalyst for an extraordinary transformation, and it&apos;s the same kind of breakthrough you can experience.
                 </p>
 
                 <p className="home-story__text">
                   Today, that story of transformation is yours to claim too. With 30+ years of experience, 400+ podcast episodes, and 16+ million words
-                  of content, I&apos;ve developed the <a href="https://superhumanframework.com/" target="_blank" rel="noopener noreferrer" className="text-link"><strong>Superhuman Framework</strong></a>—designed to help you unlock your own extraordinary potential.
+                  of content, I&apos;ve developed the <a href="https://superhumanframework.com/" target="_blank" rel="noopener noreferrer" className="text-link"><strong>Superhuman Framework</strong></a>, designed to help you unlock your own extraordinary potential.
                 </p>
 
                 <blockquote className="home-story__quote">
@@ -277,7 +277,7 @@ export default function Home() {
         />
 
         {/* CTA Section */}
-        <section className="section section--warm home-cta">
+        <section className="section home-cta home-cta--warm">
           <div className="container">
             <AnimatedSection className="cta-block" animation="fade-in">
               <h2 className="cta-block__title">Ready to Transform?</h2>
@@ -286,14 +286,11 @@ export default function Home() {
                 HubSpot expertise that accelerates, let&apos;s start a conversation about your journey.
               </p>
               <div className="cta-block__buttons">
-                <Link href="/speaking" className="btn btn--primary btn--large">
+                <Link href="/speaking" className="btn btn--primary">
                   Ignite Your Event
                 </Link>
-                <Link href="/coaching/apply" className="btn btn--secondary btn--large">
+                <Link href="/coaching/apply" className="btn btn--secondary">
                   Start Your Transformation
-                </Link>
-                <Link href="/contact" className="btn btn--outline-light btn--large">
-                  Let&apos;s Connect
                 </Link>
               </div>
             </AnimatedSection>

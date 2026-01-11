@@ -1566,6 +1566,7 @@ a:hover {
   flex-direction: column;
   align-items: center;
   gap: var(--space-sm);
+  padding-top: 50px;
   color: var(--color-text-muted);
   font-size: var(--font-size-sm);
   animation: float 2s ease-in-out infinite;
@@ -7686,17 +7687,17 @@ a:hover {
 
 /* Home Expertise Section */
 .home-expertise {
-  background: linear-gradient(135deg, var(--color-primary-dark) 0%, var(--color-primary) 100%);
+  background: #f8efe5;
 }
 
 .home-expertise .section-header__subtitle,
 .home-expertise .section-header__title,
 .home-expertise .section-header__description {
-  color: var(--color-white);
+  color: var(--color-text);
 }
 
 .home-expertise .section-header__subtitle {
-  color: var(--color-accent-light);
+  color: var(--color-accent);
 }
 
 .home-expertise__grid {
@@ -7789,6 +7790,34 @@ a:hover {
   background: var(--color-white);
   color: var(--color-primary-dark);
   border-color: var(--color-white);
+}
+
+/* Warm variant for home CTA */
+.home-cta--warm {
+  background: #f8efe5;
+  color: var(--color-text);
+}
+
+.home-cta--warm h1,
+.home-cta--warm h2,
+.home-cta--warm h3,
+.home-cta--warm h4 {
+  color: var(--color-text);
+}
+
+.home-cta--warm .cta-block__description {
+  color: var(--color-text-light);
+}
+
+.home-cta--warm .btn--secondary {
+  color: var(--color-primary-dark);
+  border-color: var(--color-primary-dark);
+}
+
+.home-cta--warm .btn--secondary:hover {
+  background: var(--color-primary-dark);
+  color: var(--color-white);
+  border-color: var(--color-primary-dark);
 }
 
 /* Responsive for Homepage V2 */
