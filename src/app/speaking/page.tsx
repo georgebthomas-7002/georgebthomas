@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import Link from 'next/link'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
@@ -544,6 +544,9 @@ const keynotes: Keynote[] = [
 
 export default function SpeakingPage() {
   const [expandedCard, setExpandedCard] = useState<string | null>(null)
+  const [sidebarVisible, setSidebarVisible] = useState(false)
+  const [activeSection, setActiveSection] = useState<Topic | null>(null)
+  const keynotesWrapperRef = useRef<HTMLDivElement>(null)
 
   const getTopicColor = (topic: Topic) => {
     return topics.find((t) => t.id === topic)?.color || 'var(--color-accent)'
@@ -556,6 +559,41 @@ export default function SpeakingPage() {
   const getKeynotesByTopic = (topic: Topic) => {
     return keynotes.filter((k) => k.topic === topic)
   }
+
+  // Scroll detection for sticky sidebar
+  useEffect(() => {
+    const handleScroll = () => {
+      const wrapper = keynotesWrapperRef.current
+      if (!wrapper) return
+
+      const wrapperRect = wrapper.getBoundingClientRect()
+      const windowHeight = window.innerHeight
+
+      // Show sidebar when keynotes wrapper is in view
+      const isInView = wrapperRect.top < windowHeight * 0.5 && wrapperRect.bottom > windowHeight * 0.3
+      setSidebarVisible(isInView)
+
+      // Determine active section
+      if (isInView) {
+        const sections = wrapper.querySelectorAll('[data-topic]')
+        let currentSection: Topic | null = null
+
+        sections.forEach((section) => {
+          const rect = section.getBoundingClientRect()
+          if (rect.top <= windowHeight * 0.4) {
+            currentSection = section.getAttribute('data-topic') as Topic
+          }
+        })
+
+        setActiveSection(currentSection)
+      }
+    }
+
+    window.addEventListener('scroll', handleScroll, { passive: true })
+    handleScroll() // Initial check
+
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
 
   return (
     <>
@@ -764,16 +802,35 @@ export default function SpeakingPage() {
           </div>
         </section>
 
-        {/* Keynote Topic Sections */}
-        {topics.map((topic, topicIndex) => (
-          <section
-            key={topic.id}
-            id={topic.id}
-            className={`section keynote-topic-section ${topicIndex % 2 === 0 ? 'section--warm' : ''}`}
-            style={{
-              '--topic-color': topic.color,
-            } as React.CSSProperties}
-          >
+        {/* Keynote Topic Sections with Sticky Sidebar */}
+        <div className="keynotes-wrapper" ref={keynotesWrapperRef}>
+          {/* Sticky Sidebar Navigation */}
+          <nav className={`keynotes-sidebar ${sidebarVisible ? 'is-visible' : ''}`}>
+            <div className="keynotes-sidebar__list">
+              {topics.map((topic) => (
+                <a
+                  key={topic.id}
+                  href={`#${topic.id}`}
+                  className={`keynotes-sidebar__item ${activeSection === topic.id ? 'is-active' : ''}`}
+                  style={{ '--sidebar-color': topic.color } as React.CSSProperties}
+                >
+                  <span className="keynotes-sidebar__dot" style={{ background: topic.color }}></span>
+                  <span className="keynotes-sidebar__label">{topic.label}</span>
+                </a>
+              ))}
+            </div>
+          </nav>
+
+          {topics.map((topic, topicIndex) => (
+            <section
+              key={topic.id}
+              id={topic.id}
+              data-topic={topic.id}
+              className={`section keynote-topic-section ${topicIndex % 2 === 0 ? 'section--warm' : ''}`}
+              style={{
+                '--topic-color': topic.color,
+              } as React.CSSProperties}
+            >
             <div className="container container--wide">
               <AnimatedSection className="keynote-topic-header" animation="fade-in">
                 <span
@@ -862,7 +919,8 @@ export default function SpeakingPage() {
               </div>
             </div>
           </section>
-        ))}
+          ))}
+        </div>
 
         {/* Speaking Experience Section */}
         <section className="section speaking-experience">

@@ -2941,7 +2941,7 @@ a:hover {
 
 .topic-filters {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   gap: var(--space-sm);
 }
@@ -2949,8 +2949,8 @@ a:hover {
 .topic-filter {
   display: inline-flex;
   align-items: center;
-  gap: var(--space-sm);
-  padding: var(--space-sm) var(--space-lg);
+  gap: var(--space-xs);
+  padding: var(--space-xs) var(--space-md);
   background: var(--color-white);
   border: 2px solid var(--color-warm-dark);
   border-radius: var(--radius-full);
@@ -2959,6 +2959,7 @@ a:hover {
   color: var(--color-text);
   cursor: pointer;
   transition: all var(--duration-fast) var(--ease-out);
+  white-space: nowrap;
 }
 
 .topic-filter:hover {
@@ -2985,6 +2986,111 @@ a:hover {
 
 .topic-filter.is-active .topic-filter__count {
   background: rgba(255, 255, 255, 0.2);
+}
+
+/* Responsive for topic filters */
+@media (max-width: 968px) {
+  .topic-filters {
+    overflow-x: auto;
+    justify-content: flex-start;
+    padding-bottom: var(--space-sm);
+    margin: 0 calc(-1 * var(--space-lg));
+    padding-left: var(--space-lg);
+    padding-right: var(--space-lg);
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .topic-filters::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* ===========================================
+   SPEAKING PAGE - STICKY SIDEBAR NAVIGATION
+   =========================================== */
+.keynotes-wrapper {
+  position: relative;
+}
+
+.keynotes-sidebar {
+  position: fixed;
+  left: var(--space-lg);
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 100;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity var(--duration-normal) var(--ease-out),
+              visibility var(--duration-normal) var(--ease-out),
+              transform var(--duration-normal) var(--ease-out);
+}
+
+.keynotes-sidebar.is-visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.keynotes-sidebar__list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  padding: var(--space-md);
+  background: var(--color-white);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.keynotes-sidebar__item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-xs) var(--space-sm);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text-muted);
+  text-decoration: none;
+  border-radius: var(--radius-md);
+  transition: all var(--duration-fast) var(--ease-out);
+  white-space: nowrap;
+}
+
+.keynotes-sidebar__item:hover {
+  color: var(--color-text);
+  background: var(--color-warm);
+}
+
+.keynotes-sidebar__item.is-active {
+  color: var(--color-white);
+  background: var(--sidebar-color, var(--color-accent));
+}
+
+.keynotes-sidebar__dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: currentColor;
+  opacity: 0.5;
+  transition: opacity var(--duration-fast) var(--ease-out);
+}
+
+.keynotes-sidebar__item.is-active .keynotes-sidebar__dot,
+.keynotes-sidebar__item:hover .keynotes-sidebar__dot {
+  opacity: 1;
+}
+
+.keynotes-sidebar__label {
+  max-width: 120px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Hide sidebar on mobile/tablet */
+@media (max-width: 1200px) {
+  .keynotes-sidebar {
+    display: none;
+  }
 }
 
 /* ===========================================
