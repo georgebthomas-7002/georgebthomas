@@ -244,8 +244,8 @@
         "Verify in browser using dev-browser skill"
       ],
       "priority": 15,
-      "passes": false,
-      "notes": ""
+      "passes": true,
+      "notes": "Verified: Both Apply and Thank You pages already follow design system. All CSS classes defined (apply-*, thank-you-*). Forms use design system tokens (warm-light backgrounds, accent borders, proper focus states). Progress bar polished (gradient-accent fill, spring animation). Buttons valid (btn--primary, btn--secondary, btn--large). Thank You cards match site feel (white background, radius-xl, shadow-md). Build passes successfully."
     },
     {
       "id": "US-016",

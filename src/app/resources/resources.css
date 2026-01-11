@@ -56,17 +56,15 @@
   display: inline-block;
   color: var(--color-accent);
   font-weight: var(--font-weight-semibold);
-  animation: fadeInUp 0.5s ease-out;
+  animation: fadeIn 0.8s ease-in-out;
 }
 
-@keyframes fadeInUp {
+@keyframes fadeIn {
   from {
     opacity: 0;
-    transform: translateY(10px);
   }
   to {
     opacity: 1;
-    transform: translateY(0);
   }
 }
 
