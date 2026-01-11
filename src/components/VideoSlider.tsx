@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useCallback } from 'react'
+import Image from 'next/image'
 import { VideoShowcase } from './VideoShowcase'
 
 export interface VideoItem {
@@ -135,9 +136,11 @@ export function VideoSlider({
                   onClick={() => goToSlide(index)}
                   aria-label={`Play ${video.title}`}
                 >
-                  <img
+                  <Image
                     src={`https://img.youtube.com/vi/${video.youtubeId}/mqdefault.jpg`}
-                    alt={video.title}
+                    alt={`Thumbnail for ${video.title}`}
+                    width={320}
+                    height={180}
                     className="video-slider__thumbnail-img"
                   />
                   <div className="video-slider__thumbnail-overlay">

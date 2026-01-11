@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import { AnimatedSection } from './AnimatedSection'
 
 const testimonials = [
@@ -50,7 +51,13 @@ export function Testimonials() {
               <div className="testimonial-card__author">
                 <div className="testimonial-card__avatar">
                   {testimonial.avatar ? (
-                    <img src={testimonial.avatar} alt={testimonial.name} />
+                    <Image
+                      src={testimonial.avatar}
+                      alt={`${testimonial.name} avatar`}
+                      width={48}
+                      height={48}
+                      style={{ objectFit: 'cover' }}
+                    />
                   ) : (
                     <div
                       style={{
