@@ -8,31 +8,31 @@ import { AnimatedSection, StaggerContainer } from '@/components/AnimatedSection'
 import { VideoSlider, VideoItem } from '@/components/VideoSlider'
 import { VideoShowcase } from '@/components/VideoShowcase'
 
-// Speaking example videos - add more YouTube IDs here
+// Speaking example videos from playlist: https://www.youtube.com/playlist?list=PL4f8rK4T6x4GQyiAnICgPdKfMbOs61Gyq
 const speakingVideos: VideoItem[] = [
   {
     id: 'vid-1',
-    youtubeId: 'LyLWZ4sF8uc',
-    title: 'Speaker Reel Highlights',
-    description: 'A compilation of keynote moments and audience engagement.'
+    youtubeId: 'tCecJWwKwY8',
+    title: 'Speaking Highlight',
+    description: 'George B. Thomas delivering transformative insights on stage.'
   },
   {
     id: 'vid-2',
-    youtubeId: '7rlGBDLHjQ4',
-    title: 'How to be WORLD CLASS at HubSpot',
-    description: 'INBOUND presentation on mastering the HubSpot platform.'
+    youtubeId: 'hxVZmwPlW9o',
+    title: 'Align Your Teams. Ignite Your Growth.',
+    description: 'Keynote on team alignment and organizational growth strategies.'
   },
   {
     id: 'vid-3',
-    youtubeId: 'E9EO_5jYk-M',
-    title: 'The World Has Changed',
-    description: 'Insights on adapting to the evolving digital landscape.'
+    youtubeId: 'Twp1ObHbC9E',
+    title: 'Unforgettable Keynotes',
+    description: 'Creating transformative experiences for your audience.'
   },
   {
     id: 'vid-4',
-    youtubeId: 'aFWRGqXwxDU',
-    title: 'Social Media Breakfast - Madison',
-    description: 'Live presentation on social media strategy and engagement.'
+    youtubeId: 'V3aOTc-0g-0',
+    title: 'Conversations That Connect',
+    description: 'Stories and insights that inspire meaningful change.'
   },
 ]
 
@@ -684,8 +684,8 @@ export default function SpeakingPage() {
                 <AnimatedSection className="serve-block__video" animation="slide-right">
                   <div className="serve-block__video-wrapper">
                     <iframe
-                      src="https://www.youtube.com/embed/7rlGBDLHjQ4"
-                      title="How to be WORLD CLASS at HubSpot - INBOUND"
+                      src="https://www.youtube.com/embed/hxVZmwPlW9o"
+                      title="Align Your Teams. Ignite Your Growth."
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowFullScreen
                     />
@@ -719,8 +719,8 @@ export default function SpeakingPage() {
                 <AnimatedSection className="serve-block__video" animation="slide-left">
                   <div className="serve-block__video-wrapper">
                     <iframe
-                      src="https://www.youtube.com/embed/E9EO_5jYk-M"
-                      title="The World Has Changed - George B. Thomas"
+                      src="https://www.youtube.com/embed/Twp1ObHbC9E"
+                      title="Unforgettable Keynotes. Transformative Experiences."
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowFullScreen
                     />
@@ -754,8 +754,8 @@ export default function SpeakingPage() {
                 <AnimatedSection className="serve-block__video" animation="slide-right">
                   <div className="serve-block__video-wrapper">
                     <iframe
-                      src="https://www.youtube.com/embed/aFWRGqXwxDU"
-                      title="Social Media Breakfast - Madison"
+                      src="https://www.youtube.com/embed/V3aOTc-0g-0"
+                      title="Conversations That Connect. Stories That Inspire."
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowFullScreen
                     />
