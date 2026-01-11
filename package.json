@@ -10,7 +10,9 @@
     "scrape": "node scripts/scrape.js",
     "scrape:youtube": "node scripts/scrape.js --youtube-only",
     "scrape:podcasts": "node scripts/scrape.js --podcasts-only",
-    "scrape:blogs": "node scripts/scrape.js --blogs-only"
+    "scrape:blogs": "node scripts/scrape.js --blogs-only",
+    "scrape:images": "node scripts/scrape-missing-images.js",
+    "check:404s": "node scripts/check-404s.js"
   },
   "dependencies": {
     "@sanity/client": "^7.14.0",
