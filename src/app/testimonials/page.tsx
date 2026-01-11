@@ -19,11 +19,11 @@ export default function TestimonialsPage() {
             <AnimatedSection className="page-hero__content" animation="fade-in">
               <span className="page-hero__tagline">Growth & Success Stories</span>
               <h1 className="page-hero__title">
-                What Humans Say
-                <span className="page-hero__title-accent"> About Working Together</span>
+                What Humans Say About
+                <span className="page-hero__title-accent"> Working Together</span>
               </h1>
               <p className="page-hero__description">
-                Don't just take my word for it—here's what clients like you have experienced.
+                Don't just take my word for it. Here's what clients like you have experienced.
                 These aren't just testimonials; they're real stories of transformation from
                 people who've walked the path you're considering.
               </p>
@@ -85,7 +85,7 @@ export default function TestimonialsPage() {
               <h2 className="section-header__title">You're Not Alone on This Journey</h2>
               <p className="section-header__description">
                 These are just a few success stories from people who were once where you are now.
-                They took the leap—and here's what happened.
+                They took the leap, and here's what happened.
               </p>
             </AnimatedSection>
 
@@ -154,8 +154,8 @@ export default function TestimonialsPage() {
                 </div>
                 <h3 className="theme-card__title">You'll Get<br />Results</h3>
                 <p className="theme-card__description">
-                  You won't be stuck in planning mode. You'll see real progress—often
-                  in weeks rather than months—because that's how we roll.
+                  You won't be stuck in planning mode. You'll see real progress, often
+                  in weeks rather than months, because that's how we roll.
                 </p>
               </div>
 
@@ -168,7 +168,7 @@ export default function TestimonialsPage() {
                 <h3 className="theme-card__title">You'll Feel<br />Genuinely Supported</h3>
                 <p className="theme-card__description">
                   This isn't transactional. You'll feel the passion and care in every
-                  interaction—whether on stage or one-on-one.
+                  interaction, whether on stage or one-on-one.
                 </p>
               </div>
 
@@ -182,7 +182,7 @@ export default function TestimonialsPage() {
                 </div>
                 <h3 className="theme-card__title">You'll Get<br />Real Expertise</h3>
                 <p className="theme-card__description">
-                  You'll work with someone who knows HubSpot inside and out—and can translate
+                  You'll work with someone who knows HubSpot inside and out, and can translate
                   that into practical strategies that actually move your business forward.
                 </p>
               </div>
@@ -195,7 +195,7 @@ export default function TestimonialsPage() {
                 </div>
                 <h3 className="theme-card__title">You'll Catch<br />the Energy</h3>
                 <p className="theme-card__description">
-                  Clients call it "FIRE"—that positive energy that's contagious.
+                  Clients call it "FIRE": that positive energy that's contagious.
                   You'll leave every interaction feeling inspired and ready to take action.
                 </p>
               </div>
@@ -210,7 +210,7 @@ export default function TestimonialsPage() {
               <h2 className="cta-block__title">Ready to Write Your Own Success Story?</h2>
               <p className="cta-block__description">
                 You've seen what's possible. You've heard from people who were once where you are.
-                Now it's your turn—let's start a conversation about your transformation.
+                Now it's your turn. Let's start a conversation about your transformation.
               </p>
               <div className="cta-block__buttons">
                 <Link href="/coaching/apply" className="btn btn--primary btn--large">
