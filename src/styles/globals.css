@@ -7666,8 +7666,11 @@ a:hover {
 .testimonials-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1rem; /* ~16px gutter */
+  gap: 0.75rem; /* ~12px gutter */
   margin-top: var(--space-3xl);
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .testimonial-card {
