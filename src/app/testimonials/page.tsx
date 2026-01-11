@@ -12,7 +12,7 @@ export default function TestimonialsPage() {
   return (
     <>
       <Header />
-      <main>
+      <main id="main-content">
         {/* Hero Section - Warm Background */}
         <section className="page-hero">
           <div className="container page-hero__grid">

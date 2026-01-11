@@ -21,8 +21,12 @@ export function Header() {
   const pathname = usePathname()
 
   return (
-    <header className={`header ${isScrolled ? 'header--scrolled' : ''}`}>
-      <div className="container">
+    <>
+      <a href="#main-content" className="skip-link">
+        Skip to main content
+      </a>
+      <header className={`header ${isScrolled ? 'header--scrolled' : ''}`}>
+        <div className="container">
         <div className="header__inner">
           <Link href="/" className="header__logo">
             <span className="header__wordmark">
@@ -59,6 +63,7 @@ export function Header() {
           </button>
         </div>
       </div>
-    </header>
+      </header>
+    </>
   )
 }

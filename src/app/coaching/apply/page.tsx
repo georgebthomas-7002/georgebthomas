@@ -610,7 +610,7 @@ export default function CoachingApplyPage() {
   return (
     <>
       <Header />
-      <main>
+      <main id="main-content">
         <Suspense fallback={
           <div className="page-hero page-hero--compact">
             <div className="container" style={{textAlign: 'center', padding: '4rem 0'}}>

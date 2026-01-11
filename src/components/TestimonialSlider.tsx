@@ -144,6 +144,9 @@ export function TestimonialSlider({
       className="testimonial-slider"
       onMouseEnter={() => setIsPaused(true)}
       onMouseLeave={() => setIsPaused(false)}
+      role="region"
+      aria-label="Client testimonials"
+      aria-roledescription="carousel"
     >
       <div className="testimonial-slider__container">
         {/* Quote Icon */}
@@ -154,7 +157,11 @@ export function TestimonialSlider({
         </div>
 
         {/* Main Content */}
-        <div className={`testimonial-slider__content ${isAnimating ? 'testimonial-slider__content--animating' : ''}`}>
+        <div
+          className={`testimonial-slider__content ${isAnimating ? 'testimonial-slider__content--animating' : ''}`}
+          aria-live="polite"
+          aria-atomic="true"
+        >
           <blockquote className="testimonial-slider__quote">
             {currentTestimonial.quote}
           </blockquote>

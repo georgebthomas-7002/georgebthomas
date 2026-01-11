@@ -55,10 +55,10 @@ export function VideoSlider({
           <h2 className="section-header__title">{title}</h2>
         </div>
 
-        <div className="video-slider">
+        <div className="video-slider" role="region" aria-label="Video gallery" aria-roledescription="carousel">
           <div className="video-slider__container">
             {/* Main Video */}
-            <div className={`video-slider__main ${isAnimating ? 'video-slider__main--animating' : ''}`}>
+            <div className={`video-slider__main ${isAnimating ? 'video-slider__main--animating' : ''}`} aria-live="polite">
               {useShowcaseStyle ? (
                 <VideoShowcase
                   youtubeId={currentVideo.youtubeId}

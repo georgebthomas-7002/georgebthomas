@@ -179,7 +179,7 @@ export default function ThankYouPage() {
   return (
     <>
       <Header />
-      <main>
+      <main id="main-content">
         <Suspense fallback={
           <div className="page-hero page-hero--thank-you">
             <div className="container" style={{textAlign: 'center', padding: '4rem 0'}}>
