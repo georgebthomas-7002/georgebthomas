@@ -289,7 +289,7 @@ export default function ResourcesPage() {
         {/* Hero Section */}
         <section className="resources-hero">
           <div className="container">
-            <span className="resources-hero__eyebrow">Your Superhuman Toolkit</span>
+            <span className="page-hero__tagline">Your Superhuman Toolkit</span>
             <h1 className="resources-hero__title">Resource Center</h1>
             <p className="resources-hero__count">{data.totalResources}+ RESOURCES AND GROWING DAILY.</p>
             <p className="resources-hero__subtitle">
