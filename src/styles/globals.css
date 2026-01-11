@@ -8903,8 +8903,8 @@ select {
 /* Custom wrapper for "Start a conversation" label */
 .delphi-chat-wrapper {
   position: fixed;
-  bottom: 24px;
-  right: 100px;
+  bottom: 32px;
+  right: 140px;
   z-index: 9998;
   display: flex;
   align-items: center;
@@ -8913,25 +8913,49 @@ select {
 }
 
 .delphi-chat-label {
+  position: relative;
   background: var(--color-white);
   color: var(--color-text);
-  padding: var(--space-xs) var(--space-md);
-  border-radius: var(--radius-full);
+  padding: var(--space-sm) var(--space-md);
+  padding-right: var(--space-xl);
+  border-radius: var(--radius-lg);
   font-size: var(--font-size-sm);
-  font-weight: 500;
+  font-weight: 600;
   box-shadow: var(--shadow-lg);
   white-space: nowrap;
   animation: delphi-label-pulse 3s ease-in-out infinite;
 }
 
+/* Arrow inside the label */
+.delphi-chat-label::before {
+  content: '→';
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.1rem;
+  color: var(--color-accent);
+  animation: arrow-bounce 1.5s ease-in-out infinite;
+}
+
+/* Triangle pointer on right side */
 .delphi-chat-label::after {
   content: '';
   position: absolute;
-  right: -8px;
+  right: -10px;
   top: 50%;
   transform: translateY(-50%);
-  border: 6px solid transparent;
+  border: 8px solid transparent;
   border-left-color: var(--color-white);
+}
+
+@keyframes arrow-bounce {
+  0%, 100% {
+    transform: translateY(-50%) translateX(0);
+  }
+  50% {
+    transform: translateY(-50%) translateX(4px);
+  }
 }
 
 @keyframes delphi-label-pulse {
@@ -8949,7 +8973,7 @@ select {
 #delphi-bubble-button,
 [data-delphi-bubble],
 .delphi-bubble-trigger {
-  right: 24px !important;
+  right: 50px !important;
   bottom: 24px !important;
   width: 70px !important;
   height: 70px !important;
