@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useMemo, useEffect, useRef } from 'react'
+import Image from 'next/image'
 import { Search, X, Play, Mic, FileText, ExternalLink, ChevronLeft, ChevronRight } from 'lucide-react'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
@@ -31,7 +32,7 @@ function RotatingText({ words }: { words: string[] }) {
 
   return (
     <span className="rotating-text">
-      <span className="rotating-text__word">{words[currentIndex]}</span>
+      <span key={currentIndex} className="rotating-text__word">{words[currentIndex]}</span>
     </span>
   )
 }
@@ -88,9 +89,11 @@ function ResourceCard({ resource }: { resource: Resource }) {
     >
       <div className="resource-card__thumbnail">
         {resource.thumbnail ? (
-          <img
+          <Image
             src={resource.thumbnail}
-            alt={resource.title}
+            alt={`Thumbnail for ${resource.title}`}
+            fill
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
             className="resource-card__image"
           />
         ) : (
