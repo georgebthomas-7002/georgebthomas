@@ -312,3 +312,25 @@ Feature: Website Audit & Polish
   - The coaching-story class has valid CSS for reduced padding (var(--space-3xl) instead of var(--space-5xl))
   - Pricing cards use translateY(-4px) on hover (smaller than standard -8px), appropriate for compact cards
 ---
+
+## 2025-01-10 - US-015
+- Audited Apply page (coaching/apply) and Thank You page (coaching/thank-you) design for consistency
+- Files reviewed: src/app/coaching/apply/page.tsx, src/app/coaching/thank-you/page.tsx, src/styles/globals.css
+- **Verification (no changes needed - pages already follow design system):**
+  - Apply page: All 35+ CSS classes (apply-*) are defined in globals.css
+  - Thank You page: All 20+ CSS classes (thank-you-*) are defined in globals.css
+  - Form styling: Uses design system tokens (--color-warm-light, --color-accent for focus, proper borders)
+  - Progress bar: Polished with gradient-accent fill, spring animation, full-width bar
+  - Buttons: Valid classes only (btn--primary, btn--secondary, btn--large)
+  - Thank You cards: White background, radius-xl, shadow-md (matches design system)
+  - Quote block: Decorative quotation mark, proper padding, accent-colored cite
+  - Resources: Hover transitions with translateX(4px), arrow animation
+  - Build passes successfully
+- **Learnings for future iterations:**
+  - Apply and Thank You pages have comprehensive, well-organized CSS (lines 4884-5654 in globals.css)
+  - Package selection cards use translateX(4px) hover (horizontal motion for selection flow)
+  - Topic selection cards use translateY(-2px) hover (vertical lift for selection)
+  - Progress bar uses --duration-slow and --ease-spring for smooth step transitions
+  - Thank You resources use translateX(4px) hover with animated arrow - nice touch for "go to" actions
+  - Success icon color (#22c55e green) is used directly - acceptable for semantic success state even though not in design tokens
+---
