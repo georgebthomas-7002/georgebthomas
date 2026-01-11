@@ -37,3 +37,31 @@
 - PRD → prd.json → `./ralph.sh` (10 iterations per run)
 - Progress saved in progress.txt, picks up where left off
 - Archive previous runs before new features
+
+### Mobile Optimization (Comprehensive PRD)
+**Standards Applied:**
+- Touch targets: 44x44px minimum (Apple) / 48x48px (Google)
+- Form inputs: 16px+ font size (prevents iOS zoom)
+- Safe area insets: env() for notched devices
+- Hover protection: `@media (hover: hover)` for desktop-only hover effects
+
+**Mobile Menu Enhancements:**
+- Body scroll lock when open
+- Hamburger animates to X
+- Focus trap for accessibility
+- Click outside to close
+- Escape key to close
+- Full-width touch targets on nav links
+
+**Sliders (Testimonial/Video):**
+- Native touch swipe gestures (50px threshold)
+- Swipe left = next, swipe right = previous
+
+**Breakpoints Standardized:**
+- 375px (small phones)
+- 480px (mobile)
+- 768px (tablet)
+- 1024px (desktop)
+- 1200px (large desktop)
+
+**Device Priority:** iPhone-first (iOS Safari), Android Chrome secondary

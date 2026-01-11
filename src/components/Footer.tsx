@@ -130,14 +130,24 @@ export function Footer() {
         </div>
 
         <div className="footer__bottom">
-          <p className="footer__copyright">
-            &copy; {currentYear} George B. Thomas. All rights reserved.
-          </p>
-          <div>
-            <Link href="#" className="footer__link">Privacy Policy</Link>
-            {' • '}
-            <Link href="#" className="footer__link">Terms of Service</Link>
+          <div className="footer__bottom-left">
+            <p className="footer__copyright">
+              &copy; {currentYear} George B. Thomas. All rights reserved.
+            </p>
+            <span className="footer__legal-links">
+              <Link href="#" className="footer__link">Privacy Policy</Link>
+              {' • '}
+              <Link href="#" className="footer__link">Terms of Service</Link>
+            </span>
           </div>
+          <a
+            href="https://sidekickstrategies.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="footer__powered-by"
+          >
+            Powered by Sidekick Strategies
+          </a>
         </div>
       </div>
     </footer>
