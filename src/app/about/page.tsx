@@ -11,7 +11,7 @@ const storyChapters = [
   {
     year: '1989',
     title: 'The Words That Changed Everything',
-    content: `At 17, a math teacher looked me in the eye and said, "You will never amount to anything." Six months later, I dropped out and joined the United States Navy. Those words haunted me for years. Today, I'm grateful for them—they lit a fire that has never gone out.`,
+    content: `At 17, a math teacher looked me in the eye and said, "You'll never amount to anything." Six months later, I dropped out and joined the United States Navy. Those words haunted me for years. Today, I'm grateful for them—they lit a fire that's never gone out.`,
     image: '/images/george-football.jpg',
     imageAlt: 'George B. Thomas in high school',
     hasImage: true,
@@ -27,7 +27,7 @@ const storyChapters = [
   {
     year: '2010',
     title: 'The Blue Windbreaker Interview',
-    content: `I showed up to an agency interview wearing a blue windbreaker with no portfolio. Asked if I knew InDesign, I replied, "No. But I can learn it." That weekend: four Lynda.com certifications. Monday, my supervisor smiled: "See? I told you."`,
+    content: `I showed up to an agency interview wearing a blue windbreaker with no portfolio. Asked if I knew InDesign, I said, "No. But I can learn it." That weekend: four Lynda.com certifications. Monday, my supervisor smiled: "See? Told you."`,
     image: null,
     imageAlt: '',
     hasImage: false,
@@ -36,7 +36,7 @@ const storyChapters = [
   {
     year: '2012',
     title: 'The HubSpot Awakening',
-    content: `Walking into INBOUND Boston changed my trajectory forever. I watched Gary Vee perform, absorbed the human-centric marketing philosophy, and realized: "I want to be a marketer when I grow up." I dove into HubSpot Academy and never looked back.`,
+    content: `Walking into INBOUND Boston changed my trajectory forever. I watched Gary Vee perform, absorbed the human-centric marketing philosophy, and realized: "I want to be a marketer when I grow up." I dove into HubSpot Academy and haven't looked back since.`,
     image: '/images/george-inbound-2012.jpg',
     imageAlt: 'George at INBOUND 2012',
     hasImage: true,
@@ -52,7 +52,7 @@ const storyChapters = [
   {
     year: '2017',
     title: 'Finding My Voice',
-    content: `When Marcus asked me to start a podcast, I said, "There is absolutely no way I'm going to do that." 271 episodes of The Hubcast later, I found my voice. My first keynote about being a high school dropout taught me the magic of vulnerability.`,
+    content: `When Marcus asked me to start a podcast, I said, "There's absolutely no way I'm gonna do that." 271 episodes of The Hubcast later, I found my voice. My first keynote about being a high school dropout taught me the magic of vulnerability.`,
     image: '/images/george-wild-inbound.webp',
     imageAlt: 'George speaking at INBOUND',
     hasImage: true,
@@ -82,7 +82,7 @@ const storyChapters = [
   {
     year: '2025',
     title: 'The Spiritual Side of Leadership',
-    content: `Despite outward success—40+ certifications, speaking at INBOUND annually since 2015, a thriving agency—something was calling. What began as a personal wisdom practice evolved into a platform helping leaders integrate faith with work.`,
+    content: `Despite outward success—40+ certifications, speaking at INBOUND annually since 2015, a thriving agency—something was calling. What began as a personal wisdom practice evolved into a platform that helps leaders integrate faith with work.`,
     image: null,
     imageAlt: '',
     hasImage: false,
@@ -110,7 +110,7 @@ const credentials = [
 const values = [
   {
     title: 'Humans First',
-    description: 'Technology should amplify human connection, never replace it.',
+    description: 'Your connections matter. Technology should amplify them, never replace them.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
@@ -119,7 +119,7 @@ const values = [
   },
   {
     title: 'Sidekick Mentality',
-    description: 'I am not the hero. I help you become one.',
+    description: 'You&apos;re the hero. I&apos;m here to help you succeed.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
@@ -131,7 +131,7 @@ const values = [
   },
   {
     title: 'Faith-Driven',
-    description: 'Success without soul is empty. Lead with purpose.',
+    description: 'Your success shouldn&apos;t cost your soul. Lead with purpose.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
@@ -140,7 +140,7 @@ const values = [
   },
   {
     title: 'Lifelong Learner',
-    description: 'Willingness to learn beats existing knowledge.',
+    description: 'Your willingness to grow matters more than what you already know.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
@@ -165,15 +165,15 @@ export default function AboutPage() {
                 <span className="page-hero__title-accent"> George B. Thomas</span>
               </h1>
               <p className="page-hero__description">
-                I believe journeys matter. Through mutual understanding and connection,
-                we can unlock your potential and empower you to become the superhuman you were meant to be.
+                I believe journeys matter. Through understanding and connection,
+                you&apos;ll unlock your potential and become the superhuman you were meant to be.
               </p>
               <div className="page-hero__cta-group">
                 <Link href="/coaching" className="btn btn--primary">
-                  Work With Me
+                  Start Your Transformation
                 </Link>
                 <a href="#story" className="btn btn--secondary">
-                  Read My Story
+                  Discover the Journey
                 </a>
               </div>
             </AnimatedSection>
@@ -286,8 +286,8 @@ export default function AboutPage() {
         <section className="section section--tight section--warm about-values">
           <div className="container">
             <AnimatedSection className="section-header section-header--tight" animation="fade-in">
-              <span className="section-header__subtitle">What I Believe</span>
-              <h2 className="section-header__title">Core Values</h2>
+              <span className="section-header__subtitle">What This Means For You</span>
+              <h2 className="section-header__title">Values That Guide Your Experience</h2>
             </AnimatedSection>
 
             <StaggerContainer className="values-grid values-grid--compact">
@@ -309,14 +309,14 @@ export default function AboutPage() {
               <h2 className="cta-block__title">Ready to Start Your Journey?</h2>
               <p className="cta-block__description">
                 Whether you need help with HubSpot, want coaching to reach your next level,
-                or need a speaker who connects with audiences—I&apos;m here to be your sidekick.
+                or need a speaker who&apos;ll connect with your audience—I&apos;m here to be your sidekick.
               </p>
               <div className="cta-block__buttons">
                 <Link href="/coaching/apply" className="btn btn--primary btn--large">
-                  Apply for Coaching
+                  Begin Your Transformation
                 </Link>
                 <Link href="/speaking" className="btn btn--secondary btn--large">
-                  Book Me to Speak
+                  Ignite Your Event
                 </Link>
               </div>
             </AnimatedSection>
