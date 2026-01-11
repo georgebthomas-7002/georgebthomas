@@ -20,4 +20,15 @@
 - `src/styles/globals.css` - Design system & all styles
 - `src/components/` - React components
 - `src/sanity/` - CMS configuration
-- `public/images/george-hero.png` - Hero photo
+- `scripts/ralph/` - Ralph autonomous agent (prd.json, progress.txt)
+- `src/data/expertise.tsx` - Expertise pillar content
+
+## Pages (8 total)
+- `/` - Homepage
+- `/about` - Story & values
+- `/expertise` - Skills & principles
+- `/speaking` - Keynotes (36 topics)
+- `/coaching` - Packages & pricing
+- `/coaching/apply` - Multi-step form
+- `/coaching/thank-you` - Confirmation
+- `/testimonials` - Client feedback
