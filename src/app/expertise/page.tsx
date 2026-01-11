@@ -61,7 +61,7 @@ export default function ExpertisePage() {
               </p>
             </AnimatedSection>
 
-            <AnimatedSection className="page-hero__image-wrapper page-hero__image-wrapper--expertise" animation="slide-right">
+            <AnimatedSection className="page-hero__image-wrapper" animation="slide-right">
               <div className="page-hero__image-frame" aria-hidden="true"></div>
               <div className="page-hero__image-accent" aria-hidden="true"></div>
               <div className="page-hero__image-container">
@@ -291,7 +291,7 @@ export default function ExpertisePage() {
         </section>
 
         {/* The Story Section */}
-        <section className="section expertise-story">
+        <section className="section">
           <div className="container container--narrow">
             <AnimatedSection animation="fade-in">
               <div className="story-card">
@@ -329,7 +329,7 @@ export default function ExpertisePage() {
         </section>
 
         {/* CTA Section */}
-        <section className="section section--warm expertise-cta">
+        <section className="section section--warm">
           <div className="container">
             <AnimatedSection className="cta-block" animation="fade-in">
               <h2 className="cta-block__title">Ready to Transform?</h2>

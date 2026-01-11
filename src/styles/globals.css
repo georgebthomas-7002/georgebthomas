@@ -2348,6 +2348,10 @@ a:hover {
   color: var(--color-text-light);
 }
 
+.section--dark .section-header__description {
+  color: rgba(255, 255, 255, 0.8);
+}
+
 /* ===========================================
    Y-SHAPE DIAGRAM (Expertise Page)
    =========================================== */
