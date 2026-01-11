@@ -34,7 +34,7 @@ export default function TestimonialsPage() {
               <div className="page-hero__image-accent" aria-hidden="true"></div>
               <div className="page-hero__image-container">
                 <Image
-                  src="/images/george-speaking.jpg"
+                  src="/images/george-speaking-testimonials.jpg"
                   alt="George B. Thomas Speaking"
                   width={500}
                   height={600}
