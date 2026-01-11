@@ -27,6 +27,10 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'sidekickstrategies.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'www.georgebthomas.com',
+      },
     ],
   },
 }

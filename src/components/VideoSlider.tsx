@@ -81,6 +81,25 @@ export function VideoSlider({
 
   return (
     <section className="section section--dark video-slider-section">
+      {/* Floating decorative elements */}
+      <div className="video-slider-section__decor" aria-hidden="true">
+        <div className="video-slider-section__accent video-slider-section__accent--1">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+            <polygon points="5 3 19 12 5 21 5 3"/>
+          </svg>
+        </div>
+        <div className="video-slider-section__accent video-slider-section__accent--2"></div>
+        <div className="video-slider-section__accent video-slider-section__accent--3"></div>
+        <div className="video-slider-section__accent video-slider-section__accent--4">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+            <circle cx="12" cy="12" r="10"/>
+            <polygon points="10 8 16 12 10 16 10 8"/>
+          </svg>
+        </div>
+        <div className="video-slider-section__glow video-slider-section__glow--1"></div>
+        <div className="video-slider-section__glow video-slider-section__glow--2"></div>
+      </div>
+
       <div className="container">
         <div className="section-header">
           <span className="section-header__subtitle">{subtitle}</span>
@@ -104,7 +123,7 @@ export function VideoSlider({
                   youtubeId={currentVideo.youtubeId}
                   title={currentVideo.title}
                   size="compact"
-                  showAccents={false}
+                  showAccents={true}
                 />
               ) : (
                 <div className="video-slider__embed">
