@@ -7,13 +7,6 @@ const quickLinks = [
   { href: '/coaching', label: 'Coaching' },
 ]
 
-const resourceLinks = [
-  { href: '#', label: 'Substack Newsletter' },
-  { href: '#', label: 'HubHeroes Podcast' },
-  { href: '#', label: 'Video Gallery' },
-  { href: '#', label: 'Ultimate Guide' },
-]
-
 const socialLinks = [
   {
     href: 'https://twitter.com/georgebthomas',
@@ -113,19 +106,6 @@ export function Footer() {
             <ul className="footer__links">
               {quickLinks.map((link) => (
                 <li key={link.href}>
-                  <Link href={link.href} className="footer__link">
-                    {link.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          <div>
-            <h4 className="footer__heading">Resources</h4>
-            <ul className="footer__links">
-              {resourceLinks.map((link) => (
-                <li key={link.label}>
                   <Link href={link.href} className="footer__link">
                     {link.label}
                   </Link>
