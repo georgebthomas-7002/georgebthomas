@@ -31,7 +31,7 @@ export const deepExpertise = [
       'Writing "Cloning Human Expertise" book',
       'Trains teams on ethical AI integration',
     ],
-    description: 'You&apos;ll learn how AI can amplify your human connection, not replace it. George&apos;s AI clone—trained on decades of content—shows what&apos;s possible when you embrace technology authentically.',
+    description: 'You&apos;ll learn how AI can amplify your human connection, not replace it. George&apos;s AI clone, trained on decades of content, shows what&apos;s possible when you embrace technology authentically.',
   },
   {
     id: 'hubspot',
@@ -58,7 +58,7 @@ export const deepExpertise = [
       'INBOUND speaker every year since 2015',
       'Likely the most certified individual globally',
     ],
-    description: 'You&apos;ll get guidance from someone who&apos;s been shaping the HubSpot conversation for over a decade—with deep understanding spanning marketing, sales, service, and operations hubs.',
+    description: 'You&apos;ll get guidance from someone who&apos;s been shaping the HubSpot conversation for over a decade, with deep understanding spanning marketing, sales, service, and operations hubs.',
   },
   {
     id: 'marketing',
@@ -85,7 +85,7 @@ export const deepExpertise = [
       'MarketingProfs thought leader and contributor',
       'Sales enablement through video and content',
     ],
-    description: 'You&apos;ll gain access to battle-tested strategies—three decades of inbound methodology blended with authentic human connection—that&apos;ll drive your sustainable growth.',
+    description: 'You&apos;ll gain access to battle-tested strategies: three decades of inbound methodology blended with authentic human connection that&apos;ll drive your sustainable growth.',
   },
   {
     id: 'video',
@@ -139,7 +139,7 @@ export const deepExpertise = [
       'Created The Hubcast (271 episodes)',
       'Guest on 50+ industry podcasts',
     ],
-    description: 'You&apos;ll learn from one of the longest-tenured podcasters in marketing technology—someone who&apos;s built audiences, sparked conversations, and created community through audio for over a decade.',
+    description: 'You&apos;ll learn from one of the longest-tenured podcasters in marketing technology, someone who&apos;s built audiences, sparked conversations, and created community through audio for over a decade.',
   },
   {
     id: 'personal',
@@ -164,7 +164,7 @@ export const deepExpertise = [
       'Specializes in limiting belief breakthrough',
       'From dropout to thought leader, proof it works',
     ],
-    description: 'You&apos;ll use the Superhuman Framework—four cornerstones (Love, Purpose, Passion, Persistence) and ten H-Pillars—to break through your limiting beliefs and transform.',
+    description: 'You&apos;ll use the Superhuman Framework: four cornerstones (Love, Purpose, Passion, Persistence) and ten H-Pillars to break through your limiting beliefs and transform.',
   },
   {
     id: 'leadership',
@@ -219,7 +219,7 @@ export const deepExpertise = [
       'Helping leaders find deeper purpose',
       'Building values driven organizations',
     ],
-    description: 'You&apos;ll explore the intersection of faith and leadership—integrating your spiritual values with your professional life to lead with purpose and authenticity.',
+    description: 'You&apos;ll explore the intersection of faith and leadership, integrating your spiritual values with your professional life to lead with purpose and authenticity.',
   },
 ]
 
@@ -271,7 +271,7 @@ export const principles = [
   },
   {
     title: 'Value First',
-    description: 'You&apos;ll receive value upfront—free content, educational focus, help before anything&apos;s asked in return.',
+    description: 'You&apos;ll receive value upfront: free content, educational focus, help before anything&apos;s asked in return.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>

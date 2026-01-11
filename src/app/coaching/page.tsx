@@ -211,7 +211,7 @@ const faqs = [
   },
   {
     question: 'What\'s the refund policy?',
-    answer: 'If after our first session you feel this isn\'t the right fit, I\'ll refund your remaining unused hours—no questions asked. Your transformation matters most.',
+    answer: 'If after our first session you feel this isn\'t the right fit, I\'ll refund your remaining unused hours, no questions asked. Your transformation matters most.',
   },
 ]
 
@@ -578,7 +578,7 @@ export default function CoachingPage() {
                 <div className="story-card__content">
                   <p>
                     At 17, a teacher told me I&apos;d never amount to anything. That moment became
-                    the catalyst for my own transformation—and now my life&apos;s mission.
+                    the catalyst for my own transformation, and now my life&apos;s mission.
                   </p>
                   <p>
                     I&apos;ve been where you might be: uncertain, stuck, or just knowing there&apos;s
