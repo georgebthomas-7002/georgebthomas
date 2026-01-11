@@ -283,7 +283,7 @@ export default function Home() {
               <h2 className="cta-block__title">Ready to Transform?</h2>
               <p className="cta-block__description">
                 Whether you need a keynote that inspires, coaching that transforms, or
-                HubSpot expertise that accelerates, let&apos;s start a conversation about your journey.
+                HubSpot expertise that accelerates, let&apos;s start a conversation.
               </p>
               <div className="cta-block__buttons">
                 <Link href="/speaking" className="btn btn--primary">
