@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Script from 'next/script'
 import '@/styles/globals.css'
 
 export const metadata: Metadata = {
@@ -50,6 +51,27 @@ export default function RootLayout({
       </head>
       <body>
         {children}
+
+        {/* Delphi.ai Chat Bubble */}
+        <Script id="delphi-bubble-script" strategy="beforeInteractive">
+          {`
+            window.delphi = {...(window.delphi ?? {}) };
+            window.delphi.bubble = {
+              config: "09cb4287-c5a5-449d-8e00-980dff0138a3",
+              overrides: {
+                landingPage: "VOICE",
+              },
+              trigger: {
+                color: "#F76B15",
+              },
+            };
+          `}
+        </Script>
+        <Script
+          id="delphi-bubble-bootstrap"
+          src="https://embed.delphi.ai/loader.js"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   )
