@@ -393,7 +393,7 @@ const contactForm = {
       fields: [
         {
           objectTypeId: '0-1',
-          name: 'how_did_you_hear_about_us',
+          name: 'how_did_you_hear_about_us_',
           label: 'How Did You Hear About Us',
           required: false,
           hidden: true,
@@ -618,7 +618,7 @@ const bookingForm = {
       fields: [
         {
           objectTypeId: '0-1',
-          name: 'how_did_you_hear_about_us',
+          name: 'how_did_you_hear_about_us_',
           label: 'How Did You Hear About Us',
           required: false,
           hidden: true,
@@ -828,7 +828,7 @@ const coachingForm = {
       fields: [
         {
           objectTypeId: '0-1',
-          name: 'how_did_you_hear_about_us',
+          name: 'how_did_you_hear_about_us_',
           label: 'How Did You Hear About Us',
           required: false,
           hidden: true,
