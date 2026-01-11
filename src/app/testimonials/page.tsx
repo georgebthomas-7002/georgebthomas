@@ -136,8 +136,8 @@ export default function TestimonialsPage() {
           </div>
         </section>
 
-        {/* What Clients Say Section - Warm Background */}
-        <section className="section section--warm">
+        {/* What Clients Say Section - Dark Blue Background */}
+        <section className="section section--dark testimonials-themes">
           <div className="container">
             <AnimatedSection className="section-header" animation="fade-in">
               <span className="section-header__subtitle">What You'll Experience</span>
@@ -203,8 +203,8 @@ export default function TestimonialsPage() {
           </div>
         </section>
 
-        {/* CTA Section - Dark Background */}
-        <section className="section section--dark testimonials-cta">
+        {/* CTA Section - Warm Background */}
+        <section className="section testimonials-cta testimonials-cta--warm">
           <div className="container">
             <AnimatedSection className="cta-block" animation="fade-in">
               <h2 className="cta-block__title">Ready to Write Your Own Success Story?</h2>
@@ -216,7 +216,7 @@ export default function TestimonialsPage() {
                 <Link href="/coaching/apply" className="btn btn--primary btn--large">
                   Start Your Transformation
                 </Link>
-                <Link href="/contact" className="btn btn--outline-light btn--large">
+                <Link href="/contact" className="btn btn--outline btn--large">
                   Let's Talk
                 </Link>
               </div>
