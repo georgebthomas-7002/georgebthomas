@@ -110,6 +110,17 @@ export function Header() {
         <div className="header__inner">
           <Link href="/" className="header__logo">
             <span className="header__wordmark">
+              {/* Animated SVG border - snake effect */}
+              <svg className="header__wordmark-border" aria-hidden="true">
+                <rect
+                  x="1"
+                  y="1"
+                  rx="4"
+                  ry="4"
+                  fill="none"
+                  strokeWidth="2"
+                />
+              </svg>
               <span className="header__wordmark-name">George B. Thomas</span>
               <span className="header__wordmark-tagline">Catalyst for Growth</span>
             </span>

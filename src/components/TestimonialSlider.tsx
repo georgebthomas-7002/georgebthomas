@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useCallback, useRef, TouchEvent } from 'react'
 import Image from 'next/image'
 
 export interface Testimonial {
@@ -114,6 +114,37 @@ export function TestimonialSlider({
   const [isAnimating, setIsAnimating] = useState(false)
   const [isPaused, setIsPaused] = useState(false)
 
+  // Touch/swipe handling
+  const touchStartX = useRef<number>(0)
+  const touchEndX = useRef<number>(0)
+  const minSwipeDistance = 50
+
+  const handleTouchStart = (e: TouchEvent<HTMLDivElement>) => {
+    touchStartX.current = e.touches[0].clientX
+    setIsPaused(true)
+  }
+
+  const handleTouchMove = (e: TouchEvent<HTMLDivElement>) => {
+    touchEndX.current = e.touches[0].clientX
+  }
+
+  const handleTouchEnd = () => {
+    const distance = touchStartX.current - touchEndX.current
+    const isLeftSwipe = distance > minSwipeDistance
+    const isRightSwipe = distance < -minSwipeDistance
+
+    if (isLeftSwipe) {
+      nextSlide()
+    } else if (isRightSwipe) {
+      prevSlide()
+    }
+
+    // Reset
+    touchStartX.current = 0
+    touchEndX.current = 0
+    setIsPaused(false)
+  }
+
   const goToSlide = useCallback((index: number) => {
     if (isAnimating) return
     setIsAnimating(true)
@@ -144,6 +175,9 @@ export function TestimonialSlider({
       className="testimonial-slider"
       onMouseEnter={() => setIsPaused(true)}
       onMouseLeave={() => setIsPaused(false)}
+      onTouchStart={handleTouchStart}
+      onTouchMove={handleTouchMove}
+      onTouchEnd={handleTouchEnd}
       role="region"
       aria-label="Client testimonials"
       aria-roledescription="carousel"

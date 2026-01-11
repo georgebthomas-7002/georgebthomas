@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useCallback } from 'react'
+import { useState, useCallback, useRef, TouchEvent } from 'react'
 import Image from 'next/image'
 import { VideoShowcase } from './VideoShowcase'
 
@@ -27,6 +27,35 @@ export function VideoSlider({
 }: VideoSliderProps) {
   const [currentIndex, setCurrentIndex] = useState(0)
   const [isAnimating, setIsAnimating] = useState(false)
+
+  // Touch/swipe handling
+  const touchStartX = useRef<number>(0)
+  const touchEndX = useRef<number>(0)
+  const minSwipeDistance = 50
+
+  const handleTouchStart = (e: TouchEvent<HTMLDivElement>) => {
+    touchStartX.current = e.touches[0].clientX
+  }
+
+  const handleTouchMove = (e: TouchEvent<HTMLDivElement>) => {
+    touchEndX.current = e.touches[0].clientX
+  }
+
+  const handleTouchEnd = () => {
+    const distance = touchStartX.current - touchEndX.current
+    const isLeftSwipe = distance > minSwipeDistance
+    const isRightSwipe = distance < -minSwipeDistance
+
+    if (isLeftSwipe) {
+      nextSlide()
+    } else if (isRightSwipe) {
+      prevSlide()
+    }
+
+    // Reset
+    touchStartX.current = 0
+    touchEndX.current = 0
+  }
 
   const goToSlide = useCallback((index: number) => {
     if (isAnimating) return
