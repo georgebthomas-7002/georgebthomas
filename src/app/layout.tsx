@@ -2,8 +2,9 @@ import type { Metadata } from 'next'
 import '@/styles/globals.css'
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.georgebthomas.com'),
   title: 'George B. Thomas | Professional Speaker & Coach',
-  description: 'Empowering individuals and organizations to unlock their potential and achieve extraordinary results. Keynote speaking, executive coaching, and transformational workshops.',
+  description: 'Keynote speaker and coach helping you unlock potential and achieve results. HubSpot expert, transformation coach, INBOUND speaker since 2015.',
   keywords: ['speaker', 'coach', 'keynote', 'leadership', 'HubSpot', 'transformation', 'personal development'],
   authors: [{ name: 'George B. Thomas' }],
   openGraph: {
@@ -12,7 +13,7 @@ export const metadata: Metadata = {
     url: 'https://www.georgebthomas.com',
     siteName: 'George B. Thomas',
     title: 'George B. Thomas | Professional Speaker & Coach',
-    description: 'Empowering individuals and organizations to unlock their potential and achieve extraordinary results.',
+    description: 'Keynote speaker and coach helping you unlock potential and achieve results. HubSpot expert, INBOUND speaker.',
     images: [
       {
         url: '/og-image.jpg',
@@ -25,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'George B. Thomas | Professional Speaker & Coach',
-    description: 'Empowering individuals and organizations to unlock their potential.',
+    description: 'Keynote speaker and coach helping you unlock potential. HubSpot expert, INBOUND speaker.',
     creator: '@georgebthomas',
   },
   robots: {
