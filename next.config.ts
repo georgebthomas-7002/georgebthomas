@@ -7,6 +7,22 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'cdn.sanity.io',
       },
+      {
+        protocol: 'https',
+        hostname: 'i.ytimg.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'img.transistorcdn.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'img.transistor.fm',
+      },
+      {
+        protocol: 'https',
+        hostname: 'sidekickstrategies.com',
+      },
     ],
   },
 }
