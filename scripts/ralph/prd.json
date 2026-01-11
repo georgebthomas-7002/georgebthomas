@@ -308,8 +308,8 @@
         "Typecheck passes"
       ],
       "priority": 19,
-      "passes": false,
-      "notes": ""
+      "passes": true,
+      "notes": "Completed: Added skip-to-content link with CSS, added id=\"main-content\" to all pages, fixed form focus-visible styles, added ARIA labels to FAQ accordion (controls, expanded, region), added aria-live to carousels (TestimonialSlider, VideoSlider)"
     },
     {
       "id": "US-020",
@@ -324,8 +324,8 @@
         "Typecheck passes"
       ],
       "priority": 20,
-      "passes": false,
-      "notes": ""
+      "passes": true,
+      "notes": "Completed: Build successful (11 pages generated), all pages return HTTP 200, hero sections consistent (page-hero pattern), CTA sections consistent (cta-block pattern), card components consistent (BEM naming), all button classes valid, skip links work on all pages"
     }
   ]
 }
