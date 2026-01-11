@@ -8900,20 +8900,11 @@ select {
    DELPHI.AI CHAT BUBBLE CUSTOMIZATION
    ========================================================================== */
 
-/* Move the Delphi embed container to the left */
-#delphi-bubble,
-[id*="delphi"],
-[class*="delphi"],
-iframe[src*="delphi"],
-iframe[src*="embed.delphi"] {
-  right: 100px !important;
-}
-
 /* "Start a conversation" label - positioned next to Delphi widget */
 .delphi-chat-wrapper {
   position: fixed;
-  bottom: 30px;
-  right: 180px;
+  bottom: 32px;
+  right: 90px;
   z-index: 9998;
   display: flex;
   align-items: center;
