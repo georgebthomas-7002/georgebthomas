@@ -65,5 +65,23 @@ Feature: Website Audit & Polish
   - Expertise descriptions work best as "You'll [verb]..." rather than passive third-person
   - Principles can be reframed as promises/expectations ("You'll receive value upfront")
   - Em-dashes (—) work well for conversational breaks instead of formal punctuation
+- Speaking page keynotes are stored inline in page.tsx (not in data files)
+- When updating keynotes, focus on descriptions—"whatYouLearn" arrays are already well-written
+---
+
+## 2025-01-11 - US-004
+- Implemented Speaking page content audit with contractions and you-focused language
+- Files changed: src/app/speaking/page.tsx
+- **Changes made:**
+  - Hero: "you'll get keynotes that inspire action" (reframed from third-person)
+  - Who I Serve intro: "your people will leave with real-world insights" (instead of "my goal")
+  - 12 keynote descriptions: All updated from "George shares/explores" to "You'll discover/learn/get"
+  - CTAs: "Transform Your Team", "Create an Unforgettable Event", "Spark a Great Conversation", "Ignite Your Event"
+  - Bottom CTA title: "Give Your Audience an Experience They Won't Forget"
+- **Learnings for future iterations:**
+  - Speaking page keynotes are inline (36 total) - focus on descriptions, not whatYouLearn arrays
+  - Third-person references ("George shares") should become second-person ("You'll discover")
+  - CTAs work best when they describe the outcome, not the action ("Transform" vs "Book")
+  - When credentials are mentioned, frame them as "built from X years" not "with X years of experience"
 ---
 
