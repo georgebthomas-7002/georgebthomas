@@ -4278,7 +4278,7 @@ a:hover {
   cursor: pointer;
   border: 2px solid transparent;
   transition: all var(--duration-fast) var(--ease-out);
-  background: none;
+  background: rgba(255, 255, 255, 0.1);
   padding: 0;
 }
 
@@ -4318,9 +4318,9 @@ a:hover {
 }
 
 .video-slider__thumbnail-overlay svg {
-  width: 24px;
+  width: 32px;
   height: 24px;
-  color: var(--color-white);
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
 }
 
 .video-slider__more {

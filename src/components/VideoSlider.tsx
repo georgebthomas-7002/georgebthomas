@@ -203,8 +203,9 @@ export function VideoSlider({
                     className="video-slider__thumbnail-img"
                   />
                   <div className="video-slider__thumbnail-overlay">
-                    <svg viewBox="0 0 24 24" fill="currentColor">
-                      <polygon points="5 3 19 12 5 21 5 3"/>
+                    <svg viewBox="0 0 68 48" fill="none">
+                      <rect x="0" y="0" width="68" height="48" rx="10" fill="var(--color-accent)"/>
+                      <polygon points="28,16 28,32 44,24" fill="white"/>
                     </svg>
                   </div>
                 </button>
