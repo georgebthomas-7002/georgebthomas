@@ -287,3 +287,28 @@ Feature: Website Audit & Polish
   - KeynoteCard uses CSS custom properties (--keynote-color) for topic-based theming
   - serve-block component handles the "Who I Serve" editorial sections with video embeds
 ---
+
+## 2025-01-10 - US-014
+- Audited and fixed Coaching page design for consistency with design system
+- Files changed: src/app/coaching/page.tsx
+- **Changes made:**
+  - Removed undefined coaching-topics class (section uses section--warm)
+  - Removed undefined coaching-approach class (section uses section--dark)
+  - Removed undefined coaching-process class (section uses section)
+  - Removed undefined coaching-pricing class (section uses section--warm)
+  - Removed undefined coaching-faq class from FAQSection component
+  - Removed undefined coaching-final-cta class (section uses section--warm)
+  - Kept coaching-story class which has defined CSS (reduced padding for story section)
+- **Verification:**
+  - Build passes successfully
+  - All button classes valid (btn--primary, btn--secondary, btn--outline-light, btn--arrow, btn--large)
+  - Pricing cards use correct design system tokens (--radius-xl, --space-2xl, --shadow-md)
+  - Approach cards properly styled for dark section with glass-morphism effect
+  - Journey timeline steps use consistent spacing and animations
+  - FAQ accordion uses design system colors and transitions
+- **Learnings for future iterations:**
+  - The coaching page has many well-defined component-specific classes (pricing-card, approach-card, journey-step, faq-accordion) that ARE defined
+  - Section-specific hooks (coaching-topics, coaching-approach, etc.) may be added as placeholders but never styled - remove if no CSS exists
+  - The coaching-story class has valid CSS for reduced padding (var(--space-3xl) instead of var(--space-5xl))
+  - Pricing cards use translateY(-4px) on hover (smaller than standard -8px), appropriate for compact cards
+---
