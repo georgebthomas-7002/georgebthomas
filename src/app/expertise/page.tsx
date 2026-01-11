@@ -11,7 +11,7 @@ import { deepExpertise, broadCompetencies, principles } from '@/data/expertise'
 const additionalPrinciples = [
   {
     title: 'Human Powered',
-    description: 'Keeping humans at the center of every decision, interaction, and outcome.',
+    description: 'You&apos;re at the center of every decision, interaction, and outcome.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M18 8h1a4 4 0 0 1 0 8h-1"/>
@@ -26,7 +26,7 @@ const additionalPrinciples = [
     title: 'Expert in Helping',
     description: (
       <>
-        <a href="https://superhumanframework.com/" target="_blank" rel="noopener noreferrer" className="text-link">Superhuman Framework</a>, coaching, and transformation focus in all content.
+        You&apos;ll tap into the <a href="https://superhumanframework.com/" target="_blank" rel="noopener noreferrer" className="text-link">Superhuman Framework</a>, coaching, and transformation-focused guidance.
       </>
     ),
     icon: (
@@ -55,10 +55,9 @@ export default function ExpertisePage() {
                 <span className="page-hero__title-accent">Broad Vision</span>
               </h1>
               <p className="page-hero__description">
-                Most marketers develop expertise in one area while maintaining broad knowledge across the discipline.
-                George has done something rare: he&apos;s developed <strong>eight pillars of deep expertise</strong> while
-                maintaining exceptional breadth, all converging at one purpose:
-                <em> helping humans transform.</em>
+                When you work with George, you&apos;re getting something rare: <strong>eight pillars of deep expertise</strong> combined
+                with exceptional breadth—all focused on one purpose:
+                <em> helping you transform.</em>
               </p>
             </AnimatedSection>
 
@@ -172,11 +171,11 @@ export default function ExpertisePage() {
         <section className="section section--warm expertise-deep">
           <div className="container">
             <AnimatedSection className="section-header" animation="fade-in">
-              <span className="section-header__subtitle">Deep Expertise</span>
+              <span className="section-header__subtitle">What You&apos;ll Gain Access To</span>
               <h2 className="section-header__title">Eight Pillars of Mastery</h2>
               <p className="section-header__description">
                 Each pillar represents years of dedicated practice, continuous learning,
-                and real world application at the highest levels.
+                and real-world application—so you don&apos;t have to figure it out alone.
               </p>
             </AnimatedSection>
 
@@ -247,10 +246,10 @@ export default function ExpertisePage() {
         <section className="section expertise-broad">
           <div className="container">
             <AnimatedSection className="section-header" animation="fade-in">
-              <span className="section-header__subtitle">Broad Competencies</span>
+              <span className="section-header__subtitle">More Ways You&apos;ll Benefit</span>
               <h2 className="section-header__title">The Crossbar of Knowledge</h2>
               <p className="section-header__description">
-                Beyond deep expertise, George maintains advanced competencies across
+                You&apos;ll also tap into advanced competencies across
                 the full spectrum of modern marketing and business.
               </p>
             </AnimatedSection>
@@ -275,8 +274,8 @@ export default function ExpertisePage() {
         <section className="section section--dark expertise-principles">
           <div className="container">
             <AnimatedSection className="section-header" animation="fade-in">
-              <span className="section-header__subtitle">Core Philosophy</span>
-              <h2 className="section-header__title">What Guides Every Interaction</h2>
+              <span className="section-header__subtitle">What You Can Expect</span>
+              <h2 className="section-header__title">The Philosophy Behind Every Interaction</h2>
             </AnimatedSection>
 
             <StaggerContainer className="principles-grid">
@@ -336,14 +335,14 @@ export default function ExpertisePage() {
               <h2 className="cta-block__title">Ready to Transform?</h2>
               <p className="cta-block__description">
                 Whether you need a keynote that inspires, coaching that transforms, or
-                expertise that accelerates, let&apos;s start a conversation.
+                expertise that accelerates—let&apos;s start a conversation.
               </p>
               <div className="cta-block__buttons">
                 <Link href="/speaking" className="btn btn--primary btn--large">
-                  Explore Speaking Topics
+                  Ignite Your Event
                 </Link>
-                <Link href="/contact" className="btn btn--secondary btn--large">
-                  Work With George
+                <Link href="/coaching" className="btn btn--secondary btn--large">
+                  Start Your Transformation
                 </Link>
               </div>
             </AnimatedSection>
