@@ -334,3 +334,26 @@ Feature: Website Audit & Polish
   - Thank You resources use translateX(4px) hover with animated arrow - nice touch for "go to" actions
   - Success icon color (#22c55e green) is used directly - acceptable for semantic success state even though not in design tokens
 ---
+
+## 2025-01-10 - US-016
+- Audited and fixed Testimonials page design for consistency with design system
+- Files changed: src/app/testimonials/page.tsx
+- **Changes made:**
+  - Removed undefined page-hero--testimonials class from hero section
+  - Removed undefined page-hero__image-wrapper--testimonials class from image wrapper
+  - Removed undefined testimonials-featured class from featured section
+  - Removed undefined testimonials-themes class from themes section
+  - Changed btn--secondary to btn--outline-light for CTA dark background
+- **Verification:**
+  - Build passes successfully
+  - All button classes valid (btn--primary, btn--outline-light)
+  - Stats section uses same stat-item styling as homepage (verified in globals.css lines 773-798)
+  - Testimonial cards use correct patterns (testimonial-card, --radius-xl, --space-2xl)
+  - Theme cards use correct patterns (theme-card, --radius-xl, --shadow-md, translateY(-4px) hover)
+  - CTA section uses testimonials-cta (defined) with dark gradient background
+- **Learnings for future iterations:**
+  - Testimonials page has well-defined component classes (testimonial-card, theme-card, stat-item, testimonials-grid, testimonials-stats, testimonials-cta)
+  - Page-hero sections don't need page-specific modifiers if base styles are sufficient
+  - Stats section reuses the same .stat-item styling from homepage (defined once, used everywhere)
+  - Theme cards already have proper design system tokens defined (lines 7390-7460 in globals.css)
+---

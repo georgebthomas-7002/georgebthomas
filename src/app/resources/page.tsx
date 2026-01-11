@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useMemo, useEffect } from 'react'
+import { useState, useMemo, useEffect, useRef } from 'react'
 import { Search, X, Play, Mic, FileText, ExternalLink, ChevronLeft, ChevronRight } from 'lucide-react'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
@@ -229,6 +229,32 @@ export default function ResourcesPage() {
   const [selectedPillar, setSelectedPillar] = useState<string>('')
   const [selectedSource, setSelectedSource] = useState<string>('')
   const [currentPage, setCurrentPage] = useState(1)
+  const [isFiltersSticky, setIsFiltersSticky] = useState(false)
+  const filtersRef = useRef<HTMLElement>(null)
+
+  // Detect when filters bar becomes sticky
+  useEffect(() => {
+    const filtersEl = filtersRef.current
+    if (!filtersEl) return
+
+    const handleScroll = () => {
+      const rect = filtersEl.getBoundingClientRect()
+      // Filter bar is sticky when its top reaches ~80px (header height)
+      const sticky = rect.top <= 80
+      setIsFiltersSticky(sticky)
+
+      // Toggle body class for header shadow control
+      document.body.classList.toggle('filters-sticky', sticky)
+    }
+
+    window.addEventListener('scroll', handleScroll, { passive: true })
+    handleScroll() // Check initial state
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll)
+      document.body.classList.remove('filters-sticky')
+    }
+  }, [])
 
   const sources = useMemo(() => {
     const sourceSet = new Set(data.resources.map(r => r.source))
@@ -299,7 +325,10 @@ export default function ResourcesPage() {
         </section>
 
         {/* Search & Filters */}
-        <section className="resources-filters">
+        <section
+          ref={filtersRef}
+          className={`resources-filters ${isFiltersSticky ? 'is-sticky' : ''}`}
+        >
           <div className="container">
             <div className="resources-filters__bar">
               {/* Search */}

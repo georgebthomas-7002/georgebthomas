@@ -66,6 +66,18 @@
   position: sticky;
   top: 80px;
   z-index: 10;
+  transition: box-shadow var(--duration-normal) var(--ease-out),
+              border-color var(--duration-normal) var(--ease-out);
+}
+
+.resources-filters.is-sticky {
+  border-bottom-color: transparent;
+  box-shadow: var(--shadow-md);
+}
+
+/* Hide header shadow when filters are attached */
+body.filters-sticky .header--scrolled {
+  box-shadow: none;
 }
 
 .resources-filters__bar {
