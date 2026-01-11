@@ -102,9 +102,6 @@ export function Header() {
 
   return (
     <>
-      <a href="#main-content" className="skip-link">
-        Skip to main content
-      </a>
       <header className={`header ${isScrolled ? 'header--scrolled' : ''}`}>
         <div className="container">
         <div className="header__inner">
