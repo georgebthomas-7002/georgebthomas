@@ -134,6 +134,19 @@ Warm & Personal - approachable, trustworthy, human connection
 }
 ```
 
+### Light CTA Section
+```css
+.cta-section-light {
+  background: var(--color-warm);
+}
+.cta-block--light {
+  background: var(--color-white);
+  padding: var(--space-3xl);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-lg);
+}
+```
+
 ### Section Header Pattern
 ```css
 .services__header,

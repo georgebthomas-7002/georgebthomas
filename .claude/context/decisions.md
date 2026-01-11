@@ -65,3 +65,30 @@
 - 1200px (large desktop)
 
 **Device Priority:** iPhone-first (iOS Safari), Android Chrome secondary
+
+## 2025-01-11
+
+### Speaking Page Updates
+- **Video Slider:** 11 videos from YouTube playlist PL4f8rK4T6x4GQyiAnICgPdKfMbOs61Gyq
+- **"Watch Even More" link:** Added below thumbnails, links to full playlist
+- **Em dashes removed:** Site-wide preference for commas/periods over em dashes
+
+### Speaking Experience Section
+- **Header:** "Trusted By Leading Events Worldwide" (two lines)
+- **Logo Slider:** Infinite scroll animation with 7 event logos
+  - INBOUND, Social Media Marketing World, Content Marketing World
+  - VidSummit, PM Grow Summit, B2B Marketing, LeadsCon
+- **Logos source:** https://www.georgebthomas.com/hs-fs/hubfs/WEBSITE/Website%20Images/
+- **Effect:** Grayscale with color on hover, pauses on hover
+
+### CTA Section Styling
+- **Light variant:** `cta-section-light` + `cta-block--light` classes
+- **Background:** warm cream (`--color-warm`) with white card + shadow
+
+### Footer Updates
+- **Contact section:** "Get in Touch" → /contact (removed email)
+- **Legal links:** Privacy Policy • Terms of Service on same line
+- **CSS fix:** `white-space: nowrap; display: inline-flex` on `.footer__legal-links`
+
+### Image Domains (next.config.ts)
+- Added: `www.georgebthomas.com` for legacy logo images

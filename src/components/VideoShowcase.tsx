@@ -1,5 +1,8 @@
 'use client'
 
+import { useState } from 'react'
+import Image from 'next/image'
+
 interface VideoShowcaseProps {
   /** YouTube video ID (e.g., 'jIMAkDBsI8c') */
   youtubeId: string
@@ -17,6 +20,8 @@ interface VideoShowcaseProps {
   size?: 'default' | 'large' | 'compact'
   /** Additional CSS class */
   className?: string
+  /** Auto-play when clicked (default: true) */
+  autoPlay?: boolean
 }
 
 export function VideoShowcase({
@@ -28,8 +33,17 @@ export function VideoShowcase({
   showAccents = true,
   size = 'default',
   className = '',
+  autoPlay = true,
 }: VideoShowcaseProps) {
+  const [isPlaying, setIsPlaying] = useState(false)
   const sizeClass = size !== 'default' ? `video-showcase--${size}` : ''
+
+  const handlePlay = () => {
+    setIsPlaying(true)
+  }
+
+  // Use maxresdefault for best quality, fallback handled by CSS
+  const thumbnailUrl = `https://img.youtube.com/vi/${youtubeId}/maxresdefault.jpg`
 
   return (
     <div className={`video-showcase-wrapper ${className}`.trim()}>
@@ -51,12 +65,48 @@ export function VideoShowcase({
 
         {/* Video container */}
         <div className="video-showcase__container">
-          <iframe
-            src={`https://www.youtube.com/embed/${youtubeId}`}
-            title={title}
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          />
+          {isPlaying ? (
+            <iframe
+              src={`https://www.youtube.com/embed/${youtubeId}?autoplay=${autoPlay ? 1 : 0}&rel=0`}
+              title={title}
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          ) : (
+            <button
+              className="video-showcase__thumbnail-btn"
+              onClick={handlePlay}
+              aria-label={`Play video: ${title}`}
+            >
+              <Image
+                src={thumbnailUrl}
+                alt={title}
+                fill
+                sizes="(max-width: 768px) 100vw, 900px"
+                className="video-showcase__thumbnail-img"
+                priority
+              />
+              {/* Branded orange play button */}
+              <div className="video-showcase__play-btn" aria-hidden="true">
+                <svg viewBox="0 0 68 48" fill="none">
+                  {/* Rounded rectangle background */}
+                  <rect
+                    x="0"
+                    y="0"
+                    width="68"
+                    height="48"
+                    rx="12"
+                    fill="var(--color-accent)"
+                  />
+                  {/* Play triangle */}
+                  <polygon
+                    points="28,16 28,32 44,24"
+                    fill="white"
+                  />
+                </svg>
+              </div>
+            </button>
+          )}
         </div>
 
         {/* Floating accent elements */}
