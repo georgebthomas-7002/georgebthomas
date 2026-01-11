@@ -2,6 +2,8 @@
 
 import { useState, useMemo } from 'react'
 import { Search, Filter, X, Play, Mic, FileText, ExternalLink } from 'lucide-react'
+import { Header } from '@/components/Header'
+import { Footer } from '@/components/Footer'
 import resourceData from '../../../data/resources.json'
 import './resources.css'
 
@@ -180,8 +182,10 @@ export default function ResourcesPage() {
   }
 
   return (
-    <div className="resources-page">
-      {/* Hero Section */}
+    <>
+      <Header />
+      <main className="resources-page">
+        {/* Hero Section */}
       <section className="resources-hero">
         <div className="container">
           <h1 className="resources-hero__title">Resource Center</h1>
@@ -324,6 +328,8 @@ export default function ResourcesPage() {
           )}
         </div>
       </section>
-    </div>
+      </main>
+      <Footer />
+    </>
   )
 }
