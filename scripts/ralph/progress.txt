@@ -357,3 +357,29 @@ Feature: Website Audit & Polish
   - Stats section reuses the same .stat-item styling from homepage (defined once, used everywhere)
   - Theme cards already have proper design system tokens defined (lines 7390-7460 in globals.css)
 ---
+
+## 2025-01-10 - US-018
+- Audited and fixed image optimization across all pages
+- Files changed: next.config.ts, src/components/Testimonials.tsx, src/components/VideoSlider.tsx
+- **Changes made:**
+  - Converted 3 <img> tags to Next.js Image components:
+    - Testimonials.tsx: Avatar images now use Image with width={48} height={48}
+    - VideoSlider.tsx: YouTube thumbnails now use Image with width={320} height={180}
+    - Resources page already used Image with fill prop and sizes attribute
+  - Added external image domains to next.config.ts remotePatterns:
+    - img.youtube.com (VideoSlider thumbnails)
+    - i.ytimg.com (Resources page thumbnails)
+    - sidekickstrategies.com (Article thumbnails from external sources)
+  - All Image components verified to have proper width/height or fill + sizes
+  - All images verified to have descriptive alt text
+  - Public assets verified - largest images (~150-200KB) are acceptable since they go through Next.js Image optimization
+- **Verification:**
+  - Build passes successfully (11 static pages generated)
+  - No <img> tags remain in src/ (only Image components)
+  - All external domains configured for Next.js image optimization
+- **Learnings for future iterations:**
+  - YouTube thumbnail sizes: mqdefault.jpg = 320x180, maxresdefault.jpg = 1280x720
+  - For dynamic image sizes (like resource cards), use fill + sizes prop with aspect-ratio container
+  - External image domains must be added to next.config.ts remotePatterns, not domains (deprecated)
+  - Resources page already had proper Image implementation - sometimes code is already optimized
+---
