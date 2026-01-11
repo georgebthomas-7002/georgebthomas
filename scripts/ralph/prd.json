@@ -176,8 +176,8 @@
         "Verify in browser using dev-browser skill"
       ],
       "priority": 11,
-      "passes": false,
-      "notes": ""
+      "passes": true,
+      "notes": "Completed: Removed duplicate .page-hero--compact CSS definition, removed undefined CSS classes (page-hero--about, page-hero__image-wrapper--about, about-stats, about-story, about-values, about-cta). All About page sections now use only defined design system classes. Timeline and value cards were already using correct design system patterns."
     },
     {
       "id": "US-012",

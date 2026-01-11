@@ -29,6 +29,7 @@ Feature: Website Audit & Polish
 - Standard card hover: translateY(-8px); Info cards: translateY(-6px) scale(1.02)
 - **Button variants**: btn--primary, btn--secondary, btn--outline-light only (no btn--accent or btn--outline)
 - **Dark backgrounds**: Use btn--outline-light for secondary buttons, add text color overrides to section class
+- **Verify CSS classes**: Before using page-specific classes, check globals.css to ensure they exist (grep for the class name)
 
 ---
 
@@ -215,5 +216,29 @@ Feature: Website Audit & Polish
   - When section uses dark gradient background but not section--dark, add explicit text color overrides
   - TestimonialSection component is shared - changes there affect multiple pages
   - Verify button classes in browser by checking what classes are rendered: `curl | grep -o 'btn--[a-z-]*'`
+---
+
+## 2025-01-11 - US-011
+- Audited and fixed About page design for consistency with design system
+- Files changed: src/app/about/page.tsx, src/styles/globals.css
+- **Changes made:**
+  - Removed duplicate .page-hero--compact CSS definition (kept one with concrete values, removed one with undefined --header-height)
+  - Removed undefined page-hero--about class from hero section
+  - Removed undefined page-hero__image-wrapper--about class from image wrapper
+  - Removed undefined about-stats class from stats section
+  - Removed undefined about-story class from story section
+  - Removed undefined about-values class from values section
+  - Removed undefined about-cta class from CTA section
+- **Verification:**
+  - Build passes successfully
+  - All rendered classes are valid design system classes
+  - Timeline cards use --radius-lg, --shadow-sm, translateX(4px) hover (correct)
+  - Value cards use --radius-lg, --shadow-sm, translateY(-4px) hover (correct)
+  - Button classes: btn--primary, btn--secondary only (valid)
+- **Learnings for future iterations:**
+  - Check for undefined CSS classes in pages by comparing class names with globals.css definitions
+  - Page-specific prefixes (about-*, coaching-*) may exist but should have corresponding styles
+  - Duplicate CSS definitions can cause conflicts - later definitions override earlier ones
+  - When removing page-specific classes, ensure base classes (section, section--tight, section--warm) provide the needed styling
 ---
 
