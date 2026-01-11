@@ -265,8 +265,8 @@ export default function ResourcesPage() {
             <span className="resources-hero__eyebrow">Your Superhuman Toolkit</span>
             <h1 className="resources-hero__title">Resource Center</h1>
             <p className="resources-hero__subtitle">
-              {data.totalResources}+ resources and growing daily—videos, podcasts, and articles
-              <br />to fuel your transformation into the superhuman you were meant to be.
+              <strong>{data.totalResources}+ resources and growing daily.</strong>
+              <br /><strong>Fuel for your transformation into the superhuman you were meant to be.</strong>
             </p>
           </div>
         </section>
