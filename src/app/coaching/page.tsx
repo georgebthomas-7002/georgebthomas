@@ -66,7 +66,7 @@ const pricingPlans = [
 const coachingApproach = [
   {
     title: 'Sidekick Mentality',
-    description: 'I\'m not here to be the hero—I\'m here to help you become one. Your success is my success.',
+    description: 'I\'m not here to be the hero. I\'m here to help you become one. Your success is my success.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
@@ -286,7 +286,7 @@ export default function CoachingPage() {
                 <span className="page-hero__title-accent"> Real Results</span>
               </h1>
               <p className="page-hero__description">
-                I&apos;m not here to be the hero of your story—I&apos;m here to be the sidekick
+                I&apos;m not here to be the hero of your story. I&apos;m here to be the sidekick
                 that helps you become the superhuman you were meant to be. With over 30 years
                 of experience and a genuine passion for helping humans grow, let&apos;s
                 unlock your next level together.
@@ -487,7 +487,7 @@ export default function CoachingPage() {
               <span className="section-header__subtitle">Your Investment</span>
               <h2 className="section-header__title">Choose Your Path</h2>
               <p className="section-header__description">
-                All packages are billed at <strong>$200 per hour</strong>—transparent pricing
+                All packages are billed at <strong>$200 per hour</strong>. Transparent pricing
                 with no hidden fees. Pick the package that fits your transformation goals.
               </p>
             </AnimatedSection>
@@ -539,7 +539,7 @@ export default function CoachingPage() {
                 <div className="activation-meeting__content">
                   <h3 className="activation-meeting__title">Not sure where to start?</h3>
                   <p className="activation-meeting__description">
-                    Book an <strong>Activation Meeting</strong>—a focused 45-minute session where we&apos;ll
+                    Book an <strong>Activation Meeting</strong>, a focused 45-minute session where we&apos;ll
                     map out your goals, identify your biggest opportunities, and create a clear path forward.
                   </p>
                 </div>
