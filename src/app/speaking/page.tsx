@@ -598,7 +598,7 @@ export default function SpeakingPage() {
   return (
     <>
       <Header />
-      <main>
+      <main id="main-content">
         {/* Hero Section with Speaker Reel */}
         <section className="page-hero page-hero--speaking-video">
           <div className="container">

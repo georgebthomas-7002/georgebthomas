@@ -44,7 +44,7 @@ export default function ExpertisePage() {
   return (
     <>
       <Header />
-      <main>
+      <main id="main-content">
         {/* Hero Section */}
         <section className="page-hero page-hero--expertise">
           <div className="container page-hero__grid">

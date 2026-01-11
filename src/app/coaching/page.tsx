@@ -231,7 +231,7 @@ function FAQSection({ faqs }: { faqs: { question: string; answer: string }[] }) 
           <h2 className="section-header__title">Common Questions</h2>
         </AnimatedSection>
 
-        <div className="faq-accordion">
+        <div className="faq-accordion" role="region" aria-label="Frequently Asked Questions">
           {faqs.map((faq, index) => (
             <div
               key={faq.question}
@@ -241,6 +241,8 @@ function FAQSection({ faqs }: { faqs: { question: string; answer: string }[] }) 
                 className="faq-accordion__trigger"
                 onClick={() => toggleFaq(index)}
                 aria-expanded={openIndex === index}
+                aria-controls={`faq-answer-${index}`}
+                id={`faq-question-${index}`}
               >
                 <span className="faq-accordion__question">{faq.question}</span>
                 <span className="faq-accordion__icon" aria-hidden="true">
@@ -250,7 +252,13 @@ function FAQSection({ faqs }: { faqs: { question: string; answer: string }[] }) 
                   </svg>
                 </span>
               </button>
-              <div className="faq-accordion__content">
+              <div
+                className="faq-accordion__content"
+                id={`faq-answer-${index}`}
+                role="region"
+                aria-labelledby={`faq-question-${index}`}
+                hidden={openIndex !== index}
+              >
                 <div className="faq-accordion__content-inner">
                   <p className="faq-accordion__answer">{faq.answer}</p>
                 </div>
@@ -267,7 +275,7 @@ export default function CoachingPage() {
   return (
     <>
       <Header />
-      <main>
+      <main id="main-content">
         {/* Hero Section */}
         <section className="page-hero page-hero--coaching">
           <div className="container page-hero__grid">

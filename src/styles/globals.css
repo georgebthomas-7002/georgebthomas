@@ -141,6 +141,28 @@ body {
   outline-offset: 2px;
 }
 
+/* Skip to main content link for keyboard users */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: var(--space-sm) var(--space-lg);
+  background: var(--color-primary-dark);
+  color: var(--color-white);
+  font-weight: var(--font-weight-semibold);
+  text-decoration: none;
+  border-radius: var(--radius-md);
+  z-index: 10000;
+  transition: top var(--duration-fast) var(--ease-out);
+}
+
+.skip-link:focus {
+  top: var(--space-md);
+  outline: 3px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
 /* ===========================================
    TYPOGRAPHY
    =========================================== */
@@ -5184,9 +5206,15 @@ a:hover {
 .apply-field input:focus,
 .apply-field textarea:focus,
 .apply-field select:focus {
-  outline: none;
   border-color: var(--color-accent);
   background: var(--color-white);
+}
+
+.apply-field input:focus-visible,
+.apply-field textarea:focus-visible,
+.apply-field select:focus-visible {
+  outline: 3px solid var(--color-accent);
+  outline-offset: 2px;
 }
 
 .apply-field textarea {

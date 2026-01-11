@@ -71,7 +71,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <main>
+      <main id="main-content">
         {/* Hero Section - V2 */}
         <section className="page-hero page-hero--home">
           <div className="container page-hero__grid">

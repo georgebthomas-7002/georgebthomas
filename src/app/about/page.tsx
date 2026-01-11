@@ -154,7 +154,7 @@ export default function AboutPage() {
   return (
     <>
       <Header />
-      <main>
+      <main id="main-content">
         {/* Hero Section - Tighter */}
         <section className="page-hero page-hero--compact">
           <div className="container page-hero__grid">
