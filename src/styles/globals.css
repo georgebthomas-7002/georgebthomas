@@ -3371,6 +3371,92 @@ a:hover {
 }
 
 /* ===========================================
+   LOGO SLIDER - Infinite Scroll Animation
+   =========================================== */
+.logo-slider {
+  overflow: hidden;
+  margin: var(--space-2xl) 0;
+  padding: var(--space-lg) 0;
+}
+
+.logo-slider__track {
+  display: flex;
+  animation: logo-scroll 30s linear infinite;
+  width: max-content;
+}
+
+.logo-slider__logos {
+  display: flex;
+  gap: var(--space-3xl);
+  align-items: center;
+  padding: 0 var(--space-xl);
+}
+
+.logo-slider__logo {
+  height: 60px;
+  width: auto;
+  object-fit: contain;
+  filter: grayscale(100%);
+  opacity: 0.7;
+  transition: all var(--duration-normal) var(--ease-out);
+}
+
+.logo-slider__logo:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+@keyframes logo-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Pause animation on hover */
+.logo-slider:hover .logo-slider__track {
+  animation-play-state: paused;
+}
+
+@media (max-width: 768px) {
+  .logo-slider__logos {
+    gap: var(--space-xl);
+  }
+
+  .logo-slider__logo {
+    height: 45px;
+  }
+
+  .logo-slider__track {
+    animation-duration: 20s;
+  }
+}
+
+/* ===========================================
+   LIGHT CTA SECTION
+   =========================================== */
+.cta-section-light {
+  background: var(--color-warm);
+}
+
+.cta-block--light {
+  background: var(--color-white);
+  padding: var(--space-3xl);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-lg);
+}
+
+.cta-block--light .cta-block__title {
+  color: var(--color-primary);
+}
+
+.cta-block--light .cta-block__description {
+  color: var(--color-text);
+}
+
+/* ===========================================
    SPEAKING PAGE - HERO WITH VIDEO
    =========================================== */
 .page-hero--speaking-video {
@@ -4044,6 +4130,37 @@ a:hover {
   width: 24px;
   height: 24px;
   color: var(--color-white);
+}
+
+.video-slider__more {
+  text-align: center;
+  margin-top: var(--space-lg);
+}
+
+.video-slider__more-link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+  color: var(--color-accent);
+  font-family: var(--font-sans);
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  text-decoration: none;
+  padding: var(--space-sm) var(--space-md);
+  border: 2px solid var(--color-accent);
+  border-radius: var(--radius-md);
+  transition: all var(--duration-fast) var(--ease-out);
+}
+
+.video-slider__more-link:hover {
+  background: var(--color-accent);
+  color: var(--color-white);
+}
+
+.video-slider__more-link svg {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
 }
 
 @media (max-width: 768px) {

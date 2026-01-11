@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { AnimatedSection, StaggerContainer } from '@/components/AnimatedSection'
@@ -52,6 +53,30 @@ const speakingVideos: VideoItem[] = [
     title: 'Speaking Highlight',
     description: 'Inspiring audiences to take meaningful action.'
   },
+  {
+    id: 'vid-8',
+    youtubeId: 'uGcSR7KXx_g',
+    title: 'Speaking Highlight',
+    description: 'Dynamic keynote delivering real-world strategies.'
+  },
+  {
+    id: 'vid-9',
+    youtubeId: '_17lFCVs_gs',
+    title: 'Speaking Highlight',
+    description: 'Empowering audiences with practical insights.'
+  },
+  {
+    id: 'vid-10',
+    youtubeId: '0aWnDURia7w',
+    title: 'Speaking Highlight',
+    description: 'Connecting with audiences through authentic storytelling.'
+  },
+  {
+    id: 'vid-11',
+    youtubeId: 'khxXyA8tdn0',
+    title: 'Speaking Highlight',
+    description: 'Inspiring transformation through powerful presentations.'
+  },
 ]
 
 type Topic = 'hubspot' | 'video' | 'podcasting' | 'ai' | 'transformation' | 'marketing'
@@ -95,7 +120,7 @@ const keynotes: Keynote[] = [
     id: 'hs-2',
     topic: 'hubspot',
     title: 'From Zero to HubSpot Hero: The Implementation Playbook',
-    description: 'You\'ll discover the exact framework for successful HubSpot implementations that actually stick—built from 12+ years and 42+ certifications of hands-on experience.',
+    description: 'You\'ll discover the exact framework for successful HubSpot implementations that actually stick, built from 12+ years and 42+ certifications of hands-on experience.',
     whatYouLearn: [
       'The 90-day implementation roadmap',
       'Common pitfalls that derail 80% of implementations',
@@ -134,7 +159,7 @@ const keynotes: Keynote[] = [
     id: 'hs-5',
     topic: 'hubspot',
     title: 'The Inbound Evolution: What\'s Next for HubSpot',
-    description: 'You\'ll get insider perspectives—from every INBOUND since 2015—on where HubSpot\'s heading and how to prepare your organization for what\'s next.',
+    description: 'You\'ll get insider perspectives from every INBOUND since 2015 on where HubSpot\'s heading and how to prepare your organization for what\'s next.',
     whatYouLearn: [
       'Emerging HubSpot features to watch',
       'AI integration opportunities',
@@ -162,7 +187,7 @@ const keynotes: Keynote[] = [
     id: 'vid-1',
     topic: 'video',
     title: 'Embrace the Messy: Authentic Video That Converts',
-    description: 'You\'ll learn why authentic, imperfect video outperforms polished productions—and how to create videos that genuinely connect with your audience.',
+    description: 'You\'ll learn why authentic, imperfect video outperforms polished productions and how to create videos that genuinely connect with your audience.',
     whatYouLearn: [
       'Why authenticity beats production value',
       'The 80/20 rule of video creation',
@@ -175,7 +200,7 @@ const keynotes: Keynote[] = [
     id: 'vid-2',
     topic: 'video',
     title: 'Video Strategy That Scales: From 1 to 1000 Videos',
-    description: 'You\'ll learn the systems and strategies behind creating thousands of videos. This isn\'t about working harder—it\'s about building a sustainable video machine for your team.',
+    description: 'You\'ll learn the systems and strategies behind creating thousands of videos. This isn\'t about working harder. It\'s about building a sustainable video machine for your team.',
     whatYouLearn: [
       'Content batching frameworks',
       'Repurposing strategies for maximum ROI',
@@ -242,7 +267,7 @@ const keynotes: Keynote[] = [
     id: 'pod-1',
     topic: 'podcasting',
     title: 'Podcast Launch Blueprint: From Idea to First 10 Episodes',
-    description: 'You\'ll get the exact blueprint for launching a podcast that builds audience and authority from day one—built from 400+ episodes across multiple shows.',
+    description: 'You\'ll get the exact blueprint for launching a podcast that builds audience and authority from day one, built from 400+ episodes across multiple shows.',
     whatYouLearn: [
       'Defining your podcast\'s unique position',
       'Technical setup and equipment essentials',
@@ -255,7 +280,7 @@ const keynotes: Keynote[] = [
     id: 'pod-2',
     topic: 'podcasting',
     title: 'Podcast Growth Secrets: Building an Engaged Audience',
-    description: 'Launching is easy, but growing is hard. You\'ll learn audience-building strategies that have reached hundreds of thousands of listeners—and can work for you too.',
+    description: 'Launching is easy, but growing is hard. You\'ll learn audience-building strategies that have reached hundreds of thousands of listeners and can work for you too.',
     whatYouLearn: [
       'Organic growth tactics that work',
       'Cross-promotion strategies',
@@ -294,7 +319,7 @@ const keynotes: Keynote[] = [
     id: 'pod-5',
     topic: 'podcasting',
     title: 'Longevity in Podcasting: Sustaining Creativity Over Years',
-    description: 'You\'ll discover how to avoid burnout, maintain creativity, and build a sustainable podcasting practice that endures—drawing from 13+ years of experience.',
+    description: 'You\'ll discover how to avoid burnout, maintain creativity, and build a sustainable podcasting practice that endures, drawing from 13+ years of experience.',
     whatYouLearn: [
       'Avoiding podcast burnout',
       'Refreshing your format and approach',
@@ -335,7 +360,7 @@ const keynotes: Keynote[] = [
     id: 'ai-2',
     topic: 'ai',
     title: 'Cloning Human Expertise: The Future of Knowledge Transfer',
-    description: 'You\'ll explore how your organization can capture and scale its best expertise using AI—with insights from real-world experience creating an AI clone.',
+    description: 'You\'ll explore how your organization can capture and scale its best expertise using AI, with insights from real-world experience creating an AI clone.',
     whatYouLearn: [
       'The concept of expertise cloning',
       'Training AI on human knowledge',
@@ -402,7 +427,7 @@ const keynotes: Keynote[] = [
     id: 'trans-1',
     topic: 'transformation',
     title: 'The Superhuman Framework: Unleashing Your Best Self',
-    description: 'You\'ll discover the signature methodology for personal and professional transformation—how to operate at your highest level and achieve what others think is impossible.',
+    description: 'You\'ll discover the signature methodology for personal and professional transformation: how to operate at your highest level and achieve what others think is impossible.',
     whatYouLearn: [
       'The four pillars: Love, Purpose, Passion, Persistence',
       'Identifying and overcoming limiting beliefs',
@@ -417,7 +442,7 @@ const keynotes: Keynote[] = [
     id: 'trans-2',
     topic: 'transformation',
     title: 'From Dropout to Thought Leader: The Power of Belief',
-    description: 'You\'ll hear a powerful story of transformation—from high school dropout to industry expert—and walk away with lessons on how belief and persistence can reshape your future.',
+    description: 'You\'ll hear a powerful story of transformation, from high school dropout to industry expert, and walk away with lessons on how belief and persistence can reshape your future.',
     whatYouLearn: [
       'How to rewrite your personal narrative',
       'Turning setbacks into setup for success',
@@ -484,7 +509,7 @@ const keynotes: Keynote[] = [
     id: 'mkt-1',
     topic: 'marketing',
     title: 'The Inbound Revolution: Why Traditional Marketing is Dying',
-    description: 'You\'ll discover why inbound isn\'t just a methodology—it\'s a fundamental shift in how you connect with and serve customers. Drawing from 30+ years in marketing.',
+    description: 'You\'ll discover why inbound isn\'t just a methodology. It\'s a fundamental shift in how you connect with and serve customers. Drawing from 30+ years in marketing.',
     whatYouLearn: [
       'The evolution of marketing effectiveness',
       'Inbound principles that endure',
@@ -497,7 +522,7 @@ const keynotes: Keynote[] = [
     id: 'mkt-2',
     topic: 'marketing',
     title: 'Content That Converts: From Awareness to Advocacy',
-    description: 'You\'ll learn content strategies that actually drive business results, not just vanity metrics—proven through 16+ million words of real-world content creation.',
+    description: 'You\'ll learn content strategies that actually drive business results, not just vanity metrics, proven through 16+ million words of real-world content creation.',
     whatYouLearn: [
       'Content mapping to the buyer journey',
       'Creating content that answers real questions',
@@ -630,7 +655,7 @@ export default function SpeakingPage() {
                 <p className="page-hero__description">
                   From INBOUND to Social Media Marketing World, you&apos;ll get keynotes that inspire action,
                   challenge perspectives, and create lasting change. Every talk blends deep expertise
-                  with genuine human connection—so your audience leaves transformed.
+                  with genuine human connection so your audience leaves transformed.
                 </p>
                 <div className="page-hero__stats">
                   <div className="page-hero__stat">
@@ -671,7 +696,7 @@ export default function SpeakingPage() {
               </h2>
               <p className="serve-intro__text">
                 Every audience is unique, but one thing&apos;s constant: whether it&apos;s your stage,
-                workshop, or podcast—your people will leave with real-world insights and actionable
+                workshop, or podcast, your people will leave with real-world insights and actionable
                 strategies they can use immediately. That&apos;s what matters most: empowering
                 your audience to flourish personally and professionally.
               </p>
@@ -789,6 +814,7 @@ export default function SpeakingPage() {
           videos={speakingVideos}
           title="See More Speaking Highlights"
           subtitle="More Examples"
+          playlistUrl="https://www.youtube.com/playlist?list=PL4f8rK4T6x4GQyiAnICgPdKfMbOs61Gyq"
         />
 
         {/* Topic Navigation Section */}
@@ -945,8 +971,120 @@ export default function SpeakingPage() {
           <div className="container">
             <AnimatedSection className="section-header" animation="fade-in">
               <span className="section-header__subtitle">Speaking Experience</span>
-              <h2 className="section-header__title">Trusted By Leading Events</h2>
+              <h2 className="section-header__title">Trusted By Leading<br />Events Worldwide</h2>
+              <p className="section-header__description">
+                From intimate workshops to stages with thousands, delivering transformative experiences that inspire action.
+              </p>
             </AnimatedSection>
+
+            {/* Logo Slider */}
+            <div className="logo-slider">
+              <div className="logo-slider__track">
+                <div className="logo-slider__logos">
+                  <Image
+                    src="https://www.georgebthomas.com/hs-fs/hubfs/WEBSITE/Website%20Images/INBOUND%20Event%20Logo%20-%20Speaking.png"
+                    alt="INBOUND"
+                    width={180}
+                    height={80}
+                    className="logo-slider__logo"
+                  />
+                  <Image
+                    src="https://www.georgebthomas.com/hs-fs/hubfs/WEBSITE/Website%20Images/social-media-marketing-world-logo-Speaking.png"
+                    alt="Social Media Marketing World"
+                    width={180}
+                    height={80}
+                    className="logo-slider__logo"
+                  />
+                  <Image
+                    src="https://www.georgebthomas.com/hs-fs/hubfs/WEBSITE/Website%20Images/Speaking%20-%20Logo%20-%20Content%20Marketing%20World.png"
+                    alt="Content Marketing World"
+                    width={180}
+                    height={80}
+                    className="logo-slider__logo"
+                  />
+                  <Image
+                    src="https://www.georgebthomas.com/hs-fs/hubfs/WEBSITE/Website%20Images/vidsummit_8th_black-logo-speaking.png"
+                    alt="VidSummit"
+                    width={180}
+                    height={80}
+                    className="logo-slider__logo"
+                  />
+                  <Image
+                    src="https://www.georgebthomas.com/hs-fs/hubfs/WEBSITE/Website%20Images/PM-Grow-Summit-Logo-Speaking.png"
+                    alt="PM Grow Summit"
+                    width={180}
+                    height={80}
+                    className="logo-slider__logo"
+                  />
+                  <Image
+                    src="https://www.georgebthomas.com/hs-fs/hubfs/WEBSITE/Website%20Images/Speaking-Logo-b2b_2color_horiz.png"
+                    alt="B2B Marketing"
+                    width={180}
+                    height={80}
+                    className="logo-slider__logo"
+                  />
+                  <Image
+                    src="https://www.georgebthomas.com/hs-fs/hubfs/WEBSITE/Website%20Images/Leads-Con-Logo-Speaking.png"
+                    alt="LeadsCon"
+                    width={180}
+                    height={80}
+                    className="logo-slider__logo"
+                  />
+                </div>
+                {/* Duplicate for seamless loop */}
+                <div className="logo-slider__logos" aria-hidden="true">
+                  <Image
+                    src="https://www.georgebthomas.com/hs-fs/hubfs/WEBSITE/Website%20Images/INBOUND%20Event%20Logo%20-%20Speaking.png"
+                    alt="INBOUND"
+                    width={180}
+                    height={80}
+                    className="logo-slider__logo"
+                  />
+                  <Image
+                    src="https://www.georgebthomas.com/hs-fs/hubfs/WEBSITE/Website%20Images/social-media-marketing-world-logo-Speaking.png"
+                    alt="Social Media Marketing World"
+                    width={180}
+                    height={80}
+                    className="logo-slider__logo"
+                  />
+                  <Image
+                    src="https://www.georgebthomas.com/hs-fs/hubfs/WEBSITE/Website%20Images/Speaking%20-%20Logo%20-%20Content%20Marketing%20World.png"
+                    alt="Content Marketing World"
+                    width={180}
+                    height={80}
+                    className="logo-slider__logo"
+                  />
+                  <Image
+                    src="https://www.georgebthomas.com/hs-fs/hubfs/WEBSITE/Website%20Images/vidsummit_8th_black-logo-speaking.png"
+                    alt="VidSummit"
+                    width={180}
+                    height={80}
+                    className="logo-slider__logo"
+                  />
+                  <Image
+                    src="https://www.georgebthomas.com/hs-fs/hubfs/WEBSITE/Website%20Images/PM-Grow-Summit-Logo-Speaking.png"
+                    alt="PM Grow Summit"
+                    width={180}
+                    height={80}
+                    className="logo-slider__logo"
+                  />
+                  <Image
+                    src="https://www.georgebthomas.com/hs-fs/hubfs/WEBSITE/Website%20Images/Speaking-Logo-b2b_2color_horiz.png"
+                    alt="B2B Marketing"
+                    width={180}
+                    height={80}
+                    className="logo-slider__logo"
+                  />
+                  <Image
+                    src="https://www.georgebthomas.com/hs-fs/hubfs/WEBSITE/Website%20Images/Leads-Con-Logo-Speaking.png"
+                    alt="LeadsCon"
+                    width={180}
+                    height={80}
+                    className="logo-slider__logo"
+                  />
+                </div>
+              </div>
+            </div>
 
             <StaggerContainer className="experience-grid">
               <div className="experience-card">
@@ -970,19 +1108,19 @@ export default function SpeakingPage() {
         </section>
 
         {/* CTA Section */}
-        <section className="section section--dark">
+        <section className="section cta-section-light">
           <div className="container">
-            <AnimatedSection className="cta-block" animation="fade-in">
+            <AnimatedSection className="cta-block cta-block--light" animation="fade-in">
               <h2 className="cta-block__title">Give Your Audience an Experience They Won&apos;t Forget</h2>
               <p className="cta-block__description">
-                Whether it&apos;s a keynote, workshop, or emcee role—let&apos;s create
+                Whether it&apos;s a keynote, workshop, or emcee role, let&apos;s create
                 something transformative together. Your audience deserves it.
               </p>
               <div className="cta-block__buttons">
                 <Link href="/coaching" className="btn btn--primary btn--large">
                   Ignite Your Event
                 </Link>
-                <Link href="/expertise" className="btn btn--outline-light btn--large">
+                <Link href="/expertise" className="btn btn--outline btn--large">
                   See What&apos;s Possible
                 </Link>
               </div>

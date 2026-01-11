@@ -17,13 +17,16 @@ interface VideoSliderProps {
   subtitle?: string
   /** Use the creative VideoShowcase styling for the main video */
   useShowcaseStyle?: boolean
+  /** URL to the full playlist for "Watch Even More" link */
+  playlistUrl?: string
 }
 
 export function VideoSlider({
   videos,
   title = "See More Speaking Highlights",
   subtitle = "More Examples",
-  useShowcaseStyle = true
+  useShowcaseStyle = true,
+  playlistUrl
 }: VideoSliderProps) {
   const [currentIndex, setCurrentIndex] = useState(0)
   const [isAnimating, setIsAnimating] = useState(false)
@@ -187,6 +190,25 @@ export function VideoSlider({
                   </div>
                 </button>
               ))}
+            </div>
+          )}
+
+          {/* Watch Even More Link */}
+          {playlistUrl && (
+            <div className="video-slider__more">
+              <a
+                href={playlistUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="video-slider__more-link"
+              >
+                Watch Even More
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                  <polyline points="15 3 21 3 21 9"/>
+                  <line x1="10" y1="14" x2="21" y2="3"/>
+                </svg>
+              </a>
             </div>
           )}
         </div>
