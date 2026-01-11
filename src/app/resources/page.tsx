@@ -293,7 +293,7 @@ export default function ResourcesPage() {
             <h1 className="resources-hero__title">Resource Center</h1>
             <p className="resources-hero__count">{data.totalResources}+ RESOURCES AND GROWING DAILY.</p>
             <p className="resources-hero__subtitle">
-              Fuel for your transformation into a superhuman <RotatingText words={ROTATING_ROLES} />.
+              Fuel For Your Transformation Into A Superhuman <RotatingText words={ROTATING_ROLES} />.
             </p>
           </div>
         </section>
