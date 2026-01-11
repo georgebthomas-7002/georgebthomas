@@ -73,6 +73,33 @@ export default function RootLayout({
           strategy="afterInteractive"
         />
 
+        {/* Google Analytics (GA4) */}
+        {process.env.NEXT_PUBLIC_GA4_MEASUREMENT_ID && (
+          <>
+            <Script
+              src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA4_MEASUREMENT_ID}`}
+              strategy="afterInteractive"
+            />
+            <Script id="google-analytics" strategy="afterInteractive">
+              {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', '${process.env.NEXT_PUBLIC_GA4_MEASUREMENT_ID}');
+              `}
+            </Script>
+          </>
+        )}
+
+        {/* HubSpot Tracking */}
+        {process.env.NEXT_PUBLIC_HUBSPOT_PORTAL_ID && (
+          <Script
+            id="hubspot-tracking"
+            src={`//js.hs-scripts.com/${process.env.NEXT_PUBLIC_HUBSPOT_PORTAL_ID}.js`}
+            strategy="afterInteractive"
+          />
+        )}
+
         {/* Custom Delphi Chat Label */}
         <div className="delphi-chat-wrapper">
           <span className="delphi-chat-label">Talk with AI GBT</span>
