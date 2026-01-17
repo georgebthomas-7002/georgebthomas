@@ -174,13 +174,6 @@ const questionsRight = [
   "What advice would you give someone who feels stuck between playing it safe and pursuing their true calling?",
 ]
 
-// Superhuman Framework
-const cornerstones = ['Love', 'Purpose', 'Passion', 'Persistence']
-const pillars = [
-  'Honesty', 'Humility', 'Humor', 'Habits', 'Helpfulness',
-  'Hustle', 'Health', 'Hope', 'Humanity', 'HIS Way',
-]
-
 // Contact Info
 const contactInfo = {
   email: 'george@georgebthomas.com',
@@ -348,13 +341,13 @@ export default function GuestPage() {
         </section>
 
         {/* Superhuman Framework */}
-        <section className="section">
+        <section className="section section--warm">
           <div className="container">
             <AnimatedSection className="section-header" animation="fade-in">
               <span className="section-header__subtitle">The Framework</span>
               <h2 className="section-header__title">The Superhuman Framework</h2>
               <p className="section-header__description">
-                A practical system built on 4 Cornerstones and 10 Pillars for high-performance living.
+                Two paths to becoming exactly who you were meant to become.
               </p>
             </AnimatedSection>
 
@@ -363,49 +356,64 @@ export default function GuestPage() {
                 <div className="feature-card__header">
                   <div className="feature-card__icon">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                      <path d="M12 2L2 7l10 5 10-5-10-5z"/>
-                      <path d="M2 17l10 5 10-5"/>
-                      <path d="M2 12l10 5 10-5"/>
+                      <path d="M12 20V10"/>
+                      <path d="M18 20V4"/>
+                      <path d="M6 20v-4"/>
                     </svg>
                   </div>
                   <div>
-                    <h3 className="feature-card__title">4 Cornerstones</h3>
-                    <span className="feature-card__badge">Foundation</span>
+                    <h3 className="feature-card__title">For HR, Marketing & Sales</h3>
+                    <span className="feature-card__badge">Business Growth</span>
                   </div>
                 </div>
+                <span className="feature-card__tagline">&ldquo;Stop Drifting. Start Designing.&rdquo;</span>
                 <p className="feature-card__description">
-                  The foundational elements that support everything else in your journey to flourish.
+                  Help your teams move from reactive to intentional. Design strategies that drive growth, build alignment, and create lasting impact across your organization.
                 </p>
-                <div className="framework-preview__cornerstones">
-                  {cornerstones.map((cornerstone) => (
-                    <span key={cornerstone} className="cornerstone">{cornerstone}</span>
-                  ))}
-                </div>
+                <a
+                  href="https://superhumanframework.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="feature-card__cta"
+                >
+                  Explore the Framework
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                    <polyline points="15 3 21 3 21 9"/>
+                    <line x1="10" y1="14" x2="21" y2="3"/>
+                  </svg>
+                </a>
               </div>
 
               <div className="feature-card">
                 <div className="feature-card__header">
                   <div className="feature-card__icon">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                      <circle cx="12" cy="12" r="10"/>
-                      <path d="M8 14s1.5 2 4 2 4-2 4-2"/>
-                      <line x1="9" y1="9" x2="9.01" y2="9"/>
-                      <line x1="15" y1="9" x2="15.01" y2="9"/>
+                      <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
                     </svg>
                   </div>
                   <div>
-                    <h3 className="feature-card__title">10 Pillars of H</h3>
-                    <span className="feature-card__badge">Daily Practice</span>
+                    <h3 className="feature-card__title">For Faith-Driven Leaders</h3>
+                    <span className="feature-card__badge">Spiritual Leadership</span>
                   </div>
                 </div>
+                <span className="feature-card__tagline">&ldquo;From Surviving to Flourishing.&rdquo;</span>
                 <p className="feature-card__description">
-                  The daily practices and principles that help you build a life of purpose and impact.
+                  Integrate your faith with your business leadership. Lead from peace instead of pressure, built on 4 Cornerstones and 10 Pillars of purposeful living.
                 </p>
-                <ul className="feature-card__list">
-                  {pillars.map((pillar) => (
-                    <li key={pillar}>{pillar}</li>
-                  ))}
-                </ul>
+                <a
+                  href="https://www.spiritualsideofleadership.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="feature-card__cta"
+                >
+                  Start Your Journey
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                    <polyline points="15 3 21 3 21 9"/>
+                    <line x1="10" y1="14" x2="21" y2="3"/>
+                  </svg>
+                </a>
               </div>
             </StaggerContainer>
           </div>

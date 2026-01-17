@@ -490,6 +490,43 @@ a:hover {
   color: var(--color-primary);
 }
 
+.feature-card__tagline {
+  display: block;
+  font-family: var(--font-family-heading);
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-primary-dark);
+  margin-bottom: var(--space-sm);
+  font-style: italic;
+}
+
+.feature-card__cta {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  margin-top: var(--space-lg);
+  background: var(--color-accent);
+  color: var(--color-white);
+  padding: var(--space-sm) var(--space-lg);
+  border-radius: var(--radius-full);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-sm);
+  text-decoration: none;
+  transition: all var(--duration-fast) var(--ease-out);
+}
+
+.feature-card__cta:hover {
+  background: var(--color-primary);
+  color: var(--color-white);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.feature-card__cta svg {
+  width: 16px;
+  height: 16px;
+}
+
 /* ===========================================
    REUSABLE COMPONENT: INFO CARD
    Use for competencies, credentials, simple info blocks
@@ -3545,7 +3582,7 @@ a:hover {
    LIGHT CTA SECTION
    =========================================== */
 .cta-section-light {
-  background: var(--color-warm);
+  background: var(--color-white);
 }
 
 .cta-block--light {
