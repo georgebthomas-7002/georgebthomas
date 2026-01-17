@@ -76,6 +76,15 @@ const topics = [
 const podcastEpisodes: PodcastEpisode[] = [
   {
     id: '1',
+    showName: 'Mick Unplugged',
+    episodeTitle: 'Digital Marketing Mastery',
+    description: 'A deep dive into digital marketing strategies, personal branding, and the mindset shifts needed to thrive in today\'s digital landscape.',
+    platform: 'apple',
+    listenUrl: 'https://podcasts.apple.com/us/podcast/bonus-episode-5-george-b-thomas-digital-marketing-mastery/id1731755953?i=1000653332527',
+    image: '/images/mick-unplugged.jpg',
+  },
+  {
+    id: '2',
     showName: 'AI Explored',
     episodeTitle: 'Interactive AI Clones: Creating Unique Human Experiences',
     description: 'Exploring how AI creates personalized experiences while maintaining authentic human connection.',
@@ -84,7 +93,7 @@ const podcastEpisodes: PodcastEpisode[] = [
     image: '/images/Ai_Explored_400.jpg',
   },
   {
-    id: '2',
+    id: '3',
     showName: 'Engage Video Marketing',
     episodeTitle: 'How to Use Personalised Video to Grow Your Business',
     description: 'Practical strategies for leveraging personalized video content to build deeper connections and drive growth.',
@@ -93,7 +102,7 @@ const podcastEpisodes: PodcastEpisode[] = [
     image: '/images/engage-video-marketing.webp',
   },
   {
-    id: '3',
+    id: '4',
     showName: 'Sprockets and Gears',
     episodeTitle: 'Digital Transformation and Human Connections',
     description: 'How businesses can embrace digital transformation without losing the human element that makes them special.',
@@ -102,7 +111,7 @@ const podcastEpisodes: PodcastEpisode[] = [
     image: '/images/sprockets-and-gears.webp',
   },
   {
-    id: '4',
+    id: '5',
     showName: 'Absolute Advantage',
     episodeTitle: 'Promoting Videos to Enhance Inbound Marketing',
     description: 'Maximizing video content reach and impact within your inbound marketing strategy.',
@@ -111,7 +120,7 @@ const podcastEpisodes: PodcastEpisode[] = [
     image: '/images/absolute-advantage.png',
   },
   {
-    id: '5',
+    id: '6',
     showName: 'Bella in Your Business',
     episodeTitle: 'Branding & Content Marketing With George Thomas',
     description: 'Practical strategies for building brand identity through video content and thinking of yourself as a media company first.',
@@ -120,7 +129,7 @@ const podcastEpisodes: PodcastEpisode[] = [
     image: '/images/bella-in-your-business.webp',
   },
   {
-    id: '6',
+    id: '7',
     showName: "Let's Talk About Brand",
     episodeTitle: 'Tapping Your Potential with George B. Thomas',
     description: 'Building and evolving a personal brand, recognizing that perceived weaknesses can become strengths, and pursuing opportunities aligned with core values.',
@@ -129,7 +138,7 @@ const podcastEpisodes: PodcastEpisode[] = [
     image: '/images/lets-talk-about-brand.webp',
   },
   {
-    id: '7',
+    id: '8',
     showName: 'The AI Hat Podcast',
     episodeTitle: 'AI Digital Clone: How to Augment Your Team\'s Expertise',
     description: 'How AI can amplify human expertise rather than replace it, featuring the creation of an AI Digital Clone trained on 16 million words of content.',
