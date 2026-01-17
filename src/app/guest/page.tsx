@@ -69,10 +69,18 @@ const topics = [
   },
 ]
 
-// Suggested Questions
-const questions = [
+// Suggested Questions - Two columns of 5
+const questionsLeft = [
   "A teacher told you at 17 you'd never amount to anything. How did that moment shape who you are today?",
+  "On a mission trip to Montana, someone asked you, 'When are you gonna realize you're the blessing?' How did that question change your entire approach to life and service?",
+  "You showed up to an interview in a blue windbreaker with no portfolio and said 'I can learn it.' What made you so confident, and how has that mindset served you since?",
+  "You've said joining Marcus Sheridan at The Sales Lion felt like 'winning the marketing lottery.' What did you learn from him that still shapes how you work today?",
   "What is the Superhuman Framework, and how can listeners apply it to their own lives and businesses?",
+]
+
+const questionsRight = [
+  "The Superhuman Framework has 10 Pillars of H. Which pillar do you personally struggle with most, and why is that important for listeners to hear?",
+  "Your agency runs on what you call 'the FEAM,' where family always comes first. How do you actually make that work when clients have urgent needs?",
   "You've conducted over 400 podcast interviews. What's the one question you wish more hosts would ask their guests?",
   "How do you balance being a marketing expert with your deeper calling to help people flourish spiritually?",
   "What advice would you give someone who feels stuck between playing it safe and pursuing their true calling?",
@@ -222,21 +230,33 @@ export default function GuestPage() {
 
         {/* Suggested Questions */}
         <section className="section section--warm">
-          <div className="container container--narrow">
+          <div className="container">
             <AnimatedSection className="section-header" animation="fade-in">
               <span className="section-header__subtitle">Ready to Use</span>
               <h2 className="section-header__title">Suggested Questions</h2>
             </AnimatedSection>
 
-            <AnimatedSection animation="fade-in">
-              <ol className="question-list">
-                {questions.map((question, index) => (
-                  <li key={index} className="question-list__item">
-                    <p className="question-list__text">{question}</p>
-                  </li>
-                ))}
-              </ol>
-            </AnimatedSection>
+            <div className="question-columns">
+              <AnimatedSection animation="fade-in" className="question-column">
+                <ol className="question-list" start={1}>
+                  {questionsLeft.map((question, index) => (
+                    <li key={index} className="question-list__item">
+                      <p className="question-list__text">{question}</p>
+                    </li>
+                  ))}
+                </ol>
+              </AnimatedSection>
+
+              <AnimatedSection animation="fade-in" className="question-column">
+                <ol className="question-list" start={6}>
+                  {questionsRight.map((question, index) => (
+                    <li key={index} className="question-list__item">
+                      <p className="question-list__text">{question}</p>
+                    </li>
+                  ))}
+                </ol>
+              </AnimatedSection>
+            </div>
           </div>
         </section>
 

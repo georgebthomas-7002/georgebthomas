@@ -9197,13 +9197,28 @@ select {
   margin-bottom: 0;
 }
 
+/* Question Columns Layout */
+.question-columns {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-xl);
+}
+
+.question-column {
+  display: flex;
+  flex-direction: column;
+}
+
 /* Question List */
 .question-list {
   list-style: none;
   padding: 0;
   margin: 0;
-  counter-reset: question-counter;
+  counter-reset: question-counter calc(var(--list-start, 1) - 1);
 }
+
+.question-list[start="1"] { --list-start: 1; }
+.question-list[start="6"] { --list-start: 6; }
 
 .question-list__item {
   counter-increment: question-counter;
@@ -9294,6 +9309,14 @@ select {
 
 .guest-contact-item a:hover {
   color: var(--color-primary);
+}
+
+/* Guest Page Tablet Adjustments */
+@media (max-width: 900px) {
+  .question-columns {
+    grid-template-columns: 1fr;
+    gap: var(--space-md);
+  }
 }
 
 /* Guest Page Mobile Adjustments */
