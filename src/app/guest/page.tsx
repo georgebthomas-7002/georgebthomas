@@ -20,32 +20,52 @@ From high school dropout to INBOUND speaker, George's journey resonates with aud
 
 Whether discussing marketing automation, leadership transformation, or the intersection of faith and business, George brings energy, vulnerability, and actionable insights that leave lasting impressions on audiences.`
 
-// Interview Topics
+// Interview Topics - 9 ideas for podcast hosts
 const topics = [
   {
     id: 1,
     title: 'The Superhuman Framework',
-    description: '4 Cornerstones and 10 Pillars for high-performance leadership, business, and life. A practical system for becoming the best version of yourself.',
+    description: '4 Cornerstones and 10 Pillars for high-performance leadership, business, and life. A practical system for becoming who you were meant to be.',
   },
   {
     id: 2,
-    title: 'Human-First Marketing',
-    description: 'Why the future of marketing is about genuine connection, not automation. Building trust in a world of AI and algorithms.',
+    title: 'Human-Powered, AI-Assisted',
+    description: 'Using AI to amplify your potential without losing your soul. Staying authentically human in an increasingly automated world.',
   },
   {
     id: 3,
     title: 'From Dropout to Difference-Maker',
-    description: 'How a teacher\'s harsh words became the fuel for transformation. Turning pain into purpose and setbacks into setups.',
+    description: 'How a teacher\'s harsh words became fuel for transformation. Turning pain into purpose and setbacks into setups.',
   },
   {
     id: 4,
+    title: 'The Future of Marketing with AI',
+    description: 'Practical AI applications that actually work today. Cutting through the hype to find tools that serve real connection.',
+  },
+  {
+    id: 5,
     title: 'Faith, Work & Integration',
     description: 'Leading with purpose without sacrificing your soul. The spiritual side of leadership and building businesses that matter.',
   },
   {
-    id: 5,
-    title: 'HubSpot Mastery & Digital Transformation',
-    description: 'Practical insights from 12+ years in the HubSpot ecosystem. Making technology serve human connection.',
+    id: 6,
+    title: 'Human-First Marketing',
+    description: 'Why genuine connection beats automation every time. Building trust in a world obsessed with algorithms and shortcuts.',
+  },
+  {
+    id: 7,
+    title: 'HubSpot Mastery & RevOps',
+    description: 'Practical insights from 12+ years and 42+ certifications. Making technology serve human connection, not replace it.',
+  },
+  {
+    id: 8,
+    title: 'Video & Podcasting Strategy',
+    description: 'Building audiences through authentic content. Why messy and real beats polished and fake every single time.',
+  },
+  {
+    id: 9,
+    title: 'Leadership Transformation',
+    description: 'Helping teams and individuals break through their defaults. Creating cultures where people actually flourish.',
   },
 ]
 
