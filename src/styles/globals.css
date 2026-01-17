@@ -3600,6 +3600,77 @@ a:hover {
   color: var(--color-text);
 }
 
+/* CTA Block with Personality - avatar, response badge, button hierarchy */
+.cta-block--personality {
+  padding-top: var(--space-2xl);
+}
+
+.cta-block__avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 20%;
+  margin: 0 auto var(--space-lg);
+  border: 3px solid var(--color-accent);
+  box-shadow: 0 4px 15px rgba(224, 122, 95, 0.2);
+  display: block;
+}
+
+.cta-block__response-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+  background: var(--color-warm);
+  padding: var(--space-xs) var(--space-md);
+  border-radius: var(--radius-full);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-light);
+  margin-bottom: var(--space-xl);
+}
+
+.cta-block__response-badge svg {
+  color: var(--color-accent);
+  flex-shrink: 0;
+}
+
+.cta-block__buttons--hierarchy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-lg);
+}
+
+.cta-block__secondary-buttons {
+  display: flex;
+  gap: var(--space-md);
+}
+
+/* Extra large button for primary CTA */
+.btn--xl {
+  padding: var(--space-md) var(--space-2xl);
+  font-size: var(--font-size-lg);
+}
+
+/* Subtle button style for secondary actions */
+.btn--subtle {
+  background: transparent;
+  color: var(--color-text-light);
+  border: 1px solid var(--color-warm-dark);
+  padding: var(--space-sm) var(--space-lg);
+  font-size: var(--font-size-sm);
+}
+
+.btn--subtle:hover {
+  background: var(--color-warm);
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.btn--subtle svg {
+  flex-shrink: 0;
+}
+
 /* ===========================================
    SPEAKING PAGE - HERO WITH VIDEO
    =========================================== */
@@ -9954,5 +10025,39 @@ select {
 
   .topic-card__number {
     font-size: var(--font-size-2xl);
+  }
+
+  /* CTA Personality Block Mobile */
+  .cta-block--personality {
+    padding: var(--space-xl);
+    padding-top: var(--space-xl);
+  }
+
+  .cta-block__avatar {
+    width: 64px;
+    height: 64px;
+    margin-bottom: var(--space-md);
+  }
+
+  .cta-block__response-badge {
+    font-size: var(--font-size-xs);
+    padding: var(--space-xs) var(--space-sm);
+    margin-bottom: var(--space-lg);
+  }
+
+  .cta-block__secondary-buttons {
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .btn--xl {
+    width: 100%;
+    padding: var(--space-md) var(--space-xl);
+  }
+
+  .btn--subtle {
+    padding: var(--space-sm) var(--space-md);
+    font-size: var(--font-size-sm);
   }
 }
