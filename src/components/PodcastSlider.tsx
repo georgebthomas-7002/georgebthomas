@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useCallback, useRef, TouchEvent } from 'react'
+import Image from 'next/image'
 
 export interface PodcastEpisode {
   id: string
@@ -9,6 +10,7 @@ export interface PodcastEpisode {
   description: string
   platform: 'spotify' | 'apple' | 'youtube' | 'web'
   listenUrl: string
+  image?: string
 }
 
 interface PodcastSliderProps {
@@ -123,35 +125,48 @@ export function PodcastSlider({ episodes }: PodcastSliderProps) {
       <div className="podcast-slider__container">
         {/* Main Card */}
         <div
-          className={`podcast-slider__card ${isAnimating ? 'podcast-slider__card--animating' : ''}`}
+          className={`podcast-slider__card ${currentEpisode.image ? 'podcast-slider__card--with-image' : ''} ${isAnimating ? 'podcast-slider__card--animating' : ''}`}
           aria-live="polite"
         >
-          <div
-            className="podcast-slider__platform-icon"
-            style={{ '--platform-color': platform.color } as React.CSSProperties}
-          >
-            {platform.icon}
+          {currentEpisode.image && (
+            <div className="podcast-slider__image-wrapper">
+              <Image
+                src={currentEpisode.image}
+                alt={currentEpisode.showName}
+                width={400}
+                height={400}
+                className="podcast-slider__image"
+              />
+            </div>
+          )}
+          <div className="podcast-slider__card-content">
+            <div
+              className="podcast-slider__platform-icon"
+              style={{ '--platform-color': platform.color } as React.CSSProperties}
+            >
+              {platform.icon}
+            </div>
+
+            <span className="podcast-slider__show-name">{currentEpisode.showName}</span>
+
+            <h3 className="podcast-slider__episode-title">{currentEpisode.episodeTitle}</h3>
+
+            <p className="podcast-slider__description">{currentEpisode.description}</p>
+
+            <a
+              href={currentEpisode.listenUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="podcast-slider__listen-btn"
+            >
+              Listen Now
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                <polyline points="15 3 21 3 21 9"/>
+                <line x1="10" y1="14" x2="21" y2="3"/>
+              </svg>
+            </a>
           </div>
-
-          <span className="podcast-slider__show-name">{currentEpisode.showName}</span>
-
-          <h3 className="podcast-slider__episode-title">{currentEpisode.episodeTitle}</h3>
-
-          <p className="podcast-slider__description">{currentEpisode.description}</p>
-
-          <a
-            href={currentEpisode.listenUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="podcast-slider__listen-btn"
-          >
-            Listen Now
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
-              <polyline points="15 3 21 3 21 9"/>
-              <line x1="10" y1="14" x2="21" y2="3"/>
-            </svg>
-          </a>
         </div>
 
         {/* Thumbnail Cards - between main card and nav */}

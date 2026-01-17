@@ -79,8 +79,9 @@ const podcastEpisodes: PodcastEpisode[] = [
     showName: 'AI Explored',
     episodeTitle: 'Interactive AI Clones: Creating Unique Human Experiences',
     description: 'Exploring how AI creates personalized experiences while maintaining authentic human connection.',
-    platform: 'apple',
-    listenUrl: 'https://podcasts.apple.com/us/podcast/interactive-ai-clones-creating-unique-human-experiences/id1527684daf?i=1000679421698',
+    platform: 'web',
+    listenUrl: 'https://www.socialmediaexaminer.com/interactive-ai-clones-creating-unique-human-experiences/',
+    image: '/images/Ai_Explored_400.jpg',
   },
   {
     id: '2',
