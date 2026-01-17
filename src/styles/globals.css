@@ -2261,6 +2261,13 @@ a:hover {
   flex-shrink: 0;
 }
 
+/* Standalone button in page-hero content - ensure block display and left-justify */
+.page-hero__content > .btn {
+  display: block;
+  width: fit-content;
+  margin-top: var(--space-lg);
+}
+
 /* Hero Credentials Strip - extends hero visual */
 .hero-credentials-strip {
   background: var(--color-white);
@@ -8983,6 +8990,11 @@ select {
     width: 100%;
     text-align: center;
     order: 1;
+  }
+
+  .page-hero__content > .btn {
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .page-hero__tagline {
