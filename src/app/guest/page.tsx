@@ -117,6 +117,7 @@ const podcastEpisodes: PodcastEpisode[] = [
     description: 'Practical strategies for building brand identity through video content and thinking of yourself as a media company first.',
     platform: 'web',
     listenUrl: 'https://jumpconsulting.net/podcasts/episode-38-branding-content-marketing-george-thomas/',
+    image: '/images/bella-in-your-business.webp',
   },
   {
     id: '6',
@@ -125,6 +126,7 @@ const podcastEpisodes: PodcastEpisode[] = [
     description: 'Building and evolving a personal brand, recognizing that perceived weaknesses can become strengths, and pursuing opportunities aligned with core values.',
     platform: 'apple',
     listenUrl: 'https://podcasts.apple.com/us/podcast/lets-talk-about-tapping-your-potential-with-george-b-thomas/id1646994524?i=1000634583581',
+    image: '/images/lets-talk-about-brand.webp',
   },
   {
     id: '7',
