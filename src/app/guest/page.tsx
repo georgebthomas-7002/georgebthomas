@@ -442,19 +442,19 @@ export default function GuestPage() {
               </p>
               <div className="cta-block__buttons cta-block__buttons--trio">
                 <Link href="/book" className="btn btn--primary btn--large">
-                  Book
+                  Book George
                 </Link>
                 <a
                   href={`mailto:${contactInfo.email}?subject=Podcast%20Guest%20Request`}
                   className="btn btn--secondary btn--large"
                 >
-                  Email
+                  Email George
                 </a>
                 <a
                   href={`tel:${contactInfo.phone}`}
                   className="btn btn--secondary btn--large"
                 >
-                  Call
+                  Call George
                 </a>
               </div>
             </AnimatedSection>
