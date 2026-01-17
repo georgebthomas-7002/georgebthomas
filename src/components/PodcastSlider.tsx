@@ -195,6 +195,29 @@ export function PodcastSlider({ episodes }: PodcastSliderProps) {
           <span className="podcast-slider__counter-total">{episodes.length}</span>
         </div>
       </div>
+
+      {/* Thumbnail Cards */}
+      <div className="podcast-slider__thumbnails">
+        {episodes.map((episode, index) => {
+          const episodePlatform = platformConfig[episode.platform]
+          return (
+            <button
+              key={episode.id}
+              className={`podcast-slider__thumbnail ${index === currentIndex ? 'podcast-slider__thumbnail--active' : ''}`}
+              onClick={() => goToSlide(index)}
+              aria-label={`Go to ${episode.showName}`}
+            >
+              <div
+                className="podcast-slider__thumbnail-icon"
+                style={{ '--platform-color': episodePlatform.color } as React.CSSProperties}
+              >
+                {episodePlatform.icon}
+              </div>
+              <span className="podcast-slider__thumbnail-name">{episode.showName}</span>
+            </button>
+          )
+        })}
+      </div>
     </div>
   )
 }
