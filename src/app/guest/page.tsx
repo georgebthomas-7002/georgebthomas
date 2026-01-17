@@ -95,13 +95,6 @@ const credentials = [
   { value: '30+', label: 'Years Experience' },
 ]
 
-// Featured Testimonial
-const testimonial = {
-  quote: "George doesn't just answer questions. He tells stories that make you feel something. Our audience engagement spiked 40% on his episode. Book him.",
-  name: "Podcast Host",
-  role: "Marketing Podcast Network",
-}
-
 // Superhuman Framework
 const cornerstones = ['Love', 'Purpose', 'Passion', 'Persistence']
 const pillars = [
@@ -243,20 +236,6 @@ export default function GuestPage() {
                 </div>
               ))}
             </StaggerContainer>
-          </div>
-        </section>
-
-        {/* Featured Testimonial */}
-        <section className="section section--dark">
-          <div className="container">
-            <AnimatedSection className="testimonial-featured" animation="fade-in">
-              <div className="testimonial-featured__quote-mark">"</div>
-              <p className="testimonial-featured__quote">{testimonial.quote}</p>
-              <div className="testimonial-featured__attribution">
-                <span className="testimonial-featured__name">{testimonial.name}</span>
-                <span className="testimonial-featured__role">{testimonial.role}</span>
-              </div>
-            </AnimatedSection>
           </div>
         </section>
 
