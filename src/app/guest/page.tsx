@@ -1,5 +1,6 @@
 'use client'
 
+import Link from 'next/link'
 import Image from 'next/image'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
@@ -111,8 +112,7 @@ const pillars = [
 // Contact Info
 const contactInfo = {
   email: 'george@georgebthomas.com',
-  phone: '(717) 620-5, zero, nine, two',
-  calendarUrl: 'https://meetings.hubspot.com/george51',
+  phone: '330-232-6117',
 }
 
 export default function GuestPage() {
@@ -332,29 +332,21 @@ export default function GuestPage() {
               <p className="cta-block__description">
                 Get in touch to schedule a pre-interview call or book George directly for your podcast.
               </p>
-              <div className="guest-contact-info">
-                <p className="guest-contact-item">
-                  <strong>Email:</strong>{' '}
-                  <a href={`mailto:${contactInfo.email}`}>{contactInfo.email}</a>
-                </p>
-                <p className="guest-contact-item">
-                  <strong>Phone:</strong> {contactInfo.phone}
-                </p>
-              </div>
-              <div className="cta-block__buttons">
-                <a
-                  href={contactInfo.calendarUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn btn--primary btn--large"
-                >
-                  Schedule a Call
-                </a>
+              <div className="cta-block__buttons cta-block__buttons--trio">
+                <Link href="/book" className="btn btn--primary btn--large">
+                  Book
+                </Link>
                 <a
                   href={`mailto:${contactInfo.email}?subject=Podcast%20Guest%20Request`}
                   className="btn btn--secondary btn--large"
                 >
-                  Send Email
+                  Email
+                </a>
+                <a
+                  href={`tel:${contactInfo.phone}`}
+                  className="btn btn--secondary btn--large"
+                >
+                  Call
                 </a>
               </div>
             </AnimatedSection>
