@@ -9102,23 +9102,88 @@ select {
    GUEST PAGE STYLES
    ======================================== */
 
-/* Bio Section */
+/* Guest Bio Wrapper with Decorative Elements */
+.guest-bio-wrapper {
+  position: relative;
+  padding: var(--space-xl);
+}
+
+.guest-bio-wrapper__frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 3px solid var(--color-accent);
+  border-radius: var(--radius-2xl);
+  transform: rotate(-1deg) translate(-8px, -8px);
+  transition: transform var(--duration-normal) var(--ease-spring);
+  pointer-events: none;
+}
+
+.guest-bio-wrapper__accent {
+  position: absolute;
+  border-radius: 50%;
+  transition: transform var(--duration-normal) var(--ease-spring),
+              opacity var(--duration-normal) var(--ease-out);
+  pointer-events: none;
+}
+
+.guest-bio-wrapper__accent--1 {
+  width: 80px;
+  height: 80px;
+  background: var(--gradient-accent);
+  top: -20px;
+  right: -20px;
+  opacity: 0.8;
+  animation: gentle-float 6s ease-in-out infinite;
+}
+
+.guest-bio-wrapper__accent--2 {
+  width: 50px;
+  height: 50px;
+  background: var(--color-primary);
+  bottom: -15px;
+  left: -15px;
+  opacity: 0.6;
+  animation: gentle-float 6s ease-in-out infinite 3s;
+}
+
+@keyframes gentle-float {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(5deg);
+  }
+}
+
+.guest-bio-wrapper:hover .guest-bio-wrapper__frame {
+  transform: rotate(1deg) translate(-12px, -12px);
+}
+
+.guest-bio-wrapper:hover .guest-bio-wrapper__accent--1 {
+  transform: scale(1.1) rotate(10deg);
+}
+
+.guest-bio-wrapper:hover .guest-bio-wrapper__accent--2 {
+  transform: scale(1.15) rotate(-10deg);
+}
+
 .guest-bio {
   background: var(--color-white);
   border-radius: var(--radius-xl);
   padding: var(--space-2xl);
   box-shadow: var(--shadow-md);
   position: relative;
+  z-index: 1;
+  transition: transform var(--duration-normal) var(--ease-spring),
+              box-shadow var(--duration-normal) var(--ease-out);
 }
 
-.guest-bio__label {
-  position: absolute;
-  top: var(--space-md);
-  right: var(--space-md);
-  font-size: var(--font-size-xs);
-  color: var(--color-text-muted);
-  text-transform: uppercase;
-  letter-spacing: var(--letter-spacing-wide);
+.guest-bio-wrapper:hover .guest-bio {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
 }
 
 .guest-bio__text {
@@ -9233,14 +9298,26 @@ select {
 
 /* Guest Page Mobile Adjustments */
 @media (max-width: 600px) {
-  .guest-bio {
-    padding: var(--space-xl);
+  .guest-bio-wrapper {
+    padding: var(--space-md);
   }
 
-  .guest-bio__label {
-    position: static;
-    display: block;
-    margin-bottom: var(--space-md);
+  .guest-bio-wrapper__accent--1 {
+    width: 50px;
+    height: 50px;
+    top: -10px;
+    right: -5px;
+  }
+
+  .guest-bio-wrapper__accent--2 {
+    width: 35px;
+    height: 35px;
+    bottom: -8px;
+    left: -5px;
+  }
+
+  .guest-bio {
+    padding: var(--space-xl);
   }
 
   .question-list__item {

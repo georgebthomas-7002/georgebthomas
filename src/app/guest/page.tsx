@@ -164,13 +164,17 @@ export default function GuestPage() {
         <section className="section section--warm">
           <div className="container container--narrow">
             <AnimatedSection animation="fade-in">
-              <div className="guest-bio">
-                <span className="guest-bio__label">Read-Aloud Bio</span>
-                {bio.split('\n\n').map((paragraph, index) => (
-                  <p key={index} className="guest-bio__text">
-                    {paragraph}
-                  </p>
-                ))}
+              <div className="guest-bio-wrapper">
+                <div className="guest-bio-wrapper__frame" aria-hidden="true"></div>
+                <div className="guest-bio-wrapper__accent guest-bio-wrapper__accent--1" aria-hidden="true"></div>
+                <div className="guest-bio-wrapper__accent guest-bio-wrapper__accent--2" aria-hidden="true"></div>
+                <div className="guest-bio">
+                  {bio.split('\n\n').map((paragraph, index) => (
+                    <p key={index} className="guest-bio__text">
+                      {paragraph}
+                    </p>
+                  ))}
+                </div>
               </div>
             </AnimatedSection>
           </div>
