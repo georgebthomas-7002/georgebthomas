@@ -107,7 +107,8 @@ const podcastEpisodes: PodcastEpisode[] = [
     episodeTitle: 'Promoting Videos to Enhance Inbound Marketing',
     description: 'Maximizing video content reach and impact within your inbound marketing strategy.',
     platform: 'web',
-    listenUrl: 'https://kellyhidalgomedia.com/podcast/promoting-videos-to-enhance-inbound-marketing-with-george-b-thomas/',
+    listenUrl: 'https://absoluteadvantagepodcast.com/podcasts/george-thomas/',
+    image: '/images/absolute-advantage.png',
   },
   {
     id: '5',
