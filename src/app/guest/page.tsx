@@ -11,7 +11,7 @@ import { PodcastSlider, PodcastEpisode } from '@/components/PodcastSlider'
 const heroData = {
   tagline: 'Podcast Guest',
   name: 'GEORGE B. THOMAS',
-  title: 'Speaker, Coach, HubSpot Expert, Agency Owner & Superhuman Framework Creator',
+  title: 'Speaker, Coach, HubSpot Expert, Agency Owner and Superhuman Framework Creator',
   funFact: 'Powered by Tacos & Faith',
   badges: ['30+ Years Experience', '400+ Podcast Episodes', '42+ HubSpot Certifications', '100+ Stages', 'Dropout to INBOUND Speaker'],
 }
@@ -211,20 +211,14 @@ export default function GuestPage() {
                 {heroData.title}
               </p>
               <p className="page-hero__fun-fact">
+                <svg className="page-hero__fun-fact-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M2 19c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2c0-1.1-.3-2.1-.8-3H2.8c-.5.9-.8 1.9-.8 3zm19.2-6c-.4-2.2-1.6-4.1-3.4-5.4c.8-.9 1.2-2 1.2-3.1c0-1.3-.5-2.5-1.5-3.5c-.3-.3-.7-.3-1 0s-.3.7 0 1c.7.7 1 1.5 1 2.5c0 .9-.4 1.8-1 2.5c-.7-.3-1.5-.5-2.3-.7c.1-.6.3-1.2.3-1.8c0-1.3-.5-2.5-1.5-3.5c-.3-.3-.7-.3-1 0s-.3.7 0 1c.7.7 1 1.5 1 2.5c0 .5-.1 1-.2 1.5c-.6 0-1.2-.1-1.8-.1s-1.2 0-1.8.1c-.1-.5-.2-1-.2-1.5c0-1 .4-1.8 1-2.5c.3-.3.3-.7 0-1s-.7-.3-1 0c-1 1-1.5 2.2-1.5 3.5c0 .6.2 1.2.3 1.8c-.8.2-1.6.4-2.3.7c-.7-.7-1-1.6-1-2.5c0-1 .4-1.8 1-2.5c.3-.3.3-.7 0-1s-.7-.3-1 0C2.5 2 2 3.2 2 4.5c0 1.1.5 2.2 1.2 3.1c-1.8 1.3-3 3.2-3.4 5.4h19.4z"/>
+                </svg>
                 {heroData.funFact}
               </p>
               <a href="#contact" className="btn btn--primary btn--large">
                 Start a Conversation
               </a>
-              <div className="pill-cluster pill-cluster--row">
-                <div className="pill-cluster__items">
-                  {heroData.badges.map((badge) => (
-                    <div key={badge} className="pill pill--small">
-                      <span className="pill__label">{badge}</span>
-                    </div>
-                  ))}
-                </div>
-              </div>
             </AnimatedSection>
 
             <AnimatedSection className="page-hero__image-wrapper" animation="slide-right">
@@ -243,6 +237,19 @@ export default function GuestPage() {
             </AnimatedSection>
           </div>
           <div className="page-hero__shape" aria-hidden="true"></div>
+        </section>
+
+        {/* Hero Credentials Strip */}
+        <section className="hero-credentials-strip">
+          <div className="container">
+            <div className="hero-credentials-strip__items">
+              {heroData.badges.map((badge) => (
+                <div key={badge} className="hero-credentials-strip__item">
+                  <span className="hero-credentials-strip__label">{badge}</span>
+                </div>
+              ))}
+            </div>
+          </div>
         </section>
 
         {/* Bio Section */}

@@ -2245,11 +2245,74 @@ a:hover {
 }
 
 .page-hero__fun-fact {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
   font-size: var(--font-size-lg);
   color: var(--color-accent);
   font-weight: var(--font-weight-semibold);
   font-style: italic;
   margin-bottom: var(--space-xl);
+}
+
+.page-hero__fun-fact-icon {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+/* Hero Credentials Strip - extends hero visual */
+.hero-credentials-strip {
+  background: var(--color-white);
+  padding: var(--space-xl) 0 var(--space-2xl);
+  margin-top: -1px; /* Seamless connection to hero */
+}
+
+.hero-credentials-strip__items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-md);
+}
+
+.hero-credentials-strip__item {
+  flex: 1;
+  text-align: center;
+  padding: var(--space-md) var(--space-sm);
+  background: var(--color-warm-light);
+  border-radius: var(--radius-lg);
+  transition: transform var(--duration-normal) var(--ease-spring),
+              box-shadow var(--duration-normal) var(--ease-out);
+}
+
+.hero-credentials-strip__item:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.hero-credentials-strip__label {
+  font-family: var(--font-family-heading);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-primary-dark);
+  white-space: nowrap;
+}
+
+@media (max-width: 900px) {
+  .hero-credentials-strip__items {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hero-credentials-strip__item {
+    flex: 0 1 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-credentials-strip__label {
+    font-size: var(--font-size-xs);
+  }
 }
 
 /* Page Hero Grid Layout */
