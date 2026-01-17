@@ -25,47 +25,47 @@ Whether discussing marketing automation, leadership transformation, or the inter
 const topics = [
   {
     id: 1,
-    title: 'The Superhuman Framework',
-    description: '4 Cornerstones and 10 Pillars for high-performance leadership, business, and life. A practical system for becoming who you were meant to be.',
+    title: 'What If You Could Become Superhuman?',
+    description: '4 Cornerstones and 10 Pillars for high-performance leadership, business, and life. A practical system for becoming exactly who you were meant to be.',
   },
   {
     id: 2,
-    title: 'Human-Powered, AI-Assisted',
+    title: 'Can AI Amplify You Without Replacing You?',
     description: 'Using AI to amplify your potential without losing your soul. Staying authentically human in an increasingly automated world.',
   },
   {
     id: 3,
-    title: 'From Dropout to Difference-Maker',
-    description: 'How a teacher\'s harsh words became fuel for transformation. Turning pain into purpose and setbacks into setups.',
+    title: 'What Happens When Pain Becomes Purpose?',
+    description: 'How a teacher\'s harsh words became fuel for transformation. Turning pain into purpose and setbacks into powerful setups.',
   },
   {
     id: 4,
-    title: 'The Future of Marketing with AI',
+    title: 'Is AI the Future of Marketing—Or Its Downfall?',
     description: 'Practical AI applications that actually work today. Cutting through the hype to find tools that serve real connection.',
   },
   {
     id: 5,
-    title: 'Faith, Work & Integration',
-    description: 'Leading with purpose without sacrificing your soul. The spiritual side of leadership and building businesses that matter.',
+    title: 'Can Faith and Business Actually Coexist?',
+    description: 'Leading with purpose without sacrificing your soul. The spiritual side of leadership and building businesses that genuinely matter.',
   },
   {
     id: 6,
-    title: 'Human-First Marketing',
+    title: 'Why Does Human Connection Still Win?',
     description: 'Why genuine connection beats automation every time. Building trust in a world obsessed with algorithms and shortcuts.',
   },
   {
     id: 7,
-    title: 'HubSpot Mastery & RevOps',
-    description: 'Practical insights from 12+ years and 42+ certifications. Making technology serve human connection, not replace it.',
+    title: 'What Does True HubSpot Mastery Look Like?',
+    description: 'Practical insights from 12+ years and 42+ certifications. Making technology serve human connection, not replace it entirely.',
   },
   {
     id: 8,
-    title: 'Video & Podcasting Strategy',
+    title: 'Why Does Messy Content Outperform Polished?',
     description: 'Building audiences through authentic content. Why messy and real beats polished and fake every single time.',
   },
   {
     id: 9,
-    title: 'Leadership Transformation',
+    title: 'What If Your Team\'s Ceiling Is Your Own?',
     description: 'Helping teams and individuals break through their defaults. Creating cultures where people actually flourish.',
   },
 ]
