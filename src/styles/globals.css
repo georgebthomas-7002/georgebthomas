@@ -279,6 +279,25 @@ a:hover {
   color: var(--color-white);
 }
 
+.pill-cluster--row {
+  margin-top: var(--space-xl);
+}
+
+.pill-cluster--row .pill-cluster__items {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: var(--space-xs);
+}
+
+.pill--small {
+  padding: var(--space-xs) var(--space-sm);
+  box-shadow: var(--shadow-sm);
+}
+
+.pill--small .pill__label {
+  font-size: var(--font-size-xs);
+}
+
 @media (max-width: 900px) {
   .pill-cluster__items--nowrap {
     flex-wrap: wrap;
@@ -286,6 +305,10 @@ a:hover {
 
   .pill-cluster__headline-text {
     font-size: var(--font-size-xl);
+  }
+
+  .pill-cluster--row .pill-cluster__items {
+    justify-content: center;
   }
 }
 
@@ -2218,7 +2241,15 @@ a:hover {
   font-size: var(--font-size-xl);
   color: var(--color-text-light);
   line-height: var(--line-height-relaxed);
-  margin-bottom: var(--space-2xl);
+  margin-bottom: var(--space-md);
+}
+
+.page-hero__fun-fact {
+  font-size: var(--font-size-lg);
+  color: var(--color-accent);
+  font-weight: var(--font-weight-semibold);
+  font-style: italic;
+  margin-bottom: var(--space-xl);
 }
 
 /* Page Hero Grid Layout */

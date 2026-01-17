@@ -11,8 +11,9 @@ import { PodcastSlider, PodcastEpisode } from '@/components/PodcastSlider'
 const heroData = {
   tagline: 'Podcast Guest',
   name: 'GEORGE B. THOMAS',
-  title: 'Speaker, Coach & Superhuman Framework Creator',
-  badges: ['30+ Years Experience', '400+ Podcast Episodes', '42+ HubSpot Certifications'],
+  title: 'Speaker, Coach, HubSpot Expert, Agency Owner & Superhuman Framework Creator',
+  funFact: 'Powered by Tacos & Faith',
+  badges: ['30+ Years Experience', '400+ Podcast Episodes', '42+ HubSpot Certifications', '100+ Stages', 'Dropout to INBOUND Speaker'],
 }
 
 // Bio - Third-person for hosts to read verbatim
@@ -209,10 +210,16 @@ export default function GuestPage() {
               <p className="page-hero__description">
                 {heroData.title}
               </p>
-              <div className="pill-cluster">
+              <p className="page-hero__fun-fact">
+                {heroData.funFact}
+              </p>
+              <a href="#contact" className="btn btn--primary btn--large">
+                Start a Conversation
+              </a>
+              <div className="pill-cluster pill-cluster--row">
                 <div className="pill-cluster__items">
                   {heroData.badges.map((badge) => (
-                    <div key={badge} className="pill">
+                    <div key={badge} className="pill pill--small">
                       <span className="pill__label">{badge}</span>
                     </div>
                   ))}
@@ -401,7 +408,7 @@ export default function GuestPage() {
         </section>
 
         {/* Contact CTA */}
-        <section className="section cta-section-light">
+        <section id="contact" className="section cta-section-light">
           <div className="container container--narrow">
             <AnimatedSection className="cta-block cta-block--light" animation="fade-in">
               <h2 className="cta-block__title">Ready to Book George?</h2>
