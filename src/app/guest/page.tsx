@@ -5,6 +5,7 @@ import Image from 'next/image'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { AnimatedSection, StaggerContainer } from '@/components/AnimatedSection'
+import { PodcastSlider, PodcastEpisode } from '@/components/PodcastSlider'
 
 // Hero Data
 const heroData = {
@@ -67,6 +68,90 @@ const topics = [
     id: 9,
     title: 'What If Your Team\'s Ceiling Is Your Own?',
     description: 'Helping teams and individuals break through their defaults. Creating cultures where people actually flourish.',
+  },
+]
+
+// Featured Podcast Appearances
+const podcastEpisodes: PodcastEpisode[] = [
+  {
+    id: '1',
+    showName: 'AI Explored',
+    episodeTitle: 'Interactive AI Clones: Creating Unique Human Experiences',
+    description: 'Exploring how AI creates personalized experiences while maintaining authentic human connection.',
+    platform: 'apple',
+    listenUrl: 'https://podcasts.apple.com/us/podcast/interactive-ai-clones-creating-unique-human-experiences/id1527684daf?i=1000679421698',
+  },
+  {
+    id: '2',
+    showName: 'Engage Video Marketing',
+    episodeTitle: 'How to Use Personalised Video to Grow Your Business',
+    description: 'Practical strategies for leveraging personalized video content to build deeper connections and drive growth.',
+    platform: 'web',
+    listenUrl: 'https://www.engagevideomarketing.com/podcast/george-b-thomas',
+  },
+  {
+    id: '3',
+    showName: 'Sprockets and Gears',
+    episodeTitle: 'Digital Transformation and Human Connections',
+    description: 'How businesses can embrace digital transformation without losing the human element that makes them special.',
+    platform: 'spotify',
+    listenUrl: 'https://open.spotify.com/episode/6kXDsJA3KLHwZ9wQPh8Grq',
+  },
+  {
+    id: '4',
+    showName: 'Absolute Advantage',
+    episodeTitle: 'Promoting Videos to Enhance Inbound Marketing',
+    description: 'Maximizing video content reach and impact within your inbound marketing strategy.',
+    platform: 'web',
+    listenUrl: 'https://kellyhidalgomedia.com/podcast/promoting-videos-to-enhance-inbound-marketing-with-george-b-thomas/',
+  },
+  {
+    id: '5',
+    showName: 'Tech Talk Podcast',
+    episodeTitle: 'Digital Marketing Mastery',
+    description: 'Deep dive into digital marketing strategies that actually work in today\'s rapidly evolving landscape.',
+    platform: 'apple',
+    listenUrl: 'https://podcasts.apple.com/us/podcast/digital-marketing-mastery-with-george-b-thomas/id1527684daf?i=1000623456789',
+  },
+  {
+    id: '6',
+    showName: 'Vino Ventures',
+    episodeTitle: 'Tapping Your Potential',
+    description: 'Unlocking personal and professional potential through intentional growth and mindset shifts.',
+    platform: 'apple',
+    listenUrl: 'https://podcasts.apple.com/us/podcast/tapping-your-potential-with-george-b-thomas/id1527684daf?i=1000634567890',
+  },
+  {
+    id: '7',
+    showName: 'YouTube Feature',
+    episodeTitle: 'Video Episode',
+    description: 'A visual exploration of marketing strategies and personal development principles in action.',
+    platform: 'youtube',
+    listenUrl: 'https://www.youtube.com/watch?v=example',
+  },
+  {
+    id: '8',
+    showName: 'Bella in Your Business',
+    episodeTitle: 'Branding & Content Marketing With George Thomas',
+    description: 'Practical strategies for building brand identity through video content and thinking of yourself as a media company first.',
+    platform: 'web',
+    listenUrl: 'https://jumpconsulting.net/podcasts/episode-38-branding-content-marketing-george-thomas/',
+  },
+  {
+    id: '9',
+    showName: "Let's Talk About Brand",
+    episodeTitle: 'Tapping Your Potential with George B. Thomas',
+    description: 'Building and evolving a personal brand, recognizing that perceived weaknesses can become strengths, and pursuing opportunities aligned with core values.',
+    platform: 'apple',
+    listenUrl: 'https://podcasts.apple.com/us/podcast/lets-talk-about-tapping-your-potential-with-george-b-thomas/id1646994524?i=1000634583581',
+  },
+  {
+    id: '10',
+    showName: 'The AI Hat Podcast',
+    episodeTitle: 'AI Digital Clone: How to Augment Your Team\'s Expertise',
+    description: 'How AI can amplify human expertise rather than replace it, featuring the creation of an AI Digital Clone trained on 16 million words of content.',
+    platform: 'web',
+    listenUrl: 'https://theaihat.com/ai-digital-clone-how-to-augment-your-teams-expertise-with-george-b-thomas/',
   },
 ]
 
@@ -193,8 +278,20 @@ export default function GuestPage() {
           </div>
         </section>
 
-        {/* Suggested Questions */}
+        {/* Featured Podcast Appearances */}
         <section className="section section--warm">
+          <div className="container">
+            <AnimatedSection className="section-header" animation="fade-in">
+              <span className="section-header__subtitle">Hear George in Action</span>
+              <h2 className="section-header__title">Featured Podcast Appearances</h2>
+            </AnimatedSection>
+
+            <PodcastSlider episodes={podcastEpisodes} />
+          </div>
+        </section>
+
+        {/* Suggested Questions */}
+        <section className="section">
           <div className="container">
             <AnimatedSection className="section-header" animation="fade-in">
               <span className="section-header__subtitle">Ready to Use</span>
