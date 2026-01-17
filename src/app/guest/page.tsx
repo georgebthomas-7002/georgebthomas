@@ -108,30 +108,6 @@ const podcastEpisodes: PodcastEpisode[] = [
   },
   {
     id: '5',
-    showName: 'Tech Talk Podcast',
-    episodeTitle: 'Digital Marketing Mastery',
-    description: 'Deep dive into digital marketing strategies that actually work in today\'s rapidly evolving landscape.',
-    platform: 'apple',
-    listenUrl: 'https://podcasts.apple.com/us/podcast/digital-marketing-mastery-with-george-b-thomas/id1527684daf?i=1000623456789',
-  },
-  {
-    id: '6',
-    showName: 'Vino Ventures',
-    episodeTitle: 'Tapping Your Potential',
-    description: 'Unlocking personal and professional potential through intentional growth and mindset shifts.',
-    platform: 'apple',
-    listenUrl: 'https://podcasts.apple.com/us/podcast/tapping-your-potential-with-george-b-thomas/id1527684daf?i=1000634567890',
-  },
-  {
-    id: '7',
-    showName: 'YouTube Feature',
-    episodeTitle: 'Video Episode',
-    description: 'A visual exploration of marketing strategies and personal development principles in action.',
-    platform: 'youtube',
-    listenUrl: 'https://www.youtube.com/watch?v=example',
-  },
-  {
-    id: '8',
     showName: 'Bella in Your Business',
     episodeTitle: 'Branding & Content Marketing With George Thomas',
     description: 'Practical strategies for building brand identity through video content and thinking of yourself as a media company first.',
@@ -139,7 +115,7 @@ const podcastEpisodes: PodcastEpisode[] = [
     listenUrl: 'https://jumpconsulting.net/podcasts/episode-38-branding-content-marketing-george-thomas/',
   },
   {
-    id: '9',
+    id: '6',
     showName: "Let's Talk About Brand",
     episodeTitle: 'Tapping Your Potential with George B. Thomas',
     description: 'Building and evolving a personal brand, recognizing that perceived weaknesses can become strengths, and pursuing opportunities aligned with core values.',
@@ -147,7 +123,7 @@ const podcastEpisodes: PodcastEpisode[] = [
     listenUrl: 'https://podcasts.apple.com/us/podcast/lets-talk-about-tapping-your-potential-with-george-b-thomas/id1646994524?i=1000634583581',
   },
   {
-    id: '10',
+    id: '7',
     showName: 'The AI Hat Podcast',
     episodeTitle: 'AI Digital Clone: How to Augment Your Team\'s Expertise',
     description: 'How AI can amplify human expertise rather than replace it, featuring the creation of an AI Digital Clone trained on 16 million words of content.',
@@ -171,14 +147,6 @@ const questionsRight = [
   "You've conducted over 400 podcast interviews. What's the one question you wish more hosts would ask their guests?",
   "How do you balance being a marketing expert with your deeper calling to help people flourish spiritually?",
   "What advice would you give someone who feels stuck between playing it safe and pursuing their true calling?",
-]
-
-// Credentials Strip
-const credentials = [
-  { value: '42+', label: 'HubSpot Certifications' },
-  { value: '100+', label: 'Stages' },
-  { value: '400+', label: 'Podcast Episodes' },
-  { value: '30+', label: 'Years Experience' },
 ]
 
 // Superhuman Framework
@@ -351,20 +319,6 @@ export default function GuestPage() {
                 </ol>
               </AnimatedSection>
             </div>
-          </div>
-        </section>
-
-        {/* Credentials Strip */}
-        <section className="section section--tight">
-          <div className="container">
-            <StaggerContainer className="stats-row">
-              {credentials.map((stat) => (
-                <div key={stat.label} className="stat-item">
-                  <span className="stat-item__value">{stat.value}</span>
-                  <span className="stat-item__label">{stat.label}</span>
-                </div>
-              ))}
-            </StaggerContainer>
           </div>
         </section>
 
