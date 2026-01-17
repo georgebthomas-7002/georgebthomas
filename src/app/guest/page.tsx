@@ -167,7 +167,7 @@ const questionsLeft = [
 ]
 
 const questionsRight = [
-  "The Superhuman Framework has 10 Pillars of H. Which pillar do you personally struggle with most, and why is that important for listeners to hear?",
+  "The Superhuman Framework has 10 H Pillars. Which pillar do you personally struggle with most, and why is that important for listeners to hear?",
   "Your agency runs on what you call 'the FEAM,' where family always comes first. How do you actually make that work when clients have urgent needs?",
   "You've conducted over 400 podcast interviews. What's the one question you wish more hosts would ask their guests?",
   "How do you balance being a marketing expert with your deeper calling to help people flourish spiritually?",
