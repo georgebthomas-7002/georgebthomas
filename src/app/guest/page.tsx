@@ -108,34 +108,6 @@ const pillars = [
   'Hustle', 'Health', 'Hope', 'Humanity', 'HIS Way',
 ]
 
-// Podcasts George Hosts
-const podcasts = [
-  {
-    title: 'HubHeroes',
-    description: 'Weekly conversations about HubSpot, inbound marketing, and building businesses that put humans first. Real talk with real practitioners.',
-    url: 'https://www.hubheroes.com/',
-    icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M12 2L2 7l10 5 10-5-10-5z"/>
-        <path d="M2 17l10 5 10-5"/>
-        <path d="M2 12l10 5 10-5"/>
-      </svg>
-    ),
-  },
-  {
-    title: 'Beyond Your Default',
-    description: 'Deep dives into personal growth, leadership transformation, and becoming the person you were meant to be. Stories of struggle and success.',
-    url: 'https://www.beyondyourdefault.com/',
-    icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-        <circle cx="12" cy="12" r="10"/>
-        <path d="M12 16l4-4-4-4"/>
-        <path d="M8 12h8"/>
-      </svg>
-    ),
-  },
-]
-
 // Contact Info
 const contactInfo = {
   email: 'george@georgebthomas.com',
@@ -348,48 +320,6 @@ export default function GuestPage() {
                   ))}
                 </ul>
               </div>
-            </StaggerContainer>
-          </div>
-        </section>
-
-        {/* Podcasts George Hosts */}
-        <section className="section section--warm">
-          <div className="container">
-            <AnimatedSection className="section-header" animation="fade-in">
-              <span className="section-header__subtitle">Behind the Mic</span>
-              <h2 className="section-header__title">Podcasts George Hosts</h2>
-            </AnimatedSection>
-
-            <StaggerContainer className="feature-grid">
-              {podcasts.map((podcast) => (
-                <a
-                  key={podcast.title}
-                  href={podcast.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="feature-card"
-                  style={{ textDecoration: 'none' }}
-                >
-                  <div className="feature-card__header">
-                    <div className="feature-card__icon">
-                      {podcast.icon}
-                    </div>
-                    <div>
-                      <h3 className="feature-card__title">{podcast.title}</h3>
-                    </div>
-                  </div>
-                  <p className="feature-card__description">{podcast.description}</p>
-                  <div className="feature-card__links">
-                    <span className="feature-card__link">
-                      Listen Now
-                      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                        <path d="M5 12h14"/>
-                        <path d="m12 5 7 7-7 7"/>
-                      </svg>
-                    </span>
-                  </div>
-                </a>
-              ))}
             </StaggerContainer>
           </div>
         </section>
