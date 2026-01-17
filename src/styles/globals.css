@@ -9496,6 +9496,113 @@ select {
   margin-bottom: 0;
 }
 
+/* Guest Bio Circular Image */
+.guest-bio-image {
+  position: absolute;
+  bottom: -30px;
+  right: -30px;
+  width: 140px;
+  height: 140px;
+  z-index: 10;
+}
+
+.guest-bio-image__ring {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.guest-bio-image__ring--outer {
+  inset: -8px;
+  border: 3px solid var(--color-accent);
+  animation: ring-spin 20s linear infinite;
+}
+
+.guest-bio-image__ring--inner {
+  inset: -4px;
+  border: 2px dashed var(--color-primary);
+  opacity: 0.5;
+  animation: ring-spin 15s linear infinite reverse;
+}
+
+@keyframes ring-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.guest-bio-image__container {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: var(--shadow-lg), 0 0 0 4px var(--color-white);
+  transition: transform var(--duration-normal) var(--ease-spring),
+              box-shadow var(--duration-normal) var(--ease-out);
+}
+
+.guest-bio-wrapper:hover .guest-bio-image__container {
+  transform: scale(1.05);
+  box-shadow: var(--shadow-xl), 0 0 0 4px var(--color-white);
+}
+
+.guest-bio-image__photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.guest-bio-image__badge {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  width: 36px;
+  height: 36px;
+  background: var(--gradient-accent);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow-md);
+  animation: badge-pulse 2s ease-in-out infinite;
+}
+
+.guest-bio-image__badge svg {
+  width: 18px;
+  height: 18px;
+  color: var(--color-white);
+}
+
+@keyframes badge-pulse {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: var(--shadow-md);
+  }
+  50% {
+    transform: scale(1.1);
+    box-shadow: var(--shadow-lg), 0 0 20px rgba(224, 122, 95, 0.4);
+  }
+}
+
+@media (max-width: 768px) {
+  .guest-bio-image {
+    width: 100px;
+    height: 100px;
+    bottom: -20px;
+    right: -10px;
+  }
+
+  .guest-bio-image__badge {
+    width: 28px;
+    height: 28px;
+  }
+
+  .guest-bio-image__badge svg {
+    width: 14px;
+    height: 14px;
+  }
+}
+
 /* Question Columns Layout */
 .question-columns {
   display: grid;

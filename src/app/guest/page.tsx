@@ -28,7 +28,7 @@ const topics = [
   {
     id: 1,
     title: 'What If You Could Become Superhuman?',
-    description: '4 Cornerstones and 10 Pillars for high-performance leadership, business, and life. A practical system for becoming exactly who you were meant to be.',
+    description: '4 Cornerstones and 10 Pillars for high-performance leadership, business, and life. A practical system for becoming exactly who you were meant to become.',
   },
   {
     id: 2,
@@ -42,7 +42,7 @@ const topics = [
   },
   {
     id: 4,
-    title: 'Is AI the Future of Marketing—Or Its Downfall?',
+    title: 'Is AI the Future of Marketing, or Its Downfall?',
     description: 'Practical AI applications that actually work today. Cutting through the hype to find tools that serve real connection.',
   },
   {
@@ -63,7 +63,7 @@ const topics = [
   {
     id: 8,
     title: 'Why Does Messy Content Outperform Polished?',
-    description: 'Building audiences through authentic content. Why messy and real beats polished and fake every single time.',
+    description: 'Building audiences through authentic content. Why messy and real consistently beats polished and fake.',
   },
   {
     id: 9,
@@ -266,6 +266,24 @@ export default function GuestPage() {
                       {paragraph}
                     </p>
                   ))}
+                </div>
+                <div className="guest-bio-image">
+                  <div className="guest-bio-image__ring guest-bio-image__ring--outer" aria-hidden="true"></div>
+                  <div className="guest-bio-image__ring guest-bio-image__ring--inner" aria-hidden="true"></div>
+                  <div className="guest-bio-image__container">
+                    <Image
+                      src="/images/george-bio.jpg"
+                      alt="George B. Thomas"
+                      width={150}
+                      height={150}
+                      className="guest-bio-image__photo"
+                    />
+                  </div>
+                  <div className="guest-bio-image__badge">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+                    </svg>
+                  </div>
                 </div>
               </div>
             </AnimatedSection>
