@@ -154,6 +154,29 @@ export function PodcastSlider({ episodes }: PodcastSliderProps) {
           </a>
         </div>
 
+        {/* Thumbnail Cards - between main card and nav */}
+        <div className="podcast-slider__thumbnails">
+          {episodes.map((episode, index) => {
+            const episodePlatform = platformConfig[episode.platform]
+            return (
+              <button
+                key={episode.id}
+                className={`podcast-slider__thumbnail ${index === currentIndex ? 'podcast-slider__thumbnail--active' : ''}`}
+                onClick={() => goToSlide(index)}
+                aria-label={`Go to ${episode.showName}`}
+              >
+                <div
+                  className="podcast-slider__thumbnail-icon"
+                  style={{ '--platform-color': episodePlatform.color } as React.CSSProperties}
+                >
+                  {episodePlatform.icon}
+                </div>
+                <span className="podcast-slider__thumbnail-name">{episode.showName}</span>
+              </button>
+            )
+          })}
+        </div>
+
         {/* Navigation */}
         <div className="podcast-slider__nav">
           <button
@@ -166,17 +189,6 @@ export function PodcastSlider({ episodes }: PodcastSliderProps) {
             </svg>
           </button>
 
-          <div className="podcast-slider__dots">
-            {episodes.map((_, index) => (
-              <button
-                key={index}
-                className={`podcast-slider__dot ${index === currentIndex ? 'podcast-slider__dot--active' : ''}`}
-                onClick={() => goToSlide(index)}
-                aria-label={`Go to episode ${index + 1}`}
-              />
-            ))}
-          </div>
-
           <button
             className="podcast-slider__arrow podcast-slider__arrow--next"
             onClick={nextSlide}
@@ -187,36 +199,6 @@ export function PodcastSlider({ episodes }: PodcastSliderProps) {
             </svg>
           </button>
         </div>
-
-        {/* Counter */}
-        <div className="podcast-slider__counter">
-          <span className="podcast-slider__counter-current">{currentIndex + 1}</span>
-          <span className="podcast-slider__counter-separator">/</span>
-          <span className="podcast-slider__counter-total">{episodes.length}</span>
-        </div>
-      </div>
-
-      {/* Thumbnail Cards */}
-      <div className="podcast-slider__thumbnails">
-        {episodes.map((episode, index) => {
-          const episodePlatform = platformConfig[episode.platform]
-          return (
-            <button
-              key={episode.id}
-              className={`podcast-slider__thumbnail ${index === currentIndex ? 'podcast-slider__thumbnail--active' : ''}`}
-              onClick={() => goToSlide(index)}
-              aria-label={`Go to ${episode.showName}`}
-            >
-              <div
-                className="podcast-slider__thumbnail-icon"
-                style={{ '--platform-color': episodePlatform.color } as React.CSSProperties}
-              >
-                {episodePlatform.icon}
-              </div>
-              <span className="podcast-slider__thumbnail-name">{episode.showName}</span>
-            </button>
-          )
-        })}
       </div>
     </div>
   )
