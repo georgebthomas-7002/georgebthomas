@@ -3700,16 +3700,16 @@ a:hover {
   position: relative;
   display: flex;
   flex-direction: column;
-  gap: var(--space-sm);
+  gap: var(--space-xs);
   background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
   color: var(--color-white);
-  padding: var(--space-lg) var(--space-xl);
+  padding: var(--space-md) var(--space-lg);
   border-radius: var(--radius-xl) 0 0 var(--radius-xl);
   box-shadow: -4px 4px 20px rgba(45, 74, 111, 0.3),
               0 0 0 3px rgba(224, 122, 95, 0.3);
   transition: all var(--duration-normal) var(--ease-spring);
   writing-mode: horizontal-tb;
-  max-width: 180px;
+  max-width: 220px;
 }
 
 .sticky-guest-cta:hover .sticky-guest-cta__content {
@@ -3719,7 +3719,7 @@ a:hover {
 }
 
 .sticky-guest-cta__question {
-  font-size: var(--font-size-sm);
+  font-size: var(--font-size-xs);
   font-weight: var(--font-weight-semibold);
   line-height: var(--line-height-tight);
   text-align: center;
@@ -3729,12 +3729,12 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: var(--space-xs);
+  gap: 4px;
   background: var(--color-accent);
   color: var(--color-white);
-  padding: var(--space-xs) var(--space-md);
+  padding: 6px var(--space-sm);
   border-radius: var(--radius-full);
-  font-size: var(--font-size-sm);
+  font-size: var(--font-size-xs);
   font-weight: var(--font-weight-bold);
   transition: all var(--duration-fast) var(--ease-out);
 }
@@ -3746,7 +3746,7 @@ a:hover {
 }
 
 .sticky-guest-cta__finger {
-  font-size: 1.2em;
+  flex-shrink: 0;
   animation: pointBounce 1s ease-in-out infinite;
 }
 
@@ -3794,17 +3794,17 @@ a:hover {
 /* Tablet adjustments */
 @media (max-width: 1024px) {
   .sticky-guest-cta__content {
-    padding: var(--space-md) var(--space-lg);
-    max-width: 150px;
+    padding: var(--space-sm) var(--space-md);
+    max-width: 180px;
   }
 
   .sticky-guest-cta__question {
-    font-size: var(--font-size-xs);
+    font-size: 11px;
   }
 
   .sticky-guest-cta__action {
-    font-size: var(--font-size-xs);
-    padding: var(--space-xs) var(--space-sm);
+    font-size: 11px;
+    padding: 4px var(--space-xs);
   }
 }
 
