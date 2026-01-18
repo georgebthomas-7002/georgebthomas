@@ -3700,13 +3700,13 @@ a:hover {
   position: relative;
   display: flex;
   flex-direction: column;
-  gap: 5px;
-  background: linear-gradient(135deg, var(--color-accent) 0%, var(--color-accent-dark) 100%);
+  gap: 10px;
+  background: linear-gradient(135deg, #d4897a 0%, #b86b5c 100%);
   color: var(--color-white);
   padding: var(--space-md) var(--space-lg);
   border-radius: var(--radius-xl) 0 0 var(--radius-xl);
-  box-shadow: -4px 4px 20px rgba(224, 122, 95, 0.3),
-              0 0 0 3px rgba(45, 74, 111, 0.2);
+  box-shadow: -4px 4px 20px rgba(180, 120, 100, 0.25),
+              0 0 0 3px rgba(45, 74, 111, 0.15);
   transition: all var(--duration-normal) var(--ease-spring);
   writing-mode: horizontal-tb;
   max-width: 260px;
@@ -3719,9 +3719,9 @@ a:hover {
 }
 
 .sticky-guest-cta__question {
-  font-size: var(--font-size-xs);
+  font-size: var(--font-size-sm);
   font-weight: var(--font-weight-semibold);
-  line-height: var(--line-height-tight);
+  line-height: var(--line-height-snug);
   text-align: center;
 }
 
@@ -3767,7 +3767,7 @@ a:hover {
   height: 100%;
   transform: translateY(-50%);
   border-radius: var(--radius-xl) 0 0 var(--radius-xl);
-  background: var(--color-primary);
+  background: #d4897a;
   opacity: 0;
   z-index: -1;
   animation: ctaPulse 2s ease-out infinite;
