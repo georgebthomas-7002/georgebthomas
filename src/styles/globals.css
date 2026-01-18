@@ -3672,6 +3672,143 @@ a:hover {
 }
 
 /* ===========================================
+   STICKY GUEST CTA
+   Fixed right-side CTA to promote podcast guest page
+   =========================================== */
+.sticky-guest-cta {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1000;
+  text-decoration: none;
+  animation: slideInFromRight 0.5s var(--ease-spring) forwards;
+}
+
+@keyframes slideInFromRight {
+  from {
+    transform: translateY(-50%) translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(-50%) translateX(0);
+    opacity: 1;
+  }
+}
+
+.sticky-guest-cta__content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+  color: var(--color-white);
+  padding: var(--space-lg) var(--space-xl);
+  border-radius: var(--radius-xl) 0 0 var(--radius-xl);
+  box-shadow: -4px 4px 20px rgba(45, 74, 111, 0.3),
+              0 0 0 3px rgba(224, 122, 95, 0.3);
+  transition: all var(--duration-normal) var(--ease-spring);
+  writing-mode: horizontal-tb;
+  max-width: 180px;
+}
+
+.sticky-guest-cta:hover .sticky-guest-cta__content {
+  transform: translateX(-8px);
+  box-shadow: -8px 8px 30px rgba(45, 74, 111, 0.4),
+              0 0 0 4px var(--color-accent);
+}
+
+.sticky-guest-cta__question {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  line-height: var(--line-height-tight);
+  text-align: center;
+}
+
+.sticky-guest-cta__action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-xs);
+  background: var(--color-accent);
+  color: var(--color-white);
+  padding: var(--space-xs) var(--space-md);
+  border-radius: var(--radius-full);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-bold);
+  transition: all var(--duration-fast) var(--ease-out);
+}
+
+.sticky-guest-cta:hover .sticky-guest-cta__action {
+  background: var(--color-white);
+  color: var(--color-accent);
+  transform: scale(1.05);
+}
+
+.sticky-guest-cta__finger {
+  font-size: 1.2em;
+  animation: pointBounce 1s ease-in-out infinite;
+}
+
+@keyframes pointBounce {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(4px);
+  }
+}
+
+.sticky-guest-cta__pulse {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(-50%);
+  border-radius: var(--radius-xl) 0 0 var(--radius-xl);
+  background: var(--color-accent);
+  opacity: 0;
+  z-index: -1;
+  animation: ctaPulse 2s ease-out infinite;
+}
+
+@keyframes ctaPulse {
+  0% {
+    transform: translateY(-50%) scale(1);
+    opacity: 0.4;
+  }
+  100% {
+    transform: translateY(-50%) scale(1.15);
+    opacity: 0;
+  }
+}
+
+/* Hide on mobile - too intrusive */
+@media (max-width: 768px) {
+  .sticky-guest-cta {
+    display: none;
+  }
+}
+
+/* Tablet adjustments */
+@media (max-width: 1024px) {
+  .sticky-guest-cta__content {
+    padding: var(--space-md) var(--space-lg);
+    max-width: 150px;
+  }
+
+  .sticky-guest-cta__question {
+    font-size: var(--font-size-xs);
+  }
+
+  .sticky-guest-cta__action {
+    font-size: var(--font-size-xs);
+    padding: var(--space-xs) var(--space-sm);
+  }
+}
+
+/* ===========================================
    SPEAKING PAGE - HERO WITH VIDEO
    =========================================== */
 .page-hero--speaking-video {

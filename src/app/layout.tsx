@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Script from 'next/script'
 import '@/styles/globals.css'
+import { StickyGuestCTA } from '@/components/StickyGuestCTA'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.georgebthomas.com'),
@@ -50,6 +51,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       </head>
       <body>
+        <StickyGuestCTA />
         {children}
 
         {/* Delphi.ai Chat Bubble */}
