@@ -32,9 +32,7 @@ export function StickyGuestCTA() {
     <Link href="/guest" className="sticky-guest-cta">
       <div className="sticky-guest-cta__content">
         <span className="sticky-guest-cta__question">
-          Have a podcast?
-          <br />
-          Need a Great Guest?
+          Have a podcast and need a great guest?
         </span>
         <span className="sticky-guest-cta__action">
           <svg className="sticky-guest-cta__finger" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">

@@ -3700,22 +3700,22 @@ a:hover {
   position: relative;
   display: flex;
   flex-direction: column;
-  gap: var(--space-xs);
-  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+  gap: 5px;
+  background: linear-gradient(135deg, var(--color-accent) 0%, var(--color-accent-dark) 100%);
   color: var(--color-white);
   padding: var(--space-md) var(--space-lg);
   border-radius: var(--radius-xl) 0 0 var(--radius-xl);
-  box-shadow: -4px 4px 20px rgba(45, 74, 111, 0.3),
-              0 0 0 3px rgba(224, 122, 95, 0.3);
+  box-shadow: -4px 4px 20px rgba(224, 122, 95, 0.3),
+              0 0 0 3px rgba(45, 74, 111, 0.2);
   transition: all var(--duration-normal) var(--ease-spring);
   writing-mode: horizontal-tb;
-  max-width: 220px;
+  max-width: 260px;
 }
 
 .sticky-guest-cta:hover .sticky-guest-cta__content {
   transform: translateX(-8px);
-  box-shadow: -8px 8px 30px rgba(45, 74, 111, 0.4),
-              0 0 0 4px var(--color-accent);
+  box-shadow: -8px 8px 30px rgba(224, 122, 95, 0.4),
+              0 0 0 4px var(--color-primary);
 }
 
 .sticky-guest-cta__question {
@@ -3730,7 +3730,7 @@ a:hover {
   align-items: center;
   justify-content: center;
   gap: 4px;
-  background: var(--color-accent);
+  background: var(--color-primary);
   color: var(--color-white);
   padding: 6px var(--space-sm);
   border-radius: var(--radius-full);
@@ -3741,7 +3741,7 @@ a:hover {
 
 .sticky-guest-cta:hover .sticky-guest-cta__action {
   background: var(--color-white);
-  color: var(--color-accent);
+  color: var(--color-primary);
   transform: scale(1.05);
 }
 
@@ -3767,7 +3767,7 @@ a:hover {
   height: 100%;
   transform: translateY(-50%);
   border-radius: var(--radius-xl) 0 0 var(--radius-xl);
-  background: var(--color-accent);
+  background: var(--color-primary);
   opacity: 0;
   z-index: -1;
   animation: ctaPulse 2s ease-out infinite;
@@ -3795,7 +3795,7 @@ a:hover {
 @media (max-width: 1024px) {
   .sticky-guest-cta__content {
     padding: var(--space-sm) var(--space-md);
-    max-width: 180px;
+    max-width: 220px;
   }
 
   .sticky-guest-cta__question {
