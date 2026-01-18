@@ -56,7 +56,7 @@ export default function ExpertisePage() {
               </h1>
               <p className="page-hero__description">
                 When you work with George, you're getting something rare: <strong>eight pillars of deep expertise</strong> combined
-                with exceptional breadth—all focused on one purpose:
+                with exceptional breadth, all focused on one purpose:
                 <em> helping you transform.</em>
               </p>
             </AnimatedSection>
@@ -175,7 +175,7 @@ export default function ExpertisePage() {
               <h2 className="section-header__title">Eight Pillars of Mastery</h2>
               <p className="section-header__description">
                 Each pillar represents years of dedicated practice, continuous learning,
-                and real-world application—so you don't have to figure it out alone.
+                and real-world application, so you don't have to figure it out alone.
               </p>
             </AnimatedSection>
 
@@ -335,7 +335,7 @@ export default function ExpertisePage() {
               <h2 className="cta-block__title">Ready to Transform?</h2>
               <p className="cta-block__description">
                 Whether you need a keynote that inspires, coaching that transforms, or
-                expertise that accelerates—let's start a conversation.
+                expertise that accelerates, let's start a conversation.
               </p>
               <div className="cta-block__buttons">
                 <Link href="/speaking" className="btn btn--primary btn--large">
