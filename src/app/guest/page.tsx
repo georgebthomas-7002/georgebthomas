@@ -212,7 +212,7 @@ export default function GuestPage() {
               <div className="page-hero__image-accent" aria-hidden="true"></div>
               <div className="page-hero__image-container">
                 <Image
-                  src="/images/george-headshot.jpg"
+                  src="/images/George-B-Thomas-SQR.webp"
                   alt="George B. Thomas"
                   width={500}
                   height={500}
