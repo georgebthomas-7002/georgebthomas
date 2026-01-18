@@ -4283,6 +4283,12 @@ a:hover {
   font-weight: 600;
 }
 
+.serve-block__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-md);
+}
+
 .serve-block__video {
   position: relative;
 }

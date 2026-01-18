@@ -790,9 +790,14 @@ export default function SpeakingPage() {
                     <li><strong>Stories that connect:</strong> Real-world examples that resonate with professionals and entrepreneurs alike.</li>
                     <li><strong>Insights that stick:</strong> Practical strategies and inspiration your audience can use immediately.</li>
                   </ul>
-                  <Link href="/coaching" className="btn btn--primary">
-                    Spark a Great Conversation
-                  </Link>
+                  <div className="serve-block__buttons">
+                    <Link href="/coaching" className="btn btn--primary">
+                      Spark a Great Conversation
+                    </Link>
+                    <Link href="/guest" className="btn btn--secondary">
+                      Book Me on Your Podcast
+                    </Link>
+                  </div>
                 </AnimatedSection>
                 <AnimatedSection className="serve-block__video" animation="slide-right">
                   <VideoShowcase
