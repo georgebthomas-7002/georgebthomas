@@ -31,6 +31,7 @@ const hostTestimonials: Testimonial[] = [
     name: "Angus Nelson",
     title: "Host of Evolve Leadership",
     company: "Author, Neuro Resilient Leader",
+    image: "/images/testimonials/angus-nelson.jpg",
   },
   {
     quote: "What I love about George is that he brings energy, excitement, and wisdom to each appearance. If you're looking for someone who is extremely passionate about marketing and AI topics, George B. Thomas is your man!",
