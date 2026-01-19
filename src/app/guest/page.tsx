@@ -294,7 +294,7 @@ export default function GuestPage() {
         </section>
 
         {/* Host Testimonials */}
-        <section className="section section--warm">
+        <section className="section section--dark">
           <div className="container">
             <AnimatedSection className="section-header" animation="fade-in">
               <span className="section-header__subtitle">What Hosts Are Saying</span>
