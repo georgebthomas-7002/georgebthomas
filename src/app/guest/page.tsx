@@ -38,6 +38,7 @@ const hostTestimonials: Testimonial[] = [
     name: "Michael Stelzner",
     title: "Host",
     company: "Social Media Marketing & AI Explored Podcasts",
+    image: "/images/testimonials/michael-stelzner.jpg",
   },
 ]
 
