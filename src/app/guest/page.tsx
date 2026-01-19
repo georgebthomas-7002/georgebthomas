@@ -6,6 +6,7 @@ import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { AnimatedSection, StaggerContainer } from '@/components/AnimatedSection'
 import { PodcastSlider, PodcastEpisode } from '@/components/PodcastSlider'
+import { TestimonialSlider, Testimonial } from '@/components/TestimonialSlider'
 
 // Hero Data
 const heroData = {
@@ -22,6 +23,22 @@ const bio = `George B. Thomas is a marketing strategist, international speaker, 
 From high school dropout to INBOUND speaker, George's journey resonates with audiences seeking authentic growth. As host of HubHeroes and Beyond Your Default podcasts, he's conducted 400+ interviews and knows exactly how to deliver value that keeps listeners engaged.
 
 Whether discussing marketing automation, leadership transformation, or the intersection of faith and business, George brings energy, vulnerability, and actionable insights that leave lasting impressions on audiences.`
+
+// Host Testimonials
+const hostTestimonials: Testimonial[] = [
+  {
+    quote: "George is an interviewer's dream as a podcast guest. He brings energy without ego, substance without rambling, and always keeps the listener front and center. His infectious joy and servant-leadership come through naturally, creating conversations that are engaging, thoughtful, and genuinely valuable. Every time George joins a show, the audience leaves sharper, encouraged, and glad they tuned in.",
+    name: "Angus Nelson",
+    title: "Host of Evolve Leadership",
+    company: "Author, Neuro Resilient Leader",
+  },
+  {
+    quote: "What I love about George is that he brings energy, excitement, and wisdom to each appearance. If you're looking for someone who is extremely passionate about marketing and AI topics, George B. Thomas is your man!",
+    name: "Michael Stelzner",
+    title: "Host",
+    company: "Social Media Marketing & AI Explored Podcasts",
+  },
+]
 
 // Interview Topics - 9 ideas for podcast hosts
 const topics = [
@@ -272,6 +289,20 @@ export default function GuestPage() {
                   </div>
                 </div>
               </div>
+            </AnimatedSection>
+          </div>
+        </section>
+
+        {/* Host Testimonials */}
+        <section className="section section--warm">
+          <div className="container">
+            <AnimatedSection className="section-header" animation="fade-in">
+              <span className="section-header__subtitle">What Hosts Are Saying</span>
+              <h2 className="section-header__title">Guest Experience</h2>
+            </AnimatedSection>
+
+            <AnimatedSection animation="fade-in">
+              <TestimonialSlider testimonials={hostTestimonials} autoPlayInterval={8000} />
             </AnimatedSection>
           </div>
         </section>
