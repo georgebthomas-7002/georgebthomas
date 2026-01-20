@@ -40,6 +40,13 @@ const hostTestimonials: Testimonial[] = [
     company: "Social Media Marketing & AI Explored Podcasts",
     image: "/images/testimonials/michael-stelzner.jpg",
   },
+  {
+    quote: "George B. Thomas was next-level. Inspiring, wildly tactical, and full of real business plays you can actually use. No fluff. No generic nonsense. Just pure value. One of our best episodes, period. Incredible guest on the podcast!",
+    name: "Jay Schwedelson",
+    title: "Host of Do This, NOT That",
+    company: "Founder, GURU Media Hub",
+    image: "/images/testimonials/jay-schwedelson.jpg",
+  },
 ]
 
 // Interview Topics - 9 ideas for podcast hosts
