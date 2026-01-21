@@ -37,6 +37,49 @@ export const metadata: Metadata = {
   },
 }
 
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'Person',
+      '@id': 'https://www.georgebthomas.com/#person',
+      name: 'George B. Thomas',
+      url: 'https://www.georgebthomas.com',
+      image: 'https://www.georgebthomas.com/images/george-headshot.jpg',
+      sameAs: [
+        'https://twitter.com/georgebthomas',
+        'https://www.linkedin.com/in/georgebthomas/',
+        'https://www.youtube.com/@georgebthomas',
+      ],
+      jobTitle: 'Professional Speaker & Coach',
+      description: 'Keynote speaker, coach, HubSpot expert, and creator of the Superhuman Framework helping leaders and businesses flourish.',
+      knowsAbout: ['HubSpot', 'Marketing', 'Leadership', 'Coaching', 'Speaking', 'AI', 'Digital Marketing'],
+    },
+    {
+      '@type': 'WebSite',
+      '@id': 'https://www.georgebthomas.com/#website',
+      url: 'https://www.georgebthomas.com',
+      name: 'George B. Thomas',
+      description: 'Professional speaker, coach, and HubSpot expert helping you unlock potential and achieve results.',
+      publisher: {
+        '@id': 'https://www.georgebthomas.com/#person',
+      },
+    },
+    {
+      '@type': 'ProfessionalService',
+      '@id': 'https://www.georgebthomas.com/#service',
+      name: 'George B. Thomas Speaking & Coaching',
+      url: 'https://www.georgebthomas.com',
+      description: 'Keynote speaking, coaching, and consulting services for leaders and organizations.',
+      founder: {
+        '@id': 'https://www.georgebthomas.com/#person',
+      },
+      areaServed: 'Worldwide',
+      serviceType: ['Keynote Speaking', 'Executive Coaching', 'HubSpot Consulting'],
+    },
+  ],
+}
+
 export default function RootLayout({
   children,
 }: {
@@ -46,9 +89,13 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
-        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/icon.svg" type="image/svg+xml" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
       </head>
       <body>
         <StickyGuestCTA />
