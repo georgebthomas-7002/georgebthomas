@@ -47,6 +47,13 @@ const hostTestimonials: Testimonial[] = [
     company: "Founder, GURU Media Hub",
     image: "/images/testimonials/jay-schwedelson.jpg",
   },
+  {
+    quote: "Having George B Thomas on the AgencyRise Podcast was an absolute joy. Hearing his journey—from high school dropout to respected HubSpot expert and Inbound speaker—was genuinely inspiring. Not hype. Not polished. Just real, gritty, this-was-earned kind of growth. On top of that, he shared incredibly practical marketing insights that agency owners can actually use right now. What stood out most was George's grounded approach. No fluff. No ego. Just honest perspective, strong convictions, and a clear heart for serving others. He brought energy, depth, and a level of authenticity that made the conversation effortless. I'll definitely be having George back on the podcast.",
+    name: "Chris Rudolph",
+    title: "Host, AgencyRise Podcast",
+    company: "",
+    image: "/images/testimonials/chris-rudolph.webp",
+  },
 ]
 
 // Interview Topics - 9 ideas for podcast hosts
