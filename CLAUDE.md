@@ -1,5 +1,12 @@
 # George B. Thomas Professional Website
 
+## Echo Integration
+
+This site is part of the Echo ecosystem. When working on content or voice-related changes:
+- **Voice Guide**: `../../knowledge/voice/writing-style.md`
+- **Philosophy**: `../../knowledge/preferences/philosophy.md`
+- **Brand Context**: `../../knowledge/web-presence/georgebthomas-com.md`
+
 ## Project Overview
 
 A professional website for George B. Thomas, speaker and coach, built with Next.js, Vanilla CSS, Sanity CMS, and deployed on Vercel.
